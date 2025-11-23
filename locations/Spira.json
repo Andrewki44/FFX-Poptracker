@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Spira",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": [""],
+        "children": [
+            {
+                "name": "Besaid",
+                "map_locations": [{ "map": "Spira", "x": 780, "y": 1010, "size": 35}],
+                "sections": [
+                    {
+                        "name": "Beach - Antidote x2",
+                        "ref": "Besaid/Beach/Antidote x2 (Chest)/"
+                    },
+                    {
+                        "name": "Beach - Moon Crest",
+                        "ref": "Celestial/Moon Crest (Chest)/"
+                    },
+                    {
+                        "name": "Aurochs - Datto",
+                        "ref": "Besaid/Beach/Aurochs/Hi-Potion x1 (Datto NPC)"
+                    },
+                    {
+                        "name": "Aurochs - Jassu",
+                        "ref": "Besaid/Beach/Aurochs/Potion x3 (Jassu NPC)"
+                    },
+                    {
+                        "name": "Aurochs - Botta",
+                        "ref": "Besaid/Beach/Aurochs/Potion x2 (Botta NPC)"
+                    },
+                    {
+                        "name": "Aurochs - Keepa",
+                        "ref": "Besaid/Beach/Aurochs/200 gil (Keepa NPC)"
+                    },
+                    {
+                        "name": "Valley - Phoenix Down x1 (Chest)",
+                        "ref": "Besaid/Valley/Phoenix Down x1 (Chest)/"
+                    },
+                    {
+                        "name": "Valley - Hi-Potion x1 (Chest)",
+                        "ref": "Besaid/Valley/Hi-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Valley - Antidote x2 (Chest)",
+                        "ref": "Besaid/Valley/Antidote x2 (Chest)/"
+                    }
+                ]
+            }
+        ]
+    }
+]

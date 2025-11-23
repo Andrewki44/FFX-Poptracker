@@ -3,21 +3,10 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Aeons",
+                "title": "World Map",
                 "content": {
                     "type": "map",
-                    "maps": [
-                        "Aeons"
-                    ]
-                }
-            },
-            {
-                "title": "Aeons Soul",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Aeons Soul"
-                    ]
+                    "maps": ["Spira"]
                 }
             },
             {
@@ -30,38 +19,28 @@
                 }
             },
             {
-                "title": "Al Bhed Primers",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Al Bhed Primers"
-                    ]
-                }
-            },
-            {
-                "title": "Al Bhed Ship",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Al Bhed Ship"
-                    ]
-                }
-            },
-            {
                 "title": "Baaj Temple",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Baaj Temple"
-                    ]
-                }
-            },
-            {
-                "title": "Battle Site",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Battle Site"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Baaj Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Baaj Temple"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Al Bhed Ship",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Al Bhed Ship"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -71,42 +50,32 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Part 1",
+                            "title": "Beach",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Besaid Part 1"
+                                    "Besaid Beach"
                                 ]
                             }
                         },
                         {
-                            "title": "Part 2",
+                            "title": "Village",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Besaid Part 2"
+                                    "Besaid Village"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Besaid Ruins"
                                 ]
                             }
                         }
-                        
-                    ]
-                }
-            },
-            {
-                "title": "Besaid Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Besaid Ruins"
-                    ]
-                }
-            },
-            {
-                "title": "Besaid Village",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Besaid Village"
                     ]
                 }
             },
@@ -129,38 +98,46 @@
                 }
             },
             {
-                "title": "Blitzball",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Blitzball"
-                    ]
-                }
-            },
-            {
                 "title": "Calm Lands",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Calm Lands"
-                    ]
-                }
-            },
-            {
-                "title": "Cavern of the Stolen Fayth",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Cavern of the Stolen Fayth"
-                    ]
-                }
-            },
-            {
-                "title": "Celestial Upgrade",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Celestial Upgrade"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Calm Lands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Calm Lands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cavern of the Stolen Fayth",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cavern of the Stolen Fayth"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Remiem Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Remiem Temple"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Monster Arena",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Monster Arena"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -170,24 +147,6 @@
                     "type": "map",
                     "maps": [
                         "Djose"
-                    ]
-                }
-            },
-            {
-                "title": "Gagazet",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gagazet"
-                    ]
-                }
-            },
-            {
-                "title": "Gagazet (Outside)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gagazet (Outside)"
                     ]
                 }
             },
@@ -219,15 +178,6 @@
                 }
             },
             {
-                "title": "Jecht Sphere",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Jecht Sphere"
-                    ]
-                }
-            },
-            {
                 "title": "Kilika",
                 "content": {
                     "type": "map",
@@ -237,20 +187,37 @@
                 }
             },
             {
-                "title": "Lake Macalania",
+                "title": "Macalania",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Lake Macalania"
-                    ]
-                }
-            },
-            {
-                "title": "Lake Macalania Bottom",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Lake Macalania Bottom"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Lake Macalania",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lake Macalania"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lake Macalania Bottom",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lake Macalania Bottom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Macalania Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Macalania Woods"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -264,56 +231,28 @@
                 }
             },
             {
-                "title": "Macalania Woods",
+                "title": "Miihen",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Macalania Woods"
-                    ]
-                }
-            },
-            {
-                "title": "MiHen Highroad",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "MiHen Highroad"
-                    ]
-                }
-            },
-            {
-                "title": "MiHen Highroad Echo Ring (Win Aeon Fight)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "MiHen Highroad Echo Ring (Win Aeon Fight)"
-                    ]
-                }
-            },
-            {
-                "title": "Miihen Highroad",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Miihen Highroad"
-                    ]
-                }
-            },
-            {
-                "title": "Miihen Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Miihen Ruins"
-                    ]
-                }
-            },
-            {
-                "title": "Monster Arena",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Monster Arena"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "MiHen Highroad",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "MiHen Highroad"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Miihen Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Miihen Ruins"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -329,18 +268,26 @@
             {
                 "title": "Mt. Gagazet",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Mt. Gagazet"
-                    ]
-                }
-            },
-            {
-                "title": "Mt. Gagazet (Cave)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Mt. Gagazet (Cave)"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Mt. Gagazet (Outside)",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mt. Gagazet (Outside)"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mt. Gagazet (Cave)",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mt. Gagazet (Cave)"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -359,42 +306,6 @@
                     "type": "map",
                     "maps": [
                         "Omega Ruins"
-                    ]
-                }
-            },
-            {
-                "title": "Overdrive Modes",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Overdrive Modes"
-                    ]
-                }
-            },
-            {
-                "title": "Overdrives",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Overdrives"
-                    ]
-                }
-            },
-            {
-                "title": "Party Members",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Party Members"
-                    ]
-                }
-            },
-            {
-                "title": "Remiem Temple",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Remiem Temple"
                     ]
                 }
             },
@@ -435,24 +346,6 @@
                 }
             },
             {
-                "title": "Story Win vs. Luca Goers Reward",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Story Win vs. Luca Goers Reward"
-                    ]
-                }
-            },
-            {
-                "title": "Summoners Soul",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Summoners Soul"
-                    ]
-                }
-            },
-            {
                 "title": "Thunder Plains",
                 "content": {
                     "type": "map",
@@ -462,502 +355,28 @@
                 }
             },
             {
-                "title": "Trashed",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trashed"
-                    ]
-                }
-            },
-            {
                 "title": "Zanarkand",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Zanarkand"
-                    ]
-                }
-            },
-            {
-                "title": "Zanarkand Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Zanarkand Ruins"
-                    ]
-                }
-            }
-        ]
-    },
-    "tabbed_maps_vertical": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Aeons",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Aeons"
-                    ]
-                }
-            },
-            {
-                "title": "Aeons Soul",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Aeons Soul"
-                    ]
-                }
-            },
-            {
-                "title": "Airship",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Airship"
-                    ]
-                }
-            },
-            {
-                "title": "Al Bhed Primers",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Al Bhed Primers"
-                    ]
-                }
-            },
-            {
-                "title": "Al Bhed Ship",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Al Bhed Ship"
-                    ]
-                }
-            },
-            {
-                "title": "Baaj Temple",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Baaj Temple"
-                    ]
-                }
-            },
-            {
-                "title": "Battle Site",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Battle Site"
-                    ]
-                }
-            },
-            {
-                "title": "Besaid",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Besaid"
-                    ]
-                }
-            },
-            {
-                "title": "Besaid Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Besaid Ruins"
-                    ]
-                }
-            },
-            {
-                "title": "Besaid Village",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Besaid Village"
-                    ]
-                }
-            },
-            {
-                "title": "Bevelle",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Bevelle"
-                    ]
-                }
-            },
-            {
-                "title": "Bikanel",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Bikanel"
-                    ]
-                }
-            },
-            {
-                "title": "Blitzball",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Blitzball"
-                    ]
-                }
-            },
-            {
-                "title": "Calm Lands",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Calm Lands"
-                    ]
-                }
-            },
-            {
-                "title": "Cavern of the Stolen Fayth",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Cavern of the Stolen Fayth"
-                    ]
-                }
-            },
-            {
-                "title": "Celestial Upgrade",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Celestial Upgrade"
-                    ]
-                }
-            },
-            {
-                "title": "Djose",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Djose"
-                    ]
-                }
-            },
-            {
-                "title": "Gagazet",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gagazet"
-                    ]
-                }
-            },
-            {
-                "title": "Gagazet (Outside)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gagazet (Outside)"
-                    ]
-                }
-            },
-            {
-                "title": "Guadosalam",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Guadosalam"
-                    ]
-                }
-            },
-            {
-                "title": "Home",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Home"
-                    ]
-                }
-            },
-            {
-                "title": "Inside Sin",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Inside Sin"
-                    ]
-                }
-            },
-            {
-                "title": "Jecht Sphere",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Jecht Sphere"
-                    ]
-                }
-            },
-            {
-                "title": "Kilika",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Kilika"
-                    ]
-                }
-            },
-            {
-                "title": "Lake Macalania",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Lake Macalania"
-                    ]
-                }
-            },
-            {
-                "title": "Lake Macalania Bottom",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Lake Macalania Bottom"
-                    ]
-                }
-            },
-            {
-                "title": "Luca",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Luca"
-                    ]
-                }
-            },
-            {
-                "title": "Macalania Woods",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Macalania Woods"
-                    ]
-                }
-            },
-            {
-                "title": "MiHen Highroad",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "MiHen Highroad"
-                    ]
-                }
-            },
-            {
-                "title": "MiHen Highroad Echo Ring (Win Aeon Fight)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "MiHen Highroad Echo Ring (Win Aeon Fight)"
-                    ]
-                }
-            },
-            {
-                "title": "Miihen Highroad",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Miihen Highroad"
-                    ]
-                }
-            },
-            {
-                "title": "Miihen Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Miihen Ruins"
-                    ]
-                }
-            },
-            {
-                "title": "Monster Arena",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Monster Arena"
-                    ]
-                }
-            },
-            {
-                "title": "Moonflow",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Moonflow"
-                    ]
-                }
-            },
-            {
-                "title": "Mt. Gagazet",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Mt. Gagazet"
-                    ]
-                }
-            },
-            {
-                "title": "Mt. Gagazet (Cave)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Mt. Gagazet (Cave)"
-                    ]
-                }
-            },
-            {
-                "title": "Mushroom Rock Road",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Mushroom Rock Road"
-                    ]
-                }
-            },
-            {
-                "title": "Omega Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Omega Ruins"
-                    ]
-                }
-            },
-            {
-                "title": "Overdrive Modes",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Overdrive Modes"
-                    ]
-                }
-            },
-            {
-                "title": "Overdrives",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Overdrives"
-                    ]
-                }
-            },
-            {
-                "title": "Party Members",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Party Members"
-                    ]
-                }
-            },
-            {
-                "title": "Remiem Temple",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Remiem Temple"
-                    ]
-                }
-            },
-            {
-                "title": "S.S. Liki",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "S.S. Liki"
-                    ]
-                }
-            },
-            {
-                "title": "S.S. Winno",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "S.S. Winno"
-                    ]
-                }
-            },
-            {
-                "title": "Sanubia Sands",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Sanubia Sands"
-                    ]
-                }
-            },
-            {
-                "title": "Sin",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Sin"
-                    ]
-                }
-            },
-            {
-                "title": "Story Win vs. Luca Goers Reward",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Story Win vs. Luca Goers Reward"
-                    ]
-                }
-            },
-            {
-                "title": "Summoners Soul",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Summoners Soul"
-                    ]
-                }
-            },
-            {
-                "title": "Thunder Plains",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Thunder Plains"
-                    ]
-                }
-            },
-            {
-                "title": "Trashed",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trashed"
-                    ]
-                }
-            },
-            {
-                "title": "Zanarkand",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Zanarkand"
-                    ]
-                }
-            },
-            {
-                "title": "Zanarkand Ruins",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Zanarkand Ruins"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Zanarkand",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Zanarkand"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Zanarkand Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Zanarkand Ruins"
+                                ]
+                            }
+                        }
                     ]
                 }
             }

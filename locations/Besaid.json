@@ -1,15 +1,69 @@
 [
     {
         "name": "Besaid",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
         "access_rules": [""],
         "children": [
             {
-                "name": "Antidote x2",
-                "sections": [{ "item_count": 1}],
-                "map_locations": [{ "map": "Besaid Part 1", "x": 120, "y": 573}]
+                "name": "Beach",
+                "children": [
+                    {
+                        "name": "Antidote x2 (Chest)",
+                        "map_locations": [{ "map": "Besaid Beach", "x": 120, "y": 573}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Aurochs",
+                        "map_locations": [{ "map": "Besaid Beach", "x": 150, "y": 520}],
+                        "sections": [
+                            {"name": "Hi-Potion x1 (Datto NPC)"},
+                            {"name": "Potion x3 (Jassu NPC)"},
+                            {"name": "Potion x2 (Botta NPC)"},
+                            {"name": "200 gil (Keepa NPC)"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Valley",
+                "children": [
+                    {
+                        "name": "Phoenix Down x1 (Chest)",
+                        "map_locations": [{ "map": "Besaid Beach", "x": 239, "y": 381}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Hi-Potion x1 (Chest)",
+                        "map_locations": [{ "map": "Besaid Beach", "x": 279, "y": 402}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Antidote x2 (Chest)",
+                        "map_locations": [{ "map": "Besaid Beach", "x": 390, "y": 388}],
+                        "sections": [{}]
+                    }
+                ]
+            },
+            {
+                "name": "Village",
+                "children": [
+                    {
+                        "name": "Phoenix Down x1 (Chest)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 239, "y": 432}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Behind Shop",
+                        "map_locations": [{ "map": "Besaid Village", "x": 208, "y": 430}],
+                        "sections": [
+                            {"name": "Hi-Potion x1 (Chest)"},
+                            {"name": "400 gil (Chest)"},
+                            {"name": "Potion x2 (Chest)"}
+                        ]
+                    }
+                ]
             }
         ]
         // "sections": [

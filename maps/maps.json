@@ -42,13 +42,13 @@
         "img": "images/maps/Battle Site.png"
     },
     {
-        "name": "Besaid Part 1",
+        "name": "Besaid Beach",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Besaid_1.png"
     },
     {
-        "name": "Besaid Part 2",
+        "name": "Besaid Village",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Besaid_2.png"
@@ -58,12 +58,6 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Besaid Ruins.png"
-    },
-    {
-        "name": "Besaid Village",
-        "location_size": 6,
-        "location_border_thickness": 1,
-        "img": "images/maps/Besaid Village.png"
     },
     {
         "name": "Bevelle",
@@ -280,6 +274,12 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Sin.png"
+    },
+    {
+        "name": "Spira",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Spira.png"
     },
     {
         "name": "Story Win vs. Luca Goers Reward",
