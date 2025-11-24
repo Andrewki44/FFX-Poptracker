@@ -4821,11 +4821,12 @@
     },
     {
         "name": "Flint",
-        "type": "toggle",
-        "img": "images/items/flint.png",
+        "type": "consumable",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
-        "initial_active_state": false,
+        "initial_quantity": 0,
+        "max_quantity": 1,
         "overlay_align": "right",
         "codes": "flint"
     },
@@ -6061,11 +6062,12 @@
     },
     {
         "name": "Withered Bouquet",
-        "type": "toggle",
-        "img": "images/items/witheredbouquet.png",
+        "type": "consumable",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
-        "initial_active_state": false,
+        "initial_quantity": 0,
+        "max_quantity": 1,
         "overlay_align": "right",
         "codes": "witheredbouquet"
     },

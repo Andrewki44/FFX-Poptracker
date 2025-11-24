@@ -2550,5 +2550,34 @@
                 ]
             }
         ]
+    },
+    "item_test_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 42,
+                        "item_width": 42,
+                        "rows": [
+                            [
+                                "flint",
+                                "witheredbouquet"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -4,8 +4,13 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [" "],
+        "access_rules": [""],
         "children": [
+            {
+                "name": "Al Bhed Primer I",
+                "map_locations": [{ "map": "Al Bhed Ship", "x": 0, "y": 0}],
+                "sections": [{"access_rules": "$hasBaaj"}]
+            },
             {
                 "name": "Al Bhed Primer II",
                 "map_locations": [{ "map": "Besaid Village", "x": 165, "y": 375}],

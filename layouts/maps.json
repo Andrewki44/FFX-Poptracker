@@ -337,15 +337,6 @@
                 }
             },
             {
-                "title": "Sin",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Sin"
-                    ]
-                }
-            },
-            {
                 "title": "Thunder Plains",
                 "content": {
                     "type": "map",

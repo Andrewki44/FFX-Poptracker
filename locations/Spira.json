@@ -4,11 +4,86 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        // "access_rules": [""],
         "children": [
             {
+                "name": "Al Bhed Ship",
+                "map_locations": [{ "map": "Spira", "x": 610, "y": 675, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Al Bhed Ship - Potion x 3 (NPC)",
+                        "ref": "Al Bhed Ship/Potion x 3 (NPC)/"
+                    },
+                    {
+                        "name": "Al Bhed Ship - Al Bhed Primer I",
+                        "ref": "Al Bhed Primers/Al Bhed Primer I/"
+                    },
+                    {
+                        "name": "Al Bhed Ship - Tros Defeated",
+                        "ref": "Al Bhed Ship/Tros Defeated/"
+                    }
+                ]
+            },
+            {
+                "name": "Baaj Temple",
+                "map_locations": [{ "map": "Spira", "x": 555, "y": 615, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Outside - 200 gil (Chest)",
+                        "ref": "Baaj Temple/Outside/200 gil (Chest)/"
+                    },
+                    {
+                        "name": "Outside - Potion x2 (Chest)",
+                        "ref": "Baaj Temple/Outside/Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Outside - Hi-Potion (Chest)",
+                        "ref": "Baaj Temple/Outside/Hi-Potion (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Flint",
+                        "ref": "Baaj Temple/Outside/Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Inside - X-Potion x1 (Chest)",
+                        "ref": "Baaj Temple/Inside/X-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Ether (Chest)",
+                        "ref": "Baaj Temple/Inside/Ether (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Withered Bouquet",
+                        "ref": "Baaj Temple/Inside/Withered Bouquet/"
+                    },
+                    {
+                        "name": "Inside - Hi Potion x1 (Chest)",
+                        "ref": "Baaj Temple/Inside/Hi Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Klikk Defeated",
+                        "ref": "Baaj Temple/Inside/Klikk Defeated/"
+                    },
+                    {
+                        "name": "Temple - Megalixir (Chest)",
+                        "ref": "Baaj Temple/Temple/Megalixir (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Mega Phoenix x4 (Chest)",
+                        "ref": "Baaj Temple/Temple/Mega Phoenix x4 (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Onion Knight (Chest)",
+                        "ref": "Baaj Temple/Temple/Onion Knight (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Anima",
+                        "ref": "Aeons/Anima/"
+                    }
+                ]
+            },
+            {
                 "name": "Besaid",
-                "map_locations": [{ "map": "Spira", "x": 780, "y": 1010, "size": 35}],
+                "map_locations": [{ "map": "Spira", "x": 776, "y": 1003, "size": 32}],
                 "sections": [
                     {
                         "name": "Beach - Antidote x2",

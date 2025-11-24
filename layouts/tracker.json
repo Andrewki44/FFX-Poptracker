@@ -29,6 +29,15 @@
                                     "type": "layout",
                                     "key": "regions_horizontal"
                                 }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Item Tests",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "item_test_horizontal"
+                                }
                             }
                         ]
                     },
