@@ -1,93 +1,114 @@
 [
     {
         "name": "Baaj Temple",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "access_rules": [" "],
+        "children": [
             {
-                "name": "Chest 1",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Chest 2",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Withered Bouquet",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Flint",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Onion Knight",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ether (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Hi-Potion (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Megalixir (Temple Area Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Mega Phoenix x4 (Temple Area Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "X-Potion x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Hi Potion x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Klikk Defeated",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Baaj Temple",
-                "x": 2011,
-                "y": 52,
-                "size": 6
+                "name": "Outside",
+                "children": [
+                    {
+                        "name": "200 gil (Chest)",
+                        "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Potion x2 (Chest)",
+                        "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Hi-Potion (Chest)",
+                        "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             }
         ]
+        
+        // "sections": [
+        //     {
+        //         "name": "Chest 1",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Chest 2",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Withered Bouquet",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Flint",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Onion Knight",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Ether (Chest)",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Hi-Potion (Chest)",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Megalixir (Temple Area Chest)",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Mega Phoenix x4 (Temple Area Chest)",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "X-Potion x1 (Chest)",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Hi Potion x1 (Chest)",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Klikk Defeated",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     }
+        // ],
+        // "map_locations": [
+        //     {
+        //         "map": "Baaj Temple",
+        //         "x": 2011,
+        //         "y": 52,
+        //         "size": 6
+        //     }
+        // ]
     }
 ]

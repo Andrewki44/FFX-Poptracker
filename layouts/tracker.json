@@ -10,6 +10,7 @@
                         "type": "dock",
                         "dock": "left",
                         "h_alignment": "stretch",
+                        "v_alignment": "stretch",
                         "content": [
                             {
                                 "type": "group",
@@ -21,20 +22,13 @@
                                 }
                             },
                             {
-                                "type": "dock",
-                                "dock": "left",
-                                "h_alignment": "stretch",
-                                "content": [
-                                    {
-                                        "type": "group",
-                                        "header": "Regions",
-                                        "dock": "top",
-                                        "content": {
-                                            "type": "layout",
-                                            "key": "regions_horizontal"
-                                        }
-                                    }
-                                ]
+                                "type": "group",
+                                "header": "Regions",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "regions_horizontal"
+                                }
                             }
                         ]
                     },

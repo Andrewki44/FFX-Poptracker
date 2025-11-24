@@ -9,7 +9,7 @@
             {
                 "name": "Dark Valefor",
                 "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
-                "sections": [{"access_rules": "$hasBesaid()"}]
+                "sections": [{"access_rules": "$hasBesaid"}]
             }
         ]
     }

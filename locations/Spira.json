@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [""],
+        // "access_rules": [""],
         "children": [
             {
                 "name": "Besaid",
@@ -63,6 +63,10 @@
                         "ref": "Besaid/Village/Behind Shop/Potion x2 (Chest)/"
                     },
                     {
+                        "name": "Village - Al Bhed Primer II",
+                        "ref": "Al Bhed Primers/Al Bhed Primer II/"
+                    },
+                    {
                         "name": "Village - Rod of Wisdom",
                         "ref": "Besaid/Village/Destruction Sphere/Rod of Wisdom"
                     },
@@ -74,6 +78,10 @@
                         "name": "Village - Brotherhood",
                         "ref": "Besaid/Village/Exit the Village (Event)/Brotherhood"
                     },
+                    {
+                        "name": "Super Bosses - Dark Valefor",
+                        "ref": "Super Bosses/Dark Valefor/"
+                    }
                 ]
             }
         ]

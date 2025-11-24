@@ -512,7 +512,7 @@
     {
         "name": "Region: Kilika",
         "type": "toggle",
-        "img": "images/items/region:kilika.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -892,7 +892,7 @@
     {
         "name": "Region: Moonflow",
         "type": "toggle",
-        "img": "images/items/region:moonflow.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -2072,7 +2072,7 @@
     {
         "name": "Region: Djose",
         "type": "toggle",
-        "img": "images/items/region:djose.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -2262,7 +2262,7 @@
     {
         "name": "Region: Baaj Temple",
         "type": "toggle",
-        "img": "images/items/region:baajtemple.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -2612,7 +2612,7 @@
     {
         "name": "Region: Zanarkand Ruins",
         "type": "toggle",
-        "img": "images/items/region:zanarkandruins.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -2742,7 +2742,7 @@
     {
         "name": "Region: Sin",
         "type": "toggle",
-        "img": "images/items/region:sin.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -3222,7 +3222,7 @@
     {
         "name": "Region: Miihen Highroad",
         "type": "toggle",
-        "img": "images/items/region:miihenhighroad.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -3312,7 +3312,7 @@
     {
         "name": "Region: Luca",
         "type": "toggle",
-        "img": "images/items/region:luca.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -3612,7 +3612,7 @@
     {
         "name": "Region: Airship",
         "type": "toggle",
-        "img": "images/items/region:airship.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -4292,7 +4292,7 @@
     {
         "name": "Region: Guadosalam",
         "type": "toggle",
-        "img": "images/items/region:guadosalam.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -5512,7 +5512,7 @@
     {
         "name": "Region: Mt. Gagazet",
         "type": "toggle",
-        "img": "images/items/region:mt.gagazet.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -5612,7 +5612,7 @@
     {
         "name": "Region: Macalania",
         "type": "toggle",
-        "img": "images/items/region:macalania.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -6742,7 +6742,7 @@
     {
         "name": "Region: Bevelle",
         "type": "toggle",
-        "img": "images/items/region:bevelle.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -8242,7 +8242,7 @@
     {
         "name": "Region: Thunder Plains",
         "type": "toggle",
-        "img": "images/items/region:thunderplains.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -9232,7 +9232,7 @@
     {
         "name": "Region: Mushroom Rock Road",
         "type": "toggle",
-        "img": "images/items/region:mushroomrockroad.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -9962,7 +9962,7 @@
     {
         "name": "Region: Omega Ruins",
         "type": "toggle",
-        "img": "images/items/region:omegaruins.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -10422,7 +10422,7 @@
     {
         "name": "Region: Calm Lands",
         "type": "toggle",
-        "img": "images/items/region:calmlands.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -10522,7 +10522,7 @@
     {
         "name": "Region: Cavern of the Stolen Fayth",
         "type": "toggle",
-        "img": "images/items/region:cavernofthestolenfayth.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -11142,7 +11142,7 @@
     {
         "name": "Region: Bikanel",
         "type": "toggle",
-        "img": "images/items/region:bikanel.png",
+        "img": "images/Treasure.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,

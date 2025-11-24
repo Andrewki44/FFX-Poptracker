@@ -9,7 +9,7 @@
             {
                 "name": "Al Bhed Primer II",
                 "map_locations": [{ "map": "Besaid Village", "x": 165, "y": 375}],
-                "sections": [{"access_rules": "$hasBesaid()"}]
+                "sections": [{"access_rules": "$hasBesaid"}]
             }
         ]
         // "sections": [
