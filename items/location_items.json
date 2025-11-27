@@ -4,14 +4,35 @@
         "type": "toggle",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "klikkdefeated"
+        "codes": "klikk"
     },
     {
         "name": "Chocobo Eater Defeated",
         "type": "toggle",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "chocoboeaterdefeated"
+        "codes": "chocoboeater"
+    },
+    {
+        "name": "Sinspawn Gui 1 Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "sinspawngui1"
+    },
+    {
+        "name": "Sinspawn Gui Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "sinspawngui"
+    },
+    {
+        "name": "Extractor Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "extractor"
     },
 
     {
@@ -26,6 +47,28 @@
         "codes": "besaiddestructionsphere"
     },
     {
+        "name": "Bevelle Destruction Sphere",
+        "type": "toggle",
+        "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/spheres/hd/Purple_Sphere_HD.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "bevelledestructionsphere"
+    },
+    {
+        "name": "Djose Destruction Sphere",
+        "type": "toggle",
+        "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/spheres/hd/Purple_Sphere_HD.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "djosedestructionsphere"
+    },
+    {
         "name": "Kilika Destruction Sphere",
         "type": "toggle",
         "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
@@ -36,10 +79,33 @@
         "initial_active_state": false,
         "codes": "kilikadestructionsphere"
     },
+    {
+        "name": "Macalania Destruction Sphere",
+        "type": "toggle",
+        "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/spheres/hd/Purple_Sphere_HD.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "macalaniadestructionsphere"
+    },
+    {
+        "name": "Zanarkand Destruction Sphere",
+        "type": "toggle",
+        "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/spheres/hd/Purple_Sphere_HD.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "zanarkanddestructionsphere"
+    },
 
     {
         "name": "Attack Reels",
         "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "capturable": true,
         "initial_active_state": false,
         "codes": "attackreels"
@@ -47,6 +113,7 @@
     {
         "name": "Status Reels",
         "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "capturable": true,
         "initial_active_state": false,
         "codes": "statusreels"
@@ -54,8 +121,80 @@
     {
         "name": "Auroch Reels",
         "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "capturable": true,
         "initial_active_state": false,
         "codes": "aurochreels"
+    },
+
+    {
+        "name": "Chocobo Catcher",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "chocobocatcher"
+    },
+
+    {
+        "name": "Besaid Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Valefor_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Valefor.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "besaidcloister"
+    },
+    {
+        "name": "Bevelle Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Bahamut_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Bahamut.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "bevellecloister"
+    },
+    {
+        "name": "Djose Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Ixion_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Ixion.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "djosecloister"
+    },
+    {
+        "name": "Kilika Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Ifrit_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Ifrit.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "kilikacloister"
+    },
+    {
+        "name": "Macalania Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Shiva_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Shiva.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "macalaniacloister"
+    },
+    {
+        "name": "Zanarkand Cloister Complete",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "zanarkandcloister"
     }
 ]

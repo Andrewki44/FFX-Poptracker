@@ -104,7 +104,7 @@
                         "map_locations": [{ "map": "Miihen Highroad Agency", "x": 0, "y": 0}],
                         "sections": [
                             {
-                                "hosted_item": "chocoboeaterdefeated",
+                                "hosted_item": "chocoboeater",
                                 "item_count": 1,
                                 "clear_as_group": true
                             }
@@ -114,7 +114,7 @@
             },
             {
                 "name": "North",
-                "access_rules": ["chocoboeaterdefeated", "{$hasMiihen}"],
+                "access_rules": ["chocoboeater", "{$hasMiihen}"],
                 "children": [
                     {
                         "name": "Heat Lance (Chest)",

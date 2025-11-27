@@ -3,7 +3,14 @@
         "name": "Super Bosses",
         "type": "toggle",
         "img": "images/items/hd/Support_use_item_HD.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "superbosses"
+    },
+    {
+        "name": "Minigames",
+        "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "initial_active_state": true,
+        "codes": "minigames"
     }
 ]

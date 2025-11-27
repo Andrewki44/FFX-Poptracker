@@ -47,6 +47,15 @@
                                     "type": "layout",
                                     "key": "key_items_horizontal"
                                 }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Options",
+                                "dock": "bottom",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "options_horizontal"
+                                }
                             }
                         ]
                     },

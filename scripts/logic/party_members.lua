@@ -63,3 +63,14 @@ end
 function hasYojimbo()
     return has("partymember:yojimbo")
 end
+
+function hasAllAeons()
+    if (
+        hasAnima() and hasBahamut() and hasIfrit() and hasIfrit and
+        hasMagusSisters() and hasShiva() and hasValefor() and hasYojimbo
+    ) then
+        return true
+    else
+        return false
+    end
+end

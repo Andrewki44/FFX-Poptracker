@@ -89,9 +89,10 @@
                     {
                         "name": "Exit the Village (Event)",
                         "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 350, "size": 16}],
+                        "access_rules": ["besaidcloister", "{$hasBesaid}"],
                         "sections": [
                             {"name": "Map"},
-                            {"name": "Brotherhood"}
+                            {"name": "Brotherhood", "ref": "Celestial/Tidus/Brotherhood/"}
                         ]
                     }
                 ]

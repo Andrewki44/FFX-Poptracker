@@ -96,10 +96,28 @@
         "img": "images/maps/Celestial Upgrade.png"
     },
     {
-        "name": "Djose",
+        "name": "Djose Highroad",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Djose.png"
+    },
+    {
+        "name": "Djose Pilgrimage Road",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Djose.png"
+    },
+    {
+        "name": "Djose Temple",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Djose.png"
+    },
+    {
+        "name": "Farplane",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Farplane.png"
     },
     {
         "name": "Gagazet",
@@ -216,25 +234,55 @@
         "img": "images/maps/Monster Arena.png"
     },
     {
-        "name": "Moonflow",
+        "name": "Moonflow South",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Moonflow.png"
     },
     {
-        "name": "Mt. Gagazet",
+        "name": "Moonflow North",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Moonflow.png"
+    },
+    {
+        "name": "Mt. Gagazet Outside",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Mt. Gagazet.png"
     },
     {
-        "name": "Mt. Gagazet (Cave)",
+        "name": "Mt. Gagazet Cave",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Mt. Gagazet (Cave).png"
+        "img": "images/maps/Mt. Gagazet Cave.png"
     },
     {
-        "name": "Mushroom Rock Road",
+        "name": "Mushroom Rock Road Entrance",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mushroom Rock Road.png"
+    },
+    {
+        "name": "Mushroom Rock Road Valley",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mushroom Rock Road.png"
+    },
+    {
+        "name": "Mushroom Rock Road Precipice",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mushroom Rock Road.png"
+    },
+    {
+        "name": "Mushroom Rock Road Ridge",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Mushroom Rock Road.png"
+    },
+    {
+        "name": "Mushroom Rock Road Aftermath",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Mushroom Rock Road.png"

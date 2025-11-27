@@ -120,15 +120,52 @@
             {
                 "title": "Djose",
                 "content": {
-                    "type": "map",
-                    "maps": ["Djose"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Djose Highroad",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose Highroad"]
+                            }
+                        },
+                        {
+                            "title": "Pilgrimage Road",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose Pilgrimage Road"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose Temple"]
+                            }
+                        }
+                    ]
                 }
             },
             {
                 "title": "Guadosalam",
                 "content": {
-                    "type": "map",
-                    "maps": ["Guadosalam"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Guadosalam",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Guadosalam"]
+                            }
+                        },
+                        {
+                            "title": "Farplane",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Farplane"]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -264,8 +301,23 @@
             {
                 "title": "Moonflow",
                 "content": {
-                    "type": "map",
-                    "maps": ["Moonflow"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "South",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Moonflow South"]
+                            }
+                        },
+                        {
+                            "title": "North",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Moonflow North"]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -277,14 +329,14 @@
                             "title": "Outside",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mt. Gagazet (Outside)"]
+                                "maps": ["Mt. Gagazet Outside"]
                             }
                         },
                         {
                             "title": "Cave",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mt. Gagazet (Cave)"]
+                                "maps": ["Mt. Gagazet Cave"]
                             }
                         }
                     ]
@@ -293,8 +345,44 @@
             {
                 "title": "Mushroom Rock Road",
                 "content": {
-                    "type": "map",
-                    "maps": ["Mushroom Rock Road"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Mushroom Rock Road Entrance"]
+                            }
+                        },
+                        {
+                            "title": "Valley",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Mushroom Rock Road Valley"]
+                            }
+                        },
+                        {
+                            "title": "Precipice",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Mushroom Rock Road Precipice"]
+                            }
+                        },
+                        {
+                            "title": "Ridge",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Mushroom Rock Road Ridge"]
+                            }
+                        },
+                        {
+                            "title": "Aftermath",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Mushroom Rock Road Aftermath"]
+                            }
+                        }
+                    ]
                 }
             },
             {

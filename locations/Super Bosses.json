@@ -4,12 +4,23 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        // "visibility_rules": ["$superBosses"],
+        "access_rules": ["[superbosses]"],
         "children": [
             {
                 "name": "Dark Valefor",
                 "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
-                "sections": [{"access_rules": "$hasBesaid"}]
+                "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Dark Magus Sisters",
+                "map_locations": [{ "map": "Mushroom Rock Road Entrance", "x": 0, "y": 0}],
+                "access_rules": ["$hasMRR, sinspawngui"],
+                "sections": [
+                    {"name": "Dark Mindy"},
+                    {"name": "Dark Sandy"},
+                    {"name": "Dark Cindy"}
+                ]
             }
         ]
     }

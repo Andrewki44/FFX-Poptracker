@@ -56,7 +56,31 @@
             {
                 "name": "Al Bhed Primer IX",
                 "map_locations": [{ "map": "Miihen Highroad North", "x": 0, "y": 0}],
-                "access_rules": ["$hasMiihen"],
+                "access_rules": ["$hasMiihen, chocoboeater", "{$hasMiihen}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer X",
+                "map_locations": [{ "map": "Mushroom Rock Road Precipice", "x": 0, "y": 0}],
+                "access_rules": ["$hasMRR"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XI",
+                "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                "access_rules": ["$hasDjose, sinspawngui", "{$hasMRR, $hasDjose}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XII",
+                "map_locations": [{ "map": "Moonflow North", "x": 0, "y": 0}],
+                "access_rules": ["$hasMoonflow, extractor", "{$hasMoonflow}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XIII",
+                "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                "access_rules": ["$hasGuadosalam"],
                 "sections": [{}]
             }
         ]

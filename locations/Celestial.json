@@ -6,23 +6,160 @@
         "overlay_background": "#000000",
         "children": [
             {
-                "name": "Weapon",
+                "name": "Auron",
+                "chest_unopened_img": "/images/party/weapon/Katana.png",
+                "chest_opened_img": "/images/party/weapon/Katana_BW.png",
                 "children": [
                     {
-                        "name": "World Champion",
-                        "map_locations": [{ "map": "Luca City", "x": 0, "y": 0}],
-                        "access_rules": ["$hasLuca"],
+                        "name": "Masamune",
+                        "map_locations": [{ "map": "Mushroom Rock Road Aftermath", "x": 0, "y": 0}],
+                        "access_rules": [
+                            "$hasMRR, sinspawngui, celestialmirror, rustysword", 
+                            "{$hasMRR, sinspawngui}"
+                        ],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Mars Crest (Chest)",
+                        "map_locations": [{ "map": "Miihen Highroad North", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMiihen, chocoboeater", "{$hasMiihen}"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Mars Sigil (10x Creations)",
+                        "map_locations": [{ "map": "Monster Arena", "x": 0, "y": 0}],
+                        "access_rules": ["$hasCalmLands"],
                         "sections": [{}]
                     }
                 ]
             },
             {
-                "name": "Crest",
+                "name": "Kimahri",
+                "chest_unopened_img": "/images/party/weapon/Spear.png",
+                "chest_opened_img": "/images/party/weapon/Spear_BW.png",
                 "children": [
                     {
-                        "name": "Moon Crest (Chest)",
-                        "map_locations": [{ "map": "Besaid Beach", "x": 193, "y": 540}],
-                        "access_rules": ["$hasBesaid"],
+                        "name": "Spirit Lance",
+                        "map_locations": [{ "map": "Thunder Plains South", "x": 0, "y": 0}],
+                        "access_rules": ["$hasThunderPlains"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Saturn Crest (Chest)",
+                        "map_locations": [{ "map": "Mt. Gagazet Outside", "x": 0, "y": 0}],
+                        "access_rules": ["$hasGagazet"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Saturn Sigil (Butterfly Hunt)",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, [minigames]"],
+                        "sections": [{}]
+                    }
+                ]
+            },
+            {
+                "name": "Lulu",
+                "chest_unopened_img": "/images/party/weapon/Doll.png",
+                "chest_opened_img": "/images/party/weapon/Doll_BW.png",
+                "children": [
+                    {
+                        "name": "Onion Knight (Chest)",
+                        "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
+                        "access_rules": [
+                            "$hasBaaj, klikk",
+                            "{$hasBaaj, flint:1, witheredbouquet:1}"
+                        ],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Venus Crest (Chest)",
+                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "access_rules": ["$hasGuadosalam"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Venus Sigil (Lightning Dodging)",
+                        "map_locations": [{ "map": "Thunder Plains Agency", "x": 0, "y": 0}],
+                        "access_rules": ["$hasThunderPlains, [minigames]"],
+                        "sections": [{}]
+                    }
+                ]
+            },
+            {
+                "name": "Rikku",
+                "chest_unopened_img": "/images/party/weapon/Claw.png",
+                "chest_opened_img": "/images/party/weapon/Claw_BW.png",
+                "children": [
+                    {
+                        "name": "Godhand",
+                        "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
+                        "access_rules": ["$hasAirship"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Mercury Crest (Chest)",
+                        "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                        "access_rules": ["$hasBikanel"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Mercury Sigil (Cactuar Village)",
+                        "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                        "access_rules": ["$hasBikanel"],
+                        "sections": [{}]
+                    }
+                ]
+            },
+            {
+                "name": "Tidus",
+                "chest_unopened_img": "/images/party/weapon/Sword.png",
+                "chest_opened_img": "/images/party/weapon/Sword_BW.png",
+                "children": [
+                    {
+                        "name": "Caladbolg",
+                        "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
+                        "access_rules": [
+                            "$hasCalmLands, celestialmirror, chocobocatcher",
+                            "{$hasCalmLands}"
+                        ],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Sun Crest (Chest)",
+                        "map_locations": [{ "map": "Zanarkand Dome", "x": 0, "y": 0}],
+                        "access_rules": ["$hasZanarkand"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Sun Sigil (Chocobo Catcher 0:00)",
+                        "map_locations": [{ "map": "Thunder Plains Agency", "x": 0, "y": 0}],
+                        "access_rules": ["$hasCalmLands, [minigames]"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Brotherhood",
+                        "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
+                        "access_rules": ["besaidcloister", "{$hasBesaid}"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Brotherhood Upgrade",
+                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "access_rules": ["$hasGuadosalam"],
+                        "sections": [{}]
+                    }
+                ]
+            },
+            {
+                "name": "Wakka",
+                "chest_unopened_img": "/images/party/weapon/Blitzball.png",
+                "chest_opened_img": "/images/party/weapon/Blitzball_BW.png",
+                "children": [
+                    {
+                        "name": "World Champion",
+                        "map_locations": [{ "map": "Luca City", "x": 0, "y": 0}],
+                        "access_rules": ["$hasLuca, [minigames]"],
                         "sections": [{}]
                     },
                     {
@@ -32,23 +169,34 @@
                         "sections": [{}]
                     },
                     {
-                        "name": "Mars Crest (Chest)",
-                        "map_locations": [{ "map": "Miihen Highroad North", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMiihen"],
-                        "sections": [{}]
+                        "name": "Jupiter Sigil (Blitzball League)",
+                        "map_locations": [{ "map": "Luca Stadium", "x": 0, "y": 0}],
+                        "access_rules": ["attackreels, statusreels, aurochreels"],
+                        "sections": [{"access_rules": ["[minigames]"]}]
                     }
                 ]
             },
             {
-                "name": "Sigil",
+                "name": "Yuna",
+                "chest_unopened_img": "/images/party/weapon/Rod.png",
+                "chest_opened_img": "/images/party/weapon/Rod_BW.png",
                 "children": [
                     {
-                        "name": "Jupiter Sigil (Blitzball League)",
-                        "map_locations": [{ "map": "Luca Stadium", "x": 0, "y": 0}],
-                        "access_rules": [
-                            "attackreels, statusreels, aurochreels",
-                            "{$hasLuca}"
-                        ],
+                        "name": "Nirvana",
+                        "map_locations": [{ "map": "Monster Arena", "x": 0, "y": 0}],
+                        "access_rules": ["$hasCalmLands, celestialmirror"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Moon Crest (Chest)",
+                        "map_locations": [{ "map": "Besaid Beach", "x": 193, "y": 540}],
+                        "access_rules": ["$hasBesaid"],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Moon Sigil (Send Belgemine)",
+                        "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
+                        "access_rules": ["$hasCalmLands, $hasYuna, $hasAllAeons", "{$hasCalmLands}"],
                         "sections": [{}]
                     }
                 ]

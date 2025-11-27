@@ -1,140 +1,118 @@
 [
     {
         "name": "Djose",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "access_rules": ["$hasDjose, sinspawngui", "{$hasMRR, $hasDjose}"],
+        "children": [
             {
-                "name": "Phoenix Down x2 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Highroad",
+                "children": [
+                    {
+                        "name": "Phoenix Down x2 (Chest)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Soft Ring (NPC)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Ether x1 (NPC)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Hi-Potion x1 (NPC)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Mega-Potion x1 (NPC)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Variable Steel (NPC)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Bright Bangle (Chest)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             },
             {
-                "name": "Bright Bangle (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Temple",
+                "children": [
+                    {
+                        "name": "Ability Sphere x4 (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "4000 gil (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Ether x1 (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Remedy x1 (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Mega Phoenix x1 (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Destruction Sphere",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Magic Sphere",
+                                "hosted_item": "djosedestructionsphere",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Switch Hitter (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             },
             {
-                "name": "Ability Sphere x4 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "4000 gil (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Switch Hitter (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ether x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Remedy x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Mega Phoenix x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Variable Steel (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Soft Ring (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Hi-Potion x1 (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ether x1 (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Mega-Potion x1 (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Halberd (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Potion x10 (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Hi-Potion x2 (NPC)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Agility Sphere x1 (Aeon Room)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Magic Def Sphere x1 (Aeon Room)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Luck Sphere x1 (Aeon Room)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Destruction Sphere",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Djose",
-                "x": 1779,
-                "y": 107,
-                "size": 6
+                "name": "Pilgrimage Road",
+                "access_rules": ["djosecloister", "{$hasMRR, $hasDjose}"],
+                "children": [
+                    {
+                        "name": "Halberd (NPC)",
+                        "map_locations": [{ "map": "Djose Pilgrimage Road", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Potion x10 (NPC)",
+                        "map_locations": [{ "map": "Djose Pilgrimage Road", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Hi-Potion x2 (NPC)",
+                        "map_locations": [{ "map": "Djose Pilgrimage Road", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             }
         ]
     }
