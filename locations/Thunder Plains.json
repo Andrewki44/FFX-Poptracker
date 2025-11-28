@@ -1,116 +1,81 @@
 [
     {
         "name": "Thunder Plains",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "access_rules": ["$hasThunderPlains"],
+        "children": [
             {
-                "name": "Phoenix Down x2 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "South",
+                "children": [
+                    {
+                        "name": "Phoenix Down x2 (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Hi-Potion x2 (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "5000 gil (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Water Ball (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             },
             {
-                "name": "Hi-Potion x2 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Agency",
+                "children": [
+                    {
+                        "name": "Yellow Shield (Ground Item)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Lightning Dodging",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "access_rules": ["[minigames]"],
+                        "sections": [
+                            {
+                                "hosted_item": "lightning5, lightning10, lightning20, lightning50, lightning100, lightning150, lightning200",
+                                "clear_as_group": false
+                            }
+                        ]
+                    }
+                ]
             },
             {
-                "name": "5000 gil (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Water Ball (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "X-Potion x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Ether x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Remedy x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "2000 gil (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "X-Potion x2 (Dodging Minigame Reward)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Mega-Potion x2 (Dodging Minigame Reward)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "MP Sphere x2 (Dodging Minigame Reward)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Strength Sphere x3 (Dodging Minigame Reward)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "HP Sphere x3 (Dodging Minigame Reward)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Megalixir x4 (Dodging Minigame Reward)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Yellow Shield (Ground Item)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Dark Ixion",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Thunder Plains",
-                "x": 1597,
-                "y": 934,
-                "size": 6
+                "name": "North",
+                "children": [
+                    {
+                        "name": "X-Potion x1 (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Ether x1 (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "2000 gil (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Remedy x1 (Chest)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             }
         ]
     }

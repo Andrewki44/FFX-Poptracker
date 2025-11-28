@@ -191,7 +191,7 @@
             },
             {
                 "name": "Kilika",
-                "map_locations": [{ "map": "Spira", "x": 854, "y": 970, "size": 32}],
+                "map_locations": [{ "map": "Spira", "x": 854, "y": 971, "size": 32}],
                 "sections": [
                     {
                         "name": "Village - Remedy x1 (Chest)",
@@ -510,12 +510,8 @@
                         "ref": "Mushroom Rock Road/Ridge/Serene Bracer (Chest)/"
                     },
                     {
-                        "name": "Ridge - Sinspawn Gui (1st Fight)",
-                        "ref": "Mushroom Rock Road/Ridge/Sinspawn Gui/First Fight"
-                    },
-                    {
-                        "name": "Ridge - Sinspawn Gui (2nd Fight)",
-                        "ref": "Mushroom Rock Road/Ridge/Sinspawn Gui/Second Fight"
+                        "name": "Ridge - Sinspawn Gui",
+                        "ref": "Mushroom Rock Road/Ridge/Sinspawn Gui/"
                     },
                     {
                         "name": "Aftermath - Hi-Potion x1 (Chest)",
@@ -711,6 +707,302 @@
                         "name": "Farplane - Venus Crest (Chest)",
                         "ref": "Celestial/Lulu/Venus Crest (Chest)/"
                     }
+                ]
+            },
+            {
+                "name": "Thunder Plains",
+                "map_locations": [{ "map": "Spira", "x": 1177, "y": 383, "size": 32}],
+                "sections": [
+                    {
+                        "name": "South - Phoenix Down x2 (Chest)",
+                        "ref": "Thunder Plains/South/Phoenix Down x2 (Chest)/"
+                    },
+                    {
+                        "name": "South - Hi-Potion x2 (Chest)",
+                        "ref": "Thunder Plains/South/Hi-Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "South - 5000 gil (Chest)",
+                        "ref": "Thunder Plains/South/5000 gil (Chest)/"
+                    },
+                    {
+                        "name": "South - Water Ball (Chest)",
+                        "ref": "Thunder Plains/South/Water Ball (Chest)/"
+                    },
+                    {
+                        "name": "Agency - Al Bhed Primer XIV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XIV/Thunder Plains"
+                    },
+                    {
+                        "name": "Agency - Yellow Shield (Ground Item)",
+                        "ref": "Thunder Plains/Agency/Yellow Shield (Ground Item)/"
+                    },
+                    {
+                        "name": "North - X-Potion x1 (Chest)",
+                        "ref": "Thunder Plains/North/X-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "North - Ether x1 (Chest)",
+                        "ref": "Thunder Plains/North/Ether x1 (Chest)/"
+                    },
+                    {
+                        "name": "North - 2000 gil (Chest)",
+                        "ref": "Thunder Plains/North/2000 gil (Chest)/"
+                    },
+                    {
+                        "name": "North - Remedy x1 (Chest)",
+                        "ref": "Thunder Plains/North/Remedy x1 (Chest)/"
+                    },
+                    {
+                        "name": "Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Ixion",
+                        "ref": "Super Bosses/Dark Ixion/"
+                    }
+                ]
+            },
+            {
+                "name": "Macalania",
+                "map_locations": [{ "map": "Spira", "x": 1119, "y": 326, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Woods - Sleepy Cait Sith (Chest)",
+                        "ref": "Macalania/Woods/Sleepy Cait Sith (Chest)/"
+                    },
+                    {
+                        "name": "Woods - 2000 gil (Chest)",
+                        "ref": "Macalania/Woods/2000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Woods - Phoenix Down x3 (Chest)",
+                        "ref": "Macalania/Woods/Phoenix Down x3 (Chest)/"
+                    },
+                    {
+                        "name": "Woods - Remedy x1 (Chest)",
+                        "ref": "Macalania/Woods/Remedy x1 (Chest)/"
+                    },
+                    {
+                        "name": "Woods - Al Bhed Primer XV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XV/"
+                    },
+                    {
+                        "name": "Woods - Spherimorph",
+                        "ref": "Macalania/Woods/Spherimorph/"
+                    },
+                    {
+                        "name": "Woods - Lucid Ring (Chest)",
+                        "ref": "Macalania/Woods/Lucid Ring (Chest)/"
+                    },
+                    {
+                        "name": "Lake Agency - Al Bhed Primer XVI",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XVI/"
+                    },
+                    {
+                        "name": "Lake Agency - Crawler",
+                        "ref": "Macalania/Lake/Agency/Crawler/"
+                    },
+                    {
+                        "name": "Lake Agency - 4000 gil (Chest)",
+                        "ref": "Macalania/Lake/Agency/4000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Lake Road - Mega-Potion x1 (Chest)",
+                        "ref": "Macalania/Lake/Road/Mega-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Lake Road - 400 gil (Al Bhed Soldier NPC)",
+                        "ref": "Macalania/Lake/Road/400 gil (Al Bhed Soldier NPC)/"
+                    },
+                    {
+                        "name": "Lake Road - Lv. 1 Key Sphere x1 (Chest)",
+                        "ref": "Macalania/Lake/Road/Lv. 1 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Shell Targe (Tromell)",
+                        "ref": "Macalania/Lake/Temple/Shell Targe (Tromell)/"
+                    },
+                    {
+                        "name": "Temple - 5000 gil (Chest)",
+                        "ref": "Macalania/Lake/Temple/5000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Temple - X-Potion x2 (Chest)",
+                        "ref": "Macalania/Lake/Temple/X-Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Remedy x2 (Chest)",
+                        "ref": "Macalania/Lake/Temple/Remedy x2 (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Hi-Potion x2 (NPC)",
+                        "ref": "Macalania/Lake/Temple/Hi-Potion x2 (NPC)/"
+                    },
+                    {
+                        "name": "Temple - Ether x1 (Man Sitting NPC)",
+                        "ref": "Macalania/Lake/Temple/Ether x1 (Man Sitting NPC)/"
+                    },
+                    {
+                        "name": "Temple - Elixir x1 (Man Sitting NPC)",
+                        "ref": "Macalania/Lake/Temple/Elixir x1 (Man Sitting NPC)/"
+                    },
+                    {
+                        "name": "Temple - Phoenix Down x3 (Chest)",
+                        "ref": "Macalania/Lake/Temple/Phoenix Down x3 (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Seymour & Anima",
+                        "ref": "Macalania/Lake/Temple/Seymour/"
+                    },
+                    {
+                        "name": "Temple - Shiva",
+                        "ref": "Aeons/Shiva/"
+                    },
+                    {
+                        "name": "Cloister - Luck Sphere",
+                        "ref": "Macalania/Lake/Temple/Destruction Sphere/Luck Sphere"
+                    },
+                    {
+                        "name": "Lake Agency - Wendigo",
+                        "ref": "Macalania/Lake/Agency/Wendigo/"
+                    },
+                    {
+                        "name": "Lake Bottom - Lv. 2 Key Sphere (Chest)",
+                        "ref": "Macalania/Lake/Bottom/Lv. 2 Key Sphere (Chest)/"
+                    },
+                    {
+                        "name": "Lake Bottom - Avenger (Chest)",
+                        "ref": "Macalania/Lake/Bottom/Avenger (Chest)/"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Shiva",
+                        "ref": "Super Bosses/Dark Shiva/"
+                    }
+                ]
+            },
+            {
+                "name": "Celestial Flower",
+                "map_locations": [{ "map": "Spira", "x": 1085, "y": 326, "size": 24}],
+                "sections": [
+                    {
+                        "name": "Celestial Mirror",
+                        "ref": "Celestial/Celestial Mirror/"
+                    },
+                    {
+                        "name": "Auron - Masamune Crest Updgrade",
+                        "ref": "Celestial/Auron/Masamune Upgrade/Crest"
+                    },
+                    {
+                        "name": "Auron - Masamune Sigil Updgrade",
+                        "ref": "Celestial/Auron/Masamune Upgrade/Sigil"
+                    },
+                    {
+                        "name": "Kimahri - Spirit Lance Crest Updgrade",
+                        "ref": "Celestial/Kimahri/Spirit Lance Upgrade/Crest"
+                    },
+                    {
+                        "name": "Kimahri - Spirit Lance Sigil Updgrade",
+                        "ref": "Celestial/Kimahri/Spirit Lance Upgrade/Sigil"
+                    },
+                    {
+                        "name": "Lulu - Onion Knight Crest Updgrade",
+                        "ref": "Celestial/Lulu/Onion Knight Upgrade/Crest"
+                    },
+                    {
+                        "name": "Lulu - Onion Knight Sigil Updgrade",
+                        "ref": "Celestial/Lulu/Onion Knight Upgrade/Sigil"
+                    },
+                    {
+                        "name": "Rikku - Godhand Crest Updgrade",
+                        "ref": "Celestial/Rikku/Godhand Upgrade/Crest"
+                    },
+                    {
+                        "name": "Rikku - Godhand Sigil Updgrade",
+                        "ref": "Celestial/Rikku/Godhand Upgrade/Sigil"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Crest Updgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Upgrade/Crest"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Sigil Updgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Upgrade/Sigil"
+                    },
+                    {
+                        "name": "Wakka - World Champion Crest Updgrade",
+                        "ref": "Celestial/Wakka/World Champion Upgrade/Crest"
+                    },
+                    {
+                        "name": "Wakka - World Champion Sigil Updgrade",
+                        "ref": "Celestial/Wakka/World Champion Upgrade/Sigil"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Crest Updgrade",
+                        "ref": "Celestial/Yuna/Nirvana Upgrade/Crest"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Sigil Updgrade",
+                        "ref": "Celestial/Yuna/Nirvana Upgrade/Sigil"
+                    }
+                ]
+            },
+            {
+                "name": "Bikanel",
+                "map_locations": [{ "map": "Spira", "x": 712, "y": 400, "size": 24}],
+                "sections": [
+                    {
+                        "name": "Bikanel East - Remedy x4 (Chest)",
+                        "ref": "Bikanel/Desert/East/Remedy x4 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel East - Al Bhed Potion x8",
+                        "ref": "Bikanel/Desert/East/Al Bhed Potion x8/"
+                    },
+                    {
+                        "name": "Bikanel East - Ether x2 (Chest)",
+                        "ref": "Bikanel/Desert/East/Ether x2 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel East - Al Bhed Primer XIV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XIV/Bikanel"
+                    },
+                    {
+                        "name": "Bikanel East - Hi-Potion x4 (Chest)",
+                        "ref": "Bikanel/Desert/East/Hi-Potion x4 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel Central - X-Potion x2 (Chest)",
+                        "ref": "Bikanel/Desert/Central/X-Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel Central - Mega-Potion x2 (Chest)",
+                        "ref": "Bikanel/Desert/Central/Mega-Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel Central - Al Bhed Potion x8",
+                        "ref": "Bikanel/Desert/Central/Al Bhed Potion x8/"
+                    },
+                    {
+                        "name": "Bikanel Central - Al Bhed Primer XVIII",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XVIII/"
+                    },
+                    {
+                        "name": "Bikanel Central - Elixir x1 (Chest)",
+                        "ref": "Bikanel/Desert/Central/Elixir x1 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel Central - Lv. 2 Key Sphere x1 (Chest)",
+                        "ref": "Bikanel/Desert/Central/Lv. 2 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel Central - 10000 gil (Chest)",
+                        "ref": "Bikanel/Desert/Central/10000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Bikanel Central - Al Bhed Primer XVII",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XVII/"
+                    }                    
                 ]
             }
         ]

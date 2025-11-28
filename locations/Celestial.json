@@ -15,7 +15,7 @@
                         "map_locations": [{ "map": "Mushroom Rock Road Aftermath", "x": 0, "y": 0}],
                         "access_rules": [
                             "$hasMRR, sinspawngui, celestialmirror, rustysword", 
-                            "{$hasMRR, sinspawngui}"
+                            "{$hasMRR}"
                         ],
                         "sections": [{}]
                     },
@@ -30,6 +30,31 @@
                         "map_locations": [{ "map": "Monster Arena", "x": 0, "y": 0}],
                         "access_rules": ["$hasCalmLands"],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Masamune Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasMasamune"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "marscrest", 
+                                    "{$hasMacalania, celestialmirror, $hasMasamune}"
+                                ],
+                                "hosted_item": "masamunecrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "marscrest, marssigil",
+                                    "{$hasMacalania, celestialmirror, $hasMasamune}"
+                                ],
+                                "hosted_item": "masamunesigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -55,6 +80,31 @@
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
                         "access_rules": ["$hasMacalania, [minigames]"],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Spirit Lance Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasSpiritLance"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "$saturncrest", 
+                                    "{$hasMacalania, celestialmirror, $hasSpiritLance}"
+                                ],
+                                "hosted_item": "spiritlancecrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "saturncrest, saturnsigil",
+                                    "{$hasMacalania, celestialmirror, $hasSpiritLance}"
+                                ],
+                                "hosted_item": "spiritlancesigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -83,6 +133,31 @@
                         "map_locations": [{ "map": "Thunder Plains Agency", "x": 0, "y": 0}],
                         "access_rules": ["$hasThunderPlains, [minigames]"],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Onion Knight Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasOnionKnight"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "venuscrest", 
+                                    "{$hasMacalania, celestialmirror, $hasOnionKnight}"
+                                ],
+                                "hosted_item": "onionknightcrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "venuscrest, venussigil",
+                                    "{$hasMacalania, celestialmirror, $hasOnionKnight}"
+                                ],
+                                "hosted_item": "onionknightsigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -108,6 +183,31 @@
                         "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
                         "access_rules": ["$hasBikanel"],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Godhand Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasGodhand"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "mercurycrest", 
+                                    "{$hasMacalania, celestialmirror, $hasGodhand}"
+                                ],
+                                "hosted_item": "godhandcrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "mercurycrest, mercurysigil",
+                                    "{$hasMacalania, celestialmirror, $hasGodhand}"
+                                ],
+                                "hosted_item": "godhandsigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -133,14 +233,14 @@
                     },
                     {
                         "name": "Sun Sigil (Chocobo Catcher 0:00)",
-                        "map_locations": [{ "map": "Thunder Plains Agency", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
                         "access_rules": ["$hasCalmLands, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "Brotherhood",
-                        "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                        "access_rules": ["besaidcloister", "{$hasBesaid}"],
+                        "map_locations": [{ "map": "Besaid", "x": 0, "y": 0}],
+                        "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
                         "sections": [{}]
                     },
                     {
@@ -148,6 +248,31 @@
                         "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
                         "access_rules": ["$hasGuadosalam"],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Caladbolg Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasCaladbolg"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "suncrest", 
+                                    "{$hasMacalania, celestialmirror, $hasCaladbolg}"
+                                ],
+                                "hosted_item": "caladbolgcrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "suncrest, sunsigil",
+                                    "{$hasMacalania, celestialmirror, $hasCaladbolg}"
+                                ],
+                                "hosted_item": "caladbolgsigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -173,6 +298,31 @@
                         "map_locations": [{ "map": "Luca Stadium", "x": 0, "y": 0}],
                         "access_rules": ["attackreels, statusreels, aurochreels"],
                         "sections": [{"access_rules": ["[minigames]"]}]
+                    },
+                    {
+                        "name": "World Champion Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasWorldChampion"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "jupitercrest", 
+                                    "{$hasMacalania, celestialmirror, $hasWorldChampion}"
+                                ],
+                                "hosted_item": "worldchampioncrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "jupitercrest, jupitersigil",
+                                    "{$hasMacalania, celestialmirror, $hasWorldChampion}"
+                                ],
+                                "hosted_item": "worldchampionsigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
@@ -198,8 +348,51 @@
                         "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
                         "access_rules": ["$hasCalmLands, $hasYuna, $hasAllAeons", "{$hasCalmLands}"],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Nirvana Upgrade",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["$hasMacalania, celestialmirror, $hasNirvana"],
+                        "sections": [
+                            {
+                                "name": "Crest",
+                                "access_rules": [
+                                    "mooncrest", 
+                                    "{$hasMacalania, celestialmirror, $hasNirvana}"
+                                ],
+                                "hosted_item": "nirvanacrest",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sigil",
+                                "access_rules": [
+                                    "mooncrest, moonsigil",
+                                    "{$hasMacalania, celestialmirror, $hasNirvana}"
+                                ],
+                                "hosted_item": "nirvanasigil",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
+            },
+            {
+                "name": "Cloudy Mirror (Chocobo Race)",
+                "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
+                "access_rules": ["$hasCalmLands"],
+                "sections": [{}]
+            },
+            {
+                "name": "Celestial Mirror",
+                "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
+                "access_rules": ["$hasMacalania, cloudymirror", "{$hasMacalania}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Rusty Sword",
+                "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
+                "access_rules": ["$hasCalmLands", "{$hasCalmLands}"],
+                "sections": [{}]
             }
         ]
     }

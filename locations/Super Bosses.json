@@ -7,20 +7,38 @@
         "access_rules": ["[superbosses]"],
         "children": [
             {
-                "name": "Dark Valefor",
-                "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
-                "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
+                "name": "Dark Ifrit",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "access_rules": ["$hasBikanel, homecomplete", "{$hasBikanel}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Dark Ixion",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "access_rules": ["$hasThunderPlains"],
                 "sections": [{}]
             },
             {
                 "name": "Dark Magus Sisters",
                 "map_locations": [{ "map": "Mushroom Rock Road Entrance", "x": 0, "y": 0}],
-                "access_rules": ["$hasMRR, sinspawngui"],
+                "access_rules": ["$hasMRR, sinspawngui", "{$hasMRR}"],
                 "sections": [
                     {"name": "Dark Mindy"},
                     {"name": "Dark Sandy"},
                     {"name": "Dark Cindy"}
                 ]
+            },
+            {
+                "name": "Dark Shiva",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "access_rules": ["$hasMacalania, wendigo", "{$hasMacalania}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Dark Valefor",
+                "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
+                "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
+                "sections": [{}]
             }
         ]
     }

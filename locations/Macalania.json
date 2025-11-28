@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Macalania",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["$hasMacalania"],
+        "children": [
+            {
+                "name": "Woods",
+                "children": [
+                    {
+                        "name": "Sleepy Cait Sith (Chest)",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "2000 gil (Chest)",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Phoenix Down x3 (Chest)",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Remedy x1 (Chest)",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Spherimorph",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "hosted_item": "spherimorph",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lucid Ring (Chest)",
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "access_rules": ["spherimorph", "{$hasMacalania}"],
+                        "sections": [{}]
+                    }
+                ]
+            },
+            {
+                "name": "Lake",
+                "access_rules": ["spherimorph", "{$hasMacalania}"],
+                "children": [
+                    {
+                        "name": "Agency",
+                        "children": [
+                            {
+                                "name": "Crawler",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "hosted_item": "crawler",
+                                        "item_count": 1,
+                                        "clear_as_group": true
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "4000 gil (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "access_rules": ["crawler", "{$hasMacalania}"],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Wendigo",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "access_rules": ["seymouranima", "{$hasMacalania}"],
+                                "sections": [
+                                    {
+                                        "hosted_item": "wendigo",
+                                        "item_count": 1,
+                                        "clear_as_group": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Road",
+                        "access_rules": ["crawler", "{$hasMacalania}"],
+                        "children": [
+                            {
+                                "name": "Mega-Potion x1 (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "400 gil (Al Bhed Soldier NPC)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Lv. 1 Key Sphere x1 (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Temple",
+                        "access_rules": ["crawler", "{$hasMacalania}"],
+                        "children": [
+                            {
+                                "name": "Shell Targe (Tromell)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "5000 gil (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "X-Potion x2 (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Remedy x2 (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Hi-Potion x2 (NPC)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Ether x1 (Man Sitting NPC)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Elixir x1 (Man Sitting NPC)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Phoenix Down x3 (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Seymour",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "hosted_item": "seymouranima",
+                                        "item_count": 1,
+                                        "clear_as_group": true
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Destruction Sphere",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Luck Sphere",
+                                        "hosted_item": "macalaniadestructionsphere",
+                                        "item_count": 1,
+                                        "clear_as_group": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bottom",
+                        "access_rules": ["wendigo", "{$hasMacalania}"],
+                        "children": [
+                            {
+                                "name": "Lv. 2 Key Sphere (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania Bottom", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            },
+                            {
+                                "name": "Avenger (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania Bottom", "x": 0, "y": 0}],
+                                "sections": [{}]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -109,6 +109,10 @@
                         "map_locations": [{ "map": "Mushroom Rock Road Ridge", "x": 0, "y": 0}],
                         "sections": [
                             {
+                                "hosted_item": "sinspawngui1, sinspawngui",
+                                "clear_as_group": false
+                            },
+                            {
                                 "name": "First Fight",
                                 "hosted_item": "sinspawngui1",
                                 "item_count": 1,

@@ -12,7 +12,12 @@
                     "$hasBaaj, klikk, besaiddestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere", 
                     "{$hasBaaj, flint:1, witheredbouquet:1}"
                 ],
-                "sections": [{}]
+                "sections": [
+                    {
+                        "hosted_item": "baajcloister",
+                        "clear_as_group": true
+                    }
+                ]
             },
             {
                 "name": "Bahamut",
@@ -55,7 +60,7 @@
             },
             {
                 "name": "Shiva",
-                "access_rules": ["$hasBesaid"],
+                "access_rules": ["crawler", "{$hasMacalania}"],
                 "sections": [
                     {
                         "hosted_item": "macalaniacloister",

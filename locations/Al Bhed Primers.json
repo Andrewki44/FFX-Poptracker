@@ -82,7 +82,39 @@
                 "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
                 "access_rules": ["$hasGuadosalam"],
                 "sections": [{}]
-            }
+            },
+            {
+                "name": "Al Bhed Primer XIV",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "sections": [
+                    {"name": "Thunder Plains", "access_rules": ["$hasThunderPlains"]},
+                    {"name": "Bikanel", "access_rules": ["$hasBikanel"]}
+                ]
+            },
+            {
+                "name": "Al Bhed Primer XV",
+                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                "access_rules": ["$hasMacalania"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XVI",
+                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                "access_rules": ["$hasMacalania, spherimorph", "{$hasMacalania}"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XVII",
+                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                "access_rules": ["$hasBikanel"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XVIII",
+                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                "access_rules": ["$hasBikanel"],
+                "sections": [{}]
+            },
         ]
     }
 ]

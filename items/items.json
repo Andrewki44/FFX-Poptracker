@@ -822,7 +822,7 @@
     {
         "name": "Sun Crest",
         "type": "toggle",
-        "img": "images/items/suncrest.png",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -7504,7 +7504,7 @@
     {
         "name": "Weapon (Tidus): Caladbolg",
         "type": "toggle",
-        "img": "images/items/weapon(tidus):caladbolg.png",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -8504,7 +8504,7 @@
     {
         "name": "Sun Sigil",
         "type": "toggle",
-        "img": "images/items/sunsigil.png",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -11574,7 +11574,7 @@
     {
         "name": "Celestial Mirror",
         "type": "toggle",
-        "img": "images/items/celestialmirror.png",
+        "img": "images/items/hd/Support_use_item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,

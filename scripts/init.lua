@@ -10,6 +10,7 @@ require("scripts/items_import")
 require("scripts/logic/core")
 require("scripts/logic/regions")
 require("scripts/logic/party_members")
+require("scripts/logic/celestial")
 
 -- Maps
 if Tracker.ActiveVariantUID == "maps-u" then

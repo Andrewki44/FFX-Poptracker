@@ -1,4 +1,5 @@
 [
+    //Bosses
     {
         "name": "Klikk Defeated",
         "type": "toggle",
@@ -14,15 +15,23 @@
         "codes": "chocoboeater"
     },
     {
-        "name": "Sinspawn Gui 1 Defeated",
+        "name": "Sinspawn Gui - First Fight Defeated",
         "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sinspawngui1"
     },
     {
-        "name": "Sinspawn Gui Defeated",
+        "name": "Sinspawn Gui - Second Fight Defeated",
         "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sinspawngui"
@@ -34,7 +43,223 @@
         "initial_active_state": false,
         "codes": "extractor"
     },
+    {
+        "name": "Spherimorph Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "spherimorph"
+    },
+    {
+        "name": "Crawler Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "crawler"
+    },
+    {
+        "name": "Seymour & Anima Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "seymouranima"
+    },
+    {
+        "name": "Wendigo",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "wendigo"
+    },
+    
+    //Overdrives
+    {
+        "name": "Attack Reels",
+        "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "attackreels"
+    },
+    {
+        "name": "Status Reels",
+        "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "statusreels"
+    },
+    {
+        "name": "Auroch Reels",
+        "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "aurochreels"
+    },
 
+    //Minigames
+    {
+        "name": "Chocobo Catcher",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "chocobocatcher"
+    },
+    {
+        "name": "Lightning Dodging 5x - X-Potion x2",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning5"
+    },
+    {
+        "name": "Lightning Dodging 10x - Mega-Potion x2",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning10"
+    },
+    {
+        "name": "Lightning Dodging 20x - MP Sphere x2",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning20"
+    },
+    {
+        "name": "Lightning Dodging 50x - Strength Sphere x3",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning50"
+    },
+    {
+        "name": "Lightning Dodging 100x - HP Sphere x3",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning100"
+    },
+    {
+        "name": "Lightning Dodging 150x - Megalixir x4",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning150"
+    },
+    {
+        "name": "Lightning Dodging 200x - Venus Sigil",
+        "type": "toggle",
+        "img": "images/party/weapon/Doll_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Doll.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lightning200"
+    },
+
+    //Cloisters
+    {
+        "name": "Baaj Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Anima_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Anima.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "baajcloister"
+    },
+    {
+        "name": "Besaid Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Valefor_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Valefor.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "besaidcloister"
+    },
+    {
+        "name": "Bevelle Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Bahamut_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Bahamut.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "bevellecloister"
+    },
+    {
+        "name": "Djose Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Ixion_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Ixion.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "djosecloister"
+    },
+    {
+        "name": "Kilika Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Ifrit_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Ifrit.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "kilikacloister"
+    },
+    {
+        "name": "Macalania Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Shiva_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Shiva.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "macalaniacloister"
+    },
+    {
+        "name": "Zanarkand Cloister Complete",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "zanarkandcloister"
+    },
+
+    //Destruction Spheres
     {
         "name": "Besaid Destruction Sphere",
         "type": "toggle",
@@ -102,99 +327,184 @@
         "codes": "zanarkanddestructionsphere"
     },
 
+    //Celestial Upgrades
     {
-        "name": "Attack Reels",
+        "name": "Caladbolg - Crest Upgrade",
         "type": "toggle",
-        "img": "images/items/hd/Support_use_item_HD.png",
+        "img": "images/party/weapon/Sword_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Sword.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "attackreels"
+        "codes": "caladbolgcrest"
     },
     {
-        "name": "Status Reels",
+        "name": "Caladbolg - Sigil Upgrade",
         "type": "toggle",
-        "img": "images/items/hd/Support_use_item_HD.png",
+        "img": "images/party/weapon/Sword_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Sword.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "statusreels"
+        "codes": "caladbolgsigil"
     },
     {
-        "name": "Auroch Reels",
+        "name": "Godhand - Crest Upgrade",
         "type": "toggle",
-        "img": "images/items/hd/Support_use_item_HD.png",
+        "img": "images/party/weapon/Claw_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Claw.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "aurochreels"
+        "codes": "godhandcrest"
+    },
+    {
+        "name": "Godhand - Sigil Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Claw_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Claw.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "godhandsigil"
+    },
+    {
+        "name": "Masamune - Crest Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Rod_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Rod.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "masamunecrest"
+    },
+    {
+        "name": "Masamune - Sigil Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Rod_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Rod.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "masamunesigil"
+    },
+    {
+        "name": "Nirvana - Crest Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Rod_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Rod.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "nirvanacrest"
+    },
+    {
+        "name": "Nirvana - Sigil Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Rod_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Rod.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "nirvanasigil"
+    },
+    {
+        "name": "Onion Knight - Crest Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Doll_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Doll.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "onionknightcrest"
+    },
+    {
+        "name": "Onion Knight - Sigil Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Doll_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Doll.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "onionknightsigil"
+    },
+    {
+        "name": "Spirit Lance - Crest Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Spear_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Spear.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "spiritlancecrest"
+    },
+    {
+        "name": "Spirit Lance - Sigil Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Spear_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Spear.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "spiritlancesigil"
+    },
+    
+    {
+        "name": "World Champion - Crest Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Blitzball_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Blitzball.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "worldchampioncrest"
+    },
+    {
+        "name": "World Champion - Sigil Upgrade",
+        "type": "toggle",
+        "img": "images/party/weapon/Blitzball_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/weapon/Blitzball.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "worldchampionsigil"
     },
 
+    //misc
     {
-        "name": "Chocobo Catcher",
+        "name": "Al Bhed Potion x8 (Chest 1)",
         "type": "toggle",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "chocobocatcher"
-    },
-
-    {
-        "name": "Besaid Cloister Complete",
-        "type": "toggle",
-        "img": "images/party/aeons/Valefor_BW.png",
+        "img": "images/TreasureBW.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Valefor.png",
+        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "besaidcloister"
+        "codes": "albhedpotionx8-1"
     },
     {
-        "name": "Bevelle Cloister Complete",
+        "name": "Al Bhed Potion x8 (Chest 2)",
         "type": "toggle",
-        "img": "images/party/aeons/Bahamut_BW.png",
+        "img": "images/TreasureBW.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Bahamut.png",
+        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
-        "codes": "bevellecloister"
-    },
-    {
-        "name": "Djose Cloister Complete",
-        "type": "toggle",
-        "img": "images/party/aeons/Ixion_BW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Ixion.png",
-        "disabled_img_mods": "",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "djosecloister"
-    },
-    {
-        "name": "Kilika Cloister Complete",
-        "type": "toggle",
-        "img": "images/party/aeons/Ifrit_BW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Ifrit.png",
-        "disabled_img_mods": "",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "kilikacloister"
-    },
-    {
-        "name": "Macalania Cloister Complete",
-        "type": "toggle",
-        "img": "images/party/aeons/Shiva_BW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Shiva.png",
-        "disabled_img_mods": "",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "macalaniacloister"
-    },
-    {
-        "name": "Zanarkand Cloister Complete",
-        "type": "toggle",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "zanarkandcloister"
+        "codes": "albhedpotionx8-2"
     }
 ]
