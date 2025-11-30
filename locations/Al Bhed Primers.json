@@ -145,6 +145,24 @@
                 "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
                 "access_rules": ["$hasBikanel"],
                 "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XXII",
+                "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
+                "access_rules": ["$hasBevelle"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XXIII",
+                "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
+                "access_rules": ["$hasCalmLands"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XXIV",
+                "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
+                "access_rules": ["$hasCalmLands"],
+                "sections": [{}]
             }
         ]
     }

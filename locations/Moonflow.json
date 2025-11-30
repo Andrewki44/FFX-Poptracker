@@ -42,6 +42,7 @@
                     {
                         "name": "Extractor",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
+                        "access_rules": ["[$hasSwimmers|2]"],
                         "sections": [
                             {
                                 "hosted_item": "extractor",

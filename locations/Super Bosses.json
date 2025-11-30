@@ -94,9 +94,10 @@
             {
                 "name": "Dark Valefor",
                 "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
-                "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
+                "access_rules": ["$hasBesaid, besaidcloister"],
                 "sections": [
                     {
+                        "access_rules": ["[$hasYuna]"],
                         "hosted_item": "darkvalefor",
                         "item_count": 1,
                         "clear_as_group": true

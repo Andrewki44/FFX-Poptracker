@@ -59,7 +59,6 @@
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                         "sections": [
                             { 
-                                "access_rules": ["flint:1, witheredbouquet:1"],
                                 "hosted_item": "klikk",
                                 "item_count": 1,
                                 "clear_as_group": true
@@ -70,14 +69,12 @@
             },
             {
                 "name": "Temple",
-                "access_rules": [
-                    "klikk",
-                    "{flint:1, witheredbouquet:1}"
-                ],
+                "access_rules": ["klikk"],
                 "children": [
                     {
                         "name": "Geosgaeno",
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
+                        "access_rules": ["[$hasSwimmers|3]"],
                         "sections": [
                             { 
                                 "hosted_item": "geosgaeno",
@@ -88,13 +85,13 @@
                     },
                     {
                         "name": "Megalixir (Chest)",
-                        "access_rules": ["geosgaeno", "{klikk}", "{flint:1, witheredbouquet:1}"],
+                        "access_rules": ["geosgaeno", "{klikk}"],
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                         "sections": [{}]
                     },
                     {
                         "name": "Mega Phoenix x4 (Chest)",
-                        "access_rules": ["geosgaeno", "{klikk}", "{flint:1, witheredbouquet:1}"],
+                        "access_rules": ["geosgaeno", "{klikk}"],
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                         "sections": [{}]
                     }

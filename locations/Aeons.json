@@ -57,7 +57,13 @@
                     "$hasCalmLands, flowerscepter, blossomcrown",
                     "{$hasCalmLands}"
                 ],
-                "sections": [{}]
+                "sections": 
+                [
+                    {
+                        "hosted_item": "remiemcloister",
+                        "clear_as_group": true
+                    }
+                ]
             },
             {
                 "name": "Shiva",
@@ -83,7 +89,12 @@
                 "name": "Yojimbo",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
                 "access_rules": ["$hasCavern"],
-                "sections": [{}]
+                "sections": [
+                    {
+                        "hosted_item": "caverncloister",
+                        "clear_as_group": true
+                    }
+                ]
             }
         ]
     }

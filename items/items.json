@@ -3602,7 +3602,7 @@
     {
         "name": "Cloudy Mirror",
         "type": "toggle",
-        "img": "images/items/cloudymirror.png",
+        "img": "images/items/hd/Key_Item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -9724,7 +9724,7 @@
     {
         "name": "Blossom Crown",
         "type": "toggle",
-        "img": "images/items/blossomcrown.png",
+        "img": "images/items/hd/Key_Item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -11574,7 +11574,7 @@
     {
         "name": "Celestial Mirror",
         "type": "toggle",
-        "img": "images/items/hd/Support_use_item_HD.png",
+        "img": "images/items/hd/Key_Item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,

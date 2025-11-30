@@ -220,11 +220,8 @@
                     {
                         "name": "Caladbolg",
                         "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                        "access_rules": [
-                            "$hasCalmLands, celestialmirror, chocobocatcher",
-                            "{$hasCalmLands}"
-                        ],
-                        "sections": [{}]
+                        "access_rules": ["$hasCalmLands, celestialmirror, chocobocatcher"],
+                        "sections": [{"access_rules": ["[minigames]"]}]
                     },
                     {
                         "name": "Sun Crest (Chest)",
@@ -235,7 +232,7 @@
                     {
                         "name": "Sun Sigil (Chocobo Catcher 0:00)",
                         "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands, [minigames]"],
+                        "access_rules": ["$hasCalmLands, chocobocatcher, [minigames]"],
                         "sections": [{}]
                     },
                     {
@@ -347,7 +344,10 @@
                     {
                         "name": "Moon Sigil (Send Belgemine)",
                         "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands, $hasYuna, $hasAllAeons", "{$hasCalmLands}"],
+                        "access_rules": [
+                            "$hasCalmLands, $hasYuna, $hasAllAeons, belgeminevalefor, belgemineifrit, belgemineixion, belgemineshiva, belgeminebahamut, belgemineyojimbo, belgemineanima, belgeminemagus", 
+                            "{$hasCalmLands, $hasYuna, $hasAllAeons}"
+                        ],
                         "sections": [{}]
                     },
                     {
@@ -380,7 +380,7 @@
             {
                 "name": "Cloudy Mirror (Chocobo Race)",
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
-                "access_rules": ["$hasCalmLands"],
+                "access_rules": ["$hasCalmLands, [minigames]"],
                 "sections": [{}]
             },
             {
@@ -392,7 +392,7 @@
             {
                 "name": "Rusty Sword",
                 "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                "access_rules": ["$hasCalmLands", "{$hasCalmLands}"],
+                "access_rules": ["$hasCalmLands, defenderx", "{$hasCalmLands}"],
                 "sections": [{}]
             }
         ]

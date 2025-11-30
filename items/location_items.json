@@ -113,6 +113,34 @@
         "initial_active_state": false,
         "codes": "sinoverdrive"
     },
+    {
+        "name": "Isaaru",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "isaaru"
+    },
+    {
+        "name": "Evrae Altana",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "evraealtana"
+    },
+    {
+        "name": "Seymour Natus",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "seymournatus"
+    },
+    {
+        "name": "Defender X",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "defenderx"
+    },
     
     //Dark Aeons
     {
@@ -184,6 +212,64 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "darkyojimbo"
+    },
+
+    //Belgemine
+    {
+        "name": "Belgemine Valefor",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgeminevalefor"
+    },
+    {
+        "name": "Belgemine Ifrit",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgemineifrit"
+    },
+    {
+        "name": "Belgemine Ixion",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgemineixion"
+    },
+    {
+        "name": "Belgemine Shiva",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgemineshiva"
+    },
+    {
+        "name": "Belgemine Bahamut",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgeminebahamut"
+    },
+    {
+        "name": "Belgemine Yojimbo",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgemineyojimbo"
+    },
+    {
+        "name": "Belgemine Anima",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgemineanima"
+    },
+    {
+        "name": "Belgemine Magus Sisters",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "belgeminemagus"
     },
     
     //Overdrives
@@ -333,6 +419,17 @@
         "codes": "bevellecloister"
     },
     {
+        "name": "Cavern Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Yojimbo_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Yojimbo.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "caverncloister"
+    },
+    {
         "name": "Djose Cloister Complete",
         "type": "toggle",
         "img": "images/party/aeons/Ixion_BW.png",
@@ -364,6 +461,17 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "macalaniacloister"
+    },
+    {
+        "name": "Remiem Cloister Complete",
+        "type": "toggle",
+        "img": "images/party/aeons/Magus Sisters_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Magus Sisters.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "remiemcloister"
     },
     {
         "name": "Zanarkand Cloister Complete",

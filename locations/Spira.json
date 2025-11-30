@@ -887,7 +887,7 @@
             },
             {
                 "name": "Celestial Flower",
-                "map_locations": [{ "map": "Spira", "x": 1085, "y": 326, "size": 24}],
+                "map_locations": [{ "map": "Spira", "x": 1085, "y": 326, "size": 24, "shape": "diamond"}],
                 "sections": [
                     {
                         "name": "Celestial Mirror",
@@ -1131,9 +1131,198 @@
             },
             {
                 "name": "Bevelle",
-                "map_locations": [{ "map": "Spira", "x": 740, "y": 500, "size": 32}],
+                "map_locations": [{ "map": "Spira", "x": 1047, "y": 273, "size": 32}],
                 "sections": [
-
+                    {
+                        "name": "Cloister - Al Bhed Primer XXII",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXII/"
+                    },
+                    {
+                        "name": "Cloister - HP Sphere",
+                        "ref": "Bevelle/Cloister/Destruction Sphere/HP Sphere"
+                    },
+                    {
+                        "name": "Cloister - Knight Lance (Chest)",
+                        "ref": "Bevelle/Cloister/Knight Lance (Chest)/"
+                    },
+                    {
+                        "name": "Cloister - Bahamut",
+                        "ref": "Aeons/Bahamut/"
+                    },
+                    {
+                        "name": "Via Purifico - Mega-Potion x1 (Chest)",
+                        "ref": "Bevelle/Via Purifico/Mega-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - Wht Magic Sphere x1 (Chest)",
+                        "ref": "Bevelle/Via Purifico/Wht Magic Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - Elixir x1 (Chest)",
+                        "ref": "Bevelle/Via Purifico/Elixir x1 (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - Blk Magic Sphere (Chest)",
+                        "ref": "Bevelle/Via Purifico/Blk Magic Sphere (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - Skill Sphere x1 (Chest)",
+                        "ref": "Bevelle/Via Purifico/Skill Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - 10000 gil (Chest)",
+                        "ref": "Bevelle/Via Purifico/10000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - Lucid Ring (Chest)",
+                        "ref": "Bevelle/Via Purifico/Lucid Ring (Chest)/"
+                    },
+                    {
+                        "name": "Via Purifico - Isaaru",
+                        "ref": "Bevelle/Via Purifico/Isaaru/"
+                    },
+                    {
+                        "name": "Underwater - Evrae Altana",
+                        "ref": "Bevelle/Underwater/Evrae Altana/"
+                    },
+                    {
+                        "name": "Underwater - Rematch (Chest)",
+                        "ref": "Bevelle/Underwater/Rematch (Chest)/"
+                    },
+                    {
+                        "name": "Underwater - Avenger (Chest)",
+                        "ref": "Bevelle/Underwater/Avenger (Chest)/"
+                    },
+                    {
+                        "name": "Highbridge - Seymour Natus",
+                        "ref": "Bevelle/Highbridge/Seymour Natus/"
+                    }
+                ]
+            },
+            {
+                "name": "Calm Lands",
+                "map_locations": [{ "map": "Spira", "x": 1010, "y": 207, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Plains - 5000 gil (Chest)",
+                        "ref": "Calm Lands/Plains/5000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Plains - 10000 gil (Chest)",
+                        "ref": "Calm Lands/Plains/10000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Plains - Lv. 2 Key Sphere x1 (Chest)",
+                        "ref": "Calm Lands/Plains/Lv. 2 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Plains - Al Bhed Primer XXIII",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXIII/"
+                    },
+                    {
+                        "name": "Plains - Defender X",
+                        "ref": "Calm Lands/Plains/Defender X/"
+                    },
+                    {
+                        "name": "Plains - Rusty Sword",
+                        "ref": "Celestial/Rusty Sword/"
+                    },
+                    {
+                        "name": "Chocobo - Wobbly Chocobo Minigame Reward",
+                        "ref": "Calm Lands/Chocobo/Wobbly Chocobo Minigame Reward/"
+                    },
+                    {
+                        "name": "Chocobo - Dodger Chocobo Minigame Reward",
+                        "ref": "Calm Lands/Chocobo/Dodger Chocobo Minigame Reward/"
+                    },
+                    {
+                        "name": "Chocobo - Hyper Dodger Chocobo Minigame Reward",
+                        "ref": "Calm Lands/Chocobo/Hyper Dodger Chocobo Minigame Reward/"
+                    },
+                    {
+                        "name": "Chocobo - Catcher Chocobo Minigame Reward",
+                        "ref": "Calm Lands/Chocobo/Catcher Chocobo Minigame Reward/"
+                    },
+                    {
+                        "name": "Chocobo - Sun Sigil (Chocobo Catcher 0:00)",
+                        "ref": "Celestial/Tidus/Sun Sigil (Chocobo Catcher 0:00)/"
+                    },
+                    {
+                        "name": "Plains - Caladbolg",
+                        "ref": "Celestial/Tidus/Caladbolg/"
+                    }
+                ]
+            },
+            {
+                "name": "Remiem Temple",
+                "map_locations": [{ "map": "Spira", "x": 1087, "y": 207, "size": 24}],
+                "sections": [
+                    {
+                        "name": "Al Bhed Primer XXIV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXIV/"
+                    },
+                    {
+                        "name": "Cloudy Mirror (Chocobo Race)",
+                        "ref": "Celestial/Cloudy Mirror (Chocobo Race)/"
+                    },
+                    {
+                        "name": "Belgemine - Valefor Fight",
+                        "ref": "Remiem Temple/Belgemine/Valefor Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Ifrit Fight",
+                        "ref": "Remiem Temple/Belgemine/Ifrit Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Ixion Fight",
+                        "ref": "Remiem Temple/Belgemine/Ixion Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Shiva Fight",
+                        "ref": "Remiem Temple/Belgemine/Shiva Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Bahamut Fight (Flower Scepter)",
+                        "ref": "Remiem Temple/Belgemine/Bahamut Fight (Flower Scepter)/"
+                    },
+                    {
+                        "name": "Belgemine - Yojimbo Fight",
+                        "ref": "Remiem Temple/Belgemine/Yojimbo Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Anima Fight",
+                        "ref": "Remiem Temple/Belgemine/Anima Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Magus Sisters Fight",
+                        "ref": "Remiem Temple/Belgemine/Magus Sisters Fight/"
+                    },
+                    {
+                        "name": "Belgemine - Moon Sigil (Send Belgemine)",
+                        "ref": "Celestial/Yuna/Moon Sigil (Send Belgemine)/"
+                    },
+                    {
+                        "name": "Cloister - Magus Sisters",
+                        "ref": "Aeons/Magus Sisters/"
+                    }
+                ]
+            },
+            {
+                "name": "Monster Arena",
+                "map_locations": [{ "map": "Spira", "x": 1050, "y": 207, "size": 24, "shape": "diamond"}],
+                "sections": [
+                    {
+                        "name": "Area Conquest (Calm Lands) - Nirvana",
+                        "ref": "Celestial/Yuna/Nirvana/"
+                    },
+                    {
+                        "name": "Area Conquest (Mt. Gagazet) - Blossom Crown",
+                        "ref": "Monster Arena/Area Conquest/Blossom Crown/"
+                    },
+                    {
+                        "name": "Monster Creations x10 - Mars Sigil",
+                        "ref": "Celestial/Auron/Mars Sigil (10x Creations)/"
+                    }
                 ]
             }
         ]
