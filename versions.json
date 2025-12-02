@@ -1,9 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.0.2",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/Release/FFX.zip",
+            "sha256": "sha256:0792b50991e15cd126100691c58639420b9fd5b9b62f08cff2d60dcdb028e5f5",
+            "changelog": [
+                " - Auto Updating"
+            ]
+        },
+        {
             "package_version": "0.0.1",
-            "download_url": "",
-            "sha256": "",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/Release/FFX.zip",
+            "sha256": "sha256:0792b50991e15cd126100691c58639420b9fd5b9b62f08cff2d60dcdb028e5f5",
             "changelog": [
                 " - Initial release for testing",
                 " - World Map only"

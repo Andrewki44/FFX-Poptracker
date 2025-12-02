@@ -1,7 +1,7 @@
 {
     "name": "Final Fantasy X",
     "game_name": "Final Fantasy X",
-    "package_version": "0.0.1",
+    "package_version": "0.0.2",
     "package_uid": "final_fantasy_X_andrewki",
     "author": "Andrewki",
     "variants": {
@@ -12,5 +12,6 @@
             ]
         }
     },
-    "min_poptracker_version": "0.31.0"
+    "min_poptracker_version": "0.31.0",
+    "versions_url": "https://raw.githubusercontent.com/Andrewki44/FFX-Poptracker/refs/heads/master/versions.json"
 }
