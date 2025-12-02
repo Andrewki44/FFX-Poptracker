@@ -3,7 +3,7 @@
         {
             "package_version": "0.1.1",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.1/FFX.zip",
-            "sha256": "",
+            "sha256": "5bd87dc89abf714c703ef60757d35730420135d2393d0b57932df1ef542527d3",
             "changelog": [
                 " - Seymour Omnis & Natus locations fixed",
                 " - Celestial Weapon item mapping fixed",
