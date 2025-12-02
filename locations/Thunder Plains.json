@@ -47,6 +47,42 @@
                             {
                                 "hosted_item": "lightning5, lightning10, lightning20, lightning50, lightning100, lightning150, lightning200",
                                 "clear_as_group": false
+                            },
+                            {
+                                "name": "X-Potion x2 (5x Dodges)",
+                                "hosted_item": "lightning5",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Mega-Potion x2 (10x Dodges)",
+                                "hosted_item": "lightning10",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "MP Sphere x2 (20x Dodges)",
+                                "hosted_item": "lightning20",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Strength Sphere x3 (50x Dodges)",
+                                "hosted_item": "lightning50",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "HP Sphere x3 (100x Dodges)",
+                                "hosted_item": "lightning100",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Megalixir x4 (150x Dodges)",
+                                "hosted_item": "lightning150",
+                                "item_count": 1,
+                                "clear_as_group": true
                             }
                         ]
                     }

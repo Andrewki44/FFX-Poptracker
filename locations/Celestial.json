@@ -133,7 +133,12 @@
                         "name": "Venus Sigil (Lightning Dodging)",
                         "map_locations": [{ "map": "Thunder Plains Agency", "x": 0, "y": 0}],
                         "access_rules": ["$hasThunderPlains, [minigames]"],
-                        "sections": [{}]
+                        "sections": [
+                            {
+                                "hosted_item": "lightning200",
+                                "clear_as_group": true
+                            }
+                        ]
                     },
                     {
                         "name": "Onion Knight Upgrade",

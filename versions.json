@@ -9,6 +9,15 @@
             ]
         },
         {
+            "package_version": "0.1.4",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.4/FFX.zip",
+            "sha256": "836e29db998804985d71429db31d6e36abc5c1e2dceaf088fcda3388f99edb47",
+            "changelog": [
+                " - Fixed Brotherhood Upgrade location mapping",
+                " - Fixed Lightning Dodging location mappings"
+            ]
+        },
+        {
             "package_version": "0.1.3",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.3/FFX.zip",
             "sha256": "f8a9f874c70a64763abab003bd9653cf6bd6248e0c8587c4c662b719ed2360e4",
