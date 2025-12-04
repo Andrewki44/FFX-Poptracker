@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.9",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.9/FFX.zip",
+            "sha256": "ac261a6bc1da2224aed0915b82d1fd2d597c17eec4d012203cf7ce9928b09f17",
+            "changelog": [
+                " - Fixed various malformed references on the world map"
+            ]
+        },
+        {
             "package_version": "0.1.8",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.8/FFX.zip",
             "sha256": "6aad9a97ac67eaecf5fdb2538780d36839afe9a2f18c69d61207ff3367afbbfb",

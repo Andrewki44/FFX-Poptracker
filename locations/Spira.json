@@ -295,7 +295,7 @@
                     },
                     {
                         "name": "Dock - Magic Sphere x1 (Chest)",
-                        "ref": "Magic Sphere x1 (Chest)/"
+                        "ref": "Luca/Dock/Magic Sphere x1 (Chest)/"
                     },
                     {
                         "name": "Dock - Oblitzerator",
@@ -1355,7 +1355,7 @@
                     },
                     {
                         "name": "X-Potion x2 (Chest)",
-                        "ref": "Cavern of the Stolen Fayth/X/"
+                        "ref": "Cavern of the Stolen Fayth/X-Potion x2 (Chest)/"
                     },
                     // {
                     //     "name": "Cloister - Yojimbo",
@@ -1401,7 +1401,7 @@
                     },
                     {
                         "name": "Outside - Saturn Crest (Chest)",
-                        "ref": "Celestial/Saturn Crest (Chest)/"
+                        "ref": "Celestial/Kimahri/Saturn Crest (Chest)/"
                     },
                     {
                         "name": "Inside - Lv. 1 Key Sphere x1 (Chest)",
