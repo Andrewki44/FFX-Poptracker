@@ -12,5 +12,15 @@
         "img": "images/items/hd/Support_use_item_HD.png",
         "initial_active_state": false,
         "codes": "minigames"
+    },
+    {
+        "name": "Logic Difficulty",
+        "type": "consumable",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "min_quantity": 1,
+        "max_quantity": 10,
+        "increment": 1,
+        "initial_quantity": 3,
+        "codes": "logicdifficulty"
     }
 ]

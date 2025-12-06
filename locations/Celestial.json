@@ -13,25 +13,25 @@
                     {
                         "name": "Masamune",
                         "map_locations": [{ "map": "Mushroom Rock Road Aftermath", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMRR, sinspawngui, celestialmirror, rustysword"],
+                        "access_rules": ["@Mushroom Rock Road/Aftermath, celestialmirror, rustysword"],
                         "sections": [{}]
                     },
                     {
                         "name": "Mars Crest (Chest)",
                         "map_locations": [{ "map": "Miihen Highroad North", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMiihen, chocoboeater"],
+                        "access_rules": ["@Miihen Highroad/North"],
                         "sections": [{}]
                     },
                     {
                         "name": "Mars Sigil (10x Creations)",
                         "map_locations": [{ "map": "Monster Arena", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands"],
+                        "access_rules": ["@Calm Lands"],
                         "sections": [{}]
                     },
                     {
                         "name": "Masamune Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasMasamune"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasMasamune"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -57,25 +57,25 @@
                     {
                         "name": "Spirit Lance",
                         "map_locations": [{ "map": "Thunder Plains South", "x": 0, "y": 0}],
-                        "access_rules": ["$hasThunderPlains"],
+                        "access_rules": ["@Thunder Plains"],
                         "sections": [{}]
                     },
                     {
                         "name": "Saturn Crest (Chest)",
                         "map_locations": [{ "map": "Mt. Gagazet Outside", "x": 0, "y": 0}],
-                        "access_rules": ["$hasGagazet, seymourflux"],
+                        "access_rules": ["@Mt. Gagazet, seymourflux"],
                         "sections": [{}]
                     },
                     {
                         "name": "Saturn Sigil (Butterfly Hunt)",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, [minigames]"],
+                        "access_rules": ["@Macalania, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "Spirit Lance Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasSpiritLance"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasSpiritLance"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -101,19 +101,19 @@
                     {
                         "name": "Onion Knight (Chest)",
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
-                        "access_rules": ["$hasBaaj, geosgaeno, celestialmirror"],
+                        "access_rules": ["@Baaj Temple/Temple, geosgaeno, celestialmirror"],
                         "sections": [{}]
                     },
                     {
                         "name": "Venus Crest (Chest)",
                         "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
-                        "access_rules": ["$hasGuadosalam"],
+                        "access_rules": ["@Guadosalam/Farplane"],
                         "sections": [{}]
                     },
                     {
                         "name": "Venus Sigil (Lightning Dodging)",
                         "map_locations": [{ "map": "Thunder Plains Agency", "x": 0, "y": 0}],
-                        "access_rules": ["$hasThunderPlains, [minigames]"],
+                        "access_rules": ["@Thunder Plains, [minigames]"],
                         "sections": [
                             {
                                 "hosted_item": "lightning200",
@@ -124,7 +124,7 @@
                     {
                         "name": "Onion Knight Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasOnionKnight"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasOnionKnight"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -150,25 +150,25 @@
                     {
                         "name": "Godhand",
                         "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                        "access_rules": ["$hasAirship"],
+                        "access_rules": ["@Airship"],
                         "sections": [{}]
                     },
                     {
                         "name": "Mercury Crest (Chest)",
                         "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                        "access_rules": ["$hasBikanel"],
+                        "access_rules": ["@Bikanel/Desert"],
                         "sections": [{}]
                     },
                     {
                         "name": "Mercury Sigil (Cactuar Village)",
                         "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                        "access_rules": ["$hasBikanel, [minigames]"],
+                        "access_rules": ["@Bikanel/Desert, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "Godhand Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasGodhand"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasGodhand"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -194,37 +194,37 @@
                     {
                         "name": "Caladbolg",
                         "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands, celestialmirror, chocobocatcher, [minigames]"],
+                        "access_rules": ["@Calm Lands, celestialmirror, chocobocatcher, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "Sun Crest (Chest)",
                         "map_locations": [{ "map": "Zanarkand Dome", "x": 0, "y": 0}],
-                        "access_rules": ["$hasZanarkand, yunalesca"],
+                        "access_rules": ["@Zanarkand/Cloister, yunalesca"],
                         "sections": [{}]
                     },
                     {
                         "name": "Sun Sigil (Chocobo Catcher 0:00)",
                         "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands, chocobocatcher, [minigames]"],
+                        "access_rules": ["@Calm Lands, chocobocatcher, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "Brotherhood",
                         "map_locations": [{ "map": "Besaid", "x": 0, "y": 0}],
-                        "access_rules": ["$hasBesaid"],
+                        "access_rules": ["@Besaid/Village"],
                         "sections": [{}]
                     },
                     {
                         "name": "Brotherhood Upgrade",
                         "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
-                        "access_rules": ["$hasGuadosalam"],
+                        "access_rules": ["@Guadosalam/Farplane"],
                         "sections": [{}]
                     },
                     {
                         "name": "Caladbolg Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasCaladbolg"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasCaladbolg"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -250,25 +250,25 @@
                     {
                         "name": "World Champion",
                         "map_locations": [{ "map": "Luca City", "x": 0, "y": 0}],
-                        "access_rules": ["$hasLuca, oblitzerator, [minigames]"],
+                        "access_rules": ["@Luca/City, oblitzerator, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "Jupiter Crest (Locker)",
                         "map_locations": [{ "map": "Luca Stacium", "x": 0, "y": 0}],
-                        "access_rules": ["$hasLuca, oblitzerator"],
+                        "access_rules": ["@Luca/Stadium, oblitzerator"],
                         "sections": [{}]
                     },
                     {
                         "name": "Jupiter Sigil (Blitzball League)",
                         "map_locations": [{ "map": "Luca Stadium", "x": 0, "y": 0}],
-                        "access_rules": ["$hasLuca, oblitzerator, attackreels, statusreels, aurochreels, [minigames]"],
+                        "access_rules": ["@Luca, oblitzerator, attackreels, statusreels, aurochreels, [minigames]"],
                         "sections": [{}]
                     },
                     {
                         "name": "World Champion Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasWorldChampion"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasWorldChampion"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -294,25 +294,25 @@
                     {
                         "name": "Nirvana",
                         "map_locations": [{ "map": "Monster Arena", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands, celestialmirror"],
+                        "access_rules": ["@Calm Lands, celestialmirror"],
                         "sections": [{}]
                     },
                     {
                         "name": "Moon Crest (Chest)",
                         "map_locations": [{ "map": "Besaid Beach", "x": 193, "y": 540}],
-                        "access_rules": ["$hasBesaid"],
+                        "access_rules": ["@Besaid/Beach"],
                         "sections": [{}]
                     },
                     {
                         "name": "Moon Sigil (Send Belgemine)",
                         "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
-                        "access_rules": ["$hasCalmLands, $hasYuna, belgeminevalefor, belgemineifrit, belgemineixion, belgemineshiva, belgeminebahamut, belgemineyojimbo, belgemineanima, belgeminemagus"],
+                        "access_rules": ["@Remiem Temple, $hasYuna, belgeminevalefor, belgemineifrit, belgemineixion, belgemineshiva, belgeminebahamut, belgemineyojimbo, belgemineanima, belgeminemagus"],
                         "sections": [{}]
                     },
                     {
                         "name": "Nirvana Upgrade",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["$hasMacalania, celestialmirror, $hasNirvana"],
+                        "access_rules": ["@Macalania, celestialmirror, $hasNirvana"],
                         "sections": [
                             {
                                 "name": "Crest",
@@ -333,19 +333,19 @@
             {
                 "name": "Cloudy Mirror (Chocobo Race)",
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
-                "access_rules": ["$hasCalmLands, [minigames]"],
+                "access_rules": ["@Remiem Temple, [minigames]"],
                 "sections": [{}]
             },
             {
                 "name": "Celestial Mirror",
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
-                "access_rules": ["$hasMacalania, cloudymirror"],
+                "access_rules": ["@Macalania, cloudymirror"],
                 "sections": [{}]
             },
             {
                 "name": "Rusty Sword",
                 "map_locations": [{ "map": "Calm Lands", "x": 0, "y": 0}],
-                "access_rules": ["$hasCalmLands, defenderx"],
+                "access_rules": ["@Calm Lands, defenderx"],
                 "sections": [{}]
             }
         ]
