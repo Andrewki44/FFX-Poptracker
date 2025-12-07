@@ -170,8 +170,8 @@ function onClear(slot_data)
 end
 
 function onItem(index, item_id, item_name, player_number)
-    print(item_name)
-    print(item_id)
+    -- print(item_name)
+    -- print(item_id)
     
     if index <= CUR_INDEX then
         return

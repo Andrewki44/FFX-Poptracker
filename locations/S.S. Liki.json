@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["$hasBesaid, [$hasPartyMembers|3], [$hasSwimmers|2], [$hasWakka]"],
+        "access_rules": ["besaid, [$hasPartyMembers|3], [$hasSwimmers|2], [$hasWakka]"],
         "children": [
             {
                 "name": "Remedy x1 (Chest)",
@@ -30,7 +30,7 @@
             {
                 "name": "Friend Sphere x1 (Clasko NPC)",
                 "map_locations": [{ "map": "S.S Liki", "x": 0, "y": 0}],
-                "access_rules": ["$hasMacalania"],
+                "access_rules": ["macalania"],
                 "sections": [{}]
             }
         ]

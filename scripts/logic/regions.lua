@@ -1,143 +1,148 @@
 -- Region Logic
-function hasAirship()
-    return has("region:airship")
-end
-
-function hasBaaj()
-    return has("region:baajtemple")
-end
-
-function hasBesaid()
-    return has("region:besaid")
-end
-
-function hasBevelle()
-    return has("region:bevelle")
-end
-
-function hasBikanel()
-    return has("region:bikanel")
-end
-
-function hasCalmLands()
-    return has("region:calmlands")
-end
-
-function hasCavern()
-    return has("region:cavernofthestolenfayth")
-end
-
-function hasDjose()
-    return has("region:djose")
-end
-
-function hasGagazet()
-    return has("region:mt.gagazet")
-end
-
-function hasGuadosalam()
-    return has("region:guadosalam")
-end
-
-function hasKilika()
-    return has("region:kilika")
-end
-
-function hasLuca()
-    return has("region:luca")
-end
-
-function hasMacalania()
-    return has("region:macalania")
-end
-
-function hasMiihen()
-    return has("region:miihenhighroad")
-end
-
-function hasMoonflow()
-    return has("region:moonflow")
-end
-
-function hasMRR()
-    return has("region:mushroomrockroad")
-end
-
-function hasOmega()
-    return has("region:omegaruins")
-end
-
-function hasSin()
-    return has("region:sin")
-end
-
-function hasThunderPlains()
-    return has("region:thunderplains")
-end
-
-function hasZanarkand()
-    return has("region:zanarkandruins")
-end
-
 RegionDifficulty = {
-    ["Guadosalam"] = 1,
-    ["Baaj"] = 1,
-    ["Besaid"] = 2,
-    ["Kilika"] = 3,
-    ["Luca"] = 4,
-    ["Miihen"] = 5,
-    ["MushroomRock"] = 6,
-    ["Djose"] = 7,
-    ["Moonflow"] = 8,
-    ["ThunderPlains"] = 10,
-    ["Macalania"] = 11,
-    ["Bikanel"] = 12,
-    ["Airship"] = 13,
-    ["Bevelle"] = 13,
-    ["CalmLands"] = 14,
-    ["Cavern"] = 14,
-    ["Gagazet"] = 15,
-    ["Zanarkand"] = 16,
-    ["Sin"] = 17,
-    ["Omega"] = 18
+    ["guadosalam"] = 1,
+    ["baajtemple"] = 1,
+    ["besaid"] = 2,
+    ["kilika"] = 3,
+    ["luca"] = 4,
+    ["miihenhighroad"] = 5,
+    ["mushroomrockroad"] = 6,
+    ["djose"] = 7,
+    ["moonflow"] = 8,
+    ["thunderplains"] = 10,
+    ["macalania"] = 11,
+    ["bikanel"] = 12,
+    ["airship"] = 13,
+    ["bevelle"] = 13,
+    ["calmlands"] = 14,
+    ["cavernofthestolenfayth"] = 14,
+    ["gagazet"] = 15,
+    ["zanarkand"] = 16,
+    ["sin"] = 17,
+    ["omegaruins"] = 18
 }
--- RegionDifficulty = {
---     [1] = {"Guadosalam", "Baaj"},
---     [2] = {"Besaid"},
---     [3] = {"Kilika"},
---     [4] = {"Luca"},
---     [5] = {"Miihen"},
---     [6] = {"MushroomRock"},
---     [7] = {"Djose"},
---     [8] = {"Moonflow"},
---     [9] = {},
---     [10] = {"ThunderPlains"},
---     [11] = {"Macalania"},
---     [12] = {"Bikanel"},
---     [13] = {"Airship", "Bevelle"},
---     [14] = {"CalmLands", "Cavern"},
---     [15] = {"Gagazet"},
---     [16] = {"Zanarkand"},
---     [17] = {"Sin"},
---     [18] = {"Omega"}
--- }
-CurrentMaxDifficulty = 1
 
-function UpdateRegionLogic(Region)
-    print(CurrentMaxDifficulty)
-    print(Region)
-    CurrentMaxDifficulty = RegionDifficulty.Region
-    print(CurrentMaxDifficulty)
+-- RegionToLocation = {
+--     ["guadosalam"] = "Guadosalam",
+--     ["baajtemple"] = "Baaj Temple",
+--     ["besaid"] = "Besaid",
+--     ["kilika"] = "Kilika",
+--     ["luca"] = "Luca",
+--     ["miihenhighroad"] = "Miihen Highroad",
+--     ["mushroomrockroad"] = "Mushroom Rock Road",
+--     ["djose"] = "Djose",
+--     ["moonflow"] = "Moonflow",
+--     ["thunderplains"] = "Thunder Plains",
+--     ["macalania"] = "Macalania",
+--     ["bikanel"] = "Bikanel",
+--     ["airship"] = "Airship",
+--     ["bevelle"] = "Bevelle",
+--     ["calmlands"] = "Calm Lands",
+--     ["cavernofthestolenfayth"] = "Cavern of the Stolen Fayth",
+--     ["gagazet"] = "Mt. Gagazet",
+--     ["zanarkand"] = "Zanarkand",
+--     ["sin"] = "Inside Sin",
+--     ["omegaruins"] = "Omega Ruins"
+-- }
+
+RegionAccessibility = {
+    ["guadosalam"] = ACCESS_NORMAL,
+    ["baajtemple"] = ACCESS_NORMAL,
+    ["besaid"] = ACCESS_NORMAL,
+    ["kilika"] = ACCESS_NORMAL,
+    ["luca"] = ACCESS_NORMAL,
+    ["miihenhighroad"] = ACCESS_NONE,
+    ["mushroomrockroad"] = ACCESS_NONE,
+    ["djose"] = ACCESS_NONE,
+    ["moonflow"] = ACCESS_NONE,
+    ["thunderplains"] = ACCESS_NONE,
+    ["macalania"] = ACCESS_NONE,
+    ["bikanel"] = ACCESS_NONE,
+    ["airship"] = ACCESS_NONE,
+    ["bevelle"] = ACCESS_NONE,
+    ["calmlands"] = ACCESS_NONE,
+    ["cavernofthestolenfayth"] = ACCESS_NONE,
+    ["gagazet"] = ACCESS_NONE,
+    ["zanarkand"] = ACCESS_NONE,
+    ["sin"] = ACCESS_NONE,
+    ["omegaruins"] = ACCESS_NONE
+}
+
+RegionAccessRegions = {
+    ["guadosalam"] = {},
+    ["baajtemple"] = {},
+    ["besaid"] = {},
+    ["kilika"] = {},
+    ["luca"] = {},
+    ["miihenhighroad"] = {},
+    ["mushroomrockroad"] = {},
+    ["djose"] = {},
+    ["moonflow"] = {},
+    ["thunderplains"] = {},
+    ["macalania"] = {},
+    ["bikanel"] = {},
+    ["airship"] = {},
+    ["bevelle"] = {},
+    ["calmlands"] = {},
+    ["cavernofthestolenfayth"] = {},
+    ["gagazet"] = {},
+    ["zanarkand"] = {},
+    ["sin"] = {},
+    ["omegaruins"] = {}
+}
+
+function UpdateAccessRegions()
+    local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
+    
+    for region, level in pairs(RegionDifficulty) do
+        if (level > 5) then
+            for other_region, other_level in pairs(RegionDifficulty) do
+                if (level > other_level and other_level >= level - LogicDifficulty) then
+                    table.insert(RegionAccessRegions[region], other_region)
+                end
+            end
+        end
+    end
+
+    -- Print table
+    for region, value in pairs(RegionAccessRegions) do
+        for _, regions in ipairs(value) do
+            print(region .. " | " .. regions)
+        end
+    end
+
 end
 
-function CheckLogic(Region)
-    local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
+function CheckRegionLogic(Region)
+    print("ENTERING CHECK_REGION")
+    local level = RegionDifficulty[Region]
 
-    if (RegionDifficulty[Region] > CurrentMaxDifficulty) then
-        -- print(RegionDifficulty[Region])
+    if (level < 5 and has(Region)) then
+        --If region level < 5, always have access
+        return true
+    else
+        local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
+        
+        --Get list of regions within difficulty range of Region
+        local appropriate_level_regions = {}
+        for other_region, other_level in pairs(RegionDifficulty) do
+            if (level > other_level and other_level >= level - LogicDifficulty) then
+                table.insert(appropriate_level_regions, other_region)
+            end
+        end
+
+        -- Print regions in logic from region
+        for index, test in ipairs(appropriate_level_regions) do
+            print(test)
+        end
+
+        -- Return true if location in table is accessible 
+        for index, other_region in ipairs(appropriate_level_regions) do
+            -- if () then
+            --     return true
+            -- end
+            return ACCESS_SEQUENCEBREAK
+        end
+        return false
     end
 end
-
--- function CheckMax()
---     print()
--- end

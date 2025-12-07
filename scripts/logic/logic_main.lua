@@ -43,26 +43,26 @@
 --     --     -- print("start CanREach for", name)
 --     -- end
 --     local location
---     if stale then
---         stale = false
---         accessibilityCacheComplete = false
---         accessibilityCache = {}
---         indirectConnections = {}
---         while not accessibilityCacheComplete do
---             accessibilityCacheComplete = true
---             entry_point:discover(ACCESS_NORMAL, 0, nil)
---             for dst, parents in pairs(indirectConnections) do
---                 if dst:accessibility() < ACCESS_NORMAL then
---                     for parent, src in pairs(parents) do
---                         -- print("Checking indirect " .. src.name .. " for " .. parent.name .. " -> " .. dst.name)
---                         parent:discover(parent:accessibility(), parent.keys, parent.worldstate)
---                     end
---                 end
---             end
---         end
---         --entry_point:discover(ACCESS_NORMAL, 0) -- since there is no code to track indirect connections, we run it twice here
---         --entry_point:discover(ACCESS_NORMAL, 0)
---     end
+--     -- if stale then
+--     --     stale = false
+--     --     accessibilityCacheComplete = false
+--     --     accessibilityCache = {}
+--     --     indirectConnections = {}
+--     --     while not accessibilityCacheComplete do
+--     --         accessibilityCacheComplete = true
+--     --         entry_point:discover(ACCESS_NORMAL, 0, nil)
+--     --         for dst, parents in pairs(indirectConnections) do
+--     --             if dst:accessibility() < ACCESS_NORMAL then
+--     --                 for parent, src in pairs(parents) do
+--     --                     -- print("Checking indirect " .. src.name .. " for " .. parent.name .. " -> " .. dst.name)
+--     --                     parent:discover(parent:accessibility(), parent.keys, parent.worldstate)
+--     --                 end
+--     --             end
+--     --         end
+--     --     end
+--     --     --entry_point:discover(ACCESS_NORMAL, 0) -- since there is no code to track indirect connections, we run it twice here
+--     --     --entry_point:discover(ACCESS_NORMAL, 0)
+--     -- end
 --     print(name)
 
 --     location = NAMED_LOCATIONS[name]
@@ -188,7 +188,9 @@
 --     -- checks if given Accessbibility is higer then last stored one
 --     -- prevents walking in circles
     
---     if accessibility > self:accessibility() then
+--     print(accessibility)
+--     print(self:accessibility())
+--     if accessibility ~= nil and self.accessibility() ~= nil and accessibility > self:accessibility() then
 --         self.keys = math.huge -- resets keys used up to this point
 --         accessibilityCache[self] = accessibility
 --         accessibilityCacheComplete = false -- forces CanReach tu run again/further
@@ -246,11 +248,11 @@
 
 -- entry_point = final_fantasy_x_location.new("entry_point")
 
--- -- 
--- -- function StateChanged()
--- --     stale = true
--- --     -- entry_point:discover(AccessibilityLevel.Normal, 0)
--- -- end
+
+-- function StateChanged()
+--     stale = true
+--     -- entry_point:discover(AccessibilityLevel.Normal, 0)
+-- end
 
 -- -- ScriptHost:AddWatchForCode("StateChanged", "*", StateChanged)
         

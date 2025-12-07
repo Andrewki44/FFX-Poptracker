@@ -517,7 +517,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:kilika"
+        "codes": "kilika"
     },
     {
         "name": "[Agility Sphere] x 90",
@@ -897,7 +897,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:moonflow"
+        "codes": "moonflow"
     },
     {
         "name": "[Lv. 2 Key Sphere] x 90",
@@ -2077,7 +2077,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:djose"
+        "codes": "djose"
     },
     {
         "name": "Megalixir x 40",
@@ -2267,7 +2267,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:baajtemple"
+        "codes": "baajtemple"
     },
     {
         "name": "Ice Gem x 70",
@@ -2617,7 +2617,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:zanarkandruins"
+        "codes": "zanarkand"
     },
     {
         "name": "[Friend Sphere] x 60",
@@ -2747,7 +2747,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:sin"
+        "codes": "sin"
     },
     {
         "name": "Ice Gem x 80",
@@ -3230,7 +3230,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:miihenhighroad"
+        "codes": "miihenhighroad"
     },
     {
         "name": "Ether x 50",
@@ -3320,7 +3320,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:luca"
+        "codes": "luca"
     },
     {
         "name": "Ability Distiller x 40",
@@ -3620,7 +3620,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:airship"
+        "codes": "airship"
     },
     {
         "name": "[Power Sphere] x 50",
@@ -4300,7 +4300,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:guadosalam"
+        "codes": "guadosalam"
     },
     {
         "name": "[Clear Sphere] x 30",
@@ -4911,7 +4911,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:besaid"
+        "codes": "besaid"
     },
     {
         "name": "Mana Tablet x 20",
@@ -5524,7 +5524,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:mt.gagazet"
+        "codes": "gagazet"
     },
     {
         "name": "Frag Grenade x 40",
@@ -5624,7 +5624,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:macalania"
+        "codes": "macalania"
     },
     {
         "name": "Petrify Grenade x 70",
@@ -6755,7 +6755,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:bevelle"
+        "codes": "bevelle"
     },
     {
         "name": "[Master Sphere] x 80",
@@ -8258,7 +8258,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:thunderplains"
+        "codes": "thunderplains"
     },
     {
         "name": "Echo Screen x 70",
@@ -9254,7 +9254,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:mushroomrockroad"
+        "codes": "mushroomrockroad"
     },
     {
         "name": "Mana Distiller x 20",
@@ -9987,7 +9987,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:omegaruins"
+        "codes": "omegaruins"
     },
     {
         "name": "Armor (Kimahri): Tetra Armlet",
@@ -10447,7 +10447,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:calmlands"
+        "codes": "calmlands"
     },
     {
         "name": "Supreme Gem x 60",
@@ -10547,7 +10547,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:cavernofthestolenfayth"
+        "codes": "cavernofthestolenfayth"
     },
     {
         "name": "Star Curtain x 30",
@@ -11167,7 +11167,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "region:bikanel"
+        "codes": "bikanel"
     },
     {
         "name": "Megalixir x 60",

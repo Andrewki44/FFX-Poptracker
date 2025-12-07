@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["$hasCalmLands"],
+        "access_rules": ["calmlands"],
         "children": [
             {
                 "name": "Area Conquest",
@@ -12,7 +12,7 @@
                     {
                         "name": "Blossom Crown",
                         "map_locations": [{ "map": "Monster Arena", "x": 0, "y": 0}],
-                        "access_rules": ["$hasGagazet"],
+                        "access_rules": ["gagazet"],
                         "chest_unopened_img": "images/items/hd/Key_Item_HD.png",
                         "chest_opened_img": "images/items/hd/Key_Item_HD_BW.png",
                         "sections": [{}]

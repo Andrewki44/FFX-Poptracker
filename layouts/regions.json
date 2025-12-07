@@ -19,32 +19,32 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "region:baajtemple",
-                                "region:besaid",
-                                "region:kilika",
-                                "region:luca",
-                                "region:miihenhighroad"
+                                "baajtemple",
+                                "besaid",
+                                "kilika",
+                                "luca",
+                                "miihenhighroad"
                             ],
                             [
-                                "region:mushroomrockroad",
-                                "region:djose",
-                                "region:moonflow",
-                                "region:guadosalam",
-                                "region:thunderplains"
+                                "mushroomrockroad",
+                                "djose",
+                                "moonflow",
+                                "guadosalam",
+                                "thunderplains"
                             ],
                             [
-                                "region:macalania",
-                                "region:bikanel",
-                                "region:airship",
-                                "region:bevelle",
-                                "region:calmlands"
+                                "macalania",
+                                "bikanel",
+                                "airship",
+                                "bevelle",
+                                "calmlands"
                             ],
                             [
-                                "region:cavernofthestolenfayth",
-                                "region:mt.gagazet",
-                                "region:zanarkandruins",
-                                "region:sin",
-                                "region:omegaruins"
+                                "cavernofthestolenfayth",
+                                "gagazet",
+                                "zanarkand",
+                                "sin",
+                                "omegaruins"
                             ]
                         ]
                     }

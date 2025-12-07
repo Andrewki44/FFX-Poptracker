@@ -8,10 +8,7 @@
             {
                 "name": "Anima",
                 "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
-                "access_rules": [
-                    "$hasBaaj, geosgaeno, besaiddestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere", 
-                    "{$hasBaaj, klikk}"
-                ],
+                "access_rules": ["baajtemple, geosgaeno, besaiddestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere"],
                 "sections": [
                     {
                         "hosted_item": "baajcloister",
@@ -21,7 +18,7 @@
             },
             {
                 "name": "Bahamut",
-                "access_rules": ["$hasBevelle"],
+                "access_rules": ["bevelle"],
                 "sections": [
                     {
                         "hosted_item": "bevellecloister",
@@ -31,7 +28,7 @@
             },
             {
                 "name": "Ifrit",
-                "access_rules": ["$hasKilika"],
+                "access_rules": ["kilika"],
                 "sections": [
                     {
                         "hosted_item": "kilikacloister",
@@ -41,7 +38,7 @@
             },
             {
                 "name": "Ixion",
-                "access_rules": ["$hasDjose, sinspawngui", "{$hasMRR, $hasDjose}"],
+                "access_rules": ["djose, sinspawngui", "{mushroomrockroad, djose}"],
                 "sections": [
                     {
                         "hosted_item": "djosecloister",
@@ -53,8 +50,8 @@
                 "name": "Magus Sisters",
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
                 "access_rules": [
-                    "$hasCalmLands, flowerscepter, blossomcrown",
-                    "{$hasCalmLands}"
+                    "calmlands, flowerscepter, blossomcrown",
+                    "{calmlands}"
                 ],
                 "sections": 
                 [
@@ -66,7 +63,7 @@
             },
             {
                 "name": "Shiva",
-                "access_rules": ["crawler", "{$hasMacalania}"],
+                "access_rules": ["crawler", "{macalania}"],
                 "sections": [
                     {
                         "hosted_item": "macalaniacloister",
@@ -76,7 +73,7 @@
             },
             {
                 "name": "Valefor",
-                "access_rules": ["$hasBesaid"],
+                "access_rules": ["besaid"],
                 "sections": [
                     {
                         "hosted_item": "besaidcloister",
@@ -87,7 +84,7 @@
             {
                 "name": "Yojimbo",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
-                "access_rules": ["$hasCavern"],
+                "access_rules": ["cavernofthestolenfayth"],
                 "sections": [
                     {
                         "hosted_item": "caverncloister",
