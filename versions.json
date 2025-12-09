@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "0.1.12_Beta",
-            "download_url": "",
+            "download_url": "sha256:02ea1d5be5702f8666227ca0580bd7209d05005e2e3c68672c4d5d534c96cb96",
             "sha256": "",
             "changelog": [
                 " - Split Bikanel Oasis from Eastern Desert locations",
