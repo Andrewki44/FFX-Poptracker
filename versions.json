@@ -1,6 +1,21 @@
 {
     "versions": [
         {
+            "package_version": "0.1.12",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.12/FFX.zip",
+            "sha256": "cc0bf60b2abec447187b70c3e26b15773db00509fe4d3510085c0ac2f1b81d59",
+            "changelog": [
+                " - Split Bikanel Oasis from Eastern Desert locations",
+                " - Slot data reads from multiworld (available from next apworld version)",
+                " - Adjusted region logic levels based on new apworld values",
+                " - Added new region logic for Baaj & Airship, to split based on before/after Geosgaeno & Evrae",
+                " - Omega Weapon logic level fixed",
+                " - BFA location added to Inside Sin",
+                " - Settings added for Goal Requirement & Required Party Members, which define access to BFA location",
+                " - - Pilgrimage goal tracking not currently supported due to apworld limitations"
+            ]
+        },
+        {
             "package_version": "0.1.11",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.11/FFX.zip",
             "sha256": "3646295549dc093b19d6007744b02ab00ce75c6242fb57da9526cc851e10f1e6",

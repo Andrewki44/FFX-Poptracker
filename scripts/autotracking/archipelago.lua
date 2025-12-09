@@ -77,11 +77,37 @@ end
 -- apply everything needed from slot_data, called from onClear
 function applySlotData(slot_data)
     print("APPLY SLOT DATA")
-    -- local options = slot_data["options"]
 
-    if slot_data["super_bosses"] then 
-        Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
+    local goal = slot_data["goal_requirement"]
+    if (goal == 0) then
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
+    elseif (goal == 1) then
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
+    elseif (goal == 2) then
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
+    elseif (goal == 3) then
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 4
     end
+
+    Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
+    Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
+    Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
+    Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
+
+    -- if slot_data["super_bosses"] then 
+    --     print("SUPER BOSSES FOUND")
+    --     Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
+    -- end
+    
+    -- if slot_data["mini_games"] then 
+    --     print("MINIGAMES FOUND")
+    --     Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
+    -- end
+
+    -- if slot_data["logic_difficulty"] then 
+    --     print("LOGIC DIFFICULTY FOUND")
+    --     Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
+    -- end
 end
 
 function onClear(slot_data)

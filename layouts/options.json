@@ -64,6 +64,36 @@
                     "item_width": 48,
                     "rows": [["logicdifficulty"]]
                 }
+            },
+            {
+                "type": "group",
+                "header": "Goal requirement",
+                "dock": "bottom",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "4, 4",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 48,
+                    "item_width": 48,
+                    "rows": [["goalpartymembers"]]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Required Party Members",
+                "dock": "bottom",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "4, 4",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 48,
+                    "item_width": 48,
+                    "rows": [["requiredpartymembers"]]
+                }
             }
         ]
     }

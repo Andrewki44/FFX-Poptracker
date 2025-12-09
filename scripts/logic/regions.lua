@@ -9,17 +9,20 @@ RegionDifficulty = {
     ["mushroomrockroad"] = 6,
     ["djose"] = 7,
     ["moonflow"] = 8,
-    ["thunderplains"] = 10,
-    ["macalania"] = 11,
-    ["bikanel"] = 12,
-    ["airship"] = 13,
-    ["bevelle"] = 13,
-    ["calmlands"] = 14,
-    ["cavernofthestolenfayth"] = 14,
-    ["gagazet"] = 15,
-    ["zanarkand"] = 16,
-    ["sin"] = 17,
-    ["omegaruins"] = 18
+    ["thunderplains"] = 9,
+    ["macalania"] = 10,
+    ["bikanel"] = 11,
+    ["airship"] = 12,
+    ["bevelle"] = 12,
+    ["calmlands"] = 13,
+    ["cavernofthestolenfayth"] = 13,
+    ["gagazet"] = 14,
+    ["baajtemple2"] = 15,
+    ["zanarkand"] = 15,
+    ["airshipsin"] = 16,
+    ["sin"] = 16,
+    ["omegaruins"] = 17,
+    ["superbosses"] = 18
 }
 
 RegionOrder = {
@@ -40,9 +43,12 @@ RegionOrder = {
     "calmlands",
     "cavernofthestolenfayth",
     "gagazet",
+    "baajtemple2",
     "zanarkand",
+    "airshipsin",
     "sin",
     "omegaruins",
+    "superbosses"
 }
 
 RegionAccessibility = {
@@ -63,9 +69,12 @@ RegionAccessibility = {
     ["calmlands"] = ACCESS_NONE,
     ["cavernofthestolenfayth"] = ACCESS_NONE,
     ["gagazet"] = ACCESS_NONE,
+    ["baajtemple2"] = ACCESS_NONE,
     ["zanarkand"] = ACCESS_NONE,
+    ["airshipsin"] = ACCESS_NONE,
     ["sin"] = ACCESS_NONE,
-    ["omegaruins"] = ACCESS_NONE
+    ["omegaruins"] = ACCESS_NONE,
+    ["superbosses"] = ACCESS_NONE
 }
 
 -- Must be in difficulty order
@@ -87,9 +96,12 @@ RegionAccessRegions = {
     ["calmlands"] = {},
     ["cavernofthestolenfayth"] = {},
     ["gagazet"] = {},
+    ["baajtemple2"] = {},
     ["zanarkand"] = {},
+    ["airshipsin"] = {},
     ["sin"] = {},
-    ["omegaruins"] = {}
+    ["omegaruins"] = {},
+    ["superbosses"] = {}
 }
 
 -- Updates RegionAccessRegions with list of regions required to access new region, based on difficulty
@@ -124,9 +136,9 @@ function UpdateAccessLevels()
         -- print(Index .. " | " .. Region)
         -- If you don't have the region item, no access
         if (Tracker:FindObjectForCode(Region).Active == false) then
-            -- print("REGION OBJECT FALSE: " .. Region)
+            -- print("REGION OBJECT FALSE: " .. Region)            
             RegionAccessibility[Region] = ACCESS_NONE
-        
+
         -- Has region item
         else
             -- Difficulty < 5 --> Always have access
@@ -138,7 +150,7 @@ function UpdateAccessLevels()
             else
                 for CheckRegion, AccessRegion in pairs(RegionAccessRegions[Region]) do
                     if (RegionAccessibility[AccessRegion] == ACCESS_NORMAL) then
-                        -- print(AccessRegion .. " | ACCESS_NORMAL")
+                        -- print(CheckRegion .. " | " .. AccessRegion .. " | ACCESS_NORMAL")
                         RegionAccessibility[Region] = ACCESS_NORMAL
                         break
                     else
@@ -152,6 +164,32 @@ function UpdateAccessLevels()
 end
 
 function CheckAccessLevel(Region)
-    -- print("CHECK ACCESS: " .. Region)
+    -- print("CHECK ACCESS: " .. Region .. " | " .. RegionAccessibility[Region])
     return RegionAccessibility[Region]
+end
+
+function CheckGoalRequirement()
+    local goal = Tracker:FindObjectForCode("goalrequirement").CurrentStage
+    
+    if (goal == 0) then
+        -- No Requirements
+        return ACCESS_NORMAL
+    elseif (goal == 1) then
+        -- Party Members
+        if (hasPartyMembers(Tracker:ProviderCountForCode("requiredpartymembers"))) then
+            return ACCESS_NORMAL
+        else
+            return ACCESS_NONE
+        end
+    elseif (goal == 2) then
+        -- Pilgrimage (Unsupported, data not available from @Moonflow/Smoke Bomb x6 (Lose Aeon Fight)
+        return ACCESS_NORMAL
+    elseif (goal == 3) then
+        -- Party Members & Aeons
+        if (hasPartyMembersAndAeons(Tracker:ProviderCountForCode("requiredpartymembers"))) then
+            return ACCESS_NORMAL
+        else
+            return ACCESS_NONE
+        end
+    end
 end

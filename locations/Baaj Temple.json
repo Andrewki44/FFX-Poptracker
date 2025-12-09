@@ -59,7 +59,7 @@
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                         "sections": [
                             { 
-                                "hosted_item": "klikk",
+                                "hosted_item": "klikk, baajtemple2",
                                 "item_count": 1,
                                 "clear_as_group": true
                             }
@@ -69,7 +69,7 @@
             },
             {
                 "name": "Temple",
-                "access_rules": ["klikk"],
+                "access_rules": ["klikk, ^$CheckAccessLevel|baajtemple2"],
                 "children": [
                     {
                         "name": "Geosgaeno",

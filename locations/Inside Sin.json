@@ -91,6 +91,12 @@
                         "name": "Laevatein (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
                         "sections": [{}]
+                    },
+                    {
+                        "name": "Braska's Final Aeon",
+                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
+                        "access_rules": ["^$CheckGoalRequirement"],
+                        "sections": [{}]
                     }
                 ]
             }

@@ -19,7 +19,7 @@
                 ],
                 "sections": [
                     {"name": "Al Bhed Ship", "access_rules": ["@Al Bhed Ship"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/Oasis"]}
                 ]
             },
             {
@@ -36,7 +36,7 @@
                 ],
                 "sections": [
                     {"name": "S.S. Liki", "access_rules": ["@S.S. Liki"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/Oasis"]}
                 ]
             },
             {
@@ -53,7 +53,7 @@
                 ],
                 "sections": [
                     {"name": "S.S. Winno", "access_rules": ["@S.S. Winno"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/East"]}
                 ]
             },
             {
@@ -112,7 +112,7 @@
                 ],
                 "sections": [
                     {"name": "Thunder Plains", "access_rules": ["@Thunder Plains/Agency"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/East"]}
                 ]
             },
             {

@@ -22,5 +22,44 @@
         "increment": 1,
         "initial_quantity": 3,
         "codes": "logicdifficulty"
+    },
+    {
+        "name": "Required Party Members",
+        "type": "consumable",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "min_quantity": 1,
+        "max_quantity": 16,
+        "increment": 1,
+        "initial_quantity": 7,
+        "codes": "requiredpartymembers"
+    },
+    {
+        "name": "Goal Requirement",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "goalrequirement",
+        "stages": [
+            {
+                "name": "None",
+                "img": "images/items/hd/Support_use_item_HD.png",
+                "img_mods": "@disabled",
+                "codes": "goalnone"
+            },
+            {
+                "name": "Party Members",
+                "img": "images/party/characters/Tidus.png",
+                "codes": "goalpartymembers"
+            },
+            {
+                "name": "Pilgrimage",
+                "img": "images/spheres/hd/Purple_Sphere_HD.png",
+                "codes": "goalpilgrimage"
+            },
+            {
+                "name": "Party Members And Aeons",
+                "img": "images/party/aeons/Valefor.png",
+                "codes": "goalpartymembersandaeons"
+            }
+        ]
     }
 ]
