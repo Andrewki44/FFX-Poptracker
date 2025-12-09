@@ -18,6 +18,7 @@ RegionDifficulty = {
     ["cavernofthestolenfayth"] = 13,
     ["gagazet"] = 14,
     ["zanarkand"] = 15,
+    ["airshipsin"] = 16,
     ["sin"] = 16,
     ["omegaruins"] = 17,
     ["superbosses"] = 18
@@ -42,6 +43,7 @@ RegionOrder = {
     "cavernofthestolenfayth",
     "gagazet",
     "zanarkand",
+    "airshipsin",
     "sin",
     "omegaruins",
     "superbosses"
@@ -66,6 +68,7 @@ RegionAccessibility = {
     ["cavernofthestolenfayth"] = ACCESS_NONE,
     ["gagazet"] = ACCESS_NONE,
     ["zanarkand"] = ACCESS_NONE,
+    ["airshipsin"] = ACCESS_NONE,
     ["sin"] = ACCESS_NONE,
     ["omegaruins"] = ACCESS_NONE,
     ["superbosses"] = ACCESS_NONE
@@ -91,6 +94,7 @@ RegionAccessRegions = {
     ["cavernofthestolenfayth"] = {},
     ["gagazet"] = {},
     ["zanarkand"] = {},
+    ["airshipsin"] = {},
     ["sin"] = {},
     ["omegaruins"] = {},
     ["superbosses"] = {}
@@ -128,9 +132,9 @@ function UpdateAccessLevels()
         -- print(Index .. " | " .. Region)
         -- If you don't have the region item, no access
         if (Tracker:FindObjectForCode(Region).Active == false) then
-            -- print("REGION OBJECT FALSE: " .. Region)
+            -- print("REGION OBJECT FALSE: " .. Region)            
             RegionAccessibility[Region] = ACCESS_NONE
-        
+
         -- Has region item
         else
             -- Difficulty < 5 --> Always have access

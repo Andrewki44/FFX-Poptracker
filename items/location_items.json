@@ -981,5 +981,12 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "besaiddock5"
+    },
+    {
+        "name": "Airship Sin",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "airshipsin"
     }
 ]
