@@ -165,7 +165,7 @@
                 "sections": [
                     {
                         "name": "Remedy x1 (Chest)",
-                        "ref": "S.S. Liki/Remedy x1 (Chest)/"
+                        "ref": "S.S. Liki/Cabin (Chest)/Remedy x1"
                     },
                     {
                         "name": "Al Bhed Primer III",
@@ -173,19 +173,11 @@
                     },
                     {
                         "name": "Sin Fin",
-                        "ref": "S.S. Liki/Sin Fin/"
-                    },
-                    {
-                        "name": "Kimahri",
-                        "ref": "Party Member/Character/Kimahri/"
-                    },
-                    {
-                        "name": "Sinspawn Echuilles",
-                        "ref": "S.S. Liki/Sinspawn Echuilles/"
+                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/"
                     },
                     {
                         "name": "Friend Sphere x1 (Clasko NPC)",
-                        "ref": "S.S. Liki/Friend Sphere x1 (Clasko NPC)/"
+                        "ref": "S.S. Liki/Clasko, After Breeder Encouragement in Macalania (Event)/Friend Sphere x1 (Clasko)"
                     }
                 ]
             },

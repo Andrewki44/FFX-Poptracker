@@ -15,8 +15,23 @@
         "codes": "geosgaeno"
     },
     {
+        "name": "Sin Fin",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "sinfin"
+    },
+    {
         "name": "Sinspawn Echuilles",
         "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "echuilles"

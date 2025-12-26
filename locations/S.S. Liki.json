@@ -7,20 +7,37 @@
         "access_rules": ["^$CheckAccessLevel|besaid, [$hasPartyMembers|3], [$hasSwimmers|2], [$hasWakka]"],
         "children": [
             {
-                "name": "Remedy x1 (Chest)",
+                "name": "Cabin (Chest)",
                 "map_locations": [{ "map": "S.S Liki", "x": 0, "y": 0}],
-                "sections": [{}]
+                "sections": [{"name": "Remedy x1"}]
             },
             {
-                "name": "Sin Fin",
-                "map_locations": [{ "map": "S.S Liki", "x": 0, "y": 0}],
-                "sections": [{}]
-            },
-            {
-                "name": "Sinspawn Echuilles",
+                "name": "Power Room- Bottom Right Corner (Primer)",
                 "map_locations": [{ "map": "S.S Liki", "x": 0, "y": 0}],
                 "sections": [
+                    {
+                        "name": "Al Bhed Primer III",
+                        "ref": "Al Bhed Primers/Al Bhed Primer III/S.S. Liki"
+                    }
+                ]
+            },
+            {
+                "name": "Encounter Sin Fin (Event)",
+                "map_locations": [{ "map": "S.S Liki", "x": 0, "y": 0}],
+                "sections": [
+                    {"hosted_item": "kimahrilocation, sinfin, echuilles", "clear_as_group": false},
+                    {
+                        "name": "Kimahri",
+                        "ref": "Party Member/Character/Kimahri"
+                    },
+                    {
+                        "name": "Defeat Sin Fin (Boss)",
+                        "hosted_item": "sinfin",
+                        "item_count": 1,
+                        "clear_as_group": true
+                    },
                     { 
+                        "name": "Sinspawn Echuilles",
                         "hosted_item": "echuilles",
                         "item_count": 1,
                         "clear_as_group": true
@@ -28,10 +45,10 @@
                 ]
             },
             {
-                "name": "Friend Sphere x1 (Clasko NPC)",
+                "name": "Clasko, After Breeder Encouragement in Macalania (Event)",
                 "map_locations": [{ "map": "S.S Liki", "x": 0, "y": 0}],
                 "access_rules": ["macalania"],
-                "sections": [{}]
+                "sections": [{"name": "Friend Sphere x1 (Clasko)"}]
             }
         ]
     }
