@@ -88,23 +88,28 @@
                 ]
             },
             {
-                "name": "Cloister",
-                "map_locations": [{ "map": "Kilika Woods", "x": 0, "y": 0}],
+                "name": "Temple",
                 "access_rules": ["geneaux"],
-                "sections": [
+                "children": [
                     {
-                        "hosted_item": "kilikadestructionsphere, kilikacloister",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Destruction Sphere - Red Armlet",
-                        "hosted_item": "kilikadestructionsphere",
-                        "item_count": 1,
-                        "clear_as_group": true
-                    },
-                    {
-                        "name": "Ifrit",
-                        "ref": "Party Member/Aeon/Ifrit"
+                        "name": "Cloister",
+                        "map_locations": [{ "map": "Kilika Woods", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "hosted_item": "kilikadestructionsphere, kilikacloister",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Destruction Sphere - Red Armlet",
+                                "hosted_item": "kilikadestructionsphere",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ifrit",
+                                "ref": "Party Member/Aeon/Ifrit"
+                            }
+                        ]
                     }
                 ]
             }

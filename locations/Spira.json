@@ -130,6 +130,10 @@
                         "ref": "Al Bhed Primers/Al Bhed Primer II/Besaid"
                     },
                     {
+                        "name": "Airship - Recruit Vilucha",
+                        "ref": "Blitzball Recruits/Vilucha"
+                    },
+                    {
                         "name": "Village - Cloister of Trials",
                         "ref": "Besaid/Village/Cloister/"
                     },
@@ -194,6 +198,10 @@
                         "ref": "Al Bhed Primers/Al Bhed Primer IV/Kilika"
                     },
                     {
+                        "name": "Village - Recruit Tatts",
+                        "ref": "Blitzball Recruits/Tatts"
+                    },
+                    {
                         "name": "Woods - Mana Sphere x2 (Chest)",
                         "ref": "Kilika/Woods/East of First Intersection (Chest)/Mana Sphere x2"
                     },
@@ -226,8 +234,12 @@
                         "ref": "Kilika/Woods/Defeat Sinspawn Geneaux (Boss)/Sinspawn Geneaux"
                     },
                     {
+                        "name": "Temple - Recruit Mep",
+                        "ref": "Blitzball Recruits/Mep"
+                    },
+                    {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Kilika/Cloister/"
+                        "ref": "Kilika/Temple/Cloister/"
                     }                 
                 ]
             },
@@ -242,6 +254,10 @@
                     {
                         "name": "Al Bhed Primer V",
                         "ref": "Al Bhed Primers/Al Bhed Primer V/S.S. Winno"
+                    },
+                    {
+                        "name": "Recruit Kiyuri",
+                        "ref": "Blitzball Recruits/Kiyuri"
                     },
                     {
                         "name": "Ace Wizard (11 Seagulls)",
@@ -300,6 +316,38 @@
                     {
                         "name": "Stadium - Auron",
                         "ref": "Party Member/Character/Auron"
+                    },
+                    {
+                        "name": "Dock - Recruit Nedus",
+                        "ref": "Blitzball Recruits/Nedus"
+                    },
+                    {
+                        "name": "Dock - Recruit Zev Ronso",
+                        "ref": "Blitzball Recruits/Zev Ronso"
+                    },
+                    {
+                        "name": "Stadium - Recruit Biggs",
+                        "ref": "Blitzball Recruits/Biggs"
+                    },
+                    {
+                        "name": "Stadium - Recruit Wedge",
+                        "ref": "Blitzball Recruits/Wedge"
+                    },
+                    {
+                        "name": "City - Recruit Jumal",
+                        "ref": "Blitzball Recruits/Jumal"
+                    },
+                    {
+                        "name": "City - Recruit Shaami",
+                        "ref": "Blitzball Recruits/Shaami"
+                    },
+                    {
+                        "name": "City - Recruit Shuu",
+                        "ref": "Blitzball Recruits/Shuu"
+                    },
+                    {
+                        "name": "City - Recruit Zalitz",
+                        "ref": "Blitzball Recruits/Zalitz"
                     },
                     {
                         "name": "Stadium Locker Room - Jupiter Crest (Locker)",
@@ -386,6 +434,10 @@
                     {
                         "name": "Agency - Al Bhed Primer VIII",
                         "ref": "Al Bhed Primers/Al Bhed Primer VIII/Miihen Highroad"
+                    },
+                    {
+                        "name": "Agency - Recruit Ropp",
+                        "ref": "Blitzball Recruits/Ropp"
                     },
                     {
                         "name": "Agency - Chocobo Eater",
@@ -560,6 +612,10 @@
                         "ref": "Djose/Temple/4000 gil (Chest)/"
                     },
                     {
+                        "name": "Temple - Recruit Kyou",
+                        "ref": "Blitzball Recruits/Kyou"
+                    },
+                    {
                         "name": "Temple - Ether x1 (Chest)",
                         "ref": "Djose/Temple/Ether x1 (Chest)/"
                     },
@@ -630,6 +686,10 @@
                         "ref": "Al Bhed Primers/Al Bhed Primer XII/Moonflow"
                     },
                     {
+                        "name": "North - Recruit Miyu",
+                        "ref": "Blitzball Recruits/Miyu"
+                    },
+                    {
                         "name": "North - Ether x1 (Chest)",
                         "ref": "Moonflow/North/Ether x1 (Chest)/"
                     },
@@ -672,6 +732,10 @@
                         "ref": "Guadosalam/Guadosalam/Hi-Potion x2 (Chest)/"
                     },
                     {
+                        "name": "Guadosalam - Recruit Yuma Guado",
+                        "ref": "Blitzball Recruits/Yuma Guado"
+                    },
+                    {
                         "name": "Farplane - Lightning Marble x8 (Chest)",
                         "ref": "Guadosalam/Farplane/Lightning Marble x8 (Chest)/"
                     },
@@ -708,6 +772,10 @@
                     {
                         "name": "Agency - Al Bhed Primer XIV",
                         "ref": "Al Bhed Primers/Al Bhed Primer XIV/Thunder Plains"
+                    },
+                    {
+                        "name": "Airship - Recruit Mifurey",
+                        "ref": "Blitzball Recruits/Mifurey"
                     },
                     {
                         "name": "Agency - Yellow Shield (Ground Item)",
@@ -794,6 +862,10 @@
                     {
                         "name": "Lake Road - Lv. 1 Key Sphere x1 (Chest)",
                         "ref": "Macalania/Lake/Road/Lv. 1 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Temple - Recruit Linna",
+                        "ref": "Blitzball Recruits/Linna"
                     },
                     {
                         "name": "Temple - Shell Targe (Tromell)",
@@ -1076,6 +1148,18 @@
                         "ref": "Airship/Al Bhed Potion x4 (NPC)/"
                     },
                     {
+                        "name": "Airship - Recruit Brother",
+                        "ref": "Blitzball Recruits/Brother"
+                    },
+                    {
+                        "name": "Airship - Recruit Rin",
+                        "ref": "Blitzball Recruits/Rin"
+                    },
+                    {
+                        "name": "Airship - Recruit Wakka",
+                        "ref": "Blitzball Recruits/Wakka"
+                    },
+                    {
                         "name": "Airship - Complete Al Bhed Primers",
                         "ref": "Al Bhed Primers/Complete Al Bhed Primers"
                     },
@@ -1188,11 +1272,23 @@
                         "ref": "Al Bhed Primers/Al Bhed Primer XXIII/Calm Lands"
                     },
                     {
+                        "name": "Plains - Recruit Naida",
+                        "ref": "Blitzball Recruits/Naida"
+                    },
+                    {
+                        "name": "Plains - Recruit Svanda",
+                        "ref": "Blitzball Recruits/Svanda"
+                    },
+                    {
                         "name": "Plains - Defender X",
                         "ref": "Calm Lands/Plains/Defender X/"
                     },
                     {
-                        "name": "Plains - Rusty Sword",
+                        "name": "Gorge - Recruit Durren",
+                        "ref": "Blitzball Recruits/Durren"
+                    },
+                    {
+                        "name": "Gorge - Rusty Sword",
                         "ref": "Celestial/General/Rusty Sword"
                     },
                     {
