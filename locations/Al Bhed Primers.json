@@ -112,17 +112,17 @@
             {
                 "name": "Al Bhed Primer XIX",
                 "access_rules": ["@Bikanel/Home"],
-                "sections": [{"name": "Bikanel"}]
+                "sections": [{"name": "Home"}]
             },
             {
                 "name": "Al Bhed Primer XX",
                 "access_rules": ["@Bikanel/Home"],
-                "sections": [{"name": "Bikanel"}]
+                "sections": [{"name": "Home"}]
             },
             {
                 "name": "Al Bhed Primer XXI",
                 "access_rules": ["@Bikanel/Home"],
-                "sections": [{"name": "Bikanel"}]
+                "sections": [{"name": "Home"}]
             },
             {
                 "name": "Al Bhed Primer XXII",

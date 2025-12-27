@@ -226,15 +226,8 @@
         "initial_active_state": false,
         "codes": "ultimaweapon"
     },
-    {
-        "name": "Omega Weapon",
-        "type": "toggle",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "omegaweapon"
-    },
     
-    //Dark Aeons
+    //Super Bosses
     {
         "name": "Dark Anima",
         "type": "toggle",
@@ -344,6 +337,28 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "darkyojimbo"
+    },
+    {
+        "name": "Omega Weapon",
+        "type": "toggle",
+        "img": "images/party/aeons/Omega Weapon.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Omega Weapon.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "omegaweapon"
+    },
+    {
+        "name": "Penance",
+        "type": "toggle",
+        "img": "images/party/aeons/Penance_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Penance.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "penance"
     },
 
     //Belgemine
@@ -1148,6 +1163,17 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "brotherhood"
+    },
+    {
+        "name": "Knight Lance",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "knightlance"
     },
     
     //RegionAccess misc items

@@ -75,14 +75,22 @@
                         "sections": [{}]
                     },
                     {
-                        "name": "Destruction Sphere",
+                        "name": "Cloister",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
                         "sections": [
                             {
-                                "name": "Magic Sphere",
+                                "hosted_item": "djosedestructionsphere, djosecloister",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Destruction Sphere - Magic Sphere",
                                 "hosted_item": "djosedestructionsphere",
                                 "item_count": 1,
                                 "clear_as_group": true
+                            },
+                            {
+                                "name": "Ixion",
+                                "ref": "Party Member/Aeon/Ixion"
                             }
                         ]
                     },

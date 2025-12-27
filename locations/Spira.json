@@ -572,12 +572,8 @@
                         "ref": "Djose/Temple/Mega Phoenix x1 (Chest)/"
                     },
                     {
-                        "name": "Cloister - Magic Sphere",
-                        "ref": "Djose/Temple/Destruction Sphere/Magic Sphere"
-                    },
-                    {
-                        "name": "Cloister - Ixion",
-                        "ref": "Party Member/Aeon/Ixion/"
+                        "name": "Temple - Cloister of Trials",
+                        "ref": "Djose/Temple/Cloister/"
                     },
                     {
                         "name": "Temple - Switch Hitter (Chest)",
@@ -639,7 +635,7 @@
                     },
                     {
                         "name": "North - Rikku",
-                        "ref": "Party Member/Character/Rikku/"
+                        "ref": "Party Member/Character/Rikku"
                     },
                     {
                         "name": "North - Antidote x4 (Chest)",
@@ -739,7 +735,7 @@
                     },
                     {
                         "name": "Super Bosses - Dark Ixion",
-                        "ref": "Super Bosses/Dark Ixion/"
+                        "ref": "Super Bosses/Dark Ixion"
                     }
                 ]
             },
@@ -836,12 +832,8 @@
                         "ref": "Macalania/Lake/Temple/Seymour/"
                     },
                     {
-                        "name": "Temple - Shiva",
-                        "ref": "Party Member/Aeon/Shiva/"
-                    },
-                    {
-                        "name": "Cloister - Luck Sphere",
-                        "ref": "Macalania/Lake/Temple/Destruction Sphere/Luck Sphere"
+                        "name": "Temple - Cloister of Trials",
+                        "ref": "Macalania/Lake/Temple/Cloister/"
                     },
                     {
                         "name": "Lake Agency - Wendigo",
@@ -867,7 +859,7 @@
                 "sections": [
                     {
                         "name": "Celestial Mirror",
-                        "ref": "Celestial/Celestial Mirror/"
+                        "ref": "Celestial/General/Celestial Mirror"
                     },
                     {
                         "name": "Auron - Masamune Crest Updgrade",
@@ -879,51 +871,51 @@
                     },
                     {
                         "name": "Kimahri - Spirit Lance Crest Updgrade",
-                        "ref": "Celestial/Kimahri/Spirit Lance Upgrade/Crest"
+                        "ref": "Celestial/Kimahri/Spirit Lance Crest Upgrade"
                     },
                     {
                         "name": "Kimahri - Spirit Lance Sigil Updgrade",
-                        "ref": "Celestial/Kimahri/Spirit Lance Upgrade/Sigil"
+                        "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
                     },
                     {
                         "name": "Lulu - Onion Knight Crest Updgrade",
-                        "ref": "Celestial/Lulu/Onion Knight Upgrade/Crest"
+                        "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
                     },
                     {
                         "name": "Lulu - Onion Knight Sigil Updgrade",
-                        "ref": "Celestial/Lulu/Onion Knight Upgrade/Sigil"
+                        "ref": "Celestial/Lulu/Onion Knight Sigil Upgrade"
                     },
                     {
                         "name": "Rikku - Godhand Crest Updgrade",
-                        "ref": "Celestial/Rikku/Godhand Upgrade/Crest"
+                        "ref": "Celestial/Rikku/Godhand Crest Upgrade"
                     },
                     {
                         "name": "Rikku - Godhand Sigil Updgrade",
-                        "ref": "Celestial/Rikku/Godhand Upgrade/Sigil"
+                        "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
                     },
                     {
                         "name": "Tidus - Caladbolg Crest Updgrade",
-                        "ref": "Celestial/Tidus/Caladbolg Upgrade/Crest"
+                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
                     },
                     {
                         "name": "Tidus - Caladbolg Sigil Updgrade",
-                        "ref": "Celestial/Tidus/Caladbolg Upgrade/Sigil"
+                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
                     },
                     {
                         "name": "Wakka - World Champion Crest Updgrade",
-                        "ref": "Celestial/Wakka/World Champion Upgrade/Crest"
+                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
                     },
                     {
                         "name": "Wakka - World Champion Sigil Updgrade",
-                        "ref": "Celestial/Wakka/World Champion Upgrade/Sigil"
+                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
                     },
                     {
                         "name": "Yuna - Nirvana Crest Updgrade",
-                        "ref": "Celestial/Yuna/Nirvana Upgrade/Crest"
+                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
                     },
                     {
                         "name": "Yuna - Nirvana Sigil Updgrade",
-                        "ref": "Celestial/Yuna/Nirvana Upgrade/Sigil"
+                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
                     }
                 ]
             },
@@ -977,7 +969,7 @@
                     },
                     {
                         "name": "Bikanel Central - Al Bhed Primer XVIII",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XVIII/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XVIII/Bikanel"
                     },
                     {
                         "name": "Bikanel Central - Elixir x1 (Chest)",
@@ -993,7 +985,7 @@
                     },
                     {
                         "name": "Bikanel Central - Al Bhed Primer XVII",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XVII/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XVII/Bikanel"
                     },
                     {
                         "name": "Bikanel West - Megalixir x3 (Chest)",
@@ -1009,7 +1001,7 @@
                     },
                     {
                         "name": "Bikanel West - Mercury Crest (Chest)",
-                        "ref": "Celestial/Rikku/Mercury Crest (Chest)/"
+                        "ref": "Celestial/Rikku/Mercury Crest"
                     },
                     {
                         "name": "Bikanel West - Mega-Potion x3 (Chest)",
@@ -1021,11 +1013,11 @@
                     },
                     {
                         "name": "Bikanel West - Mercury Sigil (Cactuar Village)",
-                        "ref": "Celestial/Rikku/Mercury Sigil (Cactuar Village)/"
+                        "ref": "Celestial/Rikku/Mercury Sigil"
                     },
                     {
                         "name": "Super Bosses - Dark Ifrit",
-                        "ref": "Super Bosses/Dark Ifrit/"
+                        "ref": "Super Bosses/Dark Ifrit"
                     }
                 ]
             },
@@ -1039,7 +1031,7 @@
                     },
                     {
                         "name": "Home - Al Bhed Primer XIX",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XIX/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XIX/Home"
                     },
                     {
                         "name": "Home - Al Bhed Potion x6 (Chest)",
@@ -1047,7 +1039,7 @@
                     },
                     {
                         "name": "Home - Al Bhed Primer XXI",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XXI/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXI/Home"
                     },
                     {
                         "name": "Home - Special Sphere x1 (Al Bhed Password Chest)",
@@ -1063,7 +1055,7 @@
                     },
                     {
                         "name": "Home - Al Bhed Primer XX",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XX/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XX/Home"
                     }, 
                     {
                         "name": "Home - Friend Sphere x1 (Al Bhed Vocabulary Chest)",
@@ -1109,7 +1101,7 @@
                     },
                     {
                         "name": "Super Bosses - Penance",
-                        "ref": "Super Bosses/Penance/"
+                        "ref": "Super Bosses/Penance"
                     }
                 ]
             },
@@ -1118,20 +1110,12 @@
                 "map_locations": [{ "map": "Spira", "x": 678, "y": 273}],
                 "sections": [
                     {
-                        "name": "Cloister - Al Bhed Primer XXII",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XXII/"
+                        "name": "Temple - Al Bhed Primer XXII",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXII/Bevelle"
                     },
                     {
-                        "name": "Cloister - HP Sphere",
+                        "name": "Temple - Cloister of Trials",
                         "ref": "Bevelle/Cloister/Destruction Sphere/HP Sphere"
-                    },
-                    {
-                        "name": "Cloister - Knight Lance (Chest)",
-                        "ref": "Bevelle/Cloister/Knight Lance (Chest)/"
-                    },
-                    {
-                        "name": "Cloister - Bahamut",
-                        "ref": "Party Member/Aeon/Bahamut/"
                     },
                     {
                         "name": "Via Purifico - Mega-Potion x1 (Chest)",
@@ -1201,7 +1185,7 @@
                     },
                     {
                         "name": "Plains - Al Bhed Primer XXIII",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XXIII/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXIII/Calm Lands"
                     },
                     {
                         "name": "Plains - Defender X",
@@ -1209,7 +1193,7 @@
                     },
                     {
                         "name": "Plains - Rusty Sword",
-                        "ref": "Celestial/Rusty Sword/"
+                        "ref": "Celestial/General/Rusty Sword"
                     },
                     {
                         "name": "Chocobo - Wobbly Chocobo Minigame Reward",
@@ -1229,11 +1213,11 @@
                     },
                     {
                         "name": "Chocobo - Sun Sigil (Chocobo Catcher 0:00)",
-                        "ref": "Celestial/Tidus/Sun Sigil (Chocobo Catcher 0:00)/"
+                        "ref": "Celestial/Tidus/Sun Sigil"
                     },
                     {
                         "name": "Plains - Caladbolg",
-                        "ref": "Celestial/Tidus/Caladbolg/"
+                        "ref": "Celestial/Tidus/Caladbolg"
                     }
                 ]
             },
@@ -1243,11 +1227,11 @@
                 "sections": [
                     {
                         "name": "Al Bhed Primer XXIV",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XXIV/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXIV/Remiem Temple"
                     },
                     {
                         "name": "Cloudy Mirror (Chocobo Race)",
-                        "ref": "Celestial/Cloudy Mirror (Chocobo Race)/"
+                        "ref": "Celestial/General/Cloudy Mirror"
                     },
                     {
                         "name": "Belgemine - Valefor Fight",
@@ -1283,11 +1267,11 @@
                     },
                     {
                         "name": "Belgemine - Moon Sigil (Send Belgemine)",
-                        "ref": "Celestial/Yuna/Moon Sigil (Send Belgemine)/"
+                        "ref": "Celestial/Yuna/Moon Sigil"
                     },
                     {
                         "name": "Magus Sisters",
-                        "ref": "Party Member/Aeon/Magus Sisters/"
+                        "ref": "Party Member/Aeon/Magus Sisters"
                     }
                 ]
             },
@@ -1297,7 +1281,7 @@
                 "sections": [
                     {
                         "name": "Area Conquest (Calm Lands) - Nirvana",
-                        "ref": "Celestial/Yuna/Nirvana/"
+                        "ref": "Celestial/Yuna/Nirvana"
                     },
                     {
                         "name": "Area Conquest (Mt. Gagazet) - Blossom Crown",
@@ -1305,7 +1289,7 @@
                     },
                     {
                         "name": "Monster Creations x10 - Mars Sigil",
-                        "ref": "Celestial/Auron/Mars Sigil (10x Creations)/"
+                        "ref": "Celestial/Auron/Mars Sigil"
                     }
                 ]
             },
@@ -1331,7 +1315,7 @@
                     },
                     {
                         "name": "Al Bhed Primer XXV",
-                        "ref": "Al Bhed Primers/Al Bhed Primer XXV/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXV/Cavern of the Stolen Fayth"
                     },
                     {
                         "name": "Flexible Arm (Chest)",
@@ -1347,11 +1331,11 @@
                     },
                     {
                         "name": "Yojimbo",
-                        "ref": "Party Member/Aeon/Yojimbo/"
+                        "ref": "Party Member/Aeon/Yojimbo"
                     },
                     {
                         "name": "Super Bosses - Dark Yojimbo",
-                        "ref": "Super Bosses/Dark Yojimbo/"
+                        "ref": "Super Bosses/Dark Yojimbo"
                     }
                 ]
             },
@@ -1389,7 +1373,7 @@
                     },
                     {
                         "name": "Outside - Saturn Crest (Chest)",
-                        "ref": "Celestial/Kimahri/Saturn Crest (Chest)/"
+                        "ref": "Celestial/Kimahri/Saturn Crest"
                     },
                     {
                         "name": "Inside - Lv. 1 Key Sphere x1 (Chest)",
@@ -1417,7 +1401,7 @@
                     },
                     {
                         "name": "Super Bosses - Dark Anima",
-                        "ref": "Super Bosses/Dark Anima/"
+                        "ref": "Super Bosses/Dark Anima"
                     }
                 ]
             },
@@ -1450,7 +1434,7 @@
                         "ref": "Zanarkand/Dome/Luck Sphere x1 (Chest)/"
                     },
                     {
-                        "name": "Cloister -Magistral Rod ",
+                        "name": "Cloister - Magistral Rod ",
                         "ref": "Zanarkand/Cloister/Destruction Sphere/Magistral Rod"
                     },
                     {
@@ -1463,11 +1447,11 @@
                     },
                     {
                         "name": "Cloister - Sun Crest (Chest)",
-                        "ref": "Celestial/Tidus/Sun Crest (Chest)/"
+                        "ref": "Celestial/Tidus/Sun Crest"
                     },
                     {
                         "name": "Super Bosses - Dark Bahamut",
-                        "ref": "Super Bosses/Dark Bahamut/"
+                        "ref": "Super Bosses/Dark Bahamut"
                     }
                 ]
             },
@@ -1563,7 +1547,7 @@
                     },
                     {
                         "name": "Omega Weapon",
-                        "ref": "Super Bosses/Omega Weapon/"
+                        "ref": "Super Bosses/Omega Weapon"
                     }
                 ]
             }

@@ -7,24 +7,42 @@
         "access_rules": ["^$CheckAccessLevel|bevelle"],
         "children": [
             {
-                "name": "Cloister",
+                "name": "Temple",
                 "children": [
                     {
-                        "name": "Destruction Sphere",
+                        "name": "Corner South of Save Point (Primer)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "sections": [
                             {
-                                "name": "HP Sphere",
-                                "hosted_item": "bevelledestructionsphere",
-                                "item_count": 1,
-                                "clear_as_group": true
+                                "name": "Al Bhed Primer XXII",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XXII/Bevelle"
                             }
                         ]
                     },
                     {
-                        "name": "Knight Lance (Chest)",
+                        "name": "Cloister",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [
+                            {
+                                "hosted_item": "knightlance, bevelledestructionsphere, bevellecloister"
+                            },
+                            {
+                                "name": "Knight Lance",
+                                "hosted_item": "knightlance",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Destruction Sphere - HP Sphere",
+                                "hosted_item": "bevelledestructionsphere",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bahamut",
+                                "ref": "Party Member/Aeon/Bahamut"
+                            }
+                        ]
                     }
                 ]
             },

@@ -166,11 +166,19 @@
                                 ]
                             },
                             {
-                                "name": "Destruction Sphere",
+                                "name": "Cloister",
                                 "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
                                 "sections": [
                                     {
-                                        "name": "Luck Sphere",
+                                        "hosted_item": "macalaniacloister, macalaniadestructionsphere",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Shiva",
+                                        "ref": "Party Member/Aeon/Shiva"
+                                    },
+                                    {
+                                        "name": "Destruction Sphere - Luck Sphere",
                                         "hosted_item": "macalaniadestructionsphere",
                                         "item_count": 1,
                                         "clear_as_group": true

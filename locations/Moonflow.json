@@ -63,6 +63,16 @@
                         "sections": [{}]
                     },
                     {
+                        "name": "Mix Tutorial (Event)",
+                        "map_locations": [{ "map": "Moonflow North", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Rikku",
+                                "ref": "Party Member/Character/Rikku"
+                            }
+                        ]
+                    },
+                    {
                         "name": "Antidote x4 (Chest)",
                         "map_locations": [{ "map": "Moonflow North", "x": 0, "y": 0}],
                         "sections": [{}]

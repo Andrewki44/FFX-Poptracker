@@ -76,7 +76,9 @@
                 "name": "Penance",
                 "access_rules": [
                     "@Airship, darkanima, darkbahamut, darkcindy, darkifrit, darkixion, darkmindy, darksandy, darkshiva, darkvalefor, darkyojimbo"
-                ]
+                ],
+                "hosted_item": "penance",
+                "clear_as_group": true
             }
         ]
     }
