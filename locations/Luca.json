@@ -44,12 +44,10 @@
                     {
                         "name": "Blitzball Recruit",
                         "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
-                        "sections": [{"name": "Biggs", "ref": "Blitzball Recruits/Biggs"}]
-                    },
-                    {
-                        "name": "Blitzball Recruit",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
-                        "sections": [{"name": "Wedge", "ref": "Blitzball Recruits/Wedge"}]
+                        "sections": [
+                            {"name": "Biggs", "ref": "Blitzball Recruits/Biggs"},
+                            {"name": "Wedge", "ref": "Blitzball Recruits/Wedge"}
+                        ]
                     },
                     {
                         "name": "Inside Back Right Locker (Event)",
@@ -102,6 +100,16 @@
                         ]
                     },
                     {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{"name": "Nedus", "ref": "Blitzball Recruits/Nedus"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{"name": "Zev Ronso", "ref": "Blitzball Recruits/Zev Ronso"}]
+                    },
+                    {
                         "name": "Defeat Oblitzerator (Boss)",
                         "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
                         "access_rules": ["[$hasPartyMembers|3]"],
@@ -133,6 +141,26 @@
                         "name": "Staircase Leading to Mi'ihen (Chest)",
                         "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
                         "sections": [{"name": "1000 Gil"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "sections": [{"name": "Jumal", "ref": "Blitzball Recruits/Jumal"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "sections": [{"name": "Shaami", "ref": "Blitzball Recruits/Shaami"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "sections": [{"name": "Shuu", "ref": "Blitzball Recruits/Shuu"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "sections": [{"name": "Zalitz", "ref": "Blitzball Recruits/Zalitz"}]
                     },
                     {
                         "name": "Talk to Owner After Placing at Least Third in a Tournament (Chest)",

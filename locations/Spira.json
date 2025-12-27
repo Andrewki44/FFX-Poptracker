@@ -573,7 +573,7 @@
                 "sections": [
                     {
                         "name": "Highroad - Phoenix Down x2 (Chest)",
-                        "ref": "Djose/Highroad/Phoenix Down x2 (Chest)/"
+                        "ref": "Djose/Highroad/South End, West Side (Chest)/Phoenix Down x2"
                     },
                     {
                         "name": "Highroad - Al Bhed Primer XI",
@@ -581,35 +581,35 @@
                     },
                     {
                         "name": "Highroad - Soft Ring (NPC)",
-                        "ref": "Djose/Highroad/Soft Ring (NPC)/"
+                        "ref": "Djose/Highroad/South End, Purple Armor (NPC)/Soft Ring"
                     },
                     {
                         "name": "Highroad - Ether x1 (NPC)",
-                        "ref": "Djose/Highroad/Ether x1 (NPC)/"
+                        "ref": "Djose/Highroad/Midway, Yellow Armor (NPC)/Ether x1"
                     },
                     {
                         "name": "Highroad - Hi-Potion x1 (NPC)",
-                        "ref": "Djose/Highroad/Hi-Potion x1 (NPC)/"
+                        "ref": "Djose/Highroad/Monk Pacing Between Crusaders (NPC)/Hi-Potion x1"
                     },
                     {
                         "name": "Highroad - Mega-Potion x1 (NPC)",
-                        "ref": "Djose/Highroad/Mega-Potion x1 (NPC)/"
+                        "ref": "Djose/Highroad/North End, Purple Armor (NPC)/Mega-Potion x1"
                     },
                     {
                         "name": "Highroad - Variable Steel (NPC)",
-                        "ref": "Djose/Highroad/Variable Steel (NPC)/"
+                        "ref": "Djose/Highroad/South End, Silver/Purple Armor (NPC)/Variable Steel"
                     },
                     {
                         "name": "Highroad - Bright Bangle (Chest)",
-                        "ref": "Djose/Highroad/Bright Bangle (Chest)/"
+                        "ref": "Djose/Highroad/Midway, Hidden in Western Alcove (Chest)/Bright Bangle"
                     },
                     {
                         "name": "Temple - Ability Sphere x4 (Chest)",
-                        "ref": "Djose/Temple/Ability Sphere x4 (Chest)/"
+                        "ref": "Djose/Temple/Northeast Corner (Chest)/Ability Sphere x4"
                     },
                     {
                         "name": "Temple - 4000 gil (Chest)",
-                        "ref": "Djose/Temple/4000 gil (Chest)/"
+                        "ref": "Djose/Temple/West Behind Lucil's Squad (Chest)/4000 gil"
                     },
                     {
                         "name": "Temple - Recruit Kyou",
@@ -617,15 +617,15 @@
                     },
                     {
                         "name": "Temple - Ether x1 (Chest)",
-                        "ref": "Djose/Temple/Ether x1 (Chest)/"
+                        "ref": "Djose/Temple/In Front of Nuns' Chamber (Chest)/Ether x1"
                     },
                     {
                         "name": "Temple - Remedy x1 (Chest)",
-                        "ref": "Djose/Temple/Remedy x1 (Chest)/"
+                        "ref": "Djose/Temple/Nuns' Chamber (Chest)/Remedy x1"
                     },
                     {
                         "name": "Temple - Mega Phoenix x1 (Chest)",
-                        "ref": "Djose/Temple/Mega Phoenix x1 (Chest)/"
+                        "ref": "Djose/Temple/Monks' Chamber (Chest)/Mega Phoenix x1"
                     },
                     {
                         "name": "Temple - Cloister of Trials",
@@ -633,19 +633,19 @@
                     },
                     {
                         "name": "Temple - Switch Hitter (Chest)",
-                        "ref": "Djose/Temple/Switch Hitter (Chest)/"
+                        "ref": "Djose/Temple/Behind Desk (Chest)/Switch Hitter"
                     },
                     {
                         "name": "Pilgrimage Road - Halberd (NPC)",
-                        "ref": "Djose/Pilgrimage Road/Halberd (NPC)/"
+                        "ref": "Djose/Pilgrimage Road/North End, Purple Armor (NPC)/Halberd"
                     },
                     {
                         "name": "Pilgrimage Road - Potion x10 (NPC)",
-                        "ref": "Djose/Pilgrimage Road/Potion x10 (NPC)/"
+                        "ref": "Djose/Pilgrimage Road/South End, Silver/Purple Armor (NPC)/Potion x10"
                     },
                     {
                         "name": "Pilgrimage Road - Hi-Potion x2 (NPC)",
-                        "ref": "Djose/Pilgrimage Road/Hi-Potion x2 (NPC)/"
+                        "ref": "Djose/Pilgrimage Road/Monk Pacing Along Bridge (NPC)/Hi-Potion x2"
                     }
                 ]
             },
@@ -655,31 +655,31 @@
                 "sections": [
                     {
                         "name": "South - Lv. 1 Key Sphere x3 (Shelinda Chest)",
-                        "ref": "Moonflow/South/Lv. 1 Key Sphere x3 (Shelinda Chest)/"
+                        "ref": "Moonflow/South/Right of Shelinda (Chest)/Lv. 1 Key Sphere x3"
                     },
                     {
                         "name": "South - X-Potion x1 (Chest)",
-                        "ref": "Moonflow/South/X-Potion x1 (Chest)/"
+                        "ref": "Moonflow/South/West Corner as Path Bends East (Chest)/X-Potion x1"
                     },
                     {
-                        "name": "South - Lv. 1 Key Sphere x3 (Benke and Biran Chest)",
-                        "ref": "Moonflow/South/Lv. 1 Key Sphere x3 (Benke and Biran Chest)/"
+                        "name": "South - Lv. 1 Key Sphere x3 (Chest)",
+                        "ref": "Moonflow/South/East Alcove as Path Bends North (Chest)/Lv. 1 Key Sphere x3"
                     },
                     {
                         "name": "South - Magic Def Sphere x1 (Chest)",
-                        "ref": "Moonflow/South/Magic Def Sphere x1 (Chest)/"
+                        "ref": "Moonflow/South/West Alcove in Forest Past Belgemine (Chest)/Magic Def Sphere x1"
                     },
                     {
                         "name": "South - Phoenix Down x2 (Chest)",
-                        "ref": "Moonflow/South/Phoenix Down x2 (Chest)/"
+                        "ref": "Moonflow/South/Near O'aka XXIII (Chest)/Phoenix Down x2"
                     },
                     {
                         "name": "South - 5000 gil (Chest)",
-                        "ref": "Moonflow/South/5000 gil (Chest)/"
+                        "ref": "Moonflow/South/Behind Lulu (Chest)/5000 gil"
                     },
                     {
                         "name": "South - Extractor",
-                        "ref": "Moonflow/South/Extractor/"
+                        "ref": "Moonflow/South/Defeat Extractor (Boss)/Extractor"
                     },
                     {
                         "name": "North - Al Bhed Primer XII",
@@ -691,7 +691,7 @@
                     },
                     {
                         "name": "North - Ether x1 (Chest)",
-                        "ref": "Moonflow/North/Ether x1 (Chest)/"
+                        "ref": "Moonflow/North/Near Bench (Chest)/Ether x1"
                     },
                     {
                         "name": "North - Rikku",
@@ -699,11 +699,11 @@
                     },
                     {
                         "name": "North - Antidote x4 (Chest)",
-                        "ref": "Moonflow/North/Antidote x4 (Chest)/"
+                        "ref": "Moonflow/North/East Side, Right After the Wooden Bridge (Chest)/Antidote x4"
                     },
                     {
                         "name": "North - Mega-Potion x1 (Chest)",
-                        "ref": "Moonflow/North/Mega-Potion x1 (Chest)/"
+                        "ref": "Moonflow/North/West Side, Before Guadosalam (Chest)/Mega-Potion x1"
                     }
                 ]
             },
@@ -921,7 +921,7 @@
                     },
                     {
                         "name": "Super Bosses - Dark Shiva",
-                        "ref": "Super Bosses/Dark Shiva/"
+                        "ref": "Super Bosses/Dark Shiva"
                     }
                 ]
             },
@@ -1199,7 +1199,7 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Bevelle/Cloister/Destruction Sphere/HP Sphere"
+                        "ref": "Bevelle/Temple/Cloister/"
                     },
                     {
                         "name": "Via Purifico - Mega-Potion x1 (Chest)",
@@ -1530,10 +1530,6 @@
                         "ref": "Zanarkand/Dome/Luck Sphere x1 (Chest)/"
                     },
                     {
-                        "name": "Cloister - Magistral Rod ",
-                        "ref": "Zanarkand/Cloister/Destruction Sphere/Magistral Rod"
-                    },
-                    {
                         "name": "Cloister - Spectral Keeper",
                         "ref": "Zanarkand/Cloister/Spectral Keeper/"
                     },
@@ -1544,6 +1540,10 @@
                     {
                         "name": "Cloister - Sun Crest (Chest)",
                         "ref": "Celestial/Tidus/Sun Crest"
+                    },
+                    {
+                        "name": "Temple - Cloister of Trials ",
+                        "ref": "Zanarkand/Temple/Cloister/Destruction Sphere- Magistral Rod"
                     },
                     {
                         "name": "Super Bosses - Dark Bahamut",

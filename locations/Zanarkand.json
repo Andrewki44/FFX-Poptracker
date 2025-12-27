@@ -47,20 +47,8 @@
                 ]
             },
             {
-                "name": "Cloister",
+                "name": "Temple",
                 "children": [
-                    {
-                        "name": "Destruction Sphere",
-                        "map_locations": [{ "map": "Zanarkand", "x": 0, "y": 0}],
-                        "sections": [
-                            { 
-                                "name": "Magistral Rod", 
-                                "hosted_item": "zanarkanddestructionsphere",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
-                    },
                     {
                         "name": "Spectral Keeper",
                         "map_locations": [{ "map": "Zanarkand", "x": 0, "y": 0}],
@@ -81,6 +69,17 @@
                             {
                                 "hosted_item": "yunalesca",
                                 "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cloister",
+                        "map_locations": [{ "map": "Zanarkand", "x": 0, "y": 0}],
+                        "sections": [
+                            { 
+                                "name": "Destruction Sphere- Magistral Rod", 
+                                "hosted_item": "zanarkanddestructionsphere",
                                 "clear_as_group": true
                             }
                         ]

@@ -10,41 +10,42 @@
                 "name": "South",
                 "children": [
                     {
-                        "name": "Lv. 1 Key Sphere x3 (Shelinda Chest)",
+                        "name": "Right of Shelinda (Chest)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Lv. 1 Key Sphere x3"}]
                     },
                     {
-                        "name": "X-Potion x1 (Chest)",
+                        "name": "West Corner as Path Bends East (Chest)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "X-Potion x1"}]
                     },
                     {
-                        "name": "Lv. 1 Key Sphere x3 (Benke and Biran Chest)",
+                        "name": "East Alcove as Path Bends North (Chest)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Lv. 1 Key Sphere x3"}]
                     },
                     {
-                        "name": "Magic Def Sphere x1 (Chest)",
+                        "name": "West Alcove in Forest Past Belgemine (Chest)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Magic Def Sphere x1"}]
                     },
                     {
-                        "name": "Phoenix Down x2 (Chest)",
+                        "name": "Near O'aka XXIII (Chest)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Phoenix Down x2"}]
                     },
                     {
-                        "name": "5000 gil (Chest)",
+                        "name": "Behind Lulu (Chest)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "5000 gil"}]
                     },
                     {
-                        "name": "Extractor",
+                        "name": "Defeat Extractor (Boss)",
                         "map_locations": [{ "map": "Moonflow South", "x": 0, "y": 0}],
                         "access_rules": ["[$hasSwimmers|2]"],
                         "sections": [
                             {
+                                "name": "Extractor",
                                 "hosted_item": "extractor",
                                 "item_count": 1,
                                 "clear_as_group": true
@@ -58,9 +59,19 @@
                 "access_rules": ["extractor"],
                 "children": [
                     {
-                        "name": "Ether x1 (Chest)",
+                        "name": "Up Slope Right of Hypello (Primer)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer XII",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XII/Moonflow"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Near Bench (Chest)",
                         "map_locations": [{ "map": "Moonflow North", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Ether x1"}]
                     },
                     {
                         "name": "Mix Tutorial (Event)",
@@ -73,14 +84,14 @@
                         ]
                     },
                     {
-                        "name": "Antidote x4 (Chest)",
+                        "name": "East Side, Right After the Wooden Bridge (Chest)",
                         "map_locations": [{ "map": "Moonflow North", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Antidote x4"}]
                     },
                     {
-                        "name": "Mega-Potion x1 (Chest)",
+                        "name": "West Side, Before Guadosalam (Chest)",
                         "map_locations": [{ "map": "Moonflow North", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Mega-Potion x1"}]
                     }
                 ]
             }

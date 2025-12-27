@@ -24,7 +24,8 @@
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "sections": [
                             {
-                                "hosted_item": "knightlance, bevelledestructionsphere, bevellecloister"
+                                "hosted_item": "knightlance, bevelledestructionsphere, bevellecloister",
+                                "clear_as_group": false
                             },
                             {
                                 "name": "Knight Lance",

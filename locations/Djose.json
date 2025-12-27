@@ -10,39 +10,49 @@
                 "name": "Highroad",
                 "children": [
                     {
-                        "name": "Phoenix Down x2 (Chest)",
+                        "name": "South End, West Side (Chest)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Phoenix Down x2"}]
                     },
                     {
-                        "name": "Soft Ring (NPC)",
+                        "name": "South End, Behind Left Pillar (Primer)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer XI",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XI/Djose"
+                            }
+                        ]
                     },
                     {
-                        "name": "Ether x1 (NPC)",
+                        "name": "South End, Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Soft Ring"}]
                     },
                     {
-                        "name": "Hi-Potion x1 (NPC)",
+                        "name": "Midway, Yellow Armor (NPC)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Ether x1"}]
                     },
                     {
-                        "name": "Mega-Potion x1 (NPC)",
+                        "name": "Monk Pacing Between Crusaders (NPC)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Hi-Potion x1"}]
                     },
                     {
-                        "name": "Variable Steel (NPC)",
+                        "name": "North End, Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
-                        "name": "Bright Bangle (Chest)",
+                        "name": "South End, Silver/Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Variable Steel"}]
+                    },
+                    {
+                        "name": "Midway, Hidden in Western Alcove (Chest)",
+                        "map_locations": [{ "map": "Djose Highroad", "x": 0, "y": 0}],
+                        "sections": [{"name": "Bright Bangle"}]
                     }
                 ]
             },
@@ -50,29 +60,34 @@
                 "name": "Temple",
                 "children": [
                     {
-                        "name": "Ability Sphere x4 (Chest)",
+                        "name": "Northeast Corner (Chest)",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Ability Sphere x4"}]
                     },
                     {
-                        "name": "4000 gil (Chest)",
+                        "name": "West Behind Lucil's Squad (Chest)",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "4000 gil"}]
                     },
                     {
-                        "name": "Ether x1 (Chest)",
+                        "name": "Blitzball Recruit",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Kyou", "ref": "Blitzball Recruits/Kyoua"}]
                     },
                     {
-                        "name": "Remedy x1 (Chest)",
+                        "name": "In Front of Nuns' Chamber (Chest)",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Ether x1"}]
                     },
                     {
-                        "name": "Mega Phoenix x1 (Chest)",
+                        "name": "Nuns' Chamber (Chest)",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Remedy x1"}]
+                    },
+                    {
+                        "name": "Monks' Chamber (Chest)",
+                        "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
+                        "sections": [{"name": "Mega Phoenix x1"}]
                     },
                     {
                         "name": "Cloister",
@@ -95,9 +110,9 @@
                         ]
                     },
                     {
-                        "name": "Switch Hitter (Chest)",
+                        "name": "Behind Desk (Chest)",
                         "map_locations": [{ "map": "Djose Temple", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Switch Hitter"}]
                     }
                 ]
             },
@@ -105,19 +120,19 @@
                 "name": "Pilgrimage Road",
                 "children": [
                     {
-                        "name": "Halberd (NPC)",
+                        "name": "North End, Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose Pilgrimage Road", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Halberd"}]
                     },
                     {
-                        "name": "Potion x10 (NPC)",
+                        "name": "South End, Silver/Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose Pilgrimage Road", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Potion x10"}]
                     },
                     {
-                        "name": "Hi-Potion x2 (NPC)",
+                        "name": "Monk Pacing Along Bridge (NPC)",
                         "map_locations": [{ "map": "Djose Pilgrimage Road", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Hi-Potion x2"}]
                     }
                 ]
             }

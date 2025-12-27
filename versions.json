@@ -7,7 +7,7 @@
             "changelog": [
                 " - Major Refactor for UT compatibility (WIP)",
                 " - - Using descriptive location names from the Check Guide", 
-                " - Added RecruitSanity Locations",
+                " - Added RecruitSanity Locations & option support",
                 " - Pilgrimage Goal support",
                 " - Added Baaj Temple Map"
             ]
