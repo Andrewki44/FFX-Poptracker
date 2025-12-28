@@ -184,8 +184,10 @@ function CheckGoalRequirement()
     elseif (goal == 2) then
         -- Pilgrimage
         if (has("besaidcloister") and has("kilikacloister") and has("djosecloister") and has("macalaniacloister") and has("bevellecloister") and has("yunalesca")) then
+            print("PILGRIMAGE ACCESS_NORMAL")
             return ACCESS_NORMAL
         else
+            print("PILGRIMAGE ACCESS_NONE")
             return ACCESS_NONE
         end
     elseif (goal == 3) then

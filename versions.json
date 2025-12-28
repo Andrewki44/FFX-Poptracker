@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.2.1",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.1/FFX.zip",
+            "sha256": "205c37759703453f6c69c4f1b8c46b8287f96be244e3e3cd5f0711bdac1b4669",
+            "changelog": [
+                " - Fixed Superboss location mapping",
+                " - Fixed various locations not marking off from autotracking",
+                " - Fixed Goal tracking for access to BFA location",
+                " - Added Blossom Crown & Flower Scepter to item tracker",
+                " - Updated item mapping to match with updated apworld datapackage"
+            ]
+        },
+        {
             "package_version": "0.2.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.0/FFX.zip",
             "sha256": "96dd33c44a9c10485f740a1ee26f8ddc8c5654c0f196ee3ec84bedabd94a3c57",

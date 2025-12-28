@@ -76,6 +76,7 @@
                     {
                         "name": "Cloister",
                         "map_locations": [{ "map": "Zanarkand", "x": 0, "y": 0}],
+                        "access_rules": ["yunalesca"],
                         "sections": [
                             { 
                                 "name": "Destruction Sphere- Magistral Rod", 

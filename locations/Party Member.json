@@ -87,7 +87,7 @@
                     },
                     {
                         "name": "Seymour",
-                        "access_rules": ["@Mushroom Rock Road/Ridge/Sinspawn Gui"],
+                        "access_rules": ["@Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)"],
                         "hosted_item": "seymourlocation",
                         "clear_as_group": true
                     },

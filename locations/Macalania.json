@@ -44,7 +44,7 @@
                     {
                         "name": "Lucid Ring (Chest)",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["spherimorph, bevelle"],
+                        "access_rules": ["spherimorph, seymournatus"],
                         "sections": [{}]
                     }
                 ]

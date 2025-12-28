@@ -79,14 +79,15 @@ function applySlotData(slot_data)
     print("APPLY SLOT DATA")
 
     local goal = slot_data["goal_requirement"]
+    print("GOAL: " .. goal)
     if (goal == 0) then
-        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 0
     elseif (goal == 1) then
-        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
     elseif (goal == 2) then
-        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
     elseif (goal == 3) then
-        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 4
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
     end
 
     Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]

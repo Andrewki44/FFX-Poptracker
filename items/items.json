@@ -4195,7 +4195,7 @@
     {
         "name": "Flower Scepter",
         "type": "toggle",
-        "img": "images/items/flowerscepter.png",
+        "img": "images/items/hd/Key_Item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,

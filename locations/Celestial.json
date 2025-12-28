@@ -142,7 +142,7 @@
                     },
                     {
                         "name": "Sun Crest",
-                        "access_rules": ["@Zanarkand/Cloister, yunalesca"]
+                        "access_rules": ["@Zanarkand/Temple/Cloister, yunalesca"]
                     },
                     {
                         "name": "Sun Sigil",

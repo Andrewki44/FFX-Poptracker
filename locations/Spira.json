@@ -174,11 +174,11 @@
                     {
                         "name": "Sin Fin",
                         "ref": "S.S. Liki/Encounter Sin Fin (Event)/"
-                    },
-                    {
-                        "name": "Friend Sphere x1 (Clasko NPC)",
-                        "ref": "S.S. Liki/Clasko, After Breeder Encouragement in Macalania (Event)/Friend Sphere x1 (Clasko)"
                     }
+                    // {
+                    //     "name": "Friend Sphere x1 (Clasko NPC)",
+                    //     "ref": "S.S. Liki/Clasko, After Breeder Encouragement in Macalania (Event)/Friend Sphere x1 (Clasko)"
+                    // }
                 ]
             },
             {
@@ -1531,11 +1531,11 @@
                     },
                     {
                         "name": "Cloister - Spectral Keeper",
-                        "ref": "Zanarkand/Cloister/Spectral Keeper/"
+                        "ref": "Zanarkand/Temple/Spectral Keeper/"
                     },
                     {
                         "name": "Cloister - Yunalesca",
-                        "ref": "Zanarkand/Cloister/Yunalesca/"
+                        "ref": "Zanarkand/Temple/Yunalesca/"
                     },
                     {
                         "name": "Cloister - Sun Crest (Chest)",
