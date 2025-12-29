@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.2.2",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.2/FFX.zip",
+            "sha256": "61b931fff991d361eee3cc58240b451b79b2aed90f97b668da0b2b7b3fc1e565",
+            "changelog": [
+                " - Fixed Guadosalam 2nd visit checks not showing",
+                " - Fixed Masamune not showing"
+            ]
+        },
+        {
             "package_version": "0.2.1",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.1/FFX.zip",
             "sha256": "205c37759703453f6c69c4f1b8c46b8287f96be244e3e3cd5f0711bdac1b4669",

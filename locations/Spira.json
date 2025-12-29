@@ -559,7 +559,7 @@
                     },
                     {
                         "name": "Aftermath - Masamune",
-                        "ref": "Celestial/Auron/Masamune/"
+                        "ref": "Celestial/Auron/Masamune"
                     },
                     {
                         "name": "Super Bosses - Dark Magus Sisters",
@@ -741,11 +741,11 @@
                     },
                     {
                         "name": "Farplane - Brotherhood Upgrade",
-                        "ref": "Celestial/Tidus/Brotherhood Upgrade/"
+                        "ref": "Celestial/Tidus/Brotherhood Upgrade"
                     },
                     {
                         "name": "Farplane - Venus Crest (Chest)",
-                        "ref": "Celestial/Lulu/Venus Crest (Chest)/"
+                        "ref": "Celestial/Lulu/Venus Crest"
                     }
                 ]
             },
