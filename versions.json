@@ -3,7 +3,7 @@
         {
             "package_version": "0.2.3",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.3/FFX.zip",
-            "sha256": "",
+            "sha256": "ad61932db75f7949d76cdb13009d7633634bdffed0684d99334d24f5e7433cba",
             "changelog": [
                 " - Reordered locations in Omega ruins to match accessibility",
                 " - Fixed logic accessibility for Dark Magus Sisters",
