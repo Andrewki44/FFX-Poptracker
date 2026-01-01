@@ -89,6 +89,10 @@
     {
         "name": "Spherimorph Defeated",
         "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "spherimorph"
@@ -1196,6 +1200,17 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "luzupostochu"
+    },
+    {
+        "name": "Jecht Sphere",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "jechtsphere"
     },
     
     //RegionAccess misc items

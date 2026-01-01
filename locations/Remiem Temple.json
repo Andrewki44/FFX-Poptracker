@@ -74,7 +74,7 @@
                     },
                     {
                         "name": "Anima Fight",
-                        "access_rules": ["$hasAnima"],
+                        "access_rules": ["$hasYojimbo, $hasAnima"],
                         "sections": [
                             {
                                 "hosted_item": "belgemineanima",
@@ -85,7 +85,7 @@
                     },
                     {
                         "name": "Magus Sisters Fight",
-                        "access_rules": ["$hasMagusSisters"],
+                        "access_rules": ["$hasYojimbo, $hasAnima, $hasMagusSisters"],
                         "sections": [
                             {
                                 "hosted_item": "belgeminemagus",

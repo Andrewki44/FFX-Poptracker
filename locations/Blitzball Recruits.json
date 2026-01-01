@@ -60,7 +60,7 @@
             },
             {
                 "name": "Ropp",
-                "access_rules": ["Miihen Highroad/Agency"]
+                "access_rules": ["@Miihen Highroad/Agency"]
             },
             {
                 "name": "Shaami",

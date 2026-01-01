@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.2.4",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.4/FFX.zip",
+            "sha256": "c0264b4934a92fdd0a5579c6d67720588f90aeb46f327cd038358085d00b2b39",
+            "changelog": [
+                " - Moved blitz recruit location in Djose from Temple to Pilgrimage Road",
+                " - Correct Belgemine logic for Anima & Magus Sisters fights",
+                " - Continued UT compatibilty refactor (WIP)",
+                " - Added missing Spirit Lance & Saturn Sigil locations",
+                " - Temporarily removed non-functional Monster Arena locations"
+            ]
+        },
+        {
             "package_version": "0.2.3",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.3/FFX.zip",
             "sha256": "ad61932db75f7949d76cdb13009d7633634bdffed0684d99334d24f5e7433cba",
