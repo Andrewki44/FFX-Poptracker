@@ -3,7 +3,7 @@
         {
             "package_version": "0.2.4",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.4/FFX.zip",
-            "sha256": "c0264b4934a92fdd0a5579c6d67720588f90aeb46f327cd038358085d00b2b39",
+            "sha256": "e6ddc714526317b535bcf076eb02960e6533e331b03d22b4ebc73ed06847f7d5",
             "changelog": [
                 " - Moved blitz recruit location in Djose from Temple to Pilgrimage Road",
                 " - Correct Belgemine logic for Anima & Magus Sisters fights",
