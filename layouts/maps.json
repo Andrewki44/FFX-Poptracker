@@ -3,6 +3,13 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "Omega Ruins",
+                "content": {
+                    "type": "map",
+                    "maps": ["Omega Ruins"]
+                }
+            },
+            {
                 "title": "World Map",
                 "content": {
                     "type": "map",

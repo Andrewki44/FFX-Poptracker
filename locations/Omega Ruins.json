@@ -7,16 +7,27 @@
         "access_rules": ["^$CheckAccessLevel|omegaruins"],
         "children": [
             {
-                "name": "Teleport Sphere x1 (Chest)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 0, "y": 0}],
-                "sections": [{}]
+                "name": "Press Both Glyphs, Then Take Narrow Central Path (Chest)",
+                "map_locations": [{ "map": "Omega Ruins", "x": 480, "y": 640}],
+                "sections": [{"name": "Teleport Sphere x1"}]
             },
             {
-                "name": "Ultima Weapon",
-                "map_locations": [{ "map": "Omega Ruins", "x": 0, "y": 0}],
+                "name": "North Side of Four Chest Intersection (Primer)",
+                "map_locations": [{ "map": "Omega Ruins", "x": 450, "y": 285}],
+                "sections": [
+                    {
+                        "name": "Al Bhed Primer XXVI",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXVI/Omega Ruins"
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Ultima Weapon (Boss)",
+                "map_locations": [{ "map": "Omega Ruins", "x": 857, "y": 287, "shape": "trapezoid", "size": 24}],
                 "access_rules": ["[$hasPartyMembers|3]"],
                 "sections": [
                     {
+                        "name": "Ultima Weapon",
                         "hosted_item": "ultimaweapon",
                         "item_count": 1,
                         "clear_as_group": true
@@ -24,16 +35,21 @@
                 ]
             },
             {
-                "name": "Friend Sphere x1 (Chest)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 0, "y": 0}],
+                "name": "West Path (Chest)",
+                "map_locations": [{ "map": "Omega Ruins", "x": 1725, "y": 370}],
                 "access_rules": ["ultimaweapon"],
-                "sections": [{}]
+                "sections": [{"name": "Friend Sphere x1"}]
             },
             {
-                "name": "Magic Sphere x1 (Chest)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 0, "y": 0}],
+                "name": "Defeat Omega Weapon (Superboss)",
+                "map_locations": [{ "map": "Omega Ruins", "x": 1535, "y": 635, "shape": "trapezoid", "size": 24}],
+                "sections": [{"name": "Omega Weapon", "ref": "Super Bosses/Omega Weapon"}]
+            },
+            {
+                "name": "Omega Boss Arena (Chest)",
+                "map_locations": [{ "map": "Omega Ruins", "x": 1483, "y": 635}],
                 "access_rules": ["omegaweapon"],
-                "sections": [{}]
+                "sections": [{"name": "Magic Sphere x1"}]
             }
         ]
     }

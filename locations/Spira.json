@@ -1639,7 +1639,7 @@
                 "sections": [
                     {
                         "name": "Teleport Sphere x1 (Chest)",
-                        "ref": "Omega Ruins/Teleport Sphere x1 (Chest)/"
+                        "ref": "Omega Ruins/Press Both Glyphs, Then Take Narrow Central Path (Chest)/Teleport Sphere x1"
                     },
                     {
                         "name": "Al Bhed Primer XXVI",
@@ -1647,11 +1647,11 @@
                     },
                     {
                         "name": "Ultima Weapon",
-                        "ref": "Omega Ruins/Ultima Weapon/"
+                        "ref": "Omega Ruins/Defeat Ultima Weapon (Boss)/Ultima Weapon"
                     },
                     {
                         "name": "Friend Sphere x1 (Chest)",
-                        "ref": "Omega Ruins/Friend Sphere x1 (Chest)/"
+                        "ref": "Omega Ruins/West Path (Chest)/Friend Sphere x1"
                     },
                     {
                         "name": "Omega Weapon",
@@ -1659,7 +1659,7 @@
                     },
                     {
                         "name": "Magic Sphere x1 (Chest)",
-                        "ref": "Omega Ruins/Magic Sphere x1 (Chest)/"
+                        "ref": "Omega Ruins/Omega Boss Arena (Chest)/Magic Sphere x1"
                     }
                 ]
             }
