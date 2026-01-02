@@ -23,7 +23,7 @@
             },
             {
                 "name": "Defeat Ultima Weapon (Boss)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 857, "y": 287, "shape": "trapezoid", "size": 24}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 857, "y": 287, "shape": "trapezoid", "size": 32}],
                 "access_rules": ["[$hasPartyMembers|3]"],
                 "sections": [
                     {
@@ -42,7 +42,7 @@
             },
             {
                 "name": "Defeat Omega Weapon (Superboss)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 1535, "y": 635, "shape": "trapezoid", "size": 24}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 1535, "y": 635, "shape": "trapezoid", "size": 32}],
                 "sections": [{"name": "Omega Weapon", "ref": "Super Bosses/Omega Weapon"}]
             },
             {

@@ -277,7 +277,7 @@
     },
     {
         "name": "Omega Ruins",
-        "location_size": 16,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/regions/omega ruins/Omega Ruins.png"
     },
@@ -355,13 +355,13 @@
     },
     {
         "name": "Zanarkand Ruins",
-        "location_size": 16,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/regions/zanarkand/Zanarkand Ruins.png"
     },
     {
         "name": "Zanarkand Temple",
-        "location_size": 16,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/regions/zanarkand/Zanarkand Temple.png"
     }

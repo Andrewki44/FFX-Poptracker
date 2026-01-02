@@ -11,14 +11,14 @@
                             "title": "Ruins",
                             "content": {
                                 "type": "map",
-                                "maps": ["Zanarkand Ruins"]
+                                "maps": ["Zanarkand Temple"]
                             }
                         },
                         {
                             "title": "Temple",
                             "content": {
                                 "type": "map",
-                                "maps": ["Zanarkand Temple"]
+                                "maps": ["Zanarkand Ruins"]
                             }
                         }
                     ]

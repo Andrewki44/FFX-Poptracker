@@ -1518,43 +1518,43 @@
                 ]
             },
             {
-                "name": "Zanarkand Ruins",
+                "name": "Zanarkand",
                 "map_locations": [{ "map": "Spira", "x": 785, "y": 50}],
                 "sections": [
                     {
                         "name": "Overpass - Fortune Sphere x1 (Chest)",
-                        "ref": "Zanarkand/Overpass/Fortune Sphere x1 (Chest)/"
+                        "ref": "Zanarkand/Overpass/South Side, West Bend (Chest)/Fortune Sphere x1"
                     },
                     {
                         "name": "Overpass - Spiritual Targe (Chest)",
-                        "ref": "Zanarkand/Overpass/Spiritual Targe (Chest)/"
+                        "ref": "Zanarkand/Overpass/North Side, Left Alcove (Chest)/Spiritual Targe"
                     },
                     {
                         "name": "Dome - 10000 gil (Chest)",
-                        "ref": "Zanarkand/Dome/10000 gil (Chest)/"
+                        "ref": "Zanarkand/Dome/Road Above Underpass (Chest)/10000 gil"
                     },
                     {
                         "name": "Dome - Friend Sphere x1 (Chest)",
-                        "ref": "Zanarkand/Dome/Friend Sphere x1 (Chest)/"
+                        "ref": "Zanarkand/Dome/West From 4-Way Intersection (Chest)/Friend Sphere x1"
                     },
                     {
                         "name": "Dome - Lv. 3 Key Sphere x1 (Chest)",
-                        "ref": "Zanarkand/Dome/Lv. 3 Key Sphere x1 (Chest)/"
+                        "ref": "Zanarkand/Dome/Rubble Path Down Before Circular Doorway (Chest)/Lv. 3 Key Sphere x1"
                     },
                     {
                         "name": "Dome - Luck Sphere x1 (Chest)",
-                        "ref": "Zanarkand/Dome/Luck Sphere x1 (Chest)/"
+                        "ref": "Zanarkand/Dome/Right Side (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Cloister - Spectral Keeper",
-                        "ref": "Zanarkand/Temple/Spectral Keeper/"
+                        "name": "Temple - Spectral Keeper",
+                        "ref": "Zanarkand/Temple/Defeat Spectral Keeper (Boss)/Spectral Keeper"
                     },
                     {
-                        "name": "Cloister - Yunalesca",
-                        "ref": "Zanarkand/Temple/Yunalesca/"
+                        "name": "Temple - Yunalesca",
+                        "ref": "Zanarkand/Temple/Defeat Yunalesca (Boss)/Yunalesca"
                     },
                     {
-                        "name": "Cloister - Sun Crest (Chest)",
+                        "name": "Temple - Sun Crest (Chest)",
                         "ref": "Celestial/Tidus/Sun Crest"
                     },
                     {
