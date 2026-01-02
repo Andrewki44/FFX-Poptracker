@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.5",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.5/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Changed Saturn Sigil Accessibility"
+            ]
+        },
+        {
             "package_version": "0.2.4",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.4/FFX.zip",
             "sha256": "e6ddc714526317b535bcf076eb02960e6533e331b03d22b4ebc73ed06847f7d5",
