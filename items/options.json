@@ -34,10 +34,10 @@
         "name": "Required Party Members",
         "type": "consumable",
         "img": "images/items/hd/Support_use_item_HD.png",
-        "min_quantity": 1,
+        "min_quantity": 0,
         "max_quantity": 16,
         "increment": 1,
-        "initial_quantity": 7,
+        "initial_quantity": 0,
         "codes": "requiredpartymembers"
     },
     {
@@ -68,5 +68,12 @@
                 "codes": "goalpartymembersandaeons"
             }
         ]
+    },
+    {
+        "name": "Auto Tab",
+        "type": "toggle",
+        "img": "images/settings/Tab.png",
+        "initial_active_state": true,
+        "codes": "autotab"
     }
 ]

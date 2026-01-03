@@ -60,10 +60,10 @@
                             }
                         },
                         {
-                            "title": "Ruins",
+                            "title": "S.S. Liki",
                             "content": {
                                 "type": "map",
-                                "maps": ["Besaid Ruins"]
+                                "maps": ["S.S. Liki"]
                             }
                         }
                     ]
@@ -79,8 +79,23 @@
             {
                 "title": "Bikanel",
                 "content": {
-                    "type": "map",
-                    "maps": ["Bikanel"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Desert",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Bikanel"]
+                            }
+                        },
+                        {
+                            "title": "Home",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Home"]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -89,17 +104,10 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Calm Lands",
+                            "title": "Plains",
                             "content": {
                                 "type": "map",
                                 "maps": ["Calm Lands"]
-                            }
-                        },
-                        {
-                            "title": "Cavern of the Stolen Fayth",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Cavern of the Stolen Fayth"]
                             }
                         },
                         {
@@ -114,6 +122,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Monster Arena"]
+                            }
+                        },
+                        {
+                            "title": "Cavern of the Stolen Fayth",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Cavern of the Stolen Fayth"]
                             }
                         }
                     ]
@@ -171,13 +186,6 @@
                 }
             },
             {
-                "title": "Home",
-                "content": {
-                    "type": "map",
-                    "maps": ["Home"]
-                }
-            },
-            {
                 "title": "Inside Sin",
                 "content": {
                     "type": "map",
@@ -202,6 +210,13 @@
                                 "type": "map",
                                 "maps": ["Kilika Woods"]
                             }
+                        },
+                        {
+                            "title": "S.S. Winno",
+                            "content": {
+                                "type": "map",
+                                "maps": ["S.S. Winno"]
+                            }
                         }
                     ]
                 }
@@ -212,24 +227,24 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Lake Macalania",
+                            "title": "Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Woods"]
+                            }
+                        },
+                        {
+                            "title": "Lake",
                             "content": {
                                 "type": "map",
                                 "maps": ["Lake Macalania"]
                             }
                         },
                         {
-                            "title": "Lake Macalania Bottom",
+                            "title": "Lake Bottom",
                             "content": {
                                 "type": "map",
                                 "maps": ["Lake Macalania Bottom"]
-                            }
-                        },
-                        {
-                            "title": "Macalania Woods",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Macalania Woods"]
                             }
                         }
                     ]
@@ -288,13 +303,6 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Miihen Highroad North"]
-                            }
-                        },
-                        {
-                            "title": "Miihen Ruins",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Ruins"]
                             }
                         }
                     ]
@@ -392,27 +400,6 @@
                 "content": {
                     "type": "map",
                     "maps": ["Omega Ruins"]
-                }
-            },
-            {
-                "title": "S.S. Liki",
-                "content": {
-                    "type": "map",
-                    "maps": ["S.S. Liki"]
-                }
-            },
-            {
-                "title": "S.S. Winno",
-                "content": {
-                    "type": "map",
-                    "maps": ["S.S. Winno"]
-                }
-            },
-            {
-                "title": "Sanubia Sands",
-                "content": {
-                    "type": "map",
-                    "maps": ["Sanubia Sands"]
                 }
             },
             {
