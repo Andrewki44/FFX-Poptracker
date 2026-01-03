@@ -63,7 +63,7 @@
         "name": "Bevelle",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Bevelle.png"
+        "img": "images/maps/regions/bevelle/Bevelle.png"
     },
     {
         "name": "Bikanel",
@@ -352,6 +352,12 @@
         "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/Trashed.png"
+    },
+    {
+        "name": "Via Purifico",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/bevelle/Via Purifico.png"
     },
     {
         "name": "Zanarkand Ruins",

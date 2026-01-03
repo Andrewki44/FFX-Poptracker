@@ -72,8 +72,23 @@
             {
                 "title": "Bevelle",
                 "content": {
-                    "type": "map",
-                    "maps": ["Bevelle"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Bevelle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Bevelle"]
+                            }
+                        },
+                        {
+                            "title": "Via Purifico",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Via Purifico"]
+                            }
+                        }
+                    ]
                 }
             },
             {
