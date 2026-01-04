@@ -5,8 +5,10 @@
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.6/FFX.zip",
             "sha256": "",
             "changelog": [
+                " - Added region maps for Calm Lands, CotSF, Remiem Temple, Bevelle, Bikanel & Home",
                 " - Added map auto-tab functionality, to integrate with client multiworld",
-                " - Updated 'Required Party Members' option to only update when goal requirement is not None or Pilgrimage"
+                " - Updated 'Required Party Members' option to only update when goal requirement is not None or Pilgrimage",
+                " - Continued UT compatibility refactor (WIP)"
             ]
         },
         {
