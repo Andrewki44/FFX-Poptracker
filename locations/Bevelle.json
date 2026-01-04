@@ -51,46 +51,41 @@
                 "name": "Via Purifico",
                 "children": [
                     {
-                        "name": "Mega-Potion x1 (Chest)",
+                        "name": "East Room With Kimahri (Chest)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
-                        "name": "Wht Magic Sphere x1 (Chest)",
+                        "name": "West Room With Lulu (Chest)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Wht Magic Sphere x1"}]
                     },
                     {
-                        "name": "Elixir x1 (Chest)",
+                        "name": "Southwest Room Near Glyph (Chest)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Elixir x1"}]
                     },
                     {
-                        "name": "Blk Magic Sphere (Chest)",
+                        "name": "Room Northeast of Central Teleporter (Chest)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Blk Magic Sphere x1"}]
                     },
                     {
-                        "name": "Skill Sphere x1 (Chest)",
+                        "name": "Puzzle Room (Chests)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [
+                            {"name": "Skill Sphere x1"},
+                            {"name": "10000 gil"},
+                            {"name": "Lucid Ring"}
+                        ]
                     },
                     {
-                        "name": "10000 gil (Chest)",
-                        "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
-                    },
-                    {
-                        "name": "Lucid Ring (Chest)",
-                        "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
-                        "sections": [{}]
-                    },
-                    {
-                        "name": "Isaaru",
+                        "name": "Defeat Isaaru (Boss)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "access_rules": ["$hasYuna, $hasAeons|1, [$hasAeons|2]"],
                         "sections": [
                             {
+                                "name": "Isaaru",
                                 "hosted_item": "isaaru", 
                                 "item_count": 1,
                                 "clear_as_group": true
@@ -104,11 +99,12 @@
                 "access_rules": ["isaaru"],
                 "children": [
                     {
-                        "name": "Evrae Altana",
+                        "name": "Defeat Evrae Altana (Boss)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "access_rules": ["[$hasSwimmers|3]"],
                         "sections": [
                             {
+                                "name": "Evrae Altana",
                                 "hosted_item": "evraealtana", 
                                 "item_count": 1,
                                 "clear_as_group": true
@@ -116,16 +112,16 @@
                         ]
                     },
                     {
-                        "name": "Rematch (Chest)",
+                        "name": "Right Side Before First Turn (Chest)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "access_rules": ["evraealtana"],
-                        "sections": [{}]
+                        "sections": [{"name": "Rematch"}]
                     },
                     {
-                        "name": "Avenger (Chest)",
+                        "name": "Right Side After First Turn (Chest)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "access_rules": ["evraealtana"],
-                        "sections": [{}]
+                        "sections": [{"name": "Avenger"}]
                     }
                 ]
             },
@@ -134,11 +130,12 @@
                 "access_rules": ["evraealtana"],
                 "children": [
                     {
-                        "name": "Seymour Natus",
+                        "name": "Defeat Seymour Natus (Boss)",
                         "map_locations": [{ "map": "Bevelle", "x": 0, "y": 0}],
                         "access_rules": ["[$hasPartyMembers|3]"],
                         "sections": [
                             {
+                                "name": "Seymour Natus",
                                 "hosted_item": "seymournatus", 
                                 "item_count": 1,
                                 "clear_as_group": true

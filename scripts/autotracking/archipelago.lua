@@ -1,6 +1,7 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotabbing")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -84,32 +85,18 @@ function applySlotData(slot_data)
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 0
     elseif (goal == 1) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
+        Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
     elseif (goal == 2) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
     elseif (goal == 3) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
+        Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
     end
 
-    Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
     Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
     Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
     Tracker:FindObjectForCode("recruitsanity").Active = slot_data["recruit_sanity"]
     Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
-
-    -- if slot_data["super_bosses"] then 
-    --     print("SUPER BOSSES FOUND")
-    --     Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
-    -- end
-    
-    -- if slot_data["mini_games"] then 
-    --     print("MINIGAMES FOUND")
-    --     Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
-    -- end
-
-    -- if slot_data["logic_difficulty"] then 
-    --     print("LOGIC DIFFICULTY FOUND")
-    --     Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
-    -- end
 end
 
 function onClear(slot_data)
@@ -170,6 +157,12 @@ function onClear(slot_data)
     end
 
     applySlotData(slot_data)
+
+    ap_autotab = Archipelago.PlayerNumber .. "_FFX_ROOM"
+	print("Setting Notify for: "..ap_autotab)
+	Archipelago:SetNotify({ap_autotab})
+	Archipelago:Get({ap_autotab})
+
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -305,20 +298,24 @@ end
 --     end
 -- end
 
-function onNotify(key, value, old_value)
-    print("onNotify", key, value, old_value)
-    if value ~= old_value and key == HINTS_ID then
-        Tracker.BulkUpdate = true
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, hint.status)
-                elseif hint.found then
-                    updateHints(hint.location, hint.status)
+function onNotify(key, value, oldValue)
+    print("onNotify", key, value, oldValue)
+    if value ~= oldValue then
+        if key == HINTS_ID then
+            Tracker.BulkUpdate = true
+            for _, hint in ipairs(value) do
+                if hint.finding_player == Archipelago.PlayerNumber then
+                    if not hint.found then
+                        updateHints(hint.location, hint.status)
+                    elseif hint.found then
+                        updateHints(hint.location, hint.status)
+                    end
                 end
             end
+            Tracker.BulkUpdate = false
+        else
+            onDataStorageUpdate(key, value, oldValue)
         end
-        Tracker.BulkUpdate = false
     end
 end
 
@@ -335,6 +332,8 @@ function onNotifyLaunch(key, value)
             end
         end
         Tracker.BulkUpdate = false
+    else
+        onDataStorageUpdate(key, value)
     end
 end
 
@@ -356,14 +355,19 @@ function updateHints(locationID, status) -->
     end
 end
 
+function onDataStorageUpdate(key, value, oldValue)
+    if (key == ap_autotab and value ~= nil) then
+        autoTab(value)
+    end
+end
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 -- Archipelago:AddClearHandler("clear handler", onClearHandler)
 -- Archipelago:AddItemHandler("item handler", onItem)
 -- Archipelago:AddLocationHandler("location handler", onLocation)
 
--- Archipelago:AddSetReplyHandler("notify handler", onNotify)
--- Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+-- Archipelago:AddSetReplyHandler("set handler", onDataStorageUpdate)
+-- Archipelago:AddRetrievedHandler("retrieve handler", onDataStorageUpdate)
 
 
 

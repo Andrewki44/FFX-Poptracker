@@ -60,10 +60,10 @@
                             }
                         },
                         {
-                            "title": "Ruins",
+                            "title": "S.S. Liki",
                             "content": {
                                 "type": "map",
-                                "maps": ["Besaid Ruins"]
+                                "maps": ["S.S. Liki"]
                             }
                         }
                     ]
@@ -72,15 +72,45 @@
             {
                 "title": "Bevelle",
                 "content": {
-                    "type": "map",
-                    "maps": ["Bevelle"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Bevelle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Bevelle"]
+                            }
+                        },
+                        {
+                            "title": "Via Purifico",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Via Purifico"]
+                            }
+                        }
+                    ]
                 }
             },
             {
                 "title": "Bikanel",
                 "content": {
-                    "type": "map",
-                    "maps": ["Bikanel"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Desert",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Bikanel"]
+                            }
+                        },
+                        {
+                            "title": "Home",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Home"]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -89,17 +119,10 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Calm Lands",
+                            "title": "Plains",
                             "content": {
                                 "type": "map",
                                 "maps": ["Calm Lands"]
-                            }
-                        },
-                        {
-                            "title": "Cavern of the Stolen Fayth",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Cavern of the Stolen Fayth"]
                             }
                         },
                         {
@@ -114,6 +137,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Monster Arena"]
+                            }
+                        },
+                        {
+                            "title": "Cavern of the Stolen Fayth",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Cavern of the Stolen Fayth"]
                             }
                         }
                     ]
@@ -171,13 +201,6 @@
                 }
             },
             {
-                "title": "Home",
-                "content": {
-                    "type": "map",
-                    "maps": ["Home"]
-                }
-            },
-            {
                 "title": "Inside Sin",
                 "content": {
                     "type": "map",
@@ -202,6 +225,13 @@
                                 "type": "map",
                                 "maps": ["Kilika Woods"]
                             }
+                        },
+                        {
+                            "title": "S.S. Winno",
+                            "content": {
+                                "type": "map",
+                                "maps": ["S.S. Winno"]
+                            }
                         }
                     ]
                 }
@@ -212,24 +242,24 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Lake Macalania",
+                            "title": "Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Woods"]
+                            }
+                        },
+                        {
+                            "title": "Lake",
                             "content": {
                                 "type": "map",
                                 "maps": ["Lake Macalania"]
                             }
                         },
                         {
-                            "title": "Lake Macalania Bottom",
+                            "title": "Lake Bottom",
                             "content": {
                                 "type": "map",
                                 "maps": ["Lake Macalania Bottom"]
-                            }
-                        },
-                        {
-                            "title": "Macalania Woods",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Macalania Woods"]
                             }
                         }
                     ]
@@ -289,13 +319,6 @@
                                 "type": "map",
                                 "maps": ["Miihen Highroad North"]
                             }
-                        },
-                        {
-                            "title": "Miihen Ruins",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Ruins"]
-                            }
                         }
                     ]
                 }
@@ -331,14 +354,14 @@
                             "title": "Outside",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mt. Gagazet Outside"]
+                                "maps": ["Gagazet Outside"]
                             }
                         },
                         {
                             "title": "Cave",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mt. Gagazet Cave"]
+                                "maps": ["Gagazet Cave"]
                             }
                         }
                     ]
@@ -395,27 +418,6 @@
                 }
             },
             {
-                "title": "S.S. Liki",
-                "content": {
-                    "type": "map",
-                    "maps": ["S.S. Liki"]
-                }
-            },
-            {
-                "title": "S.S. Winno",
-                "content": {
-                    "type": "map",
-                    "maps": ["S.S. Winno"]
-                }
-            },
-            {
-                "title": "Sanubia Sands",
-                "content": {
-                    "type": "map",
-                    "maps": ["Sanubia Sands"]
-                }
-            },
-            {
                 "title": "Thunder Plains",
                 "content": {
                     "type": "map",
@@ -428,17 +430,17 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Zanarkand",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Zanarkand"]
-                            }
-                        },
-                        {
-                            "title": "Zanarkand Ruins",
+                            "title": "Ruins",
                             "content": {
                                 "type": "map",
                                 "maps": ["Zanarkand Ruins"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Zanarkand Temple"]
                             }
                         }
                     ]

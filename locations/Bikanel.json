@@ -13,35 +13,74 @@
                         "name": "Oasis",
                         "children": [
                             {
-                                "name": "Remedy x4 (Chest)",
+                                "name": "In Southwest Corner of Water (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Remedy x4"}]
                             },
                             {
-                                "name": "Al Bhed Potion x8",
+                                "name": "Northeast of Water (Primer)",
+                                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer I",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer I/Bikanel"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Next to Tent (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Al Bhed Potion x8"}]
+                            },
+                            {
+                                "name": "Next to Tent (Primer)",
+                                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer III",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer III/Bikanel"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         "name": "East",
                         "children": [
-                            
                             {
-                                "name": "Al Bhed Potion x8",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Behind Machinery Near Kimahri (Primer)",
+                                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer V",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer V/Bikanel"
+                                    }
+                                ]
                             },
                             {
-                                "name": "Ether x2 (Chest)",
+                                "name": "Near First Tent, Right (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Ether x2"}]
                             },
                             {
-                                "name": "Hi-Potion x4 (Chest)",
+                                "name": "Near First Tent, Left (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Al Bhed Potion x8"}]
+                            },
+                            {
+                                "name": "Western Alcove, Northeast of Structure (Primer)",
+                                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer XIV",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer XIV/Bikanel"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Western Alcove, Near Structure (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                                "sections": [{"name": "Hi-Potion x4"}]
                             }
                         ]
                     },
@@ -49,39 +88,59 @@
                         "name": "Central",
                         "children": [
                             {
-                                "name": "Hi-Potion x4 (Chest)",
+                                "name": "Structure Southeast of Save Sphere (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Hi-Potion x4"}]
                             },
                             {
-                                "name": "X-Potion x2 (Chest)",
+                                "name": "Rock Ridge Southwest of Save Sphere (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "X-Potion x2"}]
                             },
                             {
-                                "name": "Mega-Potion x2 (Chest)",
+                                "name": "Far West Corner (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Mega-Potion x2"}]
                             },
                             {
-                                "name": "Al Bhed Potion x8",
+                                "name": "Right of Save Sphere (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Al Bhed Potion x8"}]
                             },
                             {
-                                "name": "Elixir x1 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Near Sign At Northeast Exit (Primer)",
+                                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer XVIII",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer XVIII/Bikanel"
+                                    }
+                                ]
                             },
                             {
-                                "name": "Lv. 2 Key Sphere x1 (Chest)",
+                                "name": "Southwest Corner of Northwest Zone (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Elixir x1"}]
                             },
                             {
-                                "name": "10000 gil (Chest)",
+                                "name": "Central Structure of Northwest Zone, Top (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Lv. 2 Key Sphere x1"}]
+                            },
+                            {
+                                "name": "Central Structure of Northwest Zone, Bottom (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                                "sections": [{"name": "10000 gil"}]
+                            },
+                            {
+                                "name": "Northeast Structure of Northwest Zone (Primer)",
+                                "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer XVII",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer XVII/Bikanel"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -89,29 +148,44 @@
                         "name": "West",
                         "children": [
                             {
-                                "name": "Megalixir x3 (Chest)",
+                                "name": "Left Sinkhole on Main Path (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Megalixir x3"}]
                             },
                             {
-                                "name": "Teleport Sphere x2 (Chest)",
+                                "name": "Right Sinkhole on  Main Path (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Teleport Sphere x2"}]
                             },
                             {
-                                "name": "Hi-Potion x8 (Chest)",
+                                "name": "First Western Alcove, Between Rocks (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Hi-Potion x8"}]
                             },
                             {
-                                "name": "Mega-Potion x3 (Chest)",
+                                "name": "First Western Alcove, Sinkhole (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Mercury Crest", "ref": "Celestial/Rikku/Mercury Crest"}]
                             },
                             {
-                                "name": "X-Potion x2 (Chest)",
+                                "name": "Second Western Alcove, Hidden Behind Rock (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "sections": [{"name": "Mega-Potion x3"}]
+                            },
+                            {
+                                "name": "Second Western Alcove, North Side (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                                "sections": [{"name": "X-Potion x2"}]
+                            },
+                            {
+                                "name": "Complete Cactuar Village Quest (Event)",
+                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                                "sections": [{"name": "Mercury Sigil", "ref": "Celestial/Rikku/Mercury Sigil"}]
+                            },
+                            {
+                                "name": "Defeat Dark Ifrit (Superboss)",
+                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
+                                "sections": [{"name": "Dark Ifrit", "ref": "Super Bosses/Dark Ifrit"}]
                             }
                         ]
                     }

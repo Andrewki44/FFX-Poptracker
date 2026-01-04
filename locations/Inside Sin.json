@@ -10,36 +10,37 @@
                 "name": "Sea of Sorrow",
                 "children": [
                     {
-                        "name": "Phantom Ring (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "West Alcove (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 25, "y": 927}],
+                        "sections": [{"name": "Phantom Ring"}]
                     },
                     {
-                        "name": "Special Sphere x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Atop Western Falls (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 100, "y": 1015}],
+                        "sections": [{"name": "Special Sphere x1"}]
                     },
                     {
-                        "name": "Elixir x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Northwestern Alcove (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 137, "y": 732}],
+                        "sections": [{"name": "Elixir x1"}]
                     },
                     {
-                        "name": "Wizard Lance (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Atop Eastern Falls (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 325, "y": 912}],
+                        "sections": [{"name": "Wizard Lance"}]
                     },
                     {
-                        "name": "Lv. 3 Key Sphere x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Eastern Alcove, Near Final North Branch (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 410, "y": 845}],
+                        "sections": [{"name": "Lv. 3 Key Sphere x1"}]
                     },
                     {
-                        "name": "Seymour Omnis",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
+                        "name": "Defeat Seymour Omnis (Boss)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 645, "y": 890, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasPartyMembers|3]"],
                         "sections": [
                             {
+                                "name": "Seymour Omnis",
                                 "hosted_item": "seymouromnis",
                                 "item_count": 1,
                                 "clear_as_group": true
@@ -53,50 +54,50 @@
                 "access_rules": ["seymouromnis"],
                 "children": [
                     {
-                        "name": "Lv. 4 Key Sphere x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "East Glyph Near South Exit, Defeat 10/10/15 Fiends (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 980, "y": 950}],
+                        "sections": [{"name": "Lv. 4 Key Sphere x1"}]
                     },
                     {
-                        "name": "Four-on-One (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "South Side, Lift on Small Bridge (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 665, "y": 690}],
+                        "sections": [{"name": "Four-on-One"}]
                     },
                     {
-                        "name": "Defending Bracer (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "South of First Open Area, Push North Wall Down (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 515, "y": 650}],
+                        "sections": [{"name": "Defending Bracer"}]
                     },
                     {
-                        "name": "20000 gil (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "First Open Area, Ramp Down in Center (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 623, "y": 532}],
+                        "sections": [{"name": "20000 gil"}]
                     },
                     {
-                        "name": "Megalixir x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "First Open Area, Glyph in Northwest Corner (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 480, "y": 505}],
+                        "sections": [{"name": "Megalixir x1"}]
                     },
                     {
-                        "name": "HP Sphere x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Lift Up in Center of First Open Area (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 715, "y": 612}],
+                        "sections": [{"name": "HP Sphere x1"}]
                     },
                     {
-                        "name": "Defense Sphere x1 (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Lift Up in Center of First Area, Just Before Lift Down (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 705, "y": 580}],
+                        "sections": [{"name": "Defense Sphere x1"}]
                     },
                     {
-                        "name": "Laevatein (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Secret Slide South of Rising Block Area (Chest)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 1020, "y": 512}],
+                        "sections": [{"name": "Laevatein"}]
                     },
                     {
-                        "name": "Braska's Final Aeon",
-                        "map_locations": [{ "map": "Inside Sin", "x": 0, "y": 0}],
+                        "name": "Defeat Braska's Final Aeon (Boss)",
+                        "map_locations": [{ "map": "Inside Sin", "x": 240, "y": 100, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["^$CheckGoalRequirement"],
-                        "sections": [{}]
+                        "sections": [{"name": "Braska's Final Aeon"}]
                     }
                 ]
             }

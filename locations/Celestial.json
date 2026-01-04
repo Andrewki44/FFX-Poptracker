@@ -43,7 +43,7 @@
                 "sections": [
                     {
                         "name": "Spirit Lance",
-                        "access_rules": ["@Thunder Plains"]
+                        "access_rules": ["@Thunder Plains/South, celestialmirror"]
                     },
                     {
                         "name": "Saturn Crest",
@@ -51,7 +51,7 @@
                     },
                     {
                         "name": "Saturn Sigil",
-                        "access_rules": ["@Macalania, [minigames]"]
+                        "access_rules": ["@Macalania, wendigo, [minigames]"]
                     },
                     {
                         "name": "Spirit Lance Crest Upgrade",

@@ -10,24 +10,39 @@
                 "name": "Guadosalam",
                 "children": [
                     {
-                        "name": "Mega-Potion x1 (Chest)",
+                        "name": "East of Mansion (Chest)",
                         "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
-                        "name": "3000 gil (Chest)",
+                        "name": "House - On Floor (Primer)",
                         "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer XIII",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XIII/Guadosalam"
+                            }
+                        ]
                     },
                     {
-                        "name": "Elixir x1 (Chest)",
+                        "name": "House - Back Wall (Chest)",
                         "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "3000 gil"}]
                     },
                     {
-                        "name": "Hi-Potion x2 (Chest)",
+                        "name": "Upper Level, South Side (Chest)",
                         "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Elixir x1"}]
+                    },
+                    {
+                        "name": "Mansion, Entrance - Upper Level (Chest)",
+                        "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                        "sections": [{"name": "Hi-Potion x2"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{ "map": "Miihen Highroad Agency", "x": 0, "y": 0}],
+                        "sections": [{"name": "Yuma Guado", "ref": "Blitzball Recruits/Yuma Guado"}]
                     }
                 ]
             },
@@ -35,9 +50,29 @@
                 "name": "Farplane",
                 "children": [
                     {
-                        "name": "Lightning Marble x8 (Chest)",
+                        "name": "Road to Farplane - Left Side Behind Wall (Chest)",
                         "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Lightning Marble x8"}]
+                    },
+                    {
+                        "name": "Automatic Upon Leaving Farplane (Event)",
+                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Brotherhood Upgrade",
+                                "ref": "Celestial/Tidus/Brotherhood Upgrade"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Visit, West Side (Chest)",
+                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Venus Crest",
+                                "ref": "Celestial/Lulu/Venus Crest"
+                            }
+                        ]
                     }
                 ]
             }

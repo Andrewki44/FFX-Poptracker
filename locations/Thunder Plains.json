@@ -10,24 +10,34 @@
                 "name": "South",
                 "children": [
                     {
-                        "name": "Phoenix Down x2 (Chest)",
+                        "name": "West Side, South of Save Sphere (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Phoenix Down x2"}]
                     },
                     {
-                        "name": "Hi-Potion x2 (Chest)",
+                        "name": "West Side, North of Save Sphere (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
-                        "name": "5000 gil (Chest)",
+                        "name": "West Side, Behind First Cactuar Statue (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "5000 gil"}]
                     },
                     {
-                        "name": "Water Ball (Chest)",
+                        "name": "East Side, Alcove With Second Cactuar Statue (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Water Ball"}]
+                    },
+                    {
+                        "name": "Cactuar Statue Minigame (Event)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Spirit Lance",
+                                "ref": "Celestial/Kimahri/Spirit Lance"
+                            }
+                        ]
                     }
                 ]
             },
@@ -35,9 +45,24 @@
                 "name": "Agency",
                 "children": [
                     {
-                        "name": "Yellow Shield (Ground Item)",
+                        "name": "Blitzball Recruit",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Mifurey", "ref": "Blitzball Recruits/Mifurey"}]
+                    },
+                    {
+                        "name": "Talk to Rikku, Then Rin (Event)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer XIV",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XIV/Thunder Plains"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Agency Front (Ground Item)",
+                        "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                        "sections": [{"name": "Yellow Shield"}]
                     },
                     {
                         "name": "Lightning Dodging",
@@ -83,6 +108,10 @@
                                 "hosted_item": "lightning150",
                                 "item_count": 1,
                                 "clear_as_group": true
+                            },
+                            {
+                                "name": "Venus Sigil",
+                                "ref": "Celestial/Lulu/Venus Sigil"
                             }
                         ]
                     }
@@ -92,24 +121,29 @@
                 "name": "North",
                 "children": [
                     {
-                        "name": "X-Potion x1 (Chest)",
+                        "name": "East Side, Near Southeast Exit (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "X-Potion x1"}]
                     },
                     {
-                        "name": "Ether x1 (Chest)",
+                        "name": "West Side, Behind Sheltered Lightning Rod (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Ether x1"}]
                     },
                     {
-                        "name": "2000 gil (Chest)",
+                        "name": "East of Final Lightning Rod (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "2000 gil"}]
                     },
                     {
-                        "name": "Remedy x1 (Chest)",
+                        "name": "West Side, Near North Exit (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "sections": [{"name": "Remedy x1"}]
+                    },
+                    {
+                        "name": "Defeat Dark Ixion (Superboss)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 0, "y": 0}],
+                        "sections": [{"name": "Dark Ixion", "ref": "Super Bosses/Dark Ixion"}]
                     }
                 ]
             }

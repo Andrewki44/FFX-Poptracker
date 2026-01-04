@@ -7,92 +7,92 @@
         "access_rules": ["^$CheckAccessLevel|calmlands"],
         "children": [
             {
+                "name": "Northwest Corner (Primer)",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "sections": [
+                    {
+                        "name": "Al Bhed Primer XXIV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXIV/Remiem Temple"
+                    }
+                ]
+            },
+            {
+                "name": "Win Chocobo Race (Event)",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "sections": [
+                    {
+                        "name": "Cloudy Mirror",
+                        "ref": "Celestial/General/Cloudy Mirror"
+                    }
+                ]
+            },
+            {
                 "name": "Belgemine",
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
                 "access_rules": ["$hasYuna, $hasAeons|1"],
-                "children": [
+                "sections": [
                     {
                         "name": "Valefor Fight",
-                        "sections": [
-                            {
-                                "hosted_item": "belgeminevalefor",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "hosted_item": "belgeminevalefor",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Ifrit Fight",
-                        "sections": [
-                            {
-                                "hosted_item": "belgemineifrit",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "hosted_item": "belgemineifrit",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Ixion Fight",
-                        "sections": [
-                            {
-                                "hosted_item": "belgemineixion",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "hosted_item": "belgemineixion",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Shiva Fight",
-                        "sections": [
-                            {
-                                "hosted_item": "belgemineshiva",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "hosted_item": "belgemineshiva",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Bahamut Fight (Flower Scepter)",
-                        "sections": [
-                            {
-                                "hosted_item": "belgeminebahamut",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "hosted_item": "belgeminebahamut",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Yojimbo Fight",
                         "access_rules": ["$hasYojimbo"],
-                        "sections": [
-                            {
-                                "hosted_item": "belgemineyojimbo",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "hosted_item": "belgemineyojimbo",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Anima Fight",
-                        "access_rules": ["$hasAnima"],
-                        "sections": [
-                            {
-                                "hosted_item": "belgemineanima",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "access_rules": ["$hasYojimbo, $hasAnima"],
+                        "hosted_item": "belgemineanima",
+                        "clear_as_group": true
                     },
                     {
                         "name": "Magus Sisters Fight",
-                        "access_rules": ["$hasMagusSisters"],
-                        "sections": [
-                            {
-                                "hosted_item": "belgeminemagus",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
-                        ]
+                        "access_rules": ["$hasYojimbo, $hasAnima, $hasMagusSisters"],
+                        "hosted_item": "belgeminemagus",
+                        "clear_as_group": true
+                    }
+                ]
+            },
+            {
+                "name": "Defeat All Aeons and Send Belgemine (Event)",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "sections": [
+                    {
+                        "name": "Moon Sigil",
+                        "ref": "Celestial/Yuna/Moon Sigil"
+                    }
+                ]
+            },
+            {
+                "name": "Chamber of the Fayth",
+                "map_locations": [{ "map": "Thunder Plains", "x": 0, "y": 0}],
+                "sections": [
+                    {
+                        "name": "Magus Sisters",
+                        "ref": "Party Member/Aeon/Magus Sisters"
                     }
                 ]
             }

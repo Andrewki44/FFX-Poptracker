@@ -89,6 +89,10 @@
     {
         "name": "Spherimorph Defeated",
         "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "spherimorph"
@@ -365,6 +369,10 @@
     {
         "name": "Belgemine Valefor",
         "type": "toggle",
+        "img": "images/party/aeons/Valefor_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Valefor.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgeminevalefor"
@@ -372,6 +380,10 @@
     {
         "name": "Belgemine Ifrit",
         "type": "toggle",
+        "img": "images/party/aeons/Ifrit_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Ifrit.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgemineifrit"
@@ -379,6 +391,10 @@
     {
         "name": "Belgemine Ixion",
         "type": "toggle",
+        "img": "images/party/aeons/Ixion_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Ixion.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgemineixion"
@@ -386,6 +402,10 @@
     {
         "name": "Belgemine Shiva",
         "type": "toggle",
+        "img": "images/party/aeons/Shiva_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Shiva.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgemineshiva"
@@ -393,6 +413,10 @@
     {
         "name": "Belgemine Bahamut",
         "type": "toggle",
+        "img": "images/party/aeons/Bahamut_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Bahamut.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgeminebahamut"
@@ -400,6 +424,10 @@
     {
         "name": "Belgemine Yojimbo",
         "type": "toggle",
+        "img": "images/party/aeons/Yojimbo_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Yojimbo.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgemineyojimbo"
@@ -407,6 +435,10 @@
     {
         "name": "Belgemine Anima",
         "type": "toggle",
+        "img": "images/party/aeons/Anima_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Anima.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgemineanima"
@@ -414,6 +446,10 @@
     {
         "name": "Belgemine Magus Sisters",
         "type": "toggle",
+        "img": "images/party/aeons/Magus Sisters_BW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/party/aeons/Magus Sisters.png",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "belgeminemagus"
@@ -1196,6 +1232,17 @@
         "capturable": true,
         "initial_active_state": false,
         "codes": "luzupostochu"
+    },
+    {
+        "name": "Jecht Sphere",
+        "type": "toggle",
+        "img": "images/TreasureBW.png",
+        "img_mods": "@disabled",
+        "disabled_img": "images/Treasure.png",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "jechtsphere"
     },
     
     //RegionAccess misc items

@@ -1,6 +1,40 @@
 {
     "versions": [
         {
+            "package_version": "0.2.6",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.6/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Added region maps for Calm Lands, CotSF, Remiem Temple, Bevelle, Bikanel & Home",
+                " - Added map auto-tab functionality, to integrate with client multiworld",
+                " - Updated 'Required Party Members' option to only update when goal requirement is not None or Pilgrimage",
+                " - Continued UT compatibility refactor (WIP)"
+            ]
+        },
+        {
+            "package_version": "0.2.5",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.5/FFX.zip",
+            "sha256": "80256b841931d7c886f056850f149a1efa9a729d59b3130cebc366d11695423b",
+            "changelog": [
+                " - Added region maps for Gagazet, Zanarkand, Inside Sin & Omega Ruins",
+                " - Continued UT compatibility refactor (WIP)",
+                " - Cleanup file structure",
+                " - Changed Saturn Sigil & Spirit Lance Accessibility"
+            ]
+        },
+        {
+            "package_version": "0.2.4",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.4/FFX.zip",
+            "sha256": "e6ddc714526317b535bcf076eb02960e6533e331b03d22b4ebc73ed06847f7d5",
+            "changelog": [
+                " - Moved blitz recruit location in Djose from Temple to Pilgrimage Road",
+                " - Correct Belgemine logic for Anima & Magus Sisters fights",
+                " - Continued UT compatibilty refactor (WIP)",
+                " - Added missing Spirit Lance & Saturn Sigil locations",
+                " - Temporarily removed non-functional Monster Arena locations"
+            ]
+        },
+        {
             "package_version": "0.2.3",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.3/FFX.zip",
             "sha256": "ad61932db75f7949d76cdb13009d7633634bdffed0684d99334d24f5e7433cba",
