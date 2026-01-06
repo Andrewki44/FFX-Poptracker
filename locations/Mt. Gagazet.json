@@ -8,7 +8,7 @@
         "children": [
             {
                 "name": "Defeat Biran and Yenke (Boss)",
-                "map_locations": [{ "map": "Gagazet Outside", "x": 862, "y": 200, "shape": "trapezoid", "size": 24}],
+                "map_locations": [{ "map": "Gagazet Outside", "x": 862, "y": 600, "shape": "trapezoid", "size": 24}],
                 "access_rules": ["[$hasPartyMembers|3]"],
                 "sections": [
                     {
@@ -25,22 +25,22 @@
                 "children": [
                     {
                         "name": "Top of Right Ridge Near South Exit (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 740, "y": 275}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 892, "y": 455}],
                         "sections": [{"name": "20000 gil"}]
                     },
                     {
                         "name": "Left Alcove Near South Exit (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 675, "y": 175}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 830, "y": 360}],
                         "sections": [{"name": "Mega-Potion x2"}]
                     },
                     {
                         "name": "West Branch Before Bridge to Wantz (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 185, "y": 235}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 335, "y": 420}],
                         "sections": [{"name": "Defending Bracer"}]
                     },
                     {
                         "name": "Under Bridge After Wantz (Chests)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 720, "y": 480}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 700, "y": 970}],
                         "sections": [
                             {"name": "Lv. 4 Key Sphere x1"},
                             {"name": "HP Sphere x1"}
@@ -48,7 +48,7 @@
                     },
                     {
                         "name": "Defeat Seymour Flux (Boss)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 55, "y": 235, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 65, "y": 300, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasPartyMembers|3]"],
                         "sections": [
                             {
@@ -61,7 +61,7 @@
                     },
                     {
                         "name": "Hidden Between Left Pillars (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 110, "y": 100}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 190, "y": 25}],
                         "sections": [
                             {
                                 "name": "Saturn Crest",
@@ -71,7 +71,7 @@
                     },
                     {
                         "name": "Defeat Dark Anima (Superboss)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 900, "y": 300, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 900, "y": 700, "shape": "trapezoid", "size": 24}],
                         "sections": [{"name": "Dark Anima", "ref": "Super Bosses/Dark Anima"}]
                     }
                 ]
@@ -82,17 +82,17 @@
                 "children": [
                     {
                         "name": "Reward from First Trial (Chest)",
-                        "map_locations": [{ "map": "Gagazet Cave", "x": 325, "y": 730}],
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 292, "y": 417}],
                         "sections": [{"name": "Lv. 1 Key Sphere x1"}]
                     },
                     {
                         "name": "Reward From Second Trial (Chest)",
-                        "map_locations": [{ "map": "Gagazet Cave", "x": 635, "y": 340}],
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 605, "y": 40}],
                         "sections": [{"name": "Fortune Sphere x1"}]
                     },
                     {
-                        "name": "After Both Trials, East Exit From Save Sphere, Left (Chest)",
-                        "map_locations": [{ "map": "Gagazet Cave", "x": 685, "y": 900}],
+                        "name": "After Both Trials, East Exit From Save Sphere (Chests)",
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 650, "y": 595}],
                         "sections": [
                             {"name": "Return Sphere x1"},
                             {"name": "Recovery Ring"}
@@ -100,12 +100,12 @@
                     },
                     {
                         "name": "After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)",
-                        "map_locations": [{ "map": "Gagazet Cave", "x": 540, "y": 1020}],
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 500, "y": 710}],
                         "sections": [{"name": "Pep Talk"}]
                     },
                     {
                         "name": "Defeat Sanctuary Keeper (Boss)",
-                        "map_locations": [{ "map": "Gagazet Cave", "x": 350, "y": 150, "shape": "trapezoid", "size": 32}],
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 240, "y": 160, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasPartyMembers|3]"],
                         "sections": [
                             {

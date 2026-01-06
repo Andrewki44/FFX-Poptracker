@@ -5,11 +5,12 @@
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.7/FFX.zip",
             "sha256": "",
             "changelog": [
-                " - Added region maps for Al Bhed Ship, Airship, Besaid (Island, Temple & Village), S.S. Liki & Thunder Plains",
+                " - Added region maps for Al Bhed Ship, Airship, Besaid (Island, Temple & Village), S.S. Liki, Guadosalam & Thunder Plains",
                 " - Added descriptive text to all the current region maps",
-                " - Minor Adjustments to the Bikanel Desert & Gagazet Cave maps to improve window scaling",
+                " - Adjustments to the Bikanel Desert & Gagazet maps to improve window scaling",
                 " - Adjusted access rules for Luca Recruits",
-                " - Added Al Bhed Primer tracker"
+                " - Added Al Bhed Primer tracker",
+                " - Continued UT compatibility refactor (WIP)"
             ]
         },
         {

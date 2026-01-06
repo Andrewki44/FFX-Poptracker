@@ -120,6 +120,18 @@
         "img": "images/maps/Farplane.png"
     },
     {
+        "name": "Gagazet Outside",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/gagazet/Gagazet Outside.png"
+    },
+    {
+        "name": "Gagazet Cave",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/gagazet/Gagazet Cave.png"
+    },
+    {
         "name": "Guadosalam",
         "location_size": 16,
         "location_border_thickness": 1,
@@ -226,18 +238,6 @@
         "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/Moonflow.png"
-    },
-    {
-        "name": "Gagazet Outside",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/regions/gagazet/Gagazet Outside.png"
-    },
-    {
-        "name": "Gagazet Cave",
-        "location_size": 24,
-        "location_border_thickness": 1,
-        "img": "images/maps/regions/gagazet/Gagazet Cave.png"
     },
     {
         "name": "Mushroom Rock Road Entrance",

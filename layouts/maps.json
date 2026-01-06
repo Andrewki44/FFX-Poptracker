@@ -3,6 +3,13 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "Desert",
+                "content": {
+                    "type": "map",
+                    "maps": ["Bikanel"]
+                }
+            },
+            {
                 "title": "World Map",
                 "content": {
                     "type": "map",
@@ -179,6 +186,28 @@
                 }
             },
             {
+                "title": "Mt. Gagazet",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Gagazet Outside"]
+                            }
+                        },
+                        {
+                            "title": "Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Gagazet Cave"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
                 "title": "Guadosalam",
                 "content": {
                     "type": "map",
@@ -318,28 +347,6 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Moonflow North"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Mt. Gagazet",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Gagazet Outside"]
-                            }
-                        },
-                        {
-                            "title": "Cave",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Gagazet Cave"]
                             }
                         }
                     ]
