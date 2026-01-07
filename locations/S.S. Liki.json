@@ -23,7 +23,7 @@
             },
             {
                 "name": "Encounter Sin Fin (Event)",
-                "map_locations": [{ "map": "S.S. Liki", "x": 195, "y": 180, "shape": "trapezoid", "size": 28}],
+                "map_locations": [{ "map": "S.S. Liki", "x": 193, "y": 180, "shape": "trapezoid", "size": 28}],
                 "sections": [
                     {
                         "name": "Kimahri",

@@ -1216,44 +1216,44 @@
                 "map_locations": [{ "map": "Spira", "x": 460, "y": 520}],
                 "sections": [
                     {
-                        "name": "Airship - Al Bhed Potion x4 (NPC)",
-                        "ref": "Airship/Al Bhed Potion x4 (NPC)/"
-                    },
-                    {
-                        "name": "Airship - Recruit Brother",
+                        "name": "Bridge - Recruit Brother",
                         "ref": "Blitzball Recruits/Brother"
                     },
                     {
-                        "name": "Airship - Recruit Rin",
-                        "ref": "Blitzball Recruits/Rin"
-                    },
-                    {
-                        "name": "Airship - Recruit Wakka",
+                        "name": "Bridge - Recruit Wakka",
                         "ref": "Blitzball Recruits/Wakka"
                     },
                     {
-                        "name": "Airship - Complete Al Bhed Primers",
+                        "name": "Corridor - Recruit Rin",
+                        "ref": "Blitzball Recruits/Rin"
+                    },
+                    {
+                        "name": "Corridor - Complete Al Bhed Primers",
                         "ref": "Al Bhed Primers/Complete Al Bhed Primers"
                     },
                     {
-                        "name": "Airship - Evrae",
-                        "ref": "Airship/Evrae/"
+                        "name": "Cabin - Al Bhed Potion x4 (NPC)",
+                        "ref": "Airship/Before Evrae, Yellow Al Bhed on Left (NPC)/Al Bhed Potion x4 (NPC)"
                     },
                     {
-                        "name": "Airship - Sin Left Fin",
-                        "ref": "Airship/Sin Left Fin/"
+                        "name": "Roof - Evrae",
+                        "ref": "Airship/Roof (Bosses)/Evrae"
                     },
                     {
-                        "name": "Airship - Sin Right Fin",
-                        "ref": "Airship/Sin Right Fin/"
+                        "name": "Roof - Sin Left Fin",
+                        "ref": "Airship/Roof (Bosses)/Sin Left Fin"
                     },
                     {
-                        "name": "Airship - Sinspawn Genais and Core",
-                        "ref": "Airship/Sinspawn Genais and Core/"
+                        "name": "Roof - Sin Right Fin",
+                        "ref": "Airship/Roof (Bosses)/Sin Right Fin"
                     },
                     {
-                        "name": "Airship - Overdrive Sin",
-                        "ref": "Airship/Overdrive Sin/"
+                        "name": "Roof - Sinspawn Genais and Core",
+                        "ref": "Airship/Roof (Bosses)/Sinspawn Genais and Core"
+                    },
+                    {
+                        "name": "Roof - Overdrive Sin",
+                        "ref": "Airship/Roof (Bosses)/Overdrive Sin"
                     },
                     {
                         "name": "Super Bosses - Penance",

@@ -147,7 +147,7 @@
                     {
                         "name": "Defeat Dark Valefor (Superboss)",
                         "map_locations": [{ "map": "Besaid Village", "x": 375, "y": 880, "shape": "trapezoid", "size": 32}],
-                        "sections": [{"name": "Dark Velfor", "ref": "Super Bosses/Dark Valefor"}]
+                        "sections": [{"name": "Dark Valefor", "ref": "Super Bosses/Dark Valefor"}]
                     }
                 ]
             },

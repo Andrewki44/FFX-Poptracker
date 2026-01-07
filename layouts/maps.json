@@ -3,10 +3,10 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "S.S. Liki",
+                "title": "Airship",
                 "content": {
                     "type": "map",
-                    "maps": ["S.S. Liki"]
+                    "maps": ["Airship"]
                 }
             },
             {
