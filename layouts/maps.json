@@ -3,10 +3,10 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Woods",
+                "title": "Temple",
                 "content": {
                     "type": "map",
-                    "maps": ["Macalania Woods"]
+                    "maps": ["Kilika Temple"]
                 }
             },
             {
@@ -227,24 +227,17 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Village",
+                            "title": "Village & Woods",
                             "content": {
                                 "type": "map",
                                 "maps": ["Kilika Village"]
                             }
                         },
                         {
-                            "title": "Woods",
+                            "title": "Temple",
                             "content": {
                                 "type": "map",
-                                "maps": ["Kilika Woods"]
-                            }
-                        },
-                        {
-                            "title": "S.S. Winno",
-                            "content": {
-                                "type": "map",
-                                "maps": ["S.S. Winno"]
+                                "maps": ["Kilika Temple"]
                             }
                         }
                     ]
@@ -333,23 +326,8 @@
             {
                 "title": "Moonflow",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Moonflow South"]
-                            }
-                        },
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Moonflow North"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Moonflow"]
                 }
             },
             {

@@ -150,16 +150,16 @@
         "img": "images/maps/Jecht Sphere.png"
     },
     {
+        "name": "Kilika Temple",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/kilika/Kilika Temple.png"
+    },
+    {
         "name": "Kilika Village",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Kilika.png"
-    },
-    {
-        "name": "Kilika Woods",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Kilika.png"
+        "img": "images/maps/regions/kilika/Kilika.png"
     },
     {
         "name": "Lake Macalania",
