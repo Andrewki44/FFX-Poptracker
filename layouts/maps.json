@@ -3,13 +3,6 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Woods",
-                "content": {
-                    "type": "map",
-                    "maps": ["Macalania Woods"]
-                }
-            },
-            {
                 "title": "World Map",
                 "content": {
                     "type": "map",

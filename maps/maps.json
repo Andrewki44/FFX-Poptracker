@@ -151,7 +151,7 @@
     },
     {
         "name": "Lake Macalania",
-        "location_size": 16,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/regions/macalania/Lake Macalania.png"
     },

@@ -140,7 +140,7 @@
                     },
                     {
                         "name": "Sun Crest",
-                        "access_rules": ["@Zanarkand/Temple/Cloister, yunalesca, [$hasMinimumParty|3]"]
+                        "access_rules": ["@Zanarkand/Temple, yunalesca, [$hasMinimumParty|3]"]
                     },
                     {
                         "name": "Sun Sigil",

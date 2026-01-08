@@ -155,7 +155,7 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials - Destruction Sphere",
-                        "ref": "Besaid/Temple/Cloister/Destruction Sphere - Rod of Wisdom"
+                        "ref": "Besaid/Temple/Cloister of Trials/Destruction Sphere - Rod of Wisdom"
                     },
                     {
                         "name": "Village - Cloister of Trials - Valefor",
@@ -953,7 +953,7 @@
                     },
                     {
                         "name": "Lake Agency - Crawler",
-                        "ref": "Macalania/Lake/Agency/Defeat Crawler (Boss)/Crawler"
+                        "ref": "Macalania/Lake/Lake/Cross the Lake (Boss)/Crawler"
                     },
                     {
                         "name": "Lake Agency - 4000 gil (Chest)",
@@ -968,7 +968,7 @@
                         "ref": "Macalania/Lake/Road/Near North Exit (Chest)/Mega-Potion x1"
                     },
                     {
-                        "name": "Lake Road - 400 gil (Linna NPC)",
+                        "name": "Temple Road - 400 gil (Linna NPC)",
                         "ref": "Macalania/Lake/Road/Linna, at Bottom of Stairs (NPC)/400 gil"
                     },
                     {
@@ -977,47 +977,51 @@
                     },
                     {
                         "name": "Temple - Shell Targe (Tromell)",
-                        "ref": "Macalania/Lake/Temple/Automatic upon Entering (Event)/Shell Targe"
+                        "ref": "Macalania/Temple/Automatic upon Entering (Event)/Shell Targe"
                     },
                     {
                         "name": "Temple - 5000 gil (Chest)",
-                        "ref": "Macalania/Lake/Temple/North Side (Chest)/5000 gil"
+                        "ref": "Macalania/Temple/North Side (Chest)/5000 gil"
                     },
                     {
                         "name": "Temple - X-Potion x2 (Chest)",
-                        "ref": "Macalania/Lake/Temple/South Side (Chest)/X-Potion x2"
+                        "ref": "Macalania/Temple/South Side (Chest)/X-Potion x2"
                     },
                     {
                         "name": "Temple - Remedy x2 (Chest)",
-                        "ref": "Macalania/Lake/Temple/Nuns' Chamber (Chest)/Remedy x2"
+                        "ref": "Macalania/Temple/Nuns' Chamber (Chest)/Remedy x2"
                     },
                     {
                         "name": "Temple - Hi-Potion x2 (NPC)",
-                        "ref": "Macalania/Lake/Temple/Nuns' Chamber - Yellow Nun (NPC)/Hi-Potion x2"
+                        "ref": "Macalania/Temple/Nuns' Chamber - Yellow Nun (NPC)/Hi-Potion x2"
                     },
                     {
                         "name": "Temple - Ether x1 (Man Sitting NPC)",
-                        "ref": "Macalania/Lake/Temple/Monks' Chamber- Brown Monk (NPC)/Ether x1"
+                        "ref": "Macalania/Temple/Monks' Chamber- Brown Monk (NPC)/Ether x1"
                     },
                     {
                         "name": "Temple - Elixir x1 (Man Sitting NPC)",
-                        "ref": "Macalania/Lake/Temple/Monks' Chamber- Purple Monk (NPC)/Elixir x1"
+                        "ref": "Macalania/Temple/Monks' Chamber- Purple Monk (NPC)/Elixir x1"
                     },
                     {
                         "name": "Temple - Phoenix Down x3 (Chest)",
-                        "ref": "Macalania/Lake/Temple/Monks' Chamber (Chest)/Phoenix Down x3"
+                        "ref": "Macalania/Temple/Monks' Chamber (Chest)/Phoenix Down x3"
                     },
                     {
                         "name": "Temple - Seymour & Anima",
-                        "ref": "Macalania/Lake/Temple/Defeat Seymour (Boss)/Seymour"
+                        "ref": "Macalania/Temple/Defeat Seymour (Boss)/Seymour"
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Macalania/Lake/Temple/Cloister/"
+                        "ref": "Macalania/Temple/Cloister of Trials/Destruction Sphere - Luck Sphere"
+                    },
+                    {
+                        "name": "Temple - Chamber of the Fayth",
+                        "ref": "Party Member/Aeon/Shiva"
                     },
                     {
                         "name": "Lake Agency - Wendigo",
-                        "ref": "Macalania/Lake/Agency/Defeat Wendigo (Boss)/Wendigo"
+                        "ref": "Macalania/Lake/Lake/Cross the Lake (Boss)/Wendigo"
                     },
                     {
                         "name": "Lake Bottom - Lv. 2 Key Sphere (Chest)",
@@ -1679,7 +1683,7 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials ",
-                        "ref": "Zanarkand/Temple/Cloister/Destruction Sphere- Magistral Rod"
+                        "ref": "Zanarkand/Temple/Cloister of Trials/Destruction Sphere- Magistral Rod"
                     },
                     {
                         "name": "Super Bosses - Dark Bahamut",

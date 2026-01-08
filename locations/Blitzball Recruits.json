@@ -32,7 +32,7 @@
             },
             {
                 "name": "Linna",
-                "access_rules": ["@Macalania/Lake/Temple"]
+                "access_rules": ["@Macalania/Lake/Road"]
             },
             {
                 "name": "Mep",
