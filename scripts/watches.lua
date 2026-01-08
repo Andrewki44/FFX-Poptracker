@@ -34,3 +34,6 @@ ScriptHost:AddWatchForCode("update access levels: zanarkand", "zanarkand", Updat
 
 -- Logic Difficulty Watch
 ScriptHost:AddWatchForCode("Update Region Access Table", "logicdifficulty", UpdateAccessRegions)
+
+-- Primer Watch
+ScriptHost:AddWatchForCode("Update Al Bhed Primer Total", "albhedprimer", UpdatePrimerTotal)

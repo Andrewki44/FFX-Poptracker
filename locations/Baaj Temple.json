@@ -60,7 +60,7 @@
                         "sections": [
                             { 
                                 "name": "Klikk",
-                                "hosted_item": "klikk",
+                                "hosted_item": "klikk, baajtemple2",
                                 "item_count": 1,
                                 "clear_as_group": true
                             }
@@ -87,7 +87,7 @@
                     },
                     {
                         "name": "South Side Hidden Under Rocks (Chest)",
-                        "access_rules": ["geosgaeno"],
+                        "access_rules": ["geosgaeno, [$hasSwimmers|3]"],
                         "map_locations": [{ "map": "Baaj Temple", "x": 700, "y": 860}],
                         "sections": [
                             {
@@ -98,13 +98,13 @@
                     },
                     {
                         "name": "Right Side (Chest)",
-                        "access_rules": ["geosgaeno"],
+                        "access_rules": ["geosgaeno, [$hasSwimmers|3]"],
                         "map_locations": [{ "map": "Baaj Temple", "x": 155, "y": 555}],
                         "sections": [{"name": "Megalixir"}]
                     },
                     {
                         "name": "Left Side (Chest)",
-                        "access_rules": ["geosgaeno"],
+                        "access_rules": ["geosgaeno, [$hasSwimmers|3]"],
                         "map_locations": [{ "map": "Baaj Temple", "x": 55, "y": 550}],
                         "sections": [{"name": "Mega Phoenix x4"}]
                     },

@@ -13,9 +13,9 @@
     },
     {
         "name": "Airship",
-        "location_size": 16,
+        "location_size": 20,
         "location_border_thickness": 1,
-        "img": "images/maps/Airship.png"
+        "img": "images/maps/regions/airship/Airship.png"
     },
     {
         "name": "Al Bhed Primers",
@@ -27,7 +27,7 @@
         "name": "Al Bhed Ship",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Al Bhed Ship.png"
+        "img": "images/maps/regions/baaj/Al Bhed Ship.png"
     },
     {
         "name": "Baaj Temple",
@@ -42,22 +42,22 @@
         "img": "images/maps/Battle Site.png"
     },
     {
-        "name": "Besaid Beach",
-        "location_size": 16,
+        "name": "Besaid Island",
+        "location_size": 20,
         "location_border_thickness": 1,
-        "img": "images/maps/Besaid_1.png"
+        "img": "images/maps/regions/besaid/Besaid Island.png"
+    },
+    {
+        "name": "Besaid Temple",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/besaid/Besaid Temple.png"
     },
     {
         "name": "Besaid Village",
-        "location_size": 16,
+        "location_size": 24,
         "location_border_thickness": 1,
-        "img": "images/maps/Besaid_2.png"
-    },
-    {
-        "name": "Besaid Ruins",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Besaid Ruins.png"
+        "img": "images/maps/regions/besaid/Besaid Village.png"
     },
     {
         "name": "Bevelle",
@@ -96,34 +96,28 @@
         "img": "images/maps/Celestial Upgrade.png"
     },
     {
-        "name": "Djose Highroad",
+        "name": "Djose",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Djose.png"
+        "img": "images/maps/regions/djose/Djose.png"
     },
     {
-        "name": "Djose Pilgrimage Road",
+        "name": "Gagazet Outside",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Djose.png"
+        "img": "images/maps/regions/gagazet/Gagazet Outside.png"
     },
     {
-        "name": "Djose Temple",
+        "name": "Gagazet Cave",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Djose.png"
-    },
-    {
-        "name": "Farplane",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Farplane.png"
+        "img": "images/maps/regions/gagazet/Gagazet Cave.png"
     },
     {
         "name": "Guadosalam",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Guadosalam.png"
+        "img": "images/maps/regions/guadosalam/Guadosalam.png"
     },
     {
         "name": "Home",
@@ -144,76 +138,46 @@
         "img": "images/maps/Jecht Sphere.png"
     },
     {
+        "name": "Kilika Temple",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/kilika/Kilika Temple.png"
+    },
+    {
         "name": "Kilika Village",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Kilika.png"
-    },
-    {
-        "name": "Kilika Woods",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Kilika.png"
+        "img": "images/maps/regions/kilika/Kilika.png"
     },
     {
         "name": "Lake Macalania",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Lake Macalania.png"
+        "img": "images/maps/regions/macalania/Lake Macalania.png"
     },
     {
-        "name": "Lake Macalania Bottom",
-        "location_size": 16,
+        "name": "Luca",
+        "location_size": 24,
         "location_border_thickness": 1,
-        "img": "images/maps/Lake Macalania Bottom.png"
+        "img": "images/maps/regions/luca/Luca.png"
     },
     {
-        "name": "Luca Stadium",
+        "name": "Macalania Temple",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Luca Stadium.png"
-    },
-    {
-        "name": "Luca Dock",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Luca Dock.png"
-    },
-    {
-        "name": "Luca City",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Luca City.png"
+        "img": "images/maps/regions/macalania/Macalania Temple.png"
     },
     {
         "name": "Macalania Woods",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Macalania Woods.png"
+        "img": "images/maps/regions/macalania/Macalania Woods.png"
     },
     {
-        "name": "Miihen Highroad South Central",
+        "name": "Miihen Highroad",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Miihen Highroad.png"
-    },
-    {
-        "name": "Miihen Highroad Agency",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Miihen Highroad.png"
-    },
-    {
-        "name": "Miihen Highroad North",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Miihen Highroad.png"
-    },
-    {
-        "name": "Miihen Ruins",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Miihen Ruins.png"
+        "img": "images/maps/regions/miihen/Miihen Highroad.png"
     },
     {
         "name": "Monster Arena",
@@ -222,58 +186,16 @@
         "img": "images/maps/Monster Arena.png"
     },
     {
-        "name": "Moonflow South",
+        "name": "Moonflow",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Moonflow.png"
+        "img": "images/maps/regions/moonflow/Moonflow.png"
     },
     {
-        "name": "Moonflow North",
+        "name": "Mushroom Rock Road",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Moonflow.png"
-    },
-    {
-        "name": "Gagazet Outside",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/regions/gagazet/Gagazet Outside.png"
-    },
-    {
-        "name": "Gagazet Cave",
-        "location_size": 24,
-        "location_border_thickness": 1,
-        "img": "images/maps/regions/gagazet/Gagazet Cave.png"
-    },
-    {
-        "name": "Mushroom Rock Road Entrance",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Valley",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Precipice",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Ridge",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Aftermath",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
+        "img": "images/maps/regions/mushroom rock road/MRR.png"
     },
     {
         "name": "Omega Ruins",
@@ -307,15 +229,15 @@
     },
     {
         "name": "S.S. Liki",
-        "location_size": 16,
+        "location_size": 20,
         "location_border_thickness": 1,
-        "img": "images/maps/S.S. Liki.png"
+        "img": "images/maps/regions/besaid/S.S. Liki.png"
     },
     {
         "name": "S.S. Winno",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/S.S. Winno.png"
+        "img": "images/maps/regions/kilika/S.S. Winno.png"
     },
     {
         "name": "Sanubia Sands",
@@ -343,9 +265,9 @@
     },
     {
         "name": "Thunder Plains",
-        "location_size": 16,
+        "location_size": 12,
         "location_border_thickness": 1,
-        "img": "images/maps/Thunder Plains.png"
+        "img": "images/maps/regions/thunder plains/Thunder Plains.png"
     },
     {
         "name": "Trashed",

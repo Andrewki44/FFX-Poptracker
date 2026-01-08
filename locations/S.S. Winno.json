@@ -4,16 +4,16 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|kilika, geneaux"],
+        "access_rules": ["^$CheckAccessLevel|kilika, geneaux, [$hasMinimumParty|3]"],
         "children": [
             {
                 "name": "Left, Between Aurochs and Goers (Chest)",
-                "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
+                "map_locations": [{ "map": "S.S. Winno", "x": 435, "y": 220}],
                 "sections": [{"name": "Hi-Potion x1"}]
             },
             {
                 "name": "On Floor Behind Captain (Primer)",
-                "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
+                "map_locations": [{ "map": "S.S. Winno", "x": 190, "y": 510}],
                 "sections": [
                     {
                         "name": "Al Bhed Primver V",
@@ -22,13 +22,13 @@
                 ]
             },
             {
-                "name": "Blitzball Recruit",
-                "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
+                "name": "Blitzball Recruit (2nd Visit)",
+                "map_locations": [{ "map": "S.S. Winno", "x": 250, "y": 665}],
                 "sections": [{"name": "Kiyuri", "ref": "Blitzball Recruits/Kiyuri"}]
             },
             {
-                "name": "Top Floor, Counting Gulls (NPC - 11 Seagulls)",
-                "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
+                "name": "Top Floor, Counting Gulls (2nd Visit, NPC - 11 Seagulls)",
+                "map_locations": [{ "map": "S.S. Winno", "x": 355, "y": 770}],
                 "sections": [{"name": "Ace Wizard"}]
             }
         ]

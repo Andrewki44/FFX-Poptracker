@@ -91,15 +91,27 @@
                 "sections": [
                     {
                         "name": "Beach - Antidote x2 (Chest)",
-                        "ref": "Besaid/Beach/West Near Huts (Chest)/Antidote x2"
+                        "ref": "Besaid/Island/Beach/West Near Huts (Chest)/Antidote x2"
                     },
                     {
                         "name": "Beach - Moon Crest (Chest)",
                         "ref": "Celestial/Yuna/Moon Crest"
                     },
                     {
-                        "name": "Beach - Aurochs (NPCs)",
-                        "ref": "Besaid/Beach/Aurochs (NPCs)/"
+                        "name": "Beach - Aurochs (Datto)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Hi-Potion x1 (Datto)"
+                    },
+                    {
+                        "name": "Beach - Aurochs (Jassu)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Potion x3 (Jassu)"
+                    },
+                    {
+                        "name": "Beach - Aurochs (Botta)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Potion x2 (Botta)"
+                    },
+                    {
+                        "name": "Beach - Aurochs (Keepa)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/200 gil (Keepa)"
                     },
                     {
                         "name": "Valley - Wakka",
@@ -107,23 +119,31 @@
                     },
                     {
                         "name": "Valley - Phoenix Down x1 (Chest)",
-                        "ref": "Besaid/Valley/South of Spawn, Right Side (Chest)/Phoenix Down x1"
+                        "ref": "Besaid/Island/Valley/South of Spawn, Right Side (Chest)/Phoenix Down x1"
                     },
                     {
                         "name": "Valley - Hi-Potion x1 (Chest)",
-                        "ref": "Besaid/Valley/South Side, Hidden Behind Right Wall (Chest)/Hi-Potion x1"
+                        "ref": "Besaid/Island/Valley/South Side, Hidden Behind Right Wall (Chest)/Hi-Potion x1"
                     },
                     {
                         "name": "Valley - Antidote x2 (Chest)",
-                        "ref": "Besaid/Valley/East Side, Right of Path (Chest)/Antidote x2"
+                        "ref": "Besaid/Island/Valley/East Side, Right of Path (Chest)/Antidote x2"
                     },
                     {
                         "name": "Village - Phoenix Down x1 (Chest)",
                         "ref": "Besaid/Village/Front of Shop (Chest)/Phoenix Down x1"
                     },
                     {
-                        "name": "Village - Behind the Shop (Chests)",
-                        "ref": "Besaid/Village/Behind Shop (Chests)/"
+                        "name": "Village - Behind the Shop (Bottom Chest)",
+                        "ref": "Besaid/Village/Behind Shop (Chests)/Hi-Potion x1"
+                    },
+                    {
+                        "name": "Village - Behind the Shop (Middle Chest)",
+                        "ref": "Besaid/Village/Behind Shop (Chests)/400 gil"
+                    },
+                    {
+                        "name": "Village - Behind the Shop (Top Chest)",
+                        "ref": "Besaid/Village/Behind Shop (Chests)/Potion x2"
                     },
                     {
                         "name": "Village - Al Bhed Primer II",
@@ -134,8 +154,12 @@
                         "ref": "Blitzball Recruits/Vilucha"
                     },
                     {
-                        "name": "Village - Cloister of Trials",
-                        "ref": "Besaid/Village/Cloister/"
+                        "name": "Temple - Cloister of Trials - Destruction Sphere",
+                        "ref": "Besaid/Temple/Cloister/Destruction Sphere - Rod of Wisdom"
+                    },
+                    {
+                        "name": "Village - Cloister of Trials - Valefor",
+                        "ref": "Party Member/Aeon/Valefor"
                     },
                     {
                         "name": "Village - Exit the Village (Event)" ,
@@ -150,8 +174,24 @@
                         "ref": "Party Member/Character/Yuna"
                     },
                     {
-                        "name": "Beach - Dock NPCs",
-                        "ref": "Besaid/Beach/Dock (NPCs)/"
+                        "name": "Beach - Dock (Kid))",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Remedy x1 (Kid)"
+                    },
+                    {
+                        "name": "Beach - Dock (Priest))",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Seekers Ring (Priest)"
+                    },
+                    {
+                        "name": "Beach - Dock (Woman))",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Phoenix Down x3 (Woman)"
+                    },
+                    {
+                        "name": "Beach - Dock (Shirtless Man))",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/400 gil (Shirtless Man)"
+                    },
+                    {
+                        "name": "Beach - Dock (Green Shirt))",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Ether (Green Shirt)"
                     },
                     {
                         "name": "Super Bosses - Dark Valefor",
@@ -172,8 +212,16 @@
                         "ref": "Al Bhed Primers/Al Bhed Primer III/S.S. Liki"
                     },
                     {
+                        "name": "Kimahri",
+                        "ref": "Party Member/Character/Kimahri"
+                    },
+                    {
                         "name": "Sin Fin",
-                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/"
+                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/Sin Fin"
+                    },
+                    {
+                        "name": "Sinspawn Echuilles",
+                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/Sinspawn Echuilles"
                     }
                     // {
                     //     "name": "Friend Sphere x1 (Clasko NPC)",
@@ -222,12 +270,16 @@
                         "ref": "Kilika/Woods/Path North of Lord Ochu, Curving West (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Woods - Luzu (NPC)",
-                        "ref": "Kilika/Woods/Luzu (NPC)/"
+                        "name": "Woods - Luzu - Before Ochu (NPC)",
+                        "ref": "Kilika/Woods/Luzu (NPC)/Antidote x4 (Before Defeating Ochu)"
                     },
                     {
                         "name": "Woods - Lord Ochu",
                         "ref": "Kilika/Woods/Defeat Lord Ochu (Boss)/Lord Ochu"
+                    },
+                    {
+                        "name": "Woods - Luzu - After Ochu (NPC)",
+                        "ref": "Kilika/Woods/Luzu (NPC)/Elixir x1 (After Defeating Ochu)"
                     },
                     {
                         "name": "Woods - Sinspawn Geneaux",
@@ -239,8 +291,12 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Kilika/Temple/Cloister/"
-                    }                 
+                        "ref": "Kilika/Temple/Cloister of Trials/Destruction Sphere"
+                    },
+                    {
+                        "name": "Temple - Ifrit",
+                        "ref": "Party Member/Aeon/Ifrit"
+                    }                  
                 ]
             },
             {
@@ -261,7 +317,7 @@
                     },
                     {
                         "name": "Ace Wizard (11 Seagulls)",
-                        "ref": "S.S. Winno/Top Floor, Counting Gulls (NPC - 11 Seagulls)/Ace Wizard"
+                        "ref": "S.S. Winno/Top Floor, Counting Gulls (2nd Visit, NPC - 11 Seagulls)/Ace Wizard"
                     }
                 ]
             },
@@ -306,18 +362,6 @@
                         "ref": "Luca/City/Staircase Leading to Mi'ihen (Chest)/1000 Gil"
                     },
                     {
-                        "name": "Dock - Oblitzerator",
-                        "ref": "Luca/Dock/Defeat Oblitzerator (Boss)/Oblitzerator"
-                    },
-                    {
-                        "name": "Stadium - Story Win vs. Luca Goers Reward",
-                        "ref": "Luca/Stadium/Win the Story Blitzball Tournament (Event)/Story Win vs. Luca Goers Reward"
-                    },
-                    {
-                        "name": "Stadium - Auron",
-                        "ref": "Party Member/Character/Auron"
-                    },
-                    {
                         "name": "Dock - Recruit Nedus",
                         "ref": "Blitzball Recruits/Nedus"
                     },
@@ -342,16 +386,28 @@
                         "ref": "Blitzball Recruits/Shaami"
                     },
                     {
-                        "name": "City - Recruit Shuu",
-                        "ref": "Blitzball Recruits/Shuu"
-                    },
-                    {
                         "name": "City - Recruit Zalitz",
                         "ref": "Blitzball Recruits/Zalitz"
                     },
                     {
+                        "name": "Dock - Oblitzerator",
+                        "ref": "Luca/Dock/Defeat Oblitzerator (Boss)/Oblitzerator"
+                    },
+                    {
+                        "name": "Stadium - Story Win vs. Luca Goers Reward",
+                        "ref": "Luca/Stadium/Win the Story Blitzball Tournament (Event)/Story Win vs. Luca Goers Reward"
+                    },
+                    {
+                        "name": "Stadium - Auron",
+                        "ref": "Party Member/Character/Auron"
+                    },
+                    {
                         "name": "Stadium Locker Room - Jupiter Crest (Locker)",
                         "ref": "Celestial/Wakka/Jupiter Crest"
+                    },
+                    {
+                        "name": "City - Recruit Shuu",
+                        "ref": "Blitzball Recruits/Shuu"
                     },
                     {
                         "name": "City Cafe - World Champion",
@@ -547,7 +603,15 @@
                     },
                     {
                         "name": "Ridge - Sinspawn Gui",
-                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/"
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui"
+                    },
+                    {
+                        "name": "Ridge - Sinspawn Gui 2",
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui 2"
+                    },
+                    {
+                        "name": "Ridge - Seymour",
+                        "ref": "Party Member/Character/Seymour"
                     },
                     {
                         "name": "Aftermath - Hi-Potion x1 (Chest)",
@@ -562,8 +626,16 @@
                         "ref": "Celestial/Auron/Masamune"
                     },
                     {
-                        "name": "Super Bosses - Dark Magus Sisters",
-                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/"
+                        "name": "Super Bosses - Dark Cindy",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Mindy",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Sandy",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
                     }
                 ]
             },
@@ -625,7 +697,11 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Djose/Temple/Cloister/"
+                        "ref": "Djose/Temple/Cloister of Trials/Destruction Sphere - Magic Sphere"
+                    },
+                    {
+                        "name": "Temple - Ixion",
+                        "ref": "Party Member/Aeon/Ixion"
                     },
                     {
                         "name": "Temple - Switch Hitter (Chest)",
@@ -802,8 +878,32 @@
                         "ref": "Celestial/Kimahri/Spirit Lance"
                     },
                     {
-                        "name": "Agency - Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/"
+                        "name": "Agency - 5x Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/X-Potion x2 (5x Dodges)"
+                    },
+                    {
+                        "name": "Agency - 10x Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Mega-Potion x2 (10x Dodges)"
+                    },
+                    {
+                        "name": "Agency - 20x Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/MP Sphere x2 (20x Dodges)"
+                    },
+                    {
+                        "name": "Agency - 50x Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Strength Sphere x3 (50x Dodges)"
+                    },
+                    {
+                        "name": "Agency - 100x Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/HP Sphere x3 (100x Dodges)"
+                    },
+                    {
+                        "name": "Agency - 150x Lightning Dodging",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Megalixir x4 (150x Dodges)"
+                    },
+                    {
+                        "name": "Agency - 200x Lightning Dodging",
+                        "ref": "Celestial/Lulu/Venus Sigil"
                     },
                     {
                         "name": "Super Bosses - Dark Ixion",
@@ -837,7 +937,11 @@
                     },
                     {
                         "name": "Woods - Spherimorph",
-                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/"
+                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Spherimorph"
+                    },
+                    {
+                        "name": "Woods - Jecht Sphere",
+                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Jecht Sphere"
                     },
                     {
                         "name": "Woods - Lucid Ring (Chest)",
@@ -1150,15 +1254,15 @@
                         "ref": "Bikanel/Home/South of Main Corridor (Chests)/Friend Sphere x1"
                     },
                     {
-                        "name": "Home - Area Completion",
+                        "name": "Home - Area Completion - Lv. 2 Key Sphere x1",
                         "ref": "Bikanel/Home/Area Completion/Lv. 2 Key Sphere x1"
                     },
                     {
-                        "name": "Home - Area Completion",
+                        "name": "Home - Area Completion - Lv. 4 Key Sphere x4",
                         "ref": "Bikanel/Home/Area Completion/Lv. 4 Key Sphere x4"
                     },
                     {
-                        "name": "Home - Area Completion",
+                        "name": "Home - Area Completion - 10000 gil",
                         "ref": "Bikanel/Home/Area Completion/10000 gil"
                     }
                 ]
@@ -1168,44 +1272,44 @@
                 "map_locations": [{ "map": "Spira", "x": 460, "y": 520}],
                 "sections": [
                     {
-                        "name": "Airship - Al Bhed Potion x4 (NPC)",
-                        "ref": "Airship/Al Bhed Potion x4 (NPC)/"
-                    },
-                    {
-                        "name": "Airship - Recruit Brother",
+                        "name": "Bridge - Recruit Brother",
                         "ref": "Blitzball Recruits/Brother"
                     },
                     {
-                        "name": "Airship - Recruit Rin",
-                        "ref": "Blitzball Recruits/Rin"
-                    },
-                    {
-                        "name": "Airship - Recruit Wakka",
+                        "name": "Bridge - Recruit Wakka",
                         "ref": "Blitzball Recruits/Wakka"
                     },
                     {
-                        "name": "Airship - Complete Al Bhed Primers",
+                        "name": "Corridor - Recruit Rin",
+                        "ref": "Blitzball Recruits/Rin"
+                    },
+                    {
+                        "name": "Corridor - Complete Al Bhed Primers",
                         "ref": "Al Bhed Primers/Complete Al Bhed Primers"
                     },
                     {
-                        "name": "Airship - Evrae",
-                        "ref": "Airship/Evrae/"
+                        "name": "Cabin - Al Bhed Potion x4 (NPC)",
+                        "ref": "Airship/Before Evrae, Yellow Al Bhed on Left (NPC)/Al Bhed Potion x4 (NPC)"
                     },
                     {
-                        "name": "Airship - Sin Left Fin",
-                        "ref": "Airship/Sin Left Fin/"
+                        "name": "Roof - Evrae",
+                        "ref": "Airship/Roof (Bosses)/Evrae"
                     },
                     {
-                        "name": "Airship - Sin Right Fin",
-                        "ref": "Airship/Sin Right Fin/"
+                        "name": "Roof - Sin Left Fin",
+                        "ref": "Airship/Roof (Bosses)/Sin Left Fin"
                     },
                     {
-                        "name": "Airship - Sinspawn Genais and Core",
-                        "ref": "Airship/Sinspawn Genais and Core/"
+                        "name": "Roof - Sin Right Fin",
+                        "ref": "Airship/Roof (Bosses)/Sin Right Fin"
                     },
                     {
-                        "name": "Airship - Overdrive Sin",
-                        "ref": "Airship/Overdrive Sin/"
+                        "name": "Roof - Sinspawn Genais and Core",
+                        "ref": "Airship/Roof (Bosses)/Sinspawn Genais and Core"
+                    },
+                    {
+                        "name": "Roof - Overdrive Sin",
+                        "ref": "Airship/Roof (Bosses)/Overdrive Sin"
                     },
                     {
                         "name": "Super Bosses - Penance",
@@ -1513,11 +1617,11 @@
                     },
                     {
                         "name": "Inside - Return Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere, Left (Chest)/Return Sphere x1"
+                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere (Chests)/Return Sphere x1"
                     },
                     {
                         "name": "Inside - Recovery Ring (Chest)",
-                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere, Left (Chest)/Recovery Ring"
+                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere (Chests)/Recovery Ring"
                     },
                     {
                         "name": "Inside - Pep Talk (Chest)",

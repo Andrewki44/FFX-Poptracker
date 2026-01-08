@@ -7,6 +7,73 @@
         "access_rules": ["^$CheckAccessLevel|macalania"],
         "children": [
             {
+                "name": "Celestial Flower",
+                "map_locations": [{ "map": "Macalania Woods", "x": 450, "y": 100, "shape": "diamond", "size": 24}],
+                "access_rules": ["wendigo, [$hasMinimumParty|3]"],
+                "sections": [
+                    {
+                        "name": "Celestial Mirror",
+                        "ref": "Celestial/General/Celestial Mirror"
+                    },
+                    {
+                        "name": "Auron - Masamune Crest Updgrade",
+                        "ref": "Celestial/Auron/Masamune Crest Upgrade"
+                    },
+                    {
+                        "name": "Auron - Masamune Sigil Updgrade",
+                        "ref": "Celestial/Auron/Masamune Sigil Upgrade"
+                    },
+                    {
+                        "name": "Kimahri - Spirit Lance Crest Updgrade",
+                        "ref": "Celestial/Kimahri/Spirit Lance Crest Upgrade"
+                    },
+                    {
+                        "name": "Kimahri - Spirit Lance Sigil Updgrade",
+                        "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
+                    },
+                    {
+                        "name": "Lulu - Onion Knight Crest Updgrade",
+                        "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
+                    },
+                    {
+                        "name": "Lulu - Onion Knight Sigil Updgrade",
+                        "ref": "Celestial/Lulu/Onion Knight Sigil Upgrade"
+                    },
+                    {
+                        "name": "Rikku - Godhand Crest Updgrade",
+                        "ref": "Celestial/Rikku/Godhand Crest Upgrade"
+                    },
+                    {
+                        "name": "Rikku - Godhand Sigil Updgrade",
+                        "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Crest Updgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Sigil Updgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
+                    },
+                    {
+                        "name": "Wakka - World Champion Crest Updgrade",
+                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
+                    },
+                    {
+                        "name": "Wakka - World Champion Sigil Updgrade",
+                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Crest Updgrade",
+                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Sigil Updgrade",
+                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
+                    }
+                ]
+            },
+            {
                 "name": "Woods",
                 "children": [
                     {
@@ -41,23 +108,17 @@
                     },
                     {
                         "name": "Defeat Spherimorph (Boss)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0, "shape": "trapezoid", "size": 24}],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
-                            {
-                                "hosted_item": "spherimorph, jechtsphere",
-                                "clear_as_group": false
-                            },
                             {
                                 "name": "Spherimorph",
                                 "hosted_item": "spherimorph",
-                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Jecht Sphere",
                                 "hosted_item": "jechtsphere",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -65,7 +126,7 @@
                     {
                         "name": "Campsite (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 870, "y": 55}],
-                        "access_rules": ["spherimorph, seymournatus"],
+                        "access_rules": ["spherimorph, seymournatus, [$hasMinimumParty|3]"],
                         "sections": [{"name": "Lucid Ring"}]
                     },
                     {
@@ -82,7 +143,7 @@
             },
             {
                 "name": "Lake",
-                "access_rules": ["spherimorph"],
+                "access_rules": ["spherimorph, [$hasMinimumParty|3]"],
                 "children": [
                     {
                         "name": "Agency",
@@ -99,8 +160,8 @@
                             },
                             {
                                 "name": "Defeat Crawler (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["[$hasPartyMembers|3]"],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0, "shape": "trapezoid", "size": 24}],
+                                "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Crawler",
@@ -118,8 +179,8 @@
                             },
                             {
                                 "name": "Defeat Wendigo (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["seymouranima, [$hasPartyMembers|3]"],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0, "shape": "trapezoid", "size": 24}],
+                                "access_rules": ["seymouranima, [$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Wendigo",
@@ -133,7 +194,7 @@
                     },
                     {
                         "name": "Road",
-                        "access_rules": ["crawler"],
+                        "access_rules": ["crawler, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "South End of Narrow Path (Chest)",
@@ -154,7 +215,7 @@
                     },
                     {
                         "name": "Temple",
-                        "access_rules": ["crawler"],
+                        "access_rules": ["crawler, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "Automatic upon Entering (Event)",
@@ -198,8 +259,8 @@
                             },
                             {
                                 "name": "Defeat Seymour (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["[$hasPartyMembers|3]"],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0, "shape": "trapezoid", "size": 24}],
+                                "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Seymour",
@@ -231,14 +292,14 @@
                             },
                             {
                                 "name": "Defeat Dark Shiva (Superboss)",
-                                "map_locations": [{ "map": "Besaid Village", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0, "shape": "trapezoid", "size": 24}],
                                 "sections": [{"name": "Dark Shiva", "ref": "Super Bosses/Dark Shiva"}]
                             }
                         ]
                     },
                     {
                         "name": "Bottom",
-                        "access_rules": ["wendigo"],
+                        "access_rules": ["wendigo, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "Hidden Behind Kimahri (Chest)",

@@ -10,7 +10,7 @@
                 "sections": [
                     {
                         "name": "Anima",
-                        "access_rules": ["@Baaj Temple/Temple, geosgaeno, besaiddestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere"],
+                        "access_rules": ["@Baaj Temple/Temple, geosgaeno, [$hasSwimmers|3], besaiddestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere"],
                         "hosted_item": "baajcloister",
                         "clear_as_group": true
                     },
@@ -75,7 +75,7 @@
                     },
                     {
                         "name": "Lulu",
-                        "access_rules": ["@Besaid"],
+                        "access_rules": ["@Besaid/Island"],
                         "hosted_item": "lululocation",
                         "clear_as_group": true
                     },
@@ -87,7 +87,7 @@
                     },
                     {
                         "name": "Seymour",
-                        "access_rules": ["@Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)"],
+                        "access_rules": ["@Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui 2"],
                         "hosted_item": "seymourlocation",
                         "clear_as_group": true
                     },
@@ -99,13 +99,13 @@
                     },
                     {
                         "name": "Wakka",
-                        "access_rules": ["@Besaid/Valley"],
+                        "access_rules": ["@Besaid/Island/Valley"],
                         "hosted_item": "wakkalocation",
                         "clear_as_group": true
                     },
                     {
                         "name": "Yuna",
-                        "access_rules": ["@Besaid"],
+                        "access_rules": ["@Besaid/Island"],
                         "hosted_item": "yunalocation",
                         "clear_as_group": true
                     }

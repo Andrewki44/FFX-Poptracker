@@ -3,6 +3,13 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "Woods",
+                "content": {
+                    "type": "map",
+                    "maps": ["Macalania Woods"]
+                }
+            },
+            {
                 "title": "World Map",
                 "content": {
                     "type": "map",
@@ -46,10 +53,10 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Beach",
+                            "title": "Island",
                             "content": {
                                 "type": "map",
-                                "maps": ["Besaid Beach"]
+                                "maps": ["Besaid Island"]
                             }
                         },
                         {
@@ -57,6 +64,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Besaid Village"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Besaid Temple"]
                             }
                         },
                         {
@@ -145,197 +159,8 @@
             {
                 "title": "Djose",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Djose Highroad",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Highroad"]
-                            }
-                        },
-                        {
-                            "title": "Pilgrimage Road",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Pilgrimage Road"]
-                            }
-                        },
-                        {
-                            "title": "Temple",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Temple"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Guadosalam",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Guadosalam",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Guadosalam"]
-                            }
-                        },
-                        {
-                            "title": "Farplane",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Farplane"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Inside Sin",
-                "content": {
                     "type": "map",
-                    "maps": ["Inside Sin"]
-                }
-            },
-            {
-                "title": "Kilika",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Village",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Kilika Village"]
-                            }
-                        },
-                        {
-                            "title": "Woods",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Kilika Woods"]
-                            }
-                        },
-                        {
-                            "title": "S.S. Winno",
-                            "content": {
-                                "type": "map",
-                                "maps": ["S.S. Winno"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Macalania",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Woods",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Macalania Woods"]
-                            }
-                        },
-                        {
-                            "title": "Lake",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Lake Macalania"]
-                            }
-                        },
-                        {
-                            "title": "Lake Bottom",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Lake Macalania Bottom"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Luca",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Stadium",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Luca Stadium"]
-                            }
-                        },
-                        {
-                            "title": "Dock",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Luca Dock"]
-                            }
-                        },
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Luca City"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Miihen Highroad",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "South & Central",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Highroad South Central"]
-                            }
-                        },
-                        {
-                            "title": "Agency",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Highroad Agency"]
-                            }
-                        },
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Highroad North"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Moonflow",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "South",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Moonflow South"]
-                            }
-                        },
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Moonflow North"]
-                            }
-                        }
-                    ]
+                    "maps": ["Djose"]
                 }
             },
             {
@@ -361,46 +186,103 @@
                 }
             },
             {
-                "title": "Mushroom Rock Road",
+                "title": "Guadosalam",
+                "content": {
+                    "type": "map",
+                    "maps": ["Guadosalam"]
+                }
+            },
+            {
+                "title": "Inside Sin",
+                "content": {
+                    "type": "map",
+                    "maps": ["Inside Sin"]
+                }
+            },
+            {
+                "title": "Kilika",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Entrance",
+                            "title": "Village & Woods",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mushroom Rock Road Entrance"]
+                                "maps": ["Kilika Village"]
                             }
                         },
                         {
-                            "title": "Valley",
+                            "title": "Temple",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mushroom Rock Road Valley"]
+                                "maps": ["Kilika Temple"]
                             }
                         },
                         {
-                            "title": "Precipice",
+                            "title": "S.S. Winno",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mushroom Rock Road Precipice"]
-                            }
-                        },
-                        {
-                            "title": "Ridge",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Ridge"]
-                            }
-                        },
-                        {
-                            "title": "Aftermath",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Aftermath"]
+                                "maps": ["S.S. Winno"]
                             }
                         }
                     ]
+                }
+            },
+            {
+                "title": "Luca",
+                "content": {
+                    "type": "map",
+                    "maps": ["Luca"]
+                }
+            },
+            {
+                "title": "Macalania",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Woods"]
+                            }
+                        },
+                        {
+                            "title": "Lake",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Lake Macalania"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Temple"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Miihen Highroad",
+                "content": {
+                    "type": "map",
+                    "maps": ["Miihen Highroad"]
+                }
+            },
+            {
+                "title": "Moonflow",
+                "content": {
+                    "type": "map",
+                    "maps": ["Moonflow"]
+                }
+            },
+            {
+                "title": "Mushroom Rock Road",
+                "content": {
+                    "type": "map",
+                    "maps": ["Mushroom Rock Road"]
                 }
             },
             {

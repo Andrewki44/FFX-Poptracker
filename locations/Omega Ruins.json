@@ -24,7 +24,7 @@
             {
                 "name": "Defeat Ultima Weapon (Boss)",
                 "map_locations": [{ "map": "Omega Ruins", "x": 857, "y": 287, "shape": "trapezoid", "size": 40}],
-                "access_rules": ["[$hasPartyMembers|3]"],
+                "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
                         "name": "Ultima Weapon",
@@ -37,7 +37,7 @@
             {
                 "name": "West Path (Chest)",
                 "map_locations": [{ "map": "Omega Ruins", "x": 1725, "y": 370}],
-                "access_rules": ["ultimaweapon"],
+                "access_rules": ["ultimaweapon, [$hasMinimumParty|3]"],
                 "sections": [{"name": "Friend Sphere x1"}]
             },
             {
@@ -48,7 +48,7 @@
             {
                 "name": "Omega Boss Arena (Chest)",
                 "map_locations": [{ "map": "Omega Ruins", "x": 1483, "y": 635}],
-                "access_rules": ["omegaweapon"],
+                "access_rules": ["omegaweapon, [$hasMinimumParty|3]"],
                 "sections": [{"name": "Magic Sphere x1"}]
             }
         ]

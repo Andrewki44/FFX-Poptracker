@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Biggs",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             },
             {
                 "name": "Brother",
@@ -16,11 +16,11 @@
             },
             {
                 "name": "Durren",
-                "access_rules": ["@Calm Lands, defenderx"]
+                "access_rules": ["@Calm Lands, defenderx, [$hasMinimumParty|3]"]
             },
             {
                 "name": "Jumal",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             },
             {
                 "name": "Kiyuri",
@@ -28,7 +28,7 @@
             },
             {
                 "name": "Kyou",
-                "access_rules": ["@Djose"]
+                "access_rules": ["@Djose, djosecloister"]
             },
             {
                 "name": "Linna",
@@ -52,7 +52,7 @@
             },
             {
                 "name": "Nedus",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             },
             {
                 "name": "Rin",
@@ -64,11 +64,11 @@
             },
             {
                 "name": "Shaami",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             },
             {
                 "name": "Shuu",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca, oblitzerator, [$hasMinimumParty|3]"]
             },
             {
                 "name": "Svanda",
@@ -88,7 +88,7 @@
             },
             {
                 "name": "Wedge",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             },
             {
                 "name": "Yuma Guado",
@@ -96,11 +96,11 @@
             },
             {
                 "name": "Zalitz",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             },
             {
                 "name": "Zev Ronso",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca"]
             }
         ]
     }

@@ -11,12 +11,12 @@
                 "children": [
                     {
                         "name": "East of Mansion (Chest)",
-                        "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 520, "y": 205}],
                         "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
                         "name": "House - On Floor (Primer)",
-                        "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 60, "y": 560}],
                         "sections": [
                             {
                                 "name": "Al Bhed Primer XIII",
@@ -26,22 +26,22 @@
                     },
                     {
                         "name": "House - Back Wall (Chest)",
-                        "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 130, "y": 450}],
                         "sections": [{"name": "3000 gil"}]
                     },
                     {
                         "name": "Upper Level, South Side (Chest)",
-                        "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 317, "y": 495}],
                         "sections": [{"name": "Elixir x1"}]
                     },
                     {
                         "name": "Mansion, Entrance - Upper Level (Chest)",
-                        "map_locations": [{ "map": "Guadosalam", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 125, "y": 70}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
                         "name": "Blitzball Recruit",
-                        "map_locations": [{ "map": "Miihen Highroad Agency", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 720, "y": 160}],
                         "sections": [{"name": "Yuma Guado", "ref": "Blitzball Recruits/Yuma Guado"}]
                     }
                 ]
@@ -51,12 +51,12 @@
                 "children": [
                     {
                         "name": "Road to Farplane - Left Side Behind Wall (Chest)",
-                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 905, "y": 710}],
                         "sections": [{"name": "Lightning Marble x8"}]
                     },
                     {
                         "name": "Automatic Upon Leaving Farplane (Event)",
-                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 935, "y": 275}],
                         "sections": [
                             {
                                 "name": "Brotherhood Upgrade",
@@ -66,7 +66,7 @@
                     },
                     {
                         "name": "Second Visit, West Side (Chest)",
-                        "map_locations": [{ "map": "Farplane", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Guadosalam", "x": 870, "y": 200}],
                         "sections": [
                             {
                                 "name": "Venus Crest",

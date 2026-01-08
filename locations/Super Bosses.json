@@ -4,78 +4,78 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|superbosses, [$hasPartyMembers|3], [superbosses]"],
+        "access_rules": ["^$CheckAccessLevel|superbosses, [$hasMinimumParty|3], [superbosses]"],
         "sections": [
             {
                 "name": "Omega Weapon",
-                "access_rules": ["@Omega Ruins, ultimaweapon"],
+                "access_rules": ["@Omega Ruins, ultimaweapon, [$hasMinimumParty|3]"],
                 "hosted_item": "omegaweapon",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Anima",
-                "access_rules": ["@Mt. Gagazet, sanctuarykeeper"],
+                "access_rules": ["@Mt. Gagazet, sanctuarykeeper, [$hasMinimumParty|3]"],
                 "hosted_item": "darkanima",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Bahamut",
-                "access_rules": ["@Zanarkand, yunalesca"],
+                "access_rules": ["@Zanarkand, yunalesca, [$hasMinimumParty|3]"],
                 "hosted_item": "darkbahamut",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Cindy",
-                "access_rules": ["@Mushroom Rock Road, sinspawngui"],
+                "access_rules": ["@Mushroom Rock Road, sinspawngui, [$hasMinimumParty|3]"],
                 "hosted_item": "darkcindy",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Ifrit",
-                "access_rules": ["@Bikanel, homecompletion3"],
+                "access_rules": ["@Bikanel, homecompletion3, [$hasMinimumParty|3]"],
                 "hosted_item": "darkifrit",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Ixion",
-                "access_rules": ["@Thunder Plains"],
+                "access_rules": ["@Thunder Plains, [$hasMinimumParty|3]"],
                 "hosted_item": "darkixion",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Mindy",
-                "access_rules": ["@Mushroom Rock Road, sinspawngui"],
+                "access_rules": ["@Mushroom Rock Road, sinspawngui, [$hasMinimumParty|3]"],
                 "hosted_item": "darkmindy",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Sandy",
-                "access_rules": ["@Mushroom Rock Road, sinspawngui"],
+                "access_rules": ["@Mushroom Rock Road, sinspawngui, [$hasMinimumParty|3]"],
                 "hosted_item": "darksandy",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Shiva",
-                "access_rules": ["@Macalania, wendigo"],
+                "access_rules": ["@Macalania, wendigo, [$hasMinimumParty|3]"],
                 "hosted_item": "darkshiva",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Valefor",
-                "access_rules": ["@Besaid/Village, [$hasYuna]"],
+                "access_rules": ["@Besaid/Village, [$hasYuna], [$hasMinimumParty|3]"],
                 "hosted_item": "darkvalefor",
                 "clear_as_group": true
             },
             {
                 "name": "Dark Yojimbo",
-                "access_rules": ["@Cavern of the Stolen Fayth, @Calm Lands"],
+                "access_rules": ["@Cavern of the Stolen Fayth, @Calm Lands, [$hasMinimumParty|3]"],
                 "hosted_item": "darkyojimbo",
                 "clear_as_group": true
             },
             {
                 "name": "Penance",
                 "access_rules": [
-                    "@Airship, darkanima, darkbahamut, darkcindy, darkifrit, darkixion, darkmindy, darksandy, darkshiva, darkvalefor, darkyojimbo"
+                    "@Airship, darkanima, darkbahamut, darkcindy, darkifrit, darkixion, darkmindy, darksandy, darkshiva, darkvalefor, darkyojimbo, [$hasMinimumParty|3]"
                 ],
                 "hosted_item": "penance",
                 "clear_as_group": true

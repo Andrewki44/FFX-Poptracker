@@ -967,7 +967,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxii"
+        "codes": "albhedprimerxii, albhedprimer"
     },
     {
         "name": "Ice Gem x 50",
@@ -1427,7 +1427,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxxvi"
+        "codes": "albhedprimerxxvi, albhedprimer"
     },
     {
         "name": "[Attribute Sphere] x 50",
@@ -1957,7 +1957,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerv"
+        "codes": "albhedprimerv, albhedprimer"
     },
     {
         "name": "Mega Phoenix x 40",
@@ -2037,7 +2037,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxxv"
+        "codes": "albhedprimerxxv, albhedprimer"
     },
     {
         "name": "Power Distiller x 20",
@@ -3660,7 +3660,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxxiv"
+        "codes": "albhedprimerxxiv, albhedprimer"
     },
     {
         "name": "[Pendulum] x 50",
@@ -3740,7 +3740,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimervii"
+        "codes": "albhedprimervii, albhedprimer"
     },
     {
         "name": "Party Member: Ixion",
@@ -4190,7 +4190,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxxii"
+        "codes": "albhedprimerxxii, albhedprimer"
     },
     {
         "name": "Flower Scepter",
@@ -4510,7 +4510,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxiii"
+        "codes": "albhedprimerxiii, albhedprimer"
     },
     {
         "name": "Supreme Gem x 70",
@@ -4971,7 +4971,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerii"
+        "codes": "albhedprimerii, albhedprimer"
     },
     {
         "name": "[Evasion Sphere] x 70",
@@ -5404,7 +5404,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimeri"
+        "codes": "albhedprimeri, albhedprimer"
     },
     {
         "name": "X-Potion x 60",
@@ -5644,7 +5644,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxx"
+        "codes": "albhedprimerxx, albhedprimer"
     },
     {
         "name": "Smoke Bomb x 30",
@@ -5874,7 +5874,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxvii"
+        "codes": "albhedprimerxvii, albhedprimer"
     },
     {
         "name": "[Skill Sphere] x 20",
@@ -6935,7 +6935,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxiv"
+        "codes": "albhedprimerxiv, albhedprimer"
     },
     {
         "name": "Party Member: Anima",
@@ -7145,7 +7145,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxix"
+        "codes": "albhedprimerxix, albhedprimer"
     },
     {
         "name": "Tetra Elemental x 10",
@@ -8018,7 +8018,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimervi"
+        "codes": "albhedprimervi, albhedprimer"
     },
     {
         "name": "Supreme Gem x 20",
@@ -8188,7 +8188,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxvi"
+        "codes": "albhedprimerxvi, albhedprimer"
     },
     {
         "name": "Weapon (Tidus): Hrunting",
@@ -8654,7 +8654,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxi"
+        "codes": "albhedprimerxi, albhedprimer"
     },
     {
         "name": "Weapon (Wakka): Bright Armguard",
@@ -9184,7 +9184,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerx"
+        "codes": "albhedprimerx, albhedprimer"
     },
     {
         "name": "[Lv. 3 Key Sphere] x 60",
@@ -9597,7 +9597,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerix"
+        "codes": "albhedprimerix, albhedprimer"
     },
     {
         "name": "[Luck Sphere] x 20",
@@ -9617,7 +9617,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxv"
+        "codes": "albhedprimerxv, albhedprimer"
     },
     {
         "name": "Tetra Elemental x 30",
@@ -9767,7 +9767,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimeriv"
+        "codes": "albhedprimeriv, albhedprimer"
     },
     {
         "name": "[Wings to Discovery] x 20",
@@ -9837,7 +9837,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxxi"
+        "codes": "albhedprimerxxi, albhedprimer"
     },
     {
         "name": "[Evasion Sphere] x 20",
@@ -10007,7 +10007,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxxiii"
+        "codes": "albhedprimerxxiii, albhedprimer"
     },
     {
         "name": "Weapon (Wakka): Ace Wizard",
@@ -10267,7 +10267,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerxviii"
+        "codes": "albhedprimerxviii, albhedprimer"
     },
     {
         "name": "Mana Tablet x 60",
@@ -11157,7 +11157,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimerviii"
+        "codes": "albhedprimerviii, albhedprimer"
     },
     {
         "name": "Region: Bikanel",
@@ -11487,7 +11487,7 @@
         "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "albhedprimeriii"
+        "codes": "albhedprimeriii, albhedprimer"
     },
     {
         "name": "Candle of Life x 90",

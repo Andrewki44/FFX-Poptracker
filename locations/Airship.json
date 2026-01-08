@@ -7,68 +7,68 @@
         "access_rules": ["^$CheckAccessLevel|airship"],
         "children": [
             {
-                "name": "Al Bhed Potion x4 (NPC)",
-                "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                "sections": [{}]
+                "name": "Blitzball Recruit - Brother",
+                "map_locations": [{ "map": "Airship", "x": 555, "y": 45}],
+                    "sections": [{"name": "Brother", "ref": "Blitzball Recruits/Brother"}]
             },
             {
-                "name": "Evrae",
-                "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                "access_rules": ["[$hasPartyMembers|3]"],
+                "name": "Blitzball Recruit - Wakka",
+                "map_locations": [{ "map": "Airship", "x": 510, "y": 150}],
+                    "sections": [{"name": "Wakka", "ref": "Blitzball Recruits/Wakka"}]
+            },
+            {
+                "name": "Rin",
+                "map_locations": [{ "map": "Airship", "x": 522, "y": 870}],
+                "sections": [
+                    {"name": "Recruit Rin", "ref": "Blitzball Recruits/Rin"},
+                    {"name": "Collect All Primers", "ref": "Al Bhed Primers/Complete Al Bhed Primers"}
+                ]
+            },
+            {
+                "name": "Before Evrae, Yellow Al Bhed on Left (NPC)",
+                "map_locations": [{ "map": "Airship", "x": 30, "y": 855}],
+                "sections": [{"name": "Al Bhed Potion x4 (NPC)"}]
+            },
+            {
+                "name": "Roof (Bosses)",
+                "map_locations": [{ "map": "Airship", "x": 145, "y": 180, "shape": "trapezoid", "size": 28}],
+                "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
+                        "name": "Evrae",
                         "hosted_item": "evrae, airshipsin",
                         "item_count": 1,
                         "clear_as_group": true
-                    }
-                ]
-            },
-            {
-                "name": "Sin Left Fin",
-                "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                "access_rules": ["evrae, [^$CheckAccessLevel|airshipsin], [$hasPartyMembers|3]"],
-                "sections": [
+                    },
                     {
+                        "name": "Sin Left Fin",
+                        "access_rules": ["^$CheckAccessLevel|airshipsin"],
                         "hosted_item": "sinleftfin",
                         "item_count": 1,
                         "clear_as_group": true
-                    }
-                ]
-            },
-            {
-                "name": "Sin Right Fin",
-                "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                "access_rules": ["sinleftfin, [^$CheckAccessLevel|airshipsin], [$hasPartyMembers|3]"],
-                "sections": [
+                    },
                     {
+                        "name": "Sin Right Fin",
+                        "access_rules": ["^$CheckAccessLevel|airshipsin, sinleftfin"],
                         "hosted_item": "sinrightfin",
                         "item_count": 1,
                         "clear_as_group": true
-                    }
-                ]
-            },
-            {
-                "name": "Sinspawn Genais and Core",
-                "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                "access_rules": ["sinrightfin, [^$CheckAccessLevel|airshipsin], [$hasPartyMembers|3]"],
-                "sections": [
+                    },
                     {
+                        "name": "Sinspawn Genais and Core",
+                        "access_rules": ["^$CheckAccessLevel|airshipsin, sinrightfin"],
                         "hosted_item": "sincore",
                         "item_count": 1,
                         "clear_as_group": true
-                    }
-                ]
-            },
-            {
-                "name": "Overdrive Sin",
-                "map_locations": [{ "map": "Airship", "x": 0, "y": 0}],
-                "access_rules": ["sincore, [^$CheckAccessLevel|airshipsin], [$hasPartyMembers|3]"],
-                "sections": [
+                    },
                     {
+                        "name": "Overdrive Sin",
+                        "access_rules": ["^$CheckAccessLevel|airshipsin, sincore"],
                         "hosted_item": "sinoverdrive",
                         "item_count": 1,
                         "clear_as_group": true
-                    }
+                    },
+                    {"name": "Penance", "ref": "Super Bosses/Penance"}
                 ]
             }
         ]

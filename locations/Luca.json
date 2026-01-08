@@ -11,12 +11,12 @@
                 "children": [
                     {
                         "name": "West Locker Hall (Chest)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 300, "y": 435}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
                         "name": "Behind Isken (Primer)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 270, "y": 500}],
                         "sections": [
                             {
                                 "name": "Al Bhed Primer VI",
@@ -26,14 +26,14 @@
                     },
                     {
                         "name": "Win the Story Blitzball Tournament (Event)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
-                        "access_rules": ["oblitzerator, [minigames]"],
+                        "map_locations": [{"map": "Luca", "x": 420, "y": 415}],
+                        "access_rules": ["oblitzerator, [$hasMinimumParty|3], [minigames]"],
                         "sections": [{"name": "Story Win vs. Luca Goers Reward"}]
                     },
                     {
                         "name": "Post-Blitzball Tournament (Event)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
-                        "access_rules": ["oblitzerator"],
+                        "map_locations": [{"map": "Luca", "x": 400, "y": 505}],
+                        "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Auron",
@@ -43,7 +43,7 @@
                     },
                     {
                         "name": "Blitzball Recruit - Biggs & Wedge",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 443, "y": 640}],
                         "sections": [
                             {"name": "Biggs", "ref": "Blitzball Recruits/Biggs"},
                             {"name": "Wedge", "ref": "Blitzball Recruits/Wedge"}
@@ -51,8 +51,8 @@
                     },
                     {
                         "name": "Inside Back Right Locker (Event)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
-                        "access_rules": ["oblitzerator"],
+                        "map_locations": [{"map": "Luca", "x": 445, "y": 390}],
+                        "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Jupiter Crest",
@@ -62,8 +62,8 @@
                     },
                     {
                         "name": "Obtain The Jupiter Sigil League Prize (Event)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
-                        "access_rules": ["oblitzerator"],
+                        "map_locations": [{"map": "Luca", "x": 480, "y": 730}],
+                        "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Jupiter Sigil",
@@ -78,22 +78,22 @@
                 "children": [
                     {
                         "name": "Dock 1 - Right Side (Chest)",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 120, "y": 760}],
                         "sections": [{"name": "600 Gil"}]
                     },
                     {
                         "name": "Dock 1 - End (Chest)",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 45, "y": 840}],
                         "sections": [{"name": "Tidal Spear"}]
                     },
                     {
                         "name": "Dock 2 - Left Side (Chest)",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 145, "y": 370}],
                         "sections": [{"name": "Phoenix Down x2"}]
                     },
                     {
                         "name": "Dock 5 - End, Hidden Behind Boxes (Chests)",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 850, "y": 890}],
                         "sections": [
                             {"name": "HP Sphere x1"},
                             {"name": "Magic Sphere x1"}
@@ -101,18 +101,18 @@
                     },
                     {
                         "name": "Blitzball Recruit - Nedus",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 90, "y": 800}],
                         "sections": [{"name": "Nedus", "ref": "Blitzball Recruits/Nedus"}]
                     },
                     {
                         "name": "Blitzball Recruit - Zev Ronso",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 660, "y": 370}],
                         "sections": [{"name": "Zev Ronso", "ref": "Blitzball Recruits/Zev Ronso"}]
                     },
                     {
                         "name": "Defeat Oblitzerator (Boss)",
-                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "map_locations": [{"map": "Luca", "x": 455, "y": 50, "shape": "trapezoid", "size": 32}],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             { 
                                 "name": "Oblitzerator",
@@ -129,7 +129,7 @@
                 "children": [
                     {
                         "name": "Bottom of Stairs, Left Side (Primer)",
-                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 920, "y": 550}],
                         "sections": [
                             {
                                 "name": "Al Bhed Primer VII",
@@ -139,33 +139,33 @@
                     },
                     {
                         "name": "Staircase Leading to Mi'ihen (Chest)",
-                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 1390, "y": 290}],
                         "sections": [{"name": "1000 Gil"}]
                     },
                     {
                         "name": "Blitzball Recruit - Jumal",
-                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 1050, "y": 720}],
                         "sections": [{"name": "Jumal", "ref": "Blitzball Recruits/Jumal"}]
                     },
                     {
                         "name": "Blitzball Recruit - Shaami",
-                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 930, "y": 988}],
                         "sections": [{"name": "Shaami", "ref": "Blitzball Recruits/Shaami"}]
                     },
                     {
                         "name": "Blitzball Recruit - Shuu",
-                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 1150, "y": 475}],
                         "sections": [{"name": "Shuu", "ref": "Blitzball Recruits/Shuu"}]
                     },
                     {
                         "name": "Blitzball Recruit - Zalitz",
-                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "map_locations": [{"map": "Luca", "x": 910, "y": 820}],
                         "sections": [{"name": "Zalitz", "ref": "Blitzball Recruits/Zalitz"}]
                     },
                     {
                         "name": "Talk to Owner After Placing at Least Third in a Tournament (Chest)",
-                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
-                        "access_rules": ["oblitzerator"],
+                        "map_locations": [{"map": "Luca", "x": 1145, "y": 410}],
+                        "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "World Chamnpion",
