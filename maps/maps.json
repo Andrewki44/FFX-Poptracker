@@ -96,22 +96,10 @@
         "img": "images/maps/Celestial Upgrade.png"
     },
     {
-        "name": "Djose Highroad",
+        "name": "Djose",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Djose.png"
-    },
-    {
-        "name": "Djose Pilgrimage Road",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Djose.png"
-    },
-    {
-        "name": "Djose Temple",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Djose.png"
+        "img": "images/maps/regions/djose/Djose.png"
     },
     {
         "name": "Gagazet Outside",
@@ -168,22 +156,16 @@
         "img": "images/maps/regions/macalania/Lake Macalania.png"
     },
     {
-        "name": "Luca Stadium",
-        "location_size": 16,
+        "name": "Luca",
+        "location_size": 24,
         "location_border_thickness": 1,
-        "img": "images/maps/Luca Stadium.png"
+        "img": "images/maps/regions/luca/Luca.png"
     },
     {
-        "name": "Luca Dock",
+        "name": "Macalania Temple",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Luca Dock.png"
-    },
-    {
-        "name": "Luca City",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Luca City.png"
+        "img": "images/maps/regions/macalania/Macalania Temple.png"
     },
     {
         "name": "Macalania Woods",
@@ -192,28 +174,10 @@
         "img": "images/maps/regions/macalania/Macalania Woods.png"
     },
     {
-        "name": "Miihen Highroad South Central",
+        "name": "Miihen Highroad",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Miihen Highroad.png"
-    },
-    {
-        "name": "Miihen Highroad Agency",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Miihen Highroad.png"
-    },
-    {
-        "name": "Miihen Highroad North",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Miihen Highroad.png"
-    },
-    {
-        "name": "Miihen Ruins",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Miihen Ruins.png"
+        "img": "images/maps/regions/miihen/Miihen Highroad.png"
     },
     {
         "name": "Monster Arena",
@@ -228,34 +192,10 @@
         "img": "images/maps/regions/moonflow/Moonflow.png"
     },
     {
-        "name": "Mushroom Rock Road Entrance",
+        "name": "Mushroom Rock Road",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Valley",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Precipice",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Ridge",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Aftermath",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
+        "img": "images/maps/regions/mushroom rock road/MRR.png"
     },
     {
         "name": "Omega Ruins",
@@ -297,7 +237,7 @@
         "name": "S.S. Winno",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/S.S. Winno.png"
+        "img": "images/maps/regions/kilika/S.S. Winno.png"
     },
     {
         "name": "Sanubia Sands",

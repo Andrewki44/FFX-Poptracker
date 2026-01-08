@@ -36,8 +36,8 @@
                     },
                     {
                         "name": "Defeat Seymour Omnis (Boss)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 645, "y": 890, "shape": "trapezoid", "size": 24}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "map_locations": [{ "map": "Inside Sin", "x": 245, "y": 460, "shape": "trapezoid", "size": 24}],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Seymour Omnis",
@@ -51,7 +51,7 @@
             },
             {
                 "name": "City of Dying Dreams",
-                "access_rules": ["seymouromnis"],
+                "access_rules": ["seymouromnis, [$hasMinimumParty|3]"],
                 "children": [
                     {
                         "name": "East Glyph Near South Exit, Defeat 10/10/15 Fiends (Chest)",

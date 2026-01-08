@@ -52,7 +52,7 @@
                     {
                         "name": "Defeat Spectral Keeper (Boss)",
                         "map_locations": [{ "map": "Zanarkand Temple", "x": 452, "y": 1630, "shape": "trapezoid", "size": 32}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Spectral Keeper",
@@ -65,7 +65,7 @@
                     {
                         "name": "Defeat Yunalesca (Boss)",
                         "map_locations": [{ "map": "Zanarkand Temple", "x": 635, "y": 500, "shape": "trapezoid", "size": 32}],
-                        "access_rules": ["spectralkeeper, [$hasPartyMembers|3]"],
+                        "access_rules": ["spectralkeeper, [$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Yunalesca",
@@ -88,7 +88,7 @@
                     {
                         "name": "Cloister",
                         "map_locations": [{ "map": "Zanarkand Temple", "x": 450, "y": 1390}],
-                        "access_rules": ["yunalesca"],
+                        "access_rules": ["yunalesca, [$hasMinimumParty|3]"],
                         "sections": [
                             { 
                                 "name": "Destruction Sphere- Magistral Rod", 

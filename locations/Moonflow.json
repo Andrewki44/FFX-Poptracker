@@ -56,7 +56,7 @@
             },
             {
                 "name": "North",
-                "access_rules": ["extractor"],
+                "access_rules": ["extractor, [$hasSwimmers|2]"],
                 "children": [
                     {
                         "name": "Up Slope Right of Hypello (Primer)",

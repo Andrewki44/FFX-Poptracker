@@ -16,7 +16,7 @@
             },
             {
                 "name": "Durren",
-                "access_rules": ["@Calm Lands, defenderx"]
+                "access_rules": ["@Calm Lands, defenderx, [$hasMinimumParty|3]"]
             },
             {
                 "name": "Jumal",
@@ -28,7 +28,7 @@
             },
             {
                 "name": "Kyou",
-                "access_rules": ["@Djose"]
+                "access_rules": ["@Djose, djosecloister"]
             },
             {
                 "name": "Linna",
@@ -68,7 +68,7 @@
             },
             {
                 "name": "Shuu",
-                "access_rules": ["@Luca, oblitzerator"]
+                "access_rules": ["@Luca, oblitzerator, [$hasMinimumParty|3]"]
             },
             {
                 "name": "Svanda",

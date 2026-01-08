@@ -32,7 +32,7 @@
             {
                 "name": "Roof (Bosses)",
                 "map_locations": [{ "map": "Airship", "x": 145, "y": 180, "shape": "trapezoid", "size": 28}],
-                "access_rules": ["[$hasPartyMembers|3]"],
+                "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
                         "name": "Evrae",
