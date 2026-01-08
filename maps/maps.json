@@ -198,34 +198,10 @@
         "img": "images/maps/regions/moonflow/Moonflow.png"
     },
     {
-        "name": "Mushroom Rock Road Entrance",
+        "name": "Mushroom Rock Road",
         "location_size": 16,
         "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Valley",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Precipice",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Ridge",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
-    },
-    {
-        "name": "Mushroom Rock Road Aftermath",
-        "location_size": 16,
-        "location_border_thickness": 1,
-        "img": "images/maps/Mushroom Rock Road.png"
+        "img": "images/maps/regions/mushroom rock road/MRR.png"
     },
     {
         "name": "Omega Ruins",

@@ -3,10 +3,10 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Miihen Highroad",
+                "title": "Mushroom Rock Road",
                 "content": {
                     "type": "map",
-                    "maps": ["Miihen Highroad"]
+                    "maps": ["Mushroom Rock Road"]
                 }
             },
             {
@@ -296,44 +296,8 @@
             {
                 "title": "Mushroom Rock Road",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Entrance",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Entrance"]
-                            }
-                        },
-                        {
-                            "title": "Valley",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Valley"]
-                            }
-                        },
-                        {
-                            "title": "Precipice",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Precipice"]
-                            }
-                        },
-                        {
-                            "title": "Ridge",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Ridge"]
-                            }
-                        },
-                        {
-                            "title": "Aftermath",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Aftermath"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Mushroom Rock Road"]
                 }
             },
             {

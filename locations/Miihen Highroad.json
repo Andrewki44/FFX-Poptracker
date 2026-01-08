@@ -16,7 +16,7 @@
                     },
                     {
                         "name": "Blue-White Man, Looping North to South (NPC)",
-                        "map_locations": [{ "map": "Miihen Highroad", "x": 130, "y": 800}],
+                        "map_locations": [{ "map": "Miihen Highroad", "x": 135, "y": 500}],
                         "sections": [{"name": "Hunters Spear"}]
                     },
                     {
