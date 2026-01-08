@@ -603,7 +603,15 @@
                     },
                     {
                         "name": "Ridge - Sinspawn Gui",
-                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/"
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui"
+                    },
+                    {
+                        "name": "Ridge - Sinspawn Gui 2",
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui 2"
+                    },
+                    {
+                        "name": "Ridge - Seymour",
+                        "ref": "Party Member/Character/Seymour"
                     },
                     {
                         "name": "Aftermath - Hi-Potion x1 (Chest)",
@@ -618,8 +626,16 @@
                         "ref": "Celestial/Auron/Masamune"
                     },
                     {
-                        "name": "Super Bosses - Dark Magus Sisters",
-                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/"
+                        "name": "Super Bosses - Dark Cindy",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Mindy",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Sandy",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
                     }
                 ]
             },
