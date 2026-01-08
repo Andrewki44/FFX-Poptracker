@@ -89,7 +89,7 @@
                     {
                         "name": "Defeat Sinspawn Geneaux (Boss)",
                         "map_locations": [{ "map": "Kilika Village", "x": 140, "y": 135, "shape": "trapezoid", "size": 24}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Sinspawn Geneaux",
@@ -103,7 +103,7 @@
             },
             {
                 "name": "Temple",
-                "access_rules": ["geneaux"],
+                "access_rules": ["geneaux, [$hasMinimumParty|3]"],
                 "children": [
                     {
                         "name": "Blitzball Recruit",

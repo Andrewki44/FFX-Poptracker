@@ -45,7 +45,7 @@
                     {
                         "name": "Defeat Defender X (Boss)",
                         "map_locations": [{ "map": "Calm Lands", "x": 925, "y": 200, "shape": "trapezoid", "size": 28}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Defender X",

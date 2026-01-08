@@ -7,31 +7,98 @@
         "access_rules": ["^$CheckAccessLevel|macalania"],
         "children": [
             {
+                "name": "Celestial Flower",
+                "map_locations": [{ "map": "Macalania Woods", "x": 450, "y": 100, "shape": "diamond", "size": 24}],
+                "access_rules": ["wendigo, [$hasMinimumParty|3]"],
+                "sections": [
+                    {
+                        "name": "Celestial Mirror",
+                        "ref": "Celestial/General/Celestial Mirror"
+                    },
+                    {
+                        "name": "Auron - Masamune Crest Updgrade",
+                        "ref": "Celestial/Auron/Masamune Crest Upgrade"
+                    },
+                    {
+                        "name": "Auron - Masamune Sigil Updgrade",
+                        "ref": "Celestial/Auron/Masamune Sigil Upgrade"
+                    },
+                    {
+                        "name": "Kimahri - Spirit Lance Crest Updgrade",
+                        "ref": "Celestial/Kimahri/Spirit Lance Crest Upgrade"
+                    },
+                    {
+                        "name": "Kimahri - Spirit Lance Sigil Updgrade",
+                        "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
+                    },
+                    {
+                        "name": "Lulu - Onion Knight Crest Updgrade",
+                        "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
+                    },
+                    {
+                        "name": "Lulu - Onion Knight Sigil Updgrade",
+                        "ref": "Celestial/Lulu/Onion Knight Sigil Upgrade"
+                    },
+                    {
+                        "name": "Rikku - Godhand Crest Updgrade",
+                        "ref": "Celestial/Rikku/Godhand Crest Upgrade"
+                    },
+                    {
+                        "name": "Rikku - Godhand Sigil Updgrade",
+                        "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Crest Updgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Sigil Updgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
+                    },
+                    {
+                        "name": "Wakka - World Champion Crest Updgrade",
+                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
+                    },
+                    {
+                        "name": "Wakka - World Champion Sigil Updgrade",
+                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Crest Updgrade",
+                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Sigil Updgrade",
+                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
+                    }
+                ]
+            },
+            {
                 "name": "Woods",
                 "children": [
                     {
                         "name": "Hidden Behind Tree in Middle of S-Bend (Chest)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 30, "y": 540}],
                         "sections": [{"name": "Sleepy Cait Sith"}]
                     },
                     {
                         "name": "Near North Exit (Chest)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 185, "y": 450}],
                         "sections": [{"name": "2000 gil"}]
                     },
                     {
                         "name": "Hidden Behind Tree Before Spiral Down (Chest)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 130, "y": 105}],
                         "sections": [{"name": "Phoenix Down x3"}]
                     },
                     {
                         "name": "Hidden Behind Tree on West Side (Chest)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 410, "y": 750}],
                         "sections": [{"name": "Remedy x1"}]
                     },
                     {
                         "name": "Near Southeast Exit (Primer)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 415, "y": 525}],
                         "sections": [
                             {
                                 "name": "Al Bhed Primer XV",
@@ -41,23 +108,17 @@
                     },
                     {
                         "name": "Defeat Spherimorph (Boss)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 715, "y": 300, "shape": "trapezoid", "size": 24}],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
-                            {
-                                "hosted_item": "spherimorph, jechtsphere",
-                                "clear_as_group": false
-                            },
                             {
                                 "name": "Spherimorph",
                                 "hosted_item": "spherimorph",
-                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Jecht Sphere",
                                 "hosted_item": "jechtsphere",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -65,12 +126,12 @@
                     {
                         "name": "Campsite (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 870, "y": 55}],
-                        "access_rules": ["spherimorph, seymournatus"],
+                        "access_rules": ["spherimorph, seymournatus, [$hasMinimumParty|3]"],
                         "sections": [{"name": "Lucid Ring"}]
                     },
                     {
                         "name": "Butterfly Minigame (Event)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 570, "y": 535}],
                         "sections": [
                             {
                                 "name": "Saturn Sigil",
@@ -82,14 +143,14 @@
             },
             {
                 "name": "Lake",
-                "access_rules": ["spherimorph"],
+                "access_rules": ["spherimorph, [$hasMinimumParty|3]"],
                 "children": [
                     {
                         "name": "Agency",
                         "children": [
                             {
                                 "name": "Left Side (Primer)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 975, "y": 640}],
                                 "sections": [
                                     {
                                         "name": "Al Bhed Primer XVI",
@@ -98,31 +159,30 @@
                                 ]
                             },
                             {
-                                "name": "Defeat Crawler (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["[$hasPartyMembers|3]"],
+                                "name": "Right Side (Chest)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 900, "y": 700}],
+                                "access_rules": ["crawler"],
+                                "sections": [{"name": "4000 gil"}]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lake",
+                        "children": [
+                            {
+                                "name": "Cross the Lake (Boss)",
+                                "map_locations": [{ "map": "Lake Macalania", "x": 800, "y": 280, "shape": "trapezoid", "size": 32}],
+                                "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Crawler",
                                         "hosted_item": "crawler",
                                         "item_count": 1,
                                         "clear_as_group": true
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Right Side (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["crawler"],
-                                "sections": [{"name": "4000 gil"}]
-                            },
-                            {
-                                "name": "Defeat Wendigo (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["seymouranima, [$hasPartyMembers|3]"],
-                                "sections": [
+                                    },
                                     {
                                         "name": "Wendigo",
+                                        "access_rules": ["seymouranima"],
                                         "hosted_item": "wendigo",
                                         "item_count": 1,
                                         "clear_as_group": true
@@ -133,124 +193,124 @@
                     },
                     {
                         "name": "Road",
-                        "access_rules": ["crawler"],
+                        "access_rules": ["crawler, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "South End of Narrow Path (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 400, "y": 340}],
                                 "sections": [{"name": "Lv. 1 Key Sphere x1"}]
                             },
                             {
                                 "name": "Near North Exit (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 350, "y": 80}],
                                 "sections": [{"name": "Mega-Potion x1"}]
                             },
                             {
                                 "name": "Linna, at Bottom of Stairs (NPC)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "400 gil"}]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Temple",
-                        "access_rules": ["crawler"],
-                        "children": [
-                            {
-                                "name": "Automatic upon Entering (Event)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "Shell Targe"}]
-                            },
-                            {
-                                "name": "North Side (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "5000 gil"}]
-                            },
-                            {
-                                "name": "South Side (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "X-Potion x2"}]
-                            },
-                            {
-                                "name": "Nuns' Chamber (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "Remedy x2"}]
-                            },
-                            {
-                                "name": "Nuns' Chamber - Yellow Nun (NPC)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "Hi-Potion x2"}]
-                            },
-                            {
-                                "name": "Monks' Chamber- Brown Monk (NPC)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "Ether x1"}]
-                            },
-                            {
-                                "name": "Monks' Chamber- Purple Monk (NPC)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "Elixir x1"}]
-                            },
-                            {
-                                "name": "Monks' Chamber (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [{"name": "Phoenix Down x3"}]
-                            },
-                            {
-                                "name": "Defeat Seymour (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["[$hasPartyMembers|3]"],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 320, "y": 650}],
                                 "sections": [
-                                    {
-                                        "name": "Seymour",
-                                        "hosted_item": "seymouranima",
-                                        "item_count": 1,
-                                        "clear_as_group": true
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Cloister",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "sections": [
-                                    {
-                                        "hosted_item": "macalaniacloister, macalaniadestructionsphere",
-                                        "clear_as_group": false
-                                    },
-                                    {
-                                        "name": "Shiva",
-                                        "ref": "Party Member/Aeon/Shiva"
-                                    },
-                                    {
-                                        "name": "Destruction Sphere - Luck Sphere",
-                                        "hosted_item": "macalaniadestructionsphere",
-                                        "item_count": 1,
-                                        "clear_as_group": true
-                                    }
+                                    {"name": "400 gil"},
+                                    {"name": "Recruit", "ref": "Blitzball Recruits/Linna"}
                                 ]
                             },
                             {
                                 "name": "Defeat Dark Shiva (Superboss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 57, "y": 500}],
                                 "sections": [{"name": "Dark Shiva", "ref": "Super Bosses/Dark Shiva"}]
                             }
                         ]
                     },
                     {
                         "name": "Bottom",
-                        "access_rules": ["wendigo"],
+                        "access_rules": ["wendigo, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "Hidden Behind Kimahri (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania Bottom", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 620, "y": 570}],
                                 "sections": [{"name": "Lv. 2 Key Sphere"}]
                             },
                             {
                                 "name": "Hidden Left of Auron (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania Bottom", "x": 0, "y": 0}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 500, "y": 400}],
                                 "sections": [{"name": "Avenger"}]
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Temple",
+                "access_rules": ["crawler, [$hasMinimumParty|3]"],
+                "children": [
+                    {
+                        "name": "Automatic upon Entering (Event)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 604, "y": 625}],
+                        "sections": [{"name": "Shell Targe"}]
+                    },
+                    {
+                        "name": "North Side (Chest)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 510, "y": 515}],
+                        "sections": [{"name": "5000 gil"}]
+                    },
+                    {
+                        "name": "South Side (Chest)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 670, "y": 560}],
+                        "sections": [{"name": "X-Potion x2"}]
+                    },
+                    {
+                        "name": "Nuns' Chamber (Chest)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 530, "y": 255}],
+                        "sections": [{"name": "Remedy x2"}]
+                    },
+                    {
+                        "name": "Nuns' Chamber - Yellow Nun (NPC)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 565, "y": 285}],
+                        "sections": [{"name": "Hi-Potion x2"}]
+                    },
+                    {
+                        "name": "Monks' Chamber- Brown Monk (NPC)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 715, "y": 265}],
+                        "sections": [{"name": "Ether x1"}]
+                    },
+                    {
+                        "name": "Monks' Chamber- Purple Monk (NPC)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 730, "y": 290}],
+                        "sections": [{"name": "Elixir x1"}]
+                    },
+                    {
+                        "name": "Monks' Chamber (Chest)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 690, "y": 255}],
+                        "sections": [{"name": "Phoenix Down x3"}]
+                    },
+                    {
+                        "name": "Defeat Seymour (Boss)",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 380, "y": 510, "shape": "trapezoid", "size": 24}],
+                        "access_rules": ["[$hasMinimumParty|3]"],
+                        "sections": [
+                            {
+                                "name": "Seymour",
+                                "hosted_item": "seymouranima",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cloister of Trials",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 245, "y": 475}],
+                        "sections": [
+                            {
+                                "name": "Destruction Sphere - Luck Sphere",
+                                "hosted_item": "macalaniadestructionsphere",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chamber of the Fayth",
+                        "map_locations": [{ "map": "Macalania Temple", "x": 380, "y": 560}],
+                        "sections": [{"name": "Shiva", "ref": "Party Member/Aeon/Shiva"}]
                     }
                 ]
             }

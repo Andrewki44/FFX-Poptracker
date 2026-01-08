@@ -155,7 +155,7 @@
                 "name": "Temple",
                 "children": [
                     {
-                        "name": "Cloister",
+                        "name": "Cloister of Trials",
                         "map_locations": [{ "map": "Besaid Temple", "x": 482, "y": 120}],
                         "sections": [
                             {

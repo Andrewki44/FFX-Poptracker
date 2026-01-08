@@ -152,30 +152,8 @@
             {
                 "title": "Djose",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Djose Highroad",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Highroad"]
-                            }
-                        },
-                        {
-                            "title": "Pilgrimage Road",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Pilgrimage Road"]
-                            }
-                        },
-                        {
-                            "title": "Temple",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Temple"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Djose"]
                 }
             },
             {
@@ -246,30 +224,8 @@
             {
                 "title": "Luca",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Stadium",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Luca Stadium"]
-                            }
-                        },
-                        {
-                            "title": "Dock",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Luca Dock"]
-                            }
-                        },
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Luca City"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Luca"]
                 }
             },
             {
@@ -281,14 +237,21 @@
                             "title": "Woods",
                             "content": {
                                 "type": "map",
-                                "maps": ["Macalania Woodsxx"]
+                                "maps": ["Macalania Woods"]
                             }
                         },
                         {
                             "title": "Lake",
                             "content": {
                                 "type": "map",
-                                "maps": ["Lake Macalaniaxx"]
+                                "maps": ["Lake Macalania"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Temple"]
                             }
                         }
                     ]
@@ -297,30 +260,8 @@
             {
                 "title": "Miihen Highroad",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "South & Central",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Highroad South Central"]
-                            }
-                        },
-                        {
-                            "title": "Agency",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Highroad Agency"]
-                            }
-                        },
-                        {
-                            "title": "North",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Miihen Highroad North"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Miihen Highroad"]
                 }
             },
             {
@@ -333,44 +274,8 @@
             {
                 "title": "Mushroom Rock Road",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Entrance",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Entrance"]
-                            }
-                        },
-                        {
-                            "title": "Valley",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Valley"]
-                            }
-                        },
-                        {
-                            "title": "Precipice",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Precipice"]
-                            }
-                        },
-                        {
-                            "title": "Ridge",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Ridge"]
-                            }
-                        },
-                        {
-                            "title": "Aftermath",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Mushroom Rock Road Aftermath"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Mushroom Rock Road"]
                 }
             },
             {
