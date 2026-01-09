@@ -8,6 +8,7 @@
                 " - Adjusted some Calm Lands, Luca, Macalania, MRR & Besaid location positions",
                 " - Added missing Miyu location to Moonflow region map",
                 " - Fixed typos on the Celestial Flower & Luzzu locations",
+                " - Minor change to Besaid Temple & Via Purifico map, to fix room & transition positions",
                 " - Updated autotabbing logic to match new DataStorage format"
             ]
         },
