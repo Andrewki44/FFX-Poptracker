@@ -357,7 +357,7 @@ end
 
 function onDataStorageUpdate(key, value, oldValue)
     if (key == ap_autotab and value ~= nil) then
-        autoTab(tonumber(value))
+        autoTab(value)
     end
 end
 
