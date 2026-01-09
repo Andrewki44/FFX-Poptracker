@@ -78,7 +78,7 @@
                 "children": [
                     {
                         "name": "Chocobo Training",
-                        "map_locations": [{ "map": "Calm Lands", "x": 800, "y": 870}],
+                        "map_locations": [{ "map": "Calm Lands", "x": 360, "y": 540}],
                         "sections": [
                             {"name": "Wobbly Chocobo Minigame (Event)"},
                             {"name": "Dodger Chocobo Minigame (Event)"},

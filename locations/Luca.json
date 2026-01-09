@@ -106,7 +106,7 @@
                     },
                     {
                         "name": "Blitzball Recruit - Zev Ronso",
-                        "map_locations": [{"map": "Luca", "x": 660, "y": 370}],
+                        "map_locations": [{"map": "Luca", "x": 680, "y": 650}],
                         "sections": [{"name": "Zev Ronso", "ref": "Blitzball Recruits/Zev Ronso"}]
                     },
                     {

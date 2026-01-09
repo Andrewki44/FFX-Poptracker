@@ -74,6 +74,11 @@
                         "sections": [{"name": "Ether x1"}]
                     },
                     {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{ "map": "Moonflow", "x": 265, "y": 220}],
+                        "sections": [{"name": "Miyu", "ref": "Blitzball Recruits/Miyu"}]
+                    },
+                    {
                         "name": "Mix Tutorial (Event)",
                         "map_locations": [{ "map": "Moonflow", "x": 100, "y": 390}],
                         "sections": [

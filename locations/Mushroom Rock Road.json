@@ -113,12 +113,12 @@
                 "children": [
                     {
                         "name": "Near Lulu (Chest)",
-                        "map_locations": [{ "map": "Mushroom Rock Road", "x": 840, "y": 100}],
+                        "map_locations": [{ "map": "Mushroom Rock Road", "x": 805, "y": 100}],
                         "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
                         "name": "Behind Spear Rack (Chest)",
-                        "map_locations": [{ "map": "Mushroom Rock Road", "x": 835, "y": 80}],
+                        "map_locations": [{ "map": "Mushroom Rock Road", "x": 800, "y": 80}],
                         "sections": [{"name": "Serene Bracer"}]
                     },
                     {

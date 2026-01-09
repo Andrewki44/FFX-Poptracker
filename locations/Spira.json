@@ -270,16 +270,16 @@
                         "ref": "Kilika/Woods/Path North of Lord Ochu, Curving West (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Woods - Luzu - Before Ochu (NPC)",
-                        "ref": "Kilika/Woods/Luzu (NPC)/Antidote x4 (Before Defeating Ochu)"
+                        "name": "Woods - Luzzu - Before Ochu (NPC)",
+                        "ref": "Kilika/Woods/Luzzu (NPC)/Antidote x4 (Before Defeating Ochu)"
                     },
                     {
                         "name": "Woods - Lord Ochu",
                         "ref": "Kilika/Woods/Defeat Lord Ochu (Boss)/Lord Ochu"
                     },
                     {
-                        "name": "Woods - Luzu - After Ochu (NPC)",
-                        "ref": "Kilika/Woods/Luzu (NPC)/Elixir x1 (After Defeating Ochu)"
+                        "name": "Woods - Luzzu - After Ochu (NPC)",
+                        "ref": "Kilika/Woods/Luzzu (NPC)/Elixir x1 (After Defeating Ochu)"
                     },
                     {
                         "name": "Woods - Sinspawn Geneaux",
@@ -1050,59 +1050,59 @@
                         "ref": "Celestial/General/Celestial Mirror"
                     },
                     {
-                        "name": "Auron - Masamune Crest Updgrade",
+                        "name": "Auron - Masamune Crest Upgrade",
                         "ref": "Celestial/Auron/Masamune Crest Upgrade"
                     },
                     {
-                        "name": "Auron - Masamune Sigil Updgrade",
+                        "name": "Auron - Masamune Sigil Upgrade",
                         "ref": "Celestial/Auron/Masamune Sigil Upgrade"
                     },
                     {
-                        "name": "Kimahri - Spirit Lance Crest Updgrade",
+                        "name": "Kimahri - Spirit Lance Crest Upgrade",
                         "ref": "Celestial/Kimahri/Spirit Lance Crest Upgrade"
                     },
                     {
-                        "name": "Kimahri - Spirit Lance Sigil Updgrade",
+                        "name": "Kimahri - Spirit Lance Sigil Upgrade",
                         "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
                     },
                     {
-                        "name": "Lulu - Onion Knight Crest Updgrade",
+                        "name": "Lulu - Onion Knight Crest Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
                     },
                     {
-                        "name": "Lulu - Onion Knight Sigil Updgrade",
+                        "name": "Lulu - Onion Knight Sigil Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Sigil Upgrade"
                     },
                     {
-                        "name": "Rikku - Godhand Crest Updgrade",
+                        "name": "Rikku - Godhand Crest Upgrade",
                         "ref": "Celestial/Rikku/Godhand Crest Upgrade"
                     },
                     {
-                        "name": "Rikku - Godhand Sigil Updgrade",
+                        "name": "Rikku - Godhand Sigil Upgrade",
                         "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
                     },
                     {
-                        "name": "Tidus - Caladbolg Crest Updgrade",
+                        "name": "Tidus - Caladbolg Crest Upgrade",
                         "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
                     },
                     {
-                        "name": "Tidus - Caladbolg Sigil Updgrade",
+                        "name": "Tidus - Caladbolg Sigil Upgrade",
                         "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
                     },
                     {
-                        "name": "Wakka - World Champion Crest Updgrade",
+                        "name": "Wakka - World Champion Crest Upgrade",
                         "ref": "Celestial/Wakka/World Champion Crest Upgrade"
                     },
                     {
-                        "name": "Wakka - World Champion Sigil Updgrade",
+                        "name": "Wakka - World Champion Sigil Upgrade",
                         "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
                     },
                     {
-                        "name": "Yuna - Nirvana Crest Updgrade",
+                        "name": "Yuna - Nirvana Crest Upgrade",
                         "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
                     },
                     {
-                        "name": "Yuna - Nirvana Sigil Updgrade",
+                        "name": "Yuna - Nirvana Sigil Upgrade",
                         "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
                     }
                 ]

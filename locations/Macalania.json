@@ -16,59 +16,59 @@
                         "ref": "Celestial/General/Celestial Mirror"
                     },
                     {
-                        "name": "Auron - Masamune Crest Updgrade",
+                        "name": "Auron - Masamune Crest Upgrade",
                         "ref": "Celestial/Auron/Masamune Crest Upgrade"
                     },
                     {
-                        "name": "Auron - Masamune Sigil Updgrade",
+                        "name": "Auron - Masamune Sigil Upgrade",
                         "ref": "Celestial/Auron/Masamune Sigil Upgrade"
                     },
                     {
-                        "name": "Kimahri - Spirit Lance Crest Updgrade",
+                        "name": "Kimahri - Spirit Lance Crest Upgrade",
                         "ref": "Celestial/Kimahri/Spirit Lance Crest Upgrade"
                     },
                     {
-                        "name": "Kimahri - Spirit Lance Sigil Updgrade",
+                        "name": "Kimahri - Spirit Lance Sigil Upgrade",
                         "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
                     },
                     {
-                        "name": "Lulu - Onion Knight Crest Updgrade",
+                        "name": "Lulu - Onion Knight Crest Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
                     },
                     {
-                        "name": "Lulu - Onion Knight Sigil Updgrade",
+                        "name": "Lulu - Onion Knight Sigil Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Sigil Upgrade"
                     },
                     {
-                        "name": "Rikku - Godhand Crest Updgrade",
+                        "name": "Rikku - Godhand Crest Upgrade",
                         "ref": "Celestial/Rikku/Godhand Crest Upgrade"
                     },
                     {
-                        "name": "Rikku - Godhand Sigil Updgrade",
+                        "name": "Rikku - Godhand Sigil Upgrade",
                         "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
                     },
                     {
-                        "name": "Tidus - Caladbolg Crest Updgrade",
+                        "name": "Tidus - Caladbolg Crest Upgrade",
                         "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
                     },
                     {
-                        "name": "Tidus - Caladbolg Sigil Updgrade",
+                        "name": "Tidus - Caladbolg Sigil Upgrade",
                         "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
                     },
                     {
-                        "name": "Wakka - World Champion Crest Updgrade",
+                        "name": "Wakka - World Champion Crest Upgrade",
                         "ref": "Celestial/Wakka/World Champion Crest Upgrade"
                     },
                     {
-                        "name": "Wakka - World Champion Sigil Updgrade",
+                        "name": "Wakka - World Champion Sigil Upgrade",
                         "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
                     },
                     {
-                        "name": "Yuna - Nirvana Crest Updgrade",
+                        "name": "Yuna - Nirvana Crest Upgrade",
                         "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
                     },
                     {
-                        "name": "Yuna - Nirvana Sigil Updgrade",
+                        "name": "Yuna - Nirvana Sigil Upgrade",
                         "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
                     }
                 ]
@@ -259,27 +259,27 @@
                     },
                     {
                         "name": "Nuns' Chamber (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 530, "y": 255}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 700, "y": 255}],
                         "sections": [{"name": "Remedy x2"}]
                     },
                     {
                         "name": "Nuns' Chamber - Yellow Nun (NPC)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 565, "y": 285}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 740, "y": 280}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
                         "name": "Monks' Chamber- Brown Monk (NPC)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 715, "y": 265}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 540, "y": 265}],
                         "sections": [{"name": "Ether x1"}]
                     },
                     {
                         "name": "Monks' Chamber- Purple Monk (NPC)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 730, "y": 290}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 565, "y": 290}],
                         "sections": [{"name": "Elixir x1"}]
                     },
                     {
                         "name": "Monks' Chamber (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 690, "y": 255}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 510, "y": 260}],
                         "sections": [{"name": "Phoenix Down x3"}]
                     },
                     {

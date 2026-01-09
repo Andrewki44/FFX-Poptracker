@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.2.9",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.9/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Adjusted some Calm Lands, Luca, Macalania, MRR & Besaid location positions",
+                " - Added missing Miyu location to Moonflow region map",
+                " - Fixed typos on the Celestial Flower & Luzzu locations"
+            ]
+        },
+        {
             "package_version": "0.2.8",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.8/FFX.zip",
             "sha256": "9e5f700414fc5d7cc61a824904d522321c74300962a3786d4f09a02560b21a56",
@@ -8,6 +18,7 @@
                 " - Added region maps for Djose, Luca, Macalania, Miihen Highroad, Mushroom Rock Road & S.S. Winno",
                 " - - All Region maps now complete",
                 " - Updated relevant locations to stay out-of-logic (yellow) after killing an ool boss, until the boss would be in logic",
+                " - Seymour no longer considered a party member for the purpose of Boss Logic",
                 " - Completed UT compatibility refactor"
             ]
         },

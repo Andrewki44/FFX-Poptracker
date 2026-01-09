@@ -156,7 +156,7 @@
                 "children": [
                     {
                         "name": "Cloister of Trials",
-                        "map_locations": [{ "map": "Besaid Temple", "x": 482, "y": 120}],
+                        "map_locations": [{ "map": "Besaid Temple", "x": 480, "y": 176}],
                         "sections": [
                             {
                                 "name": "Destruction Sphere - Rod of Wisdom",

@@ -76,7 +76,7 @@
                         ]
                     },
                     {
-                        "name": "Luzu (NPC)",
+                        "name": "Luzzu (NPC)",
                         "map_locations": [{ "map": "Kilika Village", "x": 400, "y": 500}],
                         "sections": [
                             {"name": "Antidote x4 (Before Defeating Ochu)"},

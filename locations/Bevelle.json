@@ -75,7 +75,7 @@
                     },
                     {
                         "name": "Defeat Isaaru (Boss)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 502, "y": 100}],
+                        "map_locations": [{ "map": "Via Purifico", "x": 500, "y": 90, "shape": "trapezoid", "size": 32}],
                         "access_rules": ["$hasYuna, $hasAeons|1, [$hasAeons|2]"],
                         "sections": [
                             {
