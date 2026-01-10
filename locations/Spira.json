@@ -162,8 +162,12 @@
                         "ref": "Party Member/Aeon/Valefor"
                     },
                     {
-                        "name": "Village - Exit the Village (Event)" ,
-                        "ref": "Besaid/Village/Exit the Village (Event)/"
+                        "name": "Village - Exit the Village (Map)" ,
+                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
+                    },
+                    {
+                        "name": "Village - Exit the Village (Brotherhood)" ,
+                        "ref": "Celestial/Tidus/Brotherhood"
                     },
                     {
                         "name": "Village Slope - Lulu",
@@ -223,10 +227,6 @@
                         "name": "Sinspawn Echuilles",
                         "ref": "S.S. Liki/Encounter Sin Fin (Event)/Sinspawn Echuilles"
                     }
-                    // {
-                    //     "name": "Friend Sphere x1 (Clasko NPC)",
-                    //     "ref": "S.S. Liki/Clasko, After Breeder Encouragement in Macalania (Event)/Friend Sphere x1 (Clasko)"
-                    // }
                 ]
             },
             {
@@ -291,7 +291,7 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Kilika/Temple/Cloister of Trials/Destruction Sphere"
+                        "ref": "Kilika/Temple/Cloister of Trials/Destruction Sphere - Red Armlet"
                     },
                     {
                         "name": "Temple - Ifrit",
@@ -669,7 +669,7 @@
                     },
                     {
                         "name": "Highroad - Variable Steel (NPC)",
-                        "ref": "Djose/Highroad/South End, Silver/Purple Armor (NPC)/Variable Steel"
+                        "ref": "Djose/Highroad/South End, Silver & Purple Armor (NPC)/Variable Steel"
                     },
                     {
                         "name": "Highroad - Bright Bangle (Chest)",
@@ -713,7 +713,7 @@
                     },
                     {
                         "name": "Pilgrimage Road - Potion x10 (NPC)",
-                        "ref": "Djose/Pilgrimage Road/South End, Silver/Purple Armor (NPC)/Potion x10"
+                        "ref": "Djose/Pilgrimage Road/South End, Silver & Purple Armor (NPC)/Potion x10"
                     },
                     {
                         "name": "Pilgrimage Road - Hi-Potion x2 (NPC)",
@@ -1519,14 +1519,6 @@
                         "name": "Area Conquest (Calm Lands) - Nirvana",
                         "ref": "Celestial/Yuna/Nirvana"
                     }
-                    // {
-                    //     "name": "Area Conquest (Mt. Gagazet) - Blossom Crown",
-                    //     "ref": "Monster Arena/Area Conquest/Blossom Crown/"
-                    // },
-                    // {
-                    //     "name": "Monster Creations x10 - Mars Sigil",
-                    //     "ref": "Celestial/Auron/Mars Sigil"
-                    // }
                 ]
             },
             {
@@ -1721,7 +1713,7 @@
                     },
                     {
                         "name": "City of Dying Dreams - Lv. 4 Key Sphere x1 (Chest)",
-                        "ref": "Inside Sin/City of Dying Dreams/East Glyph Near South Exit, Defeat 10/10/15 Fiends (Chest)/Lv. 4 Key Sphere x1"
+                        "ref": "Inside Sin/City of Dying Dreams/East Glyph Near South Exit, Defeat 10-10-15 Fiends (Chest)/Lv. 4 Key Sphere x1"
                     },
                     {
                         "name": "City of Dying Dreams - Four-on-One (Chest)",

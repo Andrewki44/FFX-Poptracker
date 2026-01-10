@@ -41,12 +41,6 @@
                     }
                 ]
             }
-            // {
-            //     "name": "Clasko, After Breeder Encouragement in Macalania (Event)",
-            //     "map_locations": [{ "map": "S.S. Liki", "x": 0, "y": 0}],
-            //     "access_rules": ["macalania"],
-            //     "sections": [{"name": "Friend Sphere x1 (Clasko)"}]
-            // }
         ]
     }
 ]

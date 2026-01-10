@@ -3,10 +3,14 @@
         {
             "package_version": "0.2.10",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.10/FFX.zip",
-            "sha256": "",
+            "sha256": "317e560b1318bdbf4e8efef5d9fcc084c90a9e79ad5a9775cafd9e12ba8056ed",
             "changelog": [
                 " - Lulu location moved",
-                " - Added missing Nirvana location to Calm Lands"
+                " - Added missing Nirvana location to Calm Lands",
+                " - Added missing Brotherhood & Map location on the World Map",
+                " - Changed several location names for UT compatibility",
+                " - Removed unused location comments from jsons",
+                " - Removed unused map definitions from json"
             ]
         },
         {

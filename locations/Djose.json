@@ -45,7 +45,7 @@
                         "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
-                        "name": "South End, Silver/Purple Armor (NPC)",
+                        "name": "South End, Silver & Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose", "x": 165, "y": 105}],
                         "sections": [{"name": "Variable Steel"}]
                     },
@@ -118,7 +118,7 @@
                         "sections": [{"name": "Halberd"}]
                     },
                     {
-                        "name": "South End, Silver/Purple Armor (NPC)",
+                        "name": "South End, Silver & Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose", "x": 200, "y": 400}],
                         "sections": [
                             {"name": "Potion x10"},

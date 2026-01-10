@@ -54,7 +54,7 @@
                 "access_rules": ["seymouromnis, [$hasMinimumParty|3]"],
                 "children": [
                     {
-                        "name": "East Glyph Near South Exit, Defeat 10/10/15 Fiends (Chest)",
+                        "name": "East Glyph Near South Exit, Defeat 10-10-15 Fiends (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 980, "y": 950}],
                         "sections": [{"name": "Lv. 4 Key Sphere x1"}]
                     },
