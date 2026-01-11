@@ -1,8 +1,8 @@
 {
     "versions": [
         {
-            "package_version": "0.2.11",
-            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.11/FFX.zip",
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
             "sha256": "",
             "changelog": [
                 " - Monster Arena Capture tracking from AP DataStorage"
