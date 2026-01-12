@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Dingo",
+        "type": "consumable",
+        "img": "images/monster arena/Crossed Swords.png",
+        "img_mods": "",
+        "disabled_img": "images/monster arena/Crossed Swords_BW.png",
+        "capturable": true,
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "codes": "dingo"
+    }
+]
