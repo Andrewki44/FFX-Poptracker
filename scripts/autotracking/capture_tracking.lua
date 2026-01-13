@@ -3,13 +3,22 @@ local captures = require("scripts/logic/captures")
 
 function updateCaptures(value)
     local captures_table, i, err = json.decode(value)
+    local capture_updates = {}
 
     if captures_table then
         for _, capture in ipairs(captures_table.captures) do
-            Tracker:FindObjectForCode(ArenaIndexToHostedItem[capture.arena_idx]).AcquiredCount = capture.captured
+            local fiend = Tracker:FindObjectForCode(AllCaptures[capture.arena_idx])
+            fiend.AcquiredCount = capture.captured
+            capture_updates[AllCaptures[capture.arena_idx]] = fiend.AcquiredCount
+            -- print("Fiend: " .. AllCaptures[capture.arena_idx] .. "\nCaptured: " .. fiend.AcquiredCount)
         end
     else
         print("JSON PARSE FAILED")
+        return
+    end
+
+    for fiend, qty in pairs(capture_updates) do
+        print("\nFiend: " .. fiend .. "\nCaptured: " .. qty)
     end
 end
 
