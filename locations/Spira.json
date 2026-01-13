@@ -155,15 +155,19 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials - Destruction Sphere",
-                        "ref": "Besaid/Temple/Cloister/Destruction Sphere - Rod of Wisdom"
+                        "ref": "Besaid/Temple/Cloister of Trials/Destruction Sphere - Rod of Wisdom"
                     },
                     {
                         "name": "Village - Cloister of Trials - Valefor",
                         "ref": "Party Member/Aeon/Valefor"
                     },
                     {
-                        "name": "Village - Exit the Village (Event)" ,
-                        "ref": "Besaid/Village/Exit the Village (Event)/"
+                        "name": "Village - Exit the Village (Map)" ,
+                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
+                    },
+                    {
+                        "name": "Village - Exit the Village (Brotherhood)" ,
+                        "ref": "Celestial/Tidus/Brotherhood"
                     },
                     {
                         "name": "Village Slope - Lulu",
@@ -223,10 +227,6 @@
                         "name": "Sinspawn Echuilles",
                         "ref": "S.S. Liki/Encounter Sin Fin (Event)/Sinspawn Echuilles"
                     }
-                    // {
-                    //     "name": "Friend Sphere x1 (Clasko NPC)",
-                    //     "ref": "S.S. Liki/Clasko, After Breeder Encouragement in Macalania (Event)/Friend Sphere x1 (Clasko)"
-                    // }
                 ]
             },
             {
@@ -234,7 +234,7 @@
                 "map_locations": [{ "map": "Spira", "x": 485, "y": 971}],
                 "sections": [
                     {
-                        "name": "Village - Remedy x1 (Chest)",
+                        "name": "Village - Potion x3 (Chest)",
                         "ref": "Kilika/Village/Right of Collapsing House (Chest)/Potion x3"
                     },
                     {
@@ -270,16 +270,16 @@
                         "ref": "Kilika/Woods/Path North of Lord Ochu, Curving West (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Woods - Luzu - Before Ochu (NPC)",
-                        "ref": "Kilika/Woods/Luzu (NPC)/Antidote x4 (Before Defeating Ochu)"
+                        "name": "Woods - Luzzu - Before Ochu (NPC)",
+                        "ref": "Kilika/Woods/Luzzu (NPC)/Antidote x4 (Before Defeating Ochu)"
                     },
                     {
                         "name": "Woods - Lord Ochu",
                         "ref": "Kilika/Woods/Defeat Lord Ochu (Boss)/Lord Ochu"
                     },
                     {
-                        "name": "Woods - Luzu - After Ochu (NPC)",
-                        "ref": "Kilika/Woods/Luzu (NPC)/Elixir x1 (After Defeating Ochu)"
+                        "name": "Woods - Luzzu - After Ochu (NPC)",
+                        "ref": "Kilika/Woods/Luzzu (NPC)/Elixir x1 (After Defeating Ochu)"
                     },
                     {
                         "name": "Woods - Sinspawn Geneaux",
@@ -291,7 +291,7 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Kilika/Temple/Cloister of Trials/Destruction Sphere"
+                        "ref": "Kilika/Temple/Cloister of Trials/Destruction Sphere - Red Armlet"
                     },
                     {
                         "name": "Temple - Ifrit",
@@ -669,7 +669,7 @@
                     },
                     {
                         "name": "Highroad - Variable Steel (NPC)",
-                        "ref": "Djose/Highroad/South End, Silver/Purple Armor (NPC)/Variable Steel"
+                        "ref": "Djose/Highroad/South End, Silver & Purple Armor (NPC)/Variable Steel"
                     },
                     {
                         "name": "Highroad - Bright Bangle (Chest)",
@@ -713,7 +713,7 @@
                     },
                     {
                         "name": "Pilgrimage Road - Potion x10 (NPC)",
-                        "ref": "Djose/Pilgrimage Road/South End, Silver/Purple Armor (NPC)/Potion x10"
+                        "ref": "Djose/Pilgrimage Road/South End, Silver & Purple Armor (NPC)/Potion x10"
                     },
                     {
                         "name": "Pilgrimage Road - Hi-Potion x2 (NPC)",
@@ -953,7 +953,7 @@
                     },
                     {
                         "name": "Lake Agency - Crawler",
-                        "ref": "Macalania/Lake/Agency/Defeat Crawler (Boss)/Crawler"
+                        "ref": "Macalania/Lake/Lake/Cross the Lake (Boss)/Crawler"
                     },
                     {
                         "name": "Lake Agency - 4000 gil (Chest)",
@@ -968,7 +968,7 @@
                         "ref": "Macalania/Lake/Road/Near North Exit (Chest)/Mega-Potion x1"
                     },
                     {
-                        "name": "Lake Road - 400 gil (Linna NPC)",
+                        "name": "Temple Road - 400 gil (Linna NPC)",
                         "ref": "Macalania/Lake/Road/Linna, at Bottom of Stairs (NPC)/400 gil"
                     },
                     {
@@ -977,47 +977,51 @@
                     },
                     {
                         "name": "Temple - Shell Targe (Tromell)",
-                        "ref": "Macalania/Lake/Temple/Automatic upon Entering (Event)/Shell Targe"
+                        "ref": "Macalania/Temple/Automatic upon Entering (Event)/Shell Targe"
                     },
                     {
                         "name": "Temple - 5000 gil (Chest)",
-                        "ref": "Macalania/Lake/Temple/North Side (Chest)/5000 gil"
+                        "ref": "Macalania/Temple/North Side (Chest)/5000 gil"
                     },
                     {
                         "name": "Temple - X-Potion x2 (Chest)",
-                        "ref": "Macalania/Lake/Temple/South Side (Chest)/X-Potion x2"
+                        "ref": "Macalania/Temple/South Side (Chest)/X-Potion x2"
                     },
                     {
                         "name": "Temple - Remedy x2 (Chest)",
-                        "ref": "Macalania/Lake/Temple/Nuns' Chamber (Chest)/Remedy x2"
+                        "ref": "Macalania/Temple/Nuns' Chamber (Chest)/Remedy x2"
                     },
                     {
                         "name": "Temple - Hi-Potion x2 (NPC)",
-                        "ref": "Macalania/Lake/Temple/Nuns' Chamber - Yellow Nun (NPC)/Hi-Potion x2"
+                        "ref": "Macalania/Temple/Nuns' Chamber - Yellow Nun (NPC)/Hi-Potion x2"
                     },
                     {
                         "name": "Temple - Ether x1 (Man Sitting NPC)",
-                        "ref": "Macalania/Lake/Temple/Monks' Chamber- Brown Monk (NPC)/Ether x1"
+                        "ref": "Macalania/Temple/Monks' Chamber- Brown Monk (NPC)/Ether x1"
                     },
                     {
                         "name": "Temple - Elixir x1 (Man Sitting NPC)",
-                        "ref": "Macalania/Lake/Temple/Monks' Chamber- Purple Monk (NPC)/Elixir x1"
+                        "ref": "Macalania/Temple/Monks' Chamber- Purple Monk (NPC)/Elixir x1"
                     },
                     {
                         "name": "Temple - Phoenix Down x3 (Chest)",
-                        "ref": "Macalania/Lake/Temple/Monks' Chamber (Chest)/Phoenix Down x3"
+                        "ref": "Macalania/Temple/Monks' Chamber (Chest)/Phoenix Down x3"
                     },
                     {
                         "name": "Temple - Seymour & Anima",
-                        "ref": "Macalania/Lake/Temple/Defeat Seymour (Boss)/Seymour"
+                        "ref": "Macalania/Temple/Defeat Seymour (Boss)/Seymour"
                     },
                     {
                         "name": "Temple - Cloister of Trials",
-                        "ref": "Macalania/Lake/Temple/Cloister/"
+                        "ref": "Macalania/Temple/Cloister of Trials/Destruction Sphere - Luck Sphere"
+                    },
+                    {
+                        "name": "Temple - Chamber of the Fayth",
+                        "ref": "Party Member/Aeon/Shiva"
                     },
                     {
                         "name": "Lake Agency - Wendigo",
-                        "ref": "Macalania/Lake/Agency/Defeat Wendigo (Boss)/Wendigo"
+                        "ref": "Macalania/Lake/Lake/Cross the Lake (Boss)/Wendigo"
                     },
                     {
                         "name": "Lake Bottom - Lv. 2 Key Sphere (Chest)",
@@ -1046,59 +1050,59 @@
                         "ref": "Celestial/General/Celestial Mirror"
                     },
                     {
-                        "name": "Auron - Masamune Crest Updgrade",
+                        "name": "Auron - Masamune Crest Upgrade",
                         "ref": "Celestial/Auron/Masamune Crest Upgrade"
                     },
                     {
-                        "name": "Auron - Masamune Sigil Updgrade",
+                        "name": "Auron - Masamune Sigil Upgrade",
                         "ref": "Celestial/Auron/Masamune Sigil Upgrade"
                     },
                     {
-                        "name": "Kimahri - Spirit Lance Crest Updgrade",
+                        "name": "Kimahri - Spirit Lance Crest Upgrade",
                         "ref": "Celestial/Kimahri/Spirit Lance Crest Upgrade"
                     },
                     {
-                        "name": "Kimahri - Spirit Lance Sigil Updgrade",
+                        "name": "Kimahri - Spirit Lance Sigil Upgrade",
                         "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
                     },
                     {
-                        "name": "Lulu - Onion Knight Crest Updgrade",
+                        "name": "Lulu - Onion Knight Crest Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
                     },
                     {
-                        "name": "Lulu - Onion Knight Sigil Updgrade",
+                        "name": "Lulu - Onion Knight Sigil Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Sigil Upgrade"
                     },
                     {
-                        "name": "Rikku - Godhand Crest Updgrade",
+                        "name": "Rikku - Godhand Crest Upgrade",
                         "ref": "Celestial/Rikku/Godhand Crest Upgrade"
                     },
                     {
-                        "name": "Rikku - Godhand Sigil Updgrade",
+                        "name": "Rikku - Godhand Sigil Upgrade",
                         "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
                     },
                     {
-                        "name": "Tidus - Caladbolg Crest Updgrade",
+                        "name": "Tidus - Caladbolg Crest Upgrade",
                         "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
                     },
                     {
-                        "name": "Tidus - Caladbolg Sigil Updgrade",
+                        "name": "Tidus - Caladbolg Sigil Upgrade",
                         "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
                     },
                     {
-                        "name": "Wakka - World Champion Crest Updgrade",
+                        "name": "Wakka - World Champion Crest Upgrade",
                         "ref": "Celestial/Wakka/World Champion Crest Upgrade"
                     },
                     {
-                        "name": "Wakka - World Champion Sigil Updgrade",
+                        "name": "Wakka - World Champion Sigil Upgrade",
                         "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
                     },
                     {
-                        "name": "Yuna - Nirvana Crest Updgrade",
+                        "name": "Yuna - Nirvana Crest Upgrade",
                         "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
                     },
                     {
-                        "name": "Yuna - Nirvana Sigil Updgrade",
+                        "name": "Yuna - Nirvana Sigil Upgrade",
                         "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
                     }
                 ]
@@ -1515,14 +1519,6 @@
                         "name": "Area Conquest (Calm Lands) - Nirvana",
                         "ref": "Celestial/Yuna/Nirvana"
                     }
-                    // {
-                    //     "name": "Area Conquest (Mt. Gagazet) - Blossom Crown",
-                    //     "ref": "Monster Arena/Area Conquest/Blossom Crown/"
-                    // },
-                    // {
-                    //     "name": "Monster Creations x10 - Mars Sigil",
-                    //     "ref": "Celestial/Auron/Mars Sigil"
-                    // }
                 ]
             },
             {
@@ -1679,7 +1675,7 @@
                     },
                     {
                         "name": "Temple - Cloister of Trials ",
-                        "ref": "Zanarkand/Temple/Cloister/Destruction Sphere- Magistral Rod"
+                        "ref": "Zanarkand/Temple/Cloister of Trials/Destruction Sphere- Magistral Rod"
                     },
                     {
                         "name": "Super Bosses - Dark Bahamut",
@@ -1717,7 +1713,7 @@
                     },
                     {
                         "name": "City of Dying Dreams - Lv. 4 Key Sphere x1 (Chest)",
-                        "ref": "Inside Sin/City of Dying Dreams/East Glyph Near South Exit, Defeat 10/10/15 Fiends (Chest)/Lv. 4 Key Sphere x1"
+                        "ref": "Inside Sin/City of Dying Dreams/East Glyph Near South Exit, Defeat 10-10-15 Fiends (Chest)/Lv. 4 Key Sphere x1"
                     },
                     {
                         "name": "City of Dying Dreams - Four-on-One (Chest)",

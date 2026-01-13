@@ -3,10 +3,130 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Woods",
+                "title": "Monster Arena",
                 "content": {
-                    "type": "map",
-                    "maps": ["Macalania Woods"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overview",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena"]
+                            }
+                        },
+                        {
+                            "title": "Besaid",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Besaid"]
+                            }
+                        },
+                        {
+                            "title": "Kilika",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Kilika"]
+                            }
+                        },
+                        {
+                            "title": "Miihen Highroad",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Miihen Highroad"]
+                            }
+                        },
+                        {
+                            "title": "Mushroom Rock Road",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Mushroom Rock Road"]
+                            }
+                        },
+                        {
+                            "title": "Djose Road",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Djose Road"]
+                            }
+                        },
+                        {
+                            "title": "Thunder Plains",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Thunder Plains"]
+                            }
+                        },
+                        {
+                            "title": "Macalania",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Macalania"]
+                            }
+                        },
+                        {
+                            "title": "Bikanel",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Bikanel"]
+                            }
+                        },
+                        {
+                            "title": "Calm Lands",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Calm Lands"]
+                            }
+                        },
+                        {
+                            "title": "Stolen Fayth Cavern",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Stolen Fayth Cavern"]
+                            }
+                        },
+                        {
+                            "title": "Mt. Gagazet",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Mt. Gagazet"]
+                            }
+                        },
+                        {
+                            "title": "Inside Sin",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Inside Sin"]
+                            }
+                        },
+                        {
+                            "title": "Omega Dungeon",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Omega Dungeon"]
+                            }
+                        },
+                        {
+                            "title": "Area Conquest",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Area Conquest"]
+                            }
+                        },
+                        {
+                            "title": "Species Conquest",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Species Conquest"]
+                            }
+                        },
+                        {
+                            "title": "Original Creations",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Monster Arena - Original Creations"]
+                            }
+                        }
+                    ]
                 }
             },
             {

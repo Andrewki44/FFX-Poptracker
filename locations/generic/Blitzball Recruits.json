@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Blitzball Recruits",
+        "chest_unopened_img": "/images/items/hd/Blitzball.png",
+        "chest_opened_img": "/images/items/hd/Blitzball_BW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["[recruitsanity]"],
+        "sections": [
+            {
+                "name": "Biggs",
+                "access_rules": ["@Luca"]
+            },
+            {
+                "name": "Brother",
+                "access_rules": ["@Airship"]
+            },
+            {
+                "name": "Durren",
+                "access_rules": ["@Calm Lands, defenderx, [$hasMinimumParty|3]"]
+            },
+            {
+                "name": "Jumal",
+                "access_rules": ["@Luca"]
+            },
+            {
+                "name": "Kiyuri",
+                "access_rules": ["@S.S. Winno"]
+            },
+            {
+                "name": "Kyou",
+                "access_rules": ["@Djose, djosecloister"]
+            },
+            {
+                "name": "Linna",
+                "access_rules": ["@Macalania/Lake/Road"]
+            },
+            {
+                "name": "Mep",
+                "access_rules": ["@Kilika/Temple"]
+            },
+            {
+                "name": "Mifurey",
+                "access_rules": ["@Thunder Plains"]
+            },
+            {
+                "name": "Miyu",
+                "access_rules": ["@Moonflow/North"]
+            },
+            {
+                "name": "Naida",
+                "access_rules": ["@Calm Lands"]
+            },
+            {
+                "name": "Nedus",
+                "access_rules": ["@Luca"]
+            },
+            {
+                "name": "Rin",
+                "access_rules": ["@Airship"]
+            },
+            {
+                "name": "Ropp",
+                "access_rules": ["@Miihen Highroad/Agency"]
+            },
+            {
+                "name": "Shaami",
+                "access_rules": ["@Luca"]
+            },
+            {
+                "name": "Shuu",
+                "access_rules": ["@Luca, oblitzerator, [$hasMinimumParty|3]"]
+            },
+            {
+                "name": "Svanda",
+                "access_rules": ["@Calm Lands"]
+            },
+            {
+                "name": "Tatts",
+                "access_rules": ["@Kilika/Village"]
+            },
+            {
+                "name": "Vilucha",
+                "access_rules": ["@Besaid/Village"]
+            },
+            {
+                "name": "Wakka",
+                "access_rules": ["@Airship"]
+            },
+            {
+                "name": "Wedge",
+                "access_rules": ["@Luca"]
+            },
+            {
+                "name": "Yuma Guado",
+                "access_rules": ["@Guadosalam"]
+            },
+            {
+                "name": "Zalitz",
+                "access_rules": ["@Luca"]
+            },
+            {
+                "name": "Zev Ronso",
+                "access_rules": ["@Luca"]
+            }
+        ]
+    }
+]

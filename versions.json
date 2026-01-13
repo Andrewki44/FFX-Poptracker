@@ -1,13 +1,54 @@
 {
     "versions": [
         {
-            "package_version": "0.2.8",
-            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.9/FFX.zip",
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
             "sha256": "",
             "changelog": [
+                " - Full Capture Sanity Support",
+                " - - Monster Arena Map / Menu, for overview & per region",
+                " - - Capture tracking per individual fiend, up to 10",
+                " - - Access logic for Monster Arena rewards and boss fights",
+                " - - Custom logic for Original Creations",
+                " - - Nemesis goal suppoort",
+                " - - Capture auto-tracking from AP DataStorage"
+            ]
+        },
+        {
+            "package_version": "0.2.10",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.10/FFX.zip",
+            "sha256": "317e560b1318bdbf4e8efef5d9fcc084c90a9e79ad5a9775cafd9e12ba8056ed",
+            "changelog": [
+                " - Lulu location moved",
+                " - Added missing Nirvana location to Calm Lands",
+                " - Added missing Brotherhood & Map location on the World Map",
+                " - Changed several location names for UT compatibility",
+                " - Removed unused location comments from jsons",
+                " - Removed unused map definitions from json"
+            ]
+        },
+        {
+            "package_version": "0.2.9",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.9/FFX.zip",
+            "sha256": "d54554875b8a8cc63ef29a971a89bba90c423993e2d316d83c351430fe9b78da",
+            "changelog": [
+                " - Adjusted some Calm Lands, Luca, Macalania, MRR & Besaid location positions",
+                " - Added missing Miyu location to Moonflow region map",
+                " - Fixed typos on the Celestial Flower & Luzzu locations",
+                " - Minor change to Besaid Temple & Via Purifico map, to fix room & transition positions",
+                " - Updated autotabbing logic to match new DataStorage format"
+            ]
+        },
+        {
+            "package_version": "0.2.8",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.8/FFX.zip",
+            "sha256": "9e5f700414fc5d7cc61a824904d522321c74300962a3786d4f09a02560b21a56",
+            "changelog": [
                 " - Added region maps for Djose, Luca, Macalania, Miihen Highroad, Mushroom Rock Road & S.S. Winno",
+                " - - All Region maps now complete",
                 " - Updated relevant locations to stay out-of-logic (yellow) after killing an ool boss, until the boss would be in logic",
-                " - Continued UT compatibility refactor (WIP)"
+                " - Seymour no longer considered a party member for the purpose of Boss Logic",
+                " - Completed UT compatibility refactor"
             ]
         },
         {
