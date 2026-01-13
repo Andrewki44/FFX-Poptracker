@@ -144,6 +144,102 @@
         "img": "images/maps/regions/monster arena/Main Menu.png"
     },
     {
+        "name": "Monster Arena - Besaid",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Besaid.png"
+    },
+    {
+        "name": "Monster Arena - Kilika",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Kilika.png"
+    },
+    {
+        "name": "Monster Arena - Miihen Highroad",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Miihen Highroad.png"
+    },
+    {
+        "name": "Monster Arena - Mushroom Rock Road",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Mushroom Rock Road.png"
+    },
+    {
+        "name": "Monster Arena - Djose Road",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Djose Road.png"
+    },
+    {
+        "name": "Monster Arena - Thunder Plains",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Thunder Plains.png"
+    },
+    {
+        "name": "Monster Arena - Macalania",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Macalania.png"
+    },
+    {
+        "name": "Monster Arena - Bikanel",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Bikanel.png"
+    },
+    {
+        "name": "Monster Arena - Calm Lands",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Calm Lands.png"
+    },
+    {
+        "name": "Monster Arena - Stolen Fayth Cavern",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Stolen Fayth Cavern.png"
+    },
+    {
+        "name": "Monster Arena - Mt. Gagazet",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Mt. Gagazet.png"
+    },
+    {
+        "name": "Monster Arena - Inside Sin",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Inside Sin.png"
+    },
+    {
+        "name": "Monster Arena - Omega Dungeon",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Omega Dungeon.png"
+    },
+    {
+        "name": "Monster Arena - Area Conquest",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Area Conquest.png"
+    },
+    {
+        "name": "Monster Arena - Species Conquest",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Species Conquest.png"
+    },
+    {
+        "name": "Monster Arena - Original Creations",
+        "location_size": 48,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/monster arena/Original Creations.png"
+    },
+    {
         "name": "Moonflow",
         "location_size": 16,
         "location_border_thickness": 1,

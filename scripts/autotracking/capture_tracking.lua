@@ -1,21 +1,21 @@
 local json = require("scripts/libraries/dkjson")
+local captures = require("scripts/logic/captures")
 
 function updateCaptures(value)
     local captures_table, i, err = json.decode(value)
 
     if captures_table then
-        print("JSON PARSE SUCCESS")
         for _, capture in ipairs(captures_table.captures) do
-            print(capture.arena_idx)
-            print(capture.captured)
+            Tracker:FindObjectForCode(ArenaIndexToHostedItem[capture.arena_idx]).AcquiredCount = capture.captured
         end
-            
-        -- print(captures_table.captures[1].arena_idx)
     else
         print("JSON PARSE FAILED")
     end
-
 end
+
+ArenaIndexToHostedItem = {
+    [13] = "dingo",
+}
 
 -- Incoming json format --
 -- {

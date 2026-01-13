@@ -22,7 +22,8 @@ RegionDifficulty = {
     ["airshipsin"] = 16,
     ["sin"] = 16,
     ["omegaruins"] = 17,
-    ["superbosses"] = 18
+    ["creationbosses"] = 17,
+    ["superbosses"] = 18,
 }
 
 RegionOrder = {
@@ -48,7 +49,8 @@ RegionOrder = {
     "airshipsin",
     "sin",
     "omegaruins",
-    "superbosses"
+    "creationbosses",
+    "superbosses",
 }
 
 RegionAccessibility = {
@@ -74,7 +76,8 @@ RegionAccessibility = {
     ["airshipsin"] = ACCESS_NONE,
     ["sin"] = ACCESS_NONE,
     ["omegaruins"] = ACCESS_NONE,
-    ["superbosses"] = ACCESS_NONE
+    ["creationbosses"] = ACCESS_NONE,
+    ["superbosses"] = ACCESS_NONE,
 }
 
 -- Must be in difficulty order
@@ -101,7 +104,8 @@ RegionAccessRegions = {
     ["airshipsin"] = {},
     ["sin"] = {},
     ["omegaruins"] = {},
-    ["superbosses"] = {}
+    ["creationbosses"] = {},
+    ["superbosses"] = {},
 }
 
 -- Updates RegionAccessRegions with list of regions required to access new region, based on difficulty
@@ -135,7 +139,7 @@ function UpdateAccessLevels()
     for Index, Region in ipairs(RegionOrder) do
         -- print(Index .. " | " .. Region)
         -- Check for region item
-        if (Tracker:FindObjectForCode(Region).Active == true or Region == "superbosses") then
+        if (Tracker:FindObjectForCode(Region).Active == true or Region == "superbosses" or Region == "creationbosses") then
             -- Has region item
             -- Difficulty < 5 --> Always have access
             if (RegionDifficulty[Region] < 5) then
@@ -170,30 +174,31 @@ end
 
 function CheckGoalRequirement()
     local goal = Tracker:FindObjectForCode("goalrequirement").CurrentStage
+    local goal_access = ACCESS_NONE
     
     if (goal == 0) then
         -- No Requirements
-        return ACCESS_NORMAL
+        goal_access = ACCESS_NORMAL
     elseif (goal == 1) then
         -- Party Members
         if (hasPartyMembers(Tracker:ProviderCountForCode("requiredpartymembers"))) then
-            return ACCESS_NORMAL
-        else
-            return ACCESS_NONE
+            goal_access = ACCESS_NORMAL
         end
     elseif (goal == 2) then
         -- Pilgrimage
         if (has("besaidcloister") and has("kilikacloister") and has("djosecloister") and has("macalaniacloister") and has("bevellecloister") and has("yunalesca")) then
-            return ACCESS_NORMAL
-        else
-            return ACCESS_NONE
+            goal_access = ACCESS_NORMAL
         end
     elseif (goal == 3) then
         -- Party Members & Aeons
         if (hasPartyMembersAndAeons(Tracker:ProviderCountForCode("requiredpartymembers"))) then
-            return ACCESS_NORMAL
-        else
-            return ACCESS_NONE
+            goal_access = ACCESS_NORMAL
+        end
+    elseif (goal == 4) then
+        if (has("nemesis")) then
+            goal_access = ACCESS_NORMAL
         end
     end
+
+    return goal_access
 end
