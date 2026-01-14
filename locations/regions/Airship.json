@@ -37,35 +37,30 @@
                     {
                         "name": "Evrae",
                         "hosted_item": "evrae, airshipsin",
-                        "item_count": 1,
                         "clear_as_group": true
                     },
                     {
                         "name": "Sin Left Fin",
                         "access_rules": ["^$CheckAccessLevel|airshipsin"],
                         "hosted_item": "sinleftfin",
-                        "item_count": 1,
                         "clear_as_group": true
                     },
                     {
                         "name": "Sin Right Fin",
                         "access_rules": ["^$CheckAccessLevel|airshipsin, sinleftfin"],
                         "hosted_item": "sinrightfin",
-                        "item_count": 1,
                         "clear_as_group": true
                     },
                     {
                         "name": "Sinspawn Genais and Core",
                         "access_rules": ["^$CheckAccessLevel|airshipsin, sinrightfin"],
                         "hosted_item": "sincore",
-                        "item_count": 1,
                         "clear_as_group": true
                     },
                     {
                         "name": "Overdrive Sin",
                         "access_rules": ["^$CheckAccessLevel|airshipsin, sincore"],
                         "hosted_item": "sinoverdrive",
-                        "item_count": 1,
                         "clear_as_group": true
                     },
                     {"name": "Penance", "ref": "Super Bosses/Penance"}

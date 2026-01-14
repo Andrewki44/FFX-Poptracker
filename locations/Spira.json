@@ -627,15 +627,15 @@
                     },
                     {
                         "name": "Super Bosses - Dark Cindy",
-                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                        "ref": "Super Bosses/Dark Cindy"
                     },
                     {
                         "name": "Super Bosses - Dark Mindy",
-                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                        "ref": "Super Bosses/Dark Mindy"
                     },
                     {
                         "name": "Super Bosses - Dark Sandy",
-                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/Dark Cindy"
+                        "ref": "Super Bosses/Dark Sandy"
                     }
                 ]
             },

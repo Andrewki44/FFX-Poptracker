@@ -50,7 +50,6 @@
                             {
                                 "name": "Defender X",
                                 "hosted_item": "defenderx",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -84,6 +83,8 @@
             },
             {
                 "name": "Chocobo",
+                "chest_unopened_img": "/images/npc/Chocobo.png",
+                "chest_opened_img": "/images/npc/Chocobo_BW.png",
                 "access_rules": ["[minigames]"],
                 "children": [
                     {

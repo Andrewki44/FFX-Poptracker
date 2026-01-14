@@ -89,6 +89,18 @@
                         "name": "Waterfall Way - Summon Tutorial (Event)",
                         "map_locations": [{ "map": "Besaid Island", "x": 100, "y": 600}],
                         "sections": [{"name": "Yuna", "ref": "Party Member/Character/Yuna"}]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Besaid Island", "x": 825, "y": 890, "shape": "diamond"}],
+                        "sections": [
+                            {
+                                "name": "Captured",
+                                "hosted_item": "dingo, condor, waterflan",
+                                "access_rules": ["@Monster Arena/Fiend Capture/Besaid"],
+                                "clear_as_group": false
+                            }
+                        ]
                     }
                 ]
             },

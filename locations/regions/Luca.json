@@ -117,7 +117,6 @@
                             { 
                                 "name": "Oblitzerator",
                                 "hosted_item": "oblitzerator",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]

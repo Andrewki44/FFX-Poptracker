@@ -14,7 +14,6 @@
                     {
                         "name": "Biran and Yenke",
                         "hosted_item": "biranyenke",
-                        "item_count": 1,
                         "clear_as_group": true
                     }
                 ]
@@ -54,7 +53,6 @@
                             {
                                 "name": "Seymour Flux",
                                 "hosted_item": "seymourflux",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -111,7 +109,6 @@
                             {
                                 "name": "Sanctuary Keeper",
                                 "hosted_item": "sanctuarykeeper",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]

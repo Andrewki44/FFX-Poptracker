@@ -42,7 +42,6 @@
                             {
                                 "name": "Seymour Omnis",
                                 "hosted_item": "seymouromnis",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -97,7 +96,13 @@
                         "name": "Defeat Braska's Final Aeon (Boss)",
                         "map_locations": [{ "map": "Inside Sin", "x": 240, "y": 100, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["^$CheckGoalRequirement"],
-                        "sections": [{"name": "Braska's Final Aeon"}]
+                        "sections": [
+                            {
+                                "name": "Braska's Final Aeon",
+                                "hosted_item": "bfa",
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             }

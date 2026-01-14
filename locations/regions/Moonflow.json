@@ -47,7 +47,6 @@
                             {
                                 "name": "Extractor",
                                 "hosted_item": "extractor",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]

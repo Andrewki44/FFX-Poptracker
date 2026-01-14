@@ -177,14 +177,12 @@
                                     {
                                         "name": "Crawler",
                                         "hosted_item": "crawler",
-                                        "item_count": 1,
                                         "clear_as_group": true
                                     },
                                     {
                                         "name": "Wendigo",
                                         "access_rules": ["seymouranima"],
                                         "hosted_item": "wendigo",
-                                        "item_count": 1,
                                         "clear_as_group": true
                                     }
                                 ]
@@ -290,7 +288,6 @@
                             {
                                 "name": "Seymour",
                                 "hosted_item": "seymouranima",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]

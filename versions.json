@@ -8,11 +8,13 @@
                 " - Full Capture Sanity Support",
                 " - - Monster Arena Map / Menu, for overview & per region",
                 " - - Capture tracking per individual fiend, up to 10",
+                " - - Added capture listing to each regional map",
                 " - - Access logic for Monster Arena rewards and boss fights",
                 " - - Custom logic for Original Creations",
                 " - - Capture auto-tracking from AP DataStorage",
                 " - Nemesis goal suppoort",
-                " - World Map updates for Monster Arena"
+                " - World Map updates for Monster Arena",
+                " - Added unique icons for most boss checks"
             ]
         },
         {

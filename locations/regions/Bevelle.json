@@ -81,7 +81,6 @@
                             {
                                 "name": "Isaaru",
                                 "hosted_item": "isaaru", 
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -100,7 +99,6 @@
                             {
                                 "name": "Evrae Altana",
                                 "hosted_item": "evraealtana", 
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -131,7 +129,6 @@
                             {
                                 "name": "Seymour Natus",
                                 "hosted_item": "seymournatus", 
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]

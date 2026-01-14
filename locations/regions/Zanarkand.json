@@ -57,7 +57,6 @@
                             {
                                 "name": "Spectral Keeper",
                                 "hosted_item": "spectralkeeper",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -70,7 +69,6 @@
                             {
                                 "name": "Yunalesca",
                                 "hosted_item": "yunalesca",
-                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
