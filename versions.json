@@ -14,7 +14,9 @@
                 " - - Capture auto-tracking from AP DataStorage",
                 " - Nemesis goal suppoort",
                 " - World Map updates for Monster Arena",
-                " - Added unique icons for most boss checks"
+                " - Added unique icons for boss checks",
+                " - Added additional access logic for several checks in Besaid & Calm Lands",
+                " - Added Cloudy Mirror & World Champion to Minigames"
             ]
         },
         {
