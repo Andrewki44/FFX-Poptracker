@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Monster Arena - Miihen Highroad",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Miihen Fang",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Miihen Fang"}]
+            },
+            {
+                "name": "Ipiria",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Ipiria"}]
+            },
+            {
+                "name": "Floating Eye",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Floating Eye"}]
+            },
+            {
+                "name": "White Element",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/White Element"}]
+            },
+            {
+                "name": "Raldo",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Raldo"}]
+            },
+            {
+                "name": "Vouivre",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Vouivre"}]
+            },
+            {
+                "name": "Bomb",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Bomb"}]
+            },
+            {
+                "name": "Dual Horn",
+                "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Dual Horn"}]
+            }
+        ]
+    }
+]

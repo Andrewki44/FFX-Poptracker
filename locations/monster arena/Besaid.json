@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Monster Arena - Besaid",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Dingo",
+                "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Dingo"}]
+            },
+            {
+                "name": "Condor",
+                "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Condor"}]
+            },
+            {
+                "name": "Water Flan",
+                "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Water Flan"}]
+            }
+        ]
+    }
+]

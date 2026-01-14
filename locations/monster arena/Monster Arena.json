@@ -1,0 +1,1113 @@
+[
+    {
+        "name": "Monster Arena",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Fiend Capture",
+                "children": [
+                    {
+                        "name": "Besaid",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 130}],
+                        "access_rules": ["@Besaid"],
+                        "sections": [
+                            {
+                                "name": "Dingo",
+                                "hosted_item": "dingo",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Condor",
+                                "hosted_item": "condor",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Water Flan",
+                                "hosted_item": "waterflan",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kilika",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 130}],
+                        "access_rules": ["@Kilika"],
+                        "sections": [
+                            {
+                                "name": "Dinonix",
+                                "hosted_item": "dinonix",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Killer Bee",
+                                "hosted_item": "killerbee",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Yellow Element",
+                                "hosted_item": "yellowelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ragora",
+                                "hosted_item": "ragora",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Miihen Highroad",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 260}],
+                        "access_rules": ["@Miihen Highroad"],
+                        "sections": [
+                            {
+                                "name": "Miihen Fang",
+                                "hosted_item": "miihenfang",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ipiria",
+                                "access_rules": ["@Miihen Highroad/North"],
+                                "hosted_item": "ipiria",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Floating Eye",
+                                "hosted_item": "floatingeye",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "White Element",
+                                "hosted_item": "whiteelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Raldo",
+                                "hosted_item": "raldo",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Vouivre",
+                                "access_rules": ["@Miihen Highroad/North"],
+                                "hosted_item": "vouivre",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bomb",
+                                "hosted_item": "bomb",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Dual Horn",
+                                "hosted_item": "dualhorn",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mushroom Rock Road",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 260}],
+                        "access_rules": ["@Mushroom Rock Road"],
+                        "sections": [
+                            {
+                                "name": "Raptor",
+                                "hosted_item": "raptor",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Gandarewa",
+                                "hosted_item": "gandarewa",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Thunder Flan",
+                                "hosted_item": "thunderflan",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Red Element",
+                                "hosted_item": "redelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Lamashtu",
+                                "hosted_item": "lamashtu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Funguar",
+                                "hosted_item": "funguar",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Garuda",
+                                "hosted_item": "garuda",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Djose Road",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 390}],
+                        "sections": [
+                            {
+                                "name": "Garm",
+                                "access_rules": ["@Djose"],
+                                "hosted_item": "garm",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Simurgh",
+                                "access_rules": ["@Djose"],
+                                "hosted_item": "simurgh",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bite Bug",
+                                "access_rules": ["@Djose"],
+                                "hosted_item": "bitebug",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Snow Flan",
+                                "access_rules": ["@Djose"],
+                                "hosted_item": "snowflan",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bunyip",
+                                "access_rules": ["@Djose"],
+                                "hosted_item": "bunyip",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Basilisk",
+                                "access_rules": ["@Djose"],
+                                "hosted_item": "basilisk",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ochu",
+                                "access_rules": ["@Moonflow"],
+                                "hosted_item": "ochu",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thunder Plains",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 390}],
+                        "access_rules": ["@Thunder Plains"],
+                        "sections": [
+                            {
+                                "name": "Melusine",
+                                "hosted_item": "melusine",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Aerouge",
+                                "hosted_item": "aerouge",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Buer",
+                                "hosted_item": "buer",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Gold Element",
+                                "hosted_item": "goldelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Kusariqqu",
+                                "hosted_item": "kusariqqu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Larva",
+                                "hosted_item": "larva",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Iron Giant",
+                                "hosted_item": "irongiant",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Qactuar",
+                                "hosted_item": "qactuar",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Macalania",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 520}],
+                        "access_rules": ["@Macalania"],
+                        "sections": [
+                            {
+                                "name": "Snow Wolf",
+                                "access_rules": ["@Macalania/Lake"],
+                                "hosted_item": "snowwolf",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Iguion",
+                                "hosted_item": "iguion",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Wasp",
+                                "hosted_item": "wasp",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Evil Eye",
+                                "access_rules": ["@Macalania/Lake"],
+                                "hosted_item": "evileye",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ice Flan",
+                                "access_rules": ["@Macalania/Lake"],
+                                "hosted_item": "iceflan",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Blue Element",
+                                "hosted_item": "blueelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Murussu",
+                                "hosted_item": "murussu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Mafdet",
+                                "access_rules": ["@Macalania/Lake"],
+                                "hosted_item": "mafdet",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Xiphos",
+                                "hosted_item": "xiphos",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Chimera",
+                                "hosted_item": "chimera",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bikanel",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 520}],
+                        "access_rules": ["@Bikanel"],
+                        "sections": [
+                            {
+                                "name": "Sand Wolf",
+                                "hosted_item": "sandwolf",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Alcyone",
+                                "hosted_item": "alcyone",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Mushussu",
+                                "hosted_item": "mushussu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Zu",
+                                "hosted_item": "zu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sand Worm",
+                                "hosted_item": "sandworm",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Cactuar",
+                                "hosted_item": "cactuar",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Calm Lands",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 650}],
+                        "access_rules": ["@Calm Lands"],
+                        "sections": [
+                            {
+                                "name": "Skoll",
+                                "hosted_item": "skoll",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Nebiros",
+                                "hosted_item": "nebiros",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Flame Flan",
+                                "hosted_item": "flameflan",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Shred",
+                                "hosted_item": "shred",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Anacondaur",
+                                "hosted_item": "anacondaur",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ogre",
+                                "hosted_item": "ogre",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Coeurl",
+                                "hosted_item": "coeurl",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Chimera Brain",
+                                "hosted_item": "chimerabrain",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Malboro",
+                                "hosted_item": "malboro",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cavern of the Stolen Fayth",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 650}],
+                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                        "sections": [
+                            {
+                                "name": "Yowie",
+                                "hosted_item": "yowie",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Imp",
+                                "hosted_item": "imp",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Dark Element",
+                                "hosted_item": "darkelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Nidhogg",
+                                "hosted_item": "nidhogg",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Thorn",
+                                "hosted_item": "thorn",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Valaha",
+                                "hosted_item": "valaha",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Epaaj",
+                                "hosted_item": "epaaj",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ghost",
+                                "hosted_item": "ghost",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Tonberry",
+                                "hosted_item": "tonberry",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mt. Gagazet",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 780}],
+                        "access_rules": ["@Mt. Gagazet"],
+                        "sections": [
+                            {
+                                "name": "Bandersnatch",
+                                "hosted_item": "bandersnatch",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ahriman",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "ahriman",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Dark Flan",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "darkflan",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Grenade",
+                                "hosted_item": "grenade",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Grat",
+                                "hosted_item": "grat",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Grendel",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "grendel",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bashura",
+                                "hosted_item": "bashura",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Mandragora",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "mandragora",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Behemoth",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "behemoth",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Splasher",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "splasher",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Achelous",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "achelous",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Maelspike",
+                                "access_rules": ["@Mt. Gagazet/Inside"],
+                                "hosted_item": "maelspike",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inside Sin",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 780}],
+                        "access_rules": ["@Inside Sin"],
+                        "sections": [
+                            {
+                                "name": "Exoray",
+                                "hosted_item": "exoray",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Wraith",
+                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
+                                "hosted_item": "wraith",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Gemini (Sword)",
+                                "hosted_item": "geminisword",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Gemini (Club)",
+                                "hosted_item": "geminiclub",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Demonolith",
+                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
+                                "hosted_item": "demonolith",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Great Malboro",
+                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
+                                "hosted_item": "greatmalboro",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Barbatos",
+                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
+                                "hosted_item": "barbatos",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Adamantoise",
+                                "hosted_item": "adamantoise",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Behemoth King",
+                                "hosted_item": "behemothking",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Omega Ruins",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 915}],
+                        "access_rules": ["@Omega Ruins"],
+                        "sections": [
+                            {
+                                "name": "Zaurus",
+                                "hosted_item": "zaurus",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Floating Death",
+                                "hosted_item": "floatingdeath",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Black Element",
+                                "hosted_item": "blackelement",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Halma",
+                                "hosted_item": "halma",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Puroboros",
+                                "hosted_item": "puroboros",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Spirit",
+                                "hosted_item": "spirit",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Machea",
+                                "hosted_item": "machea",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Master Coeurl",
+                                "hosted_item": "mastercoeurl",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Master Tonberry",
+                                "hosted_item": "mastertonberry",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Varuna",
+                                "hosted_item": "varuna",
+                                "clear_as_group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Area Conquest",
+                "children": [
+                    {
+                        "name": "Creation Rewards",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 915}],
+                        "sections": [
+                            {
+                                "name": "Besaid",
+                                "access_rules": ["dingo:1, condor:1, waterflan:1"],
+                                "hosted_item": "areaconquestbesaid, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Kilika",
+                                "access_rules": ["dinonix:1, killerbee:1, yellowelement:1, ragora:1"],
+                                "hosted_item": "areaconquestkilika, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Miihen Highroad",
+                                "access_rules": ["miihenfang:1, ipiria:1, floatingeye:1, whiteelement:1, raldo:1, vouivre:1, bomb:1, dualhorn:1"],
+                                "hosted_item": "areaconquestmiihen, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Mushroom Rock Road",
+                                "access_rules": ["raptor:1, gandarewa:1, thunderflan:1, redelement:1, lamashtu:1, funguar:1, garuda:1"],
+                                "hosted_item": "areaconquestmrr, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Djose Road",
+                                "access_rules": ["garm:1, simurgh:1, bitebug:1, snowflan:1, bunyip:1, basilisk:1, ochu:1"],
+                                "hosted_item": "areaconquestdjose, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Thunder Plains",
+                                "access_rules": ["melusine:1, aerouge:1, buer:1, goldelement:1, kusariqqu:1, larva:1, irongiant:1, qactuar:1"],
+                                "hosted_item": "areaconquestthunderplains, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Macalania",
+                                "access_rules": ["snowwolf:1, iguion:1, wasp:1, evileye:1, iceflan:1, blueelement:1, murussu:1, mafdet:1, xiphos:1, chimera:1"],
+                                "hosted_item": "areaconquestmacalania, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bikanel",
+                                "access_rules": ["sandwolf:1, alcyone:1, mushussu:1, zu:1, sandworm:1, cactuar:1"],
+                                "hosted_item": "areaconquestbikanel, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Calm Lands",
+                                "access_rules": ["skoll:1, nebiros:1, flameflan:1, shred:1, anacondaur:1, ogre:1, coeurl:1, chimerabrain:1, malboro:1"],
+                                "hosted_item": "areaconquestcalmlands, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Stolen Fayth Cavern",
+                                "access_rules": ["yowie: 1, imp:1, darkelement:1, nidhogg:1, thorn:1, valaha:1, epaaj:1, ghost:1, tonberry:1"],
+                                "hosted_item": "areaconquestcotsf, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Mt. Gagazet",
+                                "access_rules": ["bandersnatch:1, ahriman:1, darkflan:1, grenade:1, grat:1, grendel:1, bashura:1, mandragora:1, behemoth:1, splasher:1, achelous:1, maelspike:1"],
+                                "hosted_item": "areaconquestgagazet, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Inside Sin",
+                                "access_rules": ["exoray:1, wraith:1, geminisword:1, geminiclub:1, demonolith:1, greatmalboro:1, barbatos:1, adamantoise:1, behemothking:1"],
+                                "hosted_item": "areaconquestsin, areaconquests",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Omega Dungeon",
+                                "access_rules": ["zaurus:1, floatingdeath:1, blackelement:1, halma:1, puroboros:1, spirit:1, machea:1, mastercoeurl:1, mastertonberry:1, varuna:1"],
+                                "hosted_item": "areaconquestomega, areaconquests",
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Defeat",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 915}],
+                        "access_rules": ["^$CheckAccessLevel|creationbosses, [$hasMinimumParty|3], [superbosses]"],
+                        "sections": [
+                            {
+                                "name": "Stratoavis",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Besaid"],
+                                "hosted_item": "stratoavis",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Malboro Menace",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Kilika"],
+                                "hosted_item": "malboromenace",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Kottos",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Miihen Highroad"],
+                                "hosted_item": "kottos",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Coeurlregina",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Mushroom Rock Road"],
+                                "hosted_item": "coeurlregina",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Jormungand",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Djose Road"],
+                                "hosted_item": "jormungand",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Cactuar King",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Thunder Plains"],
+                                "hosted_item": "cactuarking",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Espada",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Macalania"],
+                                "hosted_item": "espada",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Abyss Worm",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Bikanel"],
+                                "hosted_item": "abyssworm",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Chimerageist",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Calm Lands"],
+                                "hosted_item": "chimerageist",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Don Tonberry",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Stolen Fayth Cavern"],
+                                "hosted_item": "dontonberry",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Catoblepas",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Mt. Gagazet"],
+                                "hosted_item": "catoblepas",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Abaddon",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Inside Sin"],
+                                "hosted_item": "abaddon",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Vorban",
+                                "access_rules": ["@Monster Arena/Area Conquest/Creation Rewards/Omega Dungeon"],
+                                "hosted_item": "vorban",
+                                "clear_as_group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Species Conquest",
+                "children": [
+                    {
+                        "name": "Creation Rewards",
+                        "map_locations": [{ "map": "Monster Arena", "x": 580, "y": 1045}],
+                        "sections": [
+                            {
+                                "name": "Wolf (3x)",
+                                "access_rules": ["dingo:3, miihenfang:3, garm:3, snowwolf:3, sandwolf:3, skoll:3, bandersnatch:3"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Reptile (3x)",
+                                "access_rules": ["dinonix:3, ipiria:3, raptor:3, melusine:3, iguion:3, yowie:3, zaurus:3"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bird (5x)",
+                                "access_rules": ["condor:3, simurgh:3, alcyone:3"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Wasp (4x)",
+                                "access_rules": ["killerbee:4, bitebug:4, wasp:4, nebiros:4"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Imp (4x)",
+                                "access_rules": ["gandarewa:4, aerouge:4, imp:4"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Eye (4x)",
+                                "access_rules": ["floatingeye:4, buer:4, evileye:4, ahriman:4, floatingdeath:4"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Flan (3x)",
+                                "access_rules": ["waterflan:3, thunderflan:3, snowflan:3, iceflan:3, flameflan:3, darkflan:3"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Element (3x)",
+                                "access_rules": ["yellowelement:3, whiteelement:3, redelement:3, goldelement:3, blueelement:3, darkelement:3, blackelement:3"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Helm (3x)",
+                                "access_rules": ["raldo:3, bunyip:3, murussu:3, mafdet:3, shred:3, halma:3"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Drake (4x)",
+                                "access_rules": ["vouivre:4, lamashtu:4, kusariqqu:4, mushussu:4, nidhogg:4"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Fungus (5x)",
+                                "access_rules": ["funguar:5, thorn:5, exoray:5"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bomb (5x)",
+                                "access_rules": ["bomb:5, grenade:5, puroboros:5"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ruminant (5x)",
+                                "access_rules": ["dualhorn:5, valaha:5, grendel:5"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Iron Giant (10x)",
+                                "access_rules": ["irongiant:10, geminisword:10, geminiclub:10"],
+                                "hosted_item": "speciesconquests",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Defeat",
+                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 1045}],
+                        "access_rules": ["^$CheckAccessLevel|creationbosses, [$hasMinimumParty|3], [superbosses]"],
+                        "sections": [
+                            {
+                                "name": "Fenrir",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Wolf (3x)"],
+                                "hosted_item": "fenrir",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ornitholestes",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Reptile (3x)"],
+                                "hosted_item": "ornitholestes",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Pteryx",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Bird (5x)"],
+                                "hosted_item": "pteryx",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Hornet",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Wasp (4x)"],
+                                "hosted_item": "hornet",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Vidatu",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Imp (4x)"],
+                                "hosted_item": "vidatu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "One-Eye",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Eye (4x)"],
+                                "hosted_item": "oneeye",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Jumbo Flan",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Flan (3x)"],
+                                "hosted_item": "jumboflan",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Nega Elemental",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Element (3x)"],
+                                "hosted_item": "negaelemental",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Tanket",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Helm (3x)"],
+                                "hosted_item": "tanket",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Fafnir",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Drake (4x)"],
+                                "hosted_item": "fafnir",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Sleep Sprout",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Fungus (5x)"],
+                                "hosted_item": "sleepsprout",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Bomb King",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Bomb (5x)"],
+                                "hosted_item": "bombking",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Juggernaut",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Ruminant (5x)"],
+                                "hosted_item": "juggernaut",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ironclad",
+                                "access_rules": ["@Monster Arena/Species Conquest/Creation Rewards/Iron Giant (10x)"],
+                                "hosted_item": "ironclad",
+                                "clear_as_group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Original Creation",
+                "children": [
+                    {
+                        "name": "Creation Rewards",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 1045}],
+                        "sections": [
+                            {
+                                "name": "Area Conquest x2",
+                                "access_rules": ["areaconquests:2"]
+                            },
+                            {
+                                "name": "Species Conquest x2",
+                                "access_rules": ["speciesconquests:2"]
+                            },
+                            {
+                                "name": "Area Conquest x6",
+                                "access_rules": ["areaconquests:6"]
+                            },
+                            {
+                                "name": "Species Conquest x6",
+                                "access_rules": ["speciesconquests:6"]
+                            },
+                            {
+                                "name": "All Fiends x1",
+                                "access_rules": ["^$CheckAllCaptures|1"]
+                            },
+                            {
+                                "name": "All Fiends x5",
+                                "access_rules": ["^$CheckAllCaptures|5"]
+                            },
+                            {
+                                "name": "Underwater Fiends in Mt. Gagazet x2",
+                                "access_rules": ["splasher:2, achelous:2, maelspike:2"]
+                            },
+                            {
+                                "name": "All Fiends x10",
+                                "access_rules": ["^$CheckAllCaptures|10, ^$CheckAllCreations"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Defeat",
+                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 1045}],
+                        "access_rules": ["^$CheckAccessLevel|superbosses, [$hasMinimumParty|3], [superbosses]"],
+                        "sections": [
+                            {
+                                "name": "Earth Eater",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/Area Conquest x2"],
+                                "hosted_item": "eartheater",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Greater Sphere",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/Species Conquest x2"],
+                                "hosted_item": "greatersphere",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Catastrophe",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/Area Conquest x6"],
+                                "hosted_item": "catastrophe",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Th'uban",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/Species Conquest x6"],
+                                "hosted_item": "thuban",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Neslug",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/All Fiends x1"],
+                                "hosted_item": "neslug",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Ultima Buster",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/All Fiends x5"],
+                                "hosted_item": "ultimabuster",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Shinryu",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/Underwater Fiends in Mt. Gagazet x2"],
+                                "hosted_item": "shinryu",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Nemesis",
+                                "access_rules": ["@Monster Arena/Original Creation/Creation Rewards/All Fiends x10"],
+                                "hosted_item": "nemesis",
+                                "clear_as_group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

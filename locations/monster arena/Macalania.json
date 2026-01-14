@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Monster Arena - Macalania",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Snow Wolf",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Snow Wolf"}]
+            },
+            {
+                "name": "Iguion",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Iguion"}]
+            },
+            {
+                "name": "Wasp",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Wasp"}]
+            },
+            {
+                "name": "Evil Eye",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Evil Eye"}]
+            },
+            {
+                "name": "Ice Flan",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Ice Flan"}]
+            },
+            {
+                "name": "Blue Element",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Blue Element"}]
+            },
+            {
+                "name": "Murussu",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Murussu"}]
+            },
+            {
+                "name": "Mafdet",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Mafdet"}]
+            },
+            {
+                "name": "Xiphos",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 1522, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Xiphos"}]
+            },
+            {
+                "name": "Chimera",
+                "map_locations": [{ "map": "Monster Arena - Macalania", "x": 1522, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Macalania/Chimera"}]
+            }
+        ]
+    }
+]

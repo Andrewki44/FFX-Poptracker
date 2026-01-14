@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Cavern of the Stolen Fayth",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|cavernofthestolenfayth, calmlands"],
+        "children": [
+            {
+                "name": "First Branch East (Chest)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 520, "y": 832}],
+                "sections": [{"name": "Megalixir x1"}]
+            },
+            {
+                "name": "Chamber East of First Intersection (Chest)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 545, "y": 625}],
+                "sections": [{"name": "Lv. 2 Key Sphere x1"}]
+            },
+            {
+                "name": "Dead End North of Second Intersection (Chest)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 230, "y": 345}],
+                "sections": [{"name": "Fortune Sphere x1"}]
+            },
+            {
+                "name": "Top of Third Intersection (Chest)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 104, "y": 327}],
+                "sections": [{"name": "Mega-Potion x1"}]
+            },
+            {
+                "name": "Dead End West of Third Intersection (Primer)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 50, "y": 340}],
+                "sections": [
+                    {
+                        "name": "Al Bhed Primer XXV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXV/Cavern of the Stolen Fayth"
+                    }
+                ]
+            },
+            {
+                "name": "Teleport West from Back of Cavern (Chest)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 53, "y": 138}],
+                "sections": [{"name": "Flexible Arm"}]
+            },
+            {
+                "name": "Teleport East from Back of Cavern (Chests)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 370, "y": 138}],
+                "sections": [
+                    {"name": "MP Sphere x1"},
+                    {"name": "X-Potion x2"}
+                ]
+            },
+            {
+                "name": "Chamber of the Fayth",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 528, "y": 100}],
+                "sections": [
+                    {
+                        "name": "Yojimbo",
+                        "ref": "Party Member/Aeon/Yojimbo"
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Dark Yojimbo (Superboss)",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 528, "y": 65, "shape": "trapezoid", "size": 20}],
+                "sections": [{"name": "Dark Yojimbo", "ref": "Super Bosses/Dark Yojimbo"}]
+            },
+            {
+                "name": "Monster Captures",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 515, "y": 400, "shape": "diamond"}],
+                "sections": [
+                    {
+                        "name": "Cavern of the Stolen Fayth",
+                        "hosted_item": "yowie, imp, darkelement, nidhogg, thorn, valaha, epaaj, ghost, tonberry",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Cavern of the Stolen Fayth"],
+                        "clear_as_group": false
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Monster Arena - Cavern of the Stolen Fayth",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Yowie",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Yowie"}]
+            },
+            {
+                "name": "Imp",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Imp"}]
+            },
+            {
+                "name": "Dark Element",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Dark Element"}]
+            },
+            {
+                "name": "Nidhogg",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Nidhogg"}]
+            },
+            {
+                "name": "Thorn",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/RalThorndo"}]
+            },
+            {
+                "name": "Valaha",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Valaha"}]
+            },
+            {
+                "name": "Epaaj",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Epaaj"}]
+            },
+            {
+                "name": "Ghost",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Ghost"}]
+            },
+            {
+                "name": "Tonberry",
+                "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 1522, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Tonberry"}]
+            }
+        ]
+    }
+]

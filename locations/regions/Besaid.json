@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Besaid",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|besaid"],
+        "children": [
+            {
+                "name": "Island",
+                "children": [
+                    {
+                        "name": "Beach",
+                        "children": [
+                            {
+                                "name": "East Alcove (Chest)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 565, "y": 740}],
+                                "sections": [
+                                    {
+                                        "name": "Moon Crest",
+                                        "ref": "Celestial/Yuna/Moon Crest"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "West Near Huts (Chest)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 310, "y": 800}],
+                                "sections": [{"name": "Antidote x2"}]
+                            },
+                            {
+                                "name": "Aurochs (NPCs)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 380, "y": 640}],
+                                "sections": [
+                                    {"name": "Hi-Potion x1 (Datto)"},
+                                    {"name": "Potion x3 (Jassu)"},
+                                    {"name": "Potion x2 (Botta)"},
+                                    {"name": "200 gil (Keepa)"}
+                                ]
+                            },
+                            {
+                                "name": "Dock (NPCs)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 185, "y": 730}],
+                                "access_rules": ["map"],
+                                "sections": [
+                                    {"name": "Remedy x1 (Kid)"},
+                                    {"name": "Seekers Ring (Priest)"},
+                                    {"name": "Phoenix Down x3 (Woman)"},
+                                    {"name": "400 gil (Shirtless Man)"},
+                                    {"name": "Ether (Green Shirt)"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Valley",
+                        "children": [
+                            {
+                                "name": "Enter the Valley (Event)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 490, "y": 440}],
+                                "sections": [
+                                    {
+                                        "name": "Wakka",
+                                        "ref": "Party Member/Character/Wakka"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "South of Spawn, Right Side (Chest)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 745, "y": 680}],
+                                "sections": [{"name": "Phoenix Down x1"}]
+                            },
+                            {
+                                "name": "South Side, Hidden Behind Right Wall (Chest)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 800, "y": 710}],
+                                "sections": [{"name": "Hi-Potion x1"}]
+                            },
+                            {
+                                "name": "East Side, Right of Path (Chest)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 945, "y": 680}],
+                                "sections": [{"name": "Antidote x2"}]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Village Slope - Element Tutorial (Event)",
+                        "map_locations": [{ "map": "Besaid Island", "x": 460, "y": 265}],
+                        "sections": [{"name": "Lulu", "ref": "Party Member/Character/Lulu"}]
+                    },
+                    {
+                        "name": "Waterfall Way - Summon Tutorial (Event)",
+                        "map_locations": [{ "map": "Besaid Island", "x": 100, "y": 600}],
+                        "sections": [{"name": "Yuna", "ref": "Party Member/Character/Yuna"}]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Besaid Island", "x": 825, "y": 890, "shape": "diamond"}],
+                        "sections": [
+                            {
+                                "name": "Besaid",
+                                "hosted_item": "dingo, condor, waterflan",
+                                "access_rules": ["@Monster Arena/Fiend Capture/Besaid"],
+                                "clear_as_group": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Village",
+                "children": [
+                    {
+                        "name": "Front of Shop (Chest)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 335, "y": 710}],
+                        "sections": [{"name": "Phoenix Down x1"}]
+                    },
+                    {
+                        "name": "Behind Shop (Chests)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 150, "y": 685}],
+                        "sections": [
+                            {"name": "Hi-Potion x1"},
+                            {"name": "400 gil"},
+                            {"name": "Potion x2"}
+                        ]
+                    },
+                    {
+                        "name": "On Ground Near Counter (Primer)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 210, "y": 400}],
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer II",
+                                "ref": "Al Bhed Primers/Al Bhed Primer II/Besaid"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{ "map": "Besaid Village", "x": 620, "y": 800}],
+                        "sections": [{"name": "Vilucha", "ref": "Blitzball Recruits/Vilucha"}]
+                    },
+                    {
+                        "name": "Summoning Cutscene (Event)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 375, "y": 400}],
+                        "sections": [{"name": "Valefor", "ref": "Party Member/Aeon/Valefor"}]
+                    },
+                    {
+                        "name": "Exit the Village (Event)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 225, "y": 435}],
+                        "access_rules": ["besaidcloister"],
+                        "sections": [
+                            {
+                                "name": "Map",
+                                "hosted_item": "map",
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Brotherhood", 
+                                "ref": "Celestial/Tidus/Brotherhood"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Defeat Dark Valefor (Superboss)",
+                        "map_locations": [{ "map": "Besaid Village", "x": 375, "y": 880, "shape": "trapezoid", "size": 32}],
+                        "sections": [{"name": "Dark Valefor", "ref": "Super Bosses/Dark Valefor"}]
+                    }
+                ]
+            },
+            {
+                "name": "Temple",
+                "children": [
+                    {
+                        "name": "Cloister of Trials",
+                        "map_locations": [{ "map": "Besaid Temple", "x": 480, "y": 176}],
+                        "sections": [
+                            {
+                                "name": "Destruction Sphere - Rod of Wisdom",
+                                "hosted_item": "besaiddestructionsphere",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

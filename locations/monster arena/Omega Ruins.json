@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Monster Arena - Omega Ruins",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Zaurus",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Zaurus"}]
+            },
+            {
+                "name": "Floating Death",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Floating Death"}]
+            },
+            {
+                "name": "Black Element",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Black Element"}]
+            },
+            {
+                "name": "Halma",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Halma"}]
+            },
+            {
+                "name": "Puroboros",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Puroboros"}]
+            },
+            {
+                "name": "Spirit",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Spirit"}]
+            },
+            {
+                "name": "Machea",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Machea"}]
+            },
+            {
+                "name": "Master Coeurl",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Master Coeurl"}]
+            },
+            {
+                "name": "Master Tonberry",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Master Tonberry"}]
+            },
+            {
+                "name": "Varuna",
+                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Varuna"}]
+            }
+        ]
+    }
+]

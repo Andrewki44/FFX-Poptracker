@@ -1,6 +1,25 @@
 {
     "versions": [
         {
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Full Capture Sanity Support",
+                " - - Monster Arena Map / Menu, for overview & per region",
+                " - - Capture tracking per individual fiend, up to 10",
+                " - - Added capture listing to each regional map",
+                " - - Access logic for Monster Arena rewards and boss fights",
+                " - - Custom logic for Original Creations",
+                " - - Capture auto-tracking from AP DataStorage",
+                " - Nemesis goal suppoort",
+                " - World Map updates for Monster Arena",
+                " - Added unique icons for boss checks",
+                " - Added additional access logic for several checks in Besaid & Calm Lands",
+                " - Added Cloudy Mirror & World Champion to Minigames"
+            ]
+        },
+        {
             "package_version": "0.2.10",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.10/FFX.zip",
             "sha256": "317e560b1318bdbf4e8efef5d9fcc084c90a9e79ad5a9775cafd9e12ba8056ed",

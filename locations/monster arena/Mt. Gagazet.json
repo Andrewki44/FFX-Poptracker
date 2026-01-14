@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Monster Arena - Mt. Gagazet",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
+        "overlay_background": "#000000",
+        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "children": [
+            {
+                "name": "Bandersnatch",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Bandersnatch"}]
+            },
+            {
+                "name": "Ahriman",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Ahriman"}]
+            },
+            {
+                "name": "Dark Flan",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Dark Flan"}]
+            },
+            {
+                "name": "Grenade",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grenade"}]
+            },
+            {
+                "name": "Grat",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grat"}]
+            },
+            {
+                "name": "Grendel",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grendel"}]
+            },
+            {
+                "name": "Bashura",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Bashura"}]
+            },
+            {
+                "name": "Mandragora",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Mandragora"}]
+            },
+            {
+                "name": "Behemoth",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Behemoth"}]
+            },
+            {
+                "name": "Splasher",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Splasher"}]
+            },
+            {
+                "name": "Achelous",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Achelous"}]
+            },
+            {
+                "name": "Maelspike",
+                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Maelspike"}]
+            }
+        ]
+    }
+]

@@ -3,6 +3,9 @@
     {
         "name": "Klikk Defeated",
         "type": "toggle",
+        "img": "images/bosses/Klikk.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "klikk"
@@ -10,6 +13,9 @@
     {
         "name": "Geosgaeno Defeated",
         "type": "toggle",
+        "img": "images/bosses/Geosgaeno.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "geosgaeno"
@@ -17,9 +23,8 @@
     {
         "name": "Sin Fin",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/bosses/Sin Fin.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -28,17 +33,29 @@
     {
         "name": "Sinspawn Echuilles",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/bosses/Sinspawn Echuilles.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "echuilles"
     },
     {
+        "name": "Lord Ochu",
+        "type": "toggle",
+        "img": "images/bosses/Lord Ochu.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "lordochu"
+    },
+    {
         "name": "Sinspawn Geneaux",
         "type": "toggle",
+        "img": "images/bosses/Sinspawn Genaeux.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "geneaux"
@@ -46,6 +63,9 @@
     {
         "name": "Oblitzerator",
         "type": "toggle",
+        "img": "images/bosses/Oblitzerator.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "oblitzerator"
@@ -53,6 +73,9 @@
     {
         "name": "Chocobo Eater Defeated",
         "type": "toggle",
+        "img": "images/bosses/Chocobo Eater.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "chocoboeater"
@@ -60,9 +83,8 @@
     {
         "name": "Sinspawn Gui - First Fight Defeated",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/bosses/Sinspawn Gui.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -71,9 +93,8 @@
     {
         "name": "Sinspawn Gui - Second Fight Defeated",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/bosses/Sinspawn Gui.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -82,6 +103,9 @@
     {
         "name": "Extractor Defeated",
         "type": "toggle",
+        "img": "images/bosses/Extractor.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "extractor"
@@ -89,9 +113,8 @@
     {
         "name": "Spherimorph Defeated",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/bosses/Spherimorph.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -100,6 +123,9 @@
     {
         "name": "Crawler Defeated",
         "type": "toggle",
+        "img": "images/bosses/Crawler.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "crawler"
@@ -107,6 +133,9 @@
     {
         "name": "Seymour & Anima Defeated",
         "type": "toggle",
+        "img": "images/bosses/Seymour.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "seymouranima"
@@ -114,6 +143,9 @@
     {
         "name": "Wendigo",
         "type": "toggle",
+        "img": "images/bosses/Wendigo.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "wendigo"
@@ -121,6 +153,9 @@
     {
         "name": "Evrae",
         "type": "toggle",
+        "img": "images/bosses/Evrae.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "evrae"
@@ -128,6 +163,9 @@
     {
         "name": "Sin Left Fin",
         "type": "toggle",
+        "img": "images/bosses/Sin Left Fin.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sinleftfin"
@@ -135,6 +173,9 @@
     {
         "name": "Sin Right Fin",
         "type": "toggle",
+        "img": "images/bosses/Sin Right Fin.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sinrightfin"
@@ -142,6 +183,9 @@
     {
         "name": "Sinspawn Genais and Core",
         "type": "toggle",
+        "img": "images/bosses/Sinspawn Genais.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sincore"
@@ -149,6 +193,9 @@
     {
         "name": "Overdrive Sin",
         "type": "toggle",
+        "img": "images/bosses/Sin Head.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sinoverdrive"
@@ -156,6 +203,9 @@
     {
         "name": "Isaaru",
         "type": "toggle",
+        "img": "images/npc/Isaaru.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "isaaru"
@@ -163,6 +213,9 @@
     {
         "name": "Evrae Altana",
         "type": "toggle",
+        "img": "images/bosses/Evrae Altana.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "evraealtana"
@@ -170,6 +223,9 @@
     {
         "name": "Seymour Natus",
         "type": "toggle",
+        "img": "images/bosses/Seymour Natus.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "seymournatus"
@@ -177,6 +233,9 @@
     {
         "name": "Defender X",
         "type": "toggle",
+        "img": "images/bosses/Defender X.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "defenderx"
@@ -184,6 +243,9 @@
     {
         "name": "Biran & Yenke",
         "type": "toggle",
+        "img": "images/bosses/Biran.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "biranyenke"
@@ -191,6 +253,9 @@
     {
         "name": "Seymour Flux",
         "type": "toggle",
+        "img": "images/bosses/Seymour Flux.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "seymourflux"
@@ -198,6 +263,9 @@
     {
         "name": "Sanctuary Keeper",
         "type": "toggle",
+        "img": "images/bosses/Sanctuary Keeper.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "sanctuarykeeper"
@@ -205,6 +273,9 @@
     {
         "name": "Spectral Keeper",
         "type": "toggle",
+        "img": "images/bosses/Spectral Keeper.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "spectralkeeper"
@@ -212,6 +283,9 @@
     {
         "name": "Yunalesca",
         "type": "toggle",
+        "img": "images/bosses/Yunalesca.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "yunalesca"
@@ -219,6 +293,9 @@
     {
         "name": "Seymour Omnis",
         "type": "toggle",
+        "img": "images/bosses/Seymour Omnis.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "seymouromnis"
@@ -226,9 +303,22 @@
     {
         "name": "Ultima Weapon",
         "type": "toggle",
+        "img": "images/bosses/Ultima Weapon.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "ultimaweapon"
+    },
+    {
+        "name": "Braska's Final Aeon",
+        "type": "toggle",
+        "img": "images/bosses/BFA.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "bfa"
     },
     
     //Super Bosses
@@ -345,9 +435,8 @@
     {
         "name": "Omega Weapon",
         "type": "toggle",
-        "img": "images/party/aeons/Omega Weapon.png",
+        "img": "images/bosses/Omega Weapon.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Omega Weapon.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -356,9 +445,8 @@
     {
         "name": "Penance",
         "type": "toggle",
-        "img": "images/party/aeons/Penance_BW.png",
+        "img": "images/bosses/Penance.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/party/aeons/Penance.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -485,9 +573,8 @@
     {
         "name": "Chocobo Catcher",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/npc/Chocobo.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -1215,23 +1302,12 @@
         "initial_active_state": false,
         "codes": "knightlance"
     },
-    {
-        "name": "Lord Ochu",
-        "type": "toggle",
-        "img": "images/TreasureBW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
-        "disabled_img_mods": "",
-        "capturable": true,
-        "initial_active_state": false,
-        "codes": "lordochu"
-    },
+    
     {
         "name": "Jecht Sphere",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
+        "img": "images/items/Movie Sphere.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -1260,9 +1336,19 @@
     {
         "name": "Baaj Temple Cloister",
         "type": "toggle",
+        "img": "images/bosses/Tros.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "baajtemple2"
+    },
+    {
+        "name": "Creation Bosses",
+        "type": "toggle",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "initial_active_state": false,
+        "codes": "creationbosses"
     },
 
     //Primer misc items
