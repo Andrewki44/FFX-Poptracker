@@ -9,42 +9,42 @@
             {
                 "name": "Earth Eater",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Earth Eater"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Earth Eater"}]
             },
             {
                 "name": "Greater Sphere",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Greater Sphere"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Greater Sphere"}]
             },
             {
                 "name": "Catastrophe",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Catastrophe"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Catastrophe"}]
             },
             {
                 "name": "Th'uban",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Th'uban"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Th'uban"}]
             },
             {
                 "name": "Neslug",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Neslug"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Neslug"}]
             },
             {
                 "name": "Ultima Buster",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Ultima Buster"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Ultima Buster"}]
             },
             {
                 "name": "Shinryu",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Shinryu"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Shinryu"}]
             },
             {
                 "name": "Nemesis",
                 "map_locations": [{ "map": "Monster Arena - Original Creation", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Original Creation/Defeat/Nemesis"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Original Creation/Defeat/Nemesis"}]
             }
         ]
     }

@@ -3,7 +3,7 @@
     {
         "name": "Dingo",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Dingo.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -16,7 +16,7 @@
     {
         "name": "Condor",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Condor.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -29,7 +29,7 @@
     {
         "name": "Water Flan",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Water Flan.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -44,7 +44,7 @@
     {
         "name": "Dinonix",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Dinonix.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -57,7 +57,7 @@
     {
         "name": "Killer Bee",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Killer Bee.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -70,7 +70,7 @@
     {
         "name": "Yellow Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Yellow Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -83,7 +83,7 @@
     {
         "name": "Ragora",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ragora.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -98,7 +98,7 @@
     {
         "name": "Mi'ihen Fang",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Mi'ihen Fang.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -111,7 +111,7 @@
     {
         "name": "Ipiria",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ipiria.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -124,7 +124,7 @@
     {
         "name": "Floating Eye",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Floating Eye.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -137,7 +137,7 @@
     {
         "name": "White Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/White Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -150,7 +150,7 @@
     {
         "name": "Raldo",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Raldo.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -163,7 +163,7 @@
     {
         "name": "Vouivre",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Vouivre.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -176,7 +176,7 @@
     {
         "name": "Bomb",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Bomb.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -189,7 +189,7 @@
     {
         "name": "Dual Horn",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Dual Horn.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -204,7 +204,7 @@
     {
         "name": "Raptor",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Raptor.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -217,7 +217,7 @@
     {
         "name": "Gandarewa",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Gandarewa.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -230,7 +230,7 @@
     {
         "name": "Thunder Flan",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Thunder Flan.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -243,7 +243,7 @@
     {
         "name": "Red Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Red Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -256,7 +256,7 @@
     {
         "name": "Lamashtu",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Lamashtu.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -269,7 +269,7 @@
     {
         "name": "Funguar",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Funguar.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -282,7 +282,7 @@
     {
         "name": "Garuda",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Garuda.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -297,7 +297,7 @@
     {
         "name": "Garm",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Garm.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -310,7 +310,7 @@
     {
         "name": "Simurgh",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Simurgh.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -323,7 +323,7 @@
     {
         "name": "Bite Bug",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Bite Bug.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -336,7 +336,7 @@
     {
         "name": "Snow Flan",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Snow Flan.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -349,7 +349,7 @@
     {
         "name": "Bunyip",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Bunyip.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -362,7 +362,7 @@
     {
         "name": "Basilisk",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Basilisk.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -375,7 +375,7 @@
     {
         "name": "Ochu",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ochu.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -390,7 +390,7 @@
     {
         "name": "Melusine",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Melusine.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -403,7 +403,7 @@
     {
         "name": "Aerouge",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Aerouge.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -416,7 +416,7 @@
     {
         "name": "Buer",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Buer.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -429,7 +429,7 @@
     {
         "name": "Gold Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Gold Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -440,9 +440,9 @@
         "codes": "goldelement"
     },
     {
-        "name": "Kusiraqqu",
+        "name": "Kusariqqu",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Kusariqqu.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -450,12 +450,12 @@
         "max_quantity": 10,
         "increment": 1,
         "initial_quantity": 0,
-        "codes": "kusiraqqu"
+        "codes": "kusariqqu"
     },
     {
         "name": "Larva",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Larva.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -468,7 +468,7 @@
     {
         "name": "Iron Giant",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Iron Giant.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -479,9 +479,9 @@
         "codes": "irongiant"
     },
     {
-        "name": "Quactuar",
+        "name": "Qactuar",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Qactuar.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -489,14 +489,14 @@
         "max_quantity": 10,
         "increment": 1,
         "initial_quantity": 0,
-        "codes": "quactuar"
+        "codes": "qactuar"
     },
 
     //Macalania
     {
         "name": "Snow Wolf",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Snow Wolf.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -509,7 +509,7 @@
     {
         "name": "Iguion",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Iguion.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -522,7 +522,7 @@
     {
         "name": "Wasp",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Wasp.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -535,7 +535,7 @@
     {
         "name": "Evil Eye",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Evil Eye.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -548,7 +548,7 @@
     {
         "name": "Ice Flan",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ice Flan.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -561,7 +561,7 @@
     {
         "name": "Blue Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Blue Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -574,7 +574,7 @@
     {
         "name": "Murussu",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Murussu.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -587,7 +587,7 @@
     {
         "name": "Mafdet",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Mafdet.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -600,7 +600,7 @@
     {
         "name": "Xiphos",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Xiphos.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -613,7 +613,7 @@
     {
         "name": "Chimera",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Chimera.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -628,7 +628,7 @@
     {
         "name": "Sand Wolf",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Sand Wolf.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -641,7 +641,7 @@
     {
         "name": "Alcyone",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Alcyone.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -652,9 +652,9 @@
         "codes": "alcyone"
     },
     {
-        "name": "Mushusuu",
+        "name": "Mushussu",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Mushussu.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -662,12 +662,12 @@
         "max_quantity": 10,
         "increment": 1,
         "initial_quantity": 0,
-        "codes": "mushusuu"
+        "codes": "mushussu"
     },
     {
         "name": "Zu",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Zu.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -680,7 +680,7 @@
     {
         "name": "Sand Worm",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Sand Worm.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -693,7 +693,7 @@
     {
         "name": "Cactuar",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Cactuar.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -708,7 +708,7 @@
     {
         "name": "Skoll",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Skoll.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -721,7 +721,7 @@
     {
         "name": "Nebiros",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Nebiros.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -734,7 +734,7 @@
     {
         "name": "Flame Flan",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Flame Flan.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -747,7 +747,7 @@
     {
         "name": "Shred",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Shred.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -760,7 +760,7 @@
     {
         "name": "Anacondaur",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Anacondaur.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -773,7 +773,7 @@
     {
         "name": "Ogre",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ogre.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -786,7 +786,7 @@
     {
         "name": "Coeurl",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Coeurl.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -799,7 +799,7 @@
     {
         "name": "Chimera Brain",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Chimera Brain.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -812,7 +812,7 @@
     {
         "name": "Malboro",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Malboro.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -827,7 +827,7 @@
     {
         "name": "Yowie",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Yowie.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -840,7 +840,7 @@
     {
         "name": "Imp",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Imp.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -853,7 +853,7 @@
     {
         "name": "Dark Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Dark Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -866,7 +866,7 @@
     {
         "name": "Nidhogg",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Nidhogg.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -879,7 +879,7 @@
     {
         "name": "Thorn",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Thorn.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -892,7 +892,7 @@
     {
         "name": "Valaha",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Valaha.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -905,7 +905,7 @@
     {
         "name": "Epaaj",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Epaaj.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -918,7 +918,7 @@
     {
         "name": "Ghost",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ghost.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -931,7 +931,7 @@
     {
         "name": "Tonberry",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Tonberry.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -946,7 +946,7 @@
     {
         "name": "Bandersnatch",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Bandersnatch.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -959,7 +959,7 @@
     {
         "name": "Ahriman",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Ahriman.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -972,7 +972,7 @@
     {
         "name": "Dark Flan",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Dark Flan.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -985,7 +985,7 @@
     {
         "name": "Grenade",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Grenade.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -998,7 +998,7 @@
     {
         "name": "Grat",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Grat.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1011,7 +1011,7 @@
     {
         "name": "Grendel",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Grendel.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1024,7 +1024,7 @@
     {
         "name": "Bashura",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Bashura.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1037,7 +1037,7 @@
     {
         "name": "Mandragora",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Mandragora.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1050,7 +1050,7 @@
     {
         "name": "Behemoth",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Behemoth.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1063,7 +1063,7 @@
     {
         "name": "Splasher",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Splasher.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1076,7 +1076,7 @@
     {
         "name": "Achelous",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Achelous.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1089,7 +1089,7 @@
     {
         "name": "Maelspike",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Maelspike.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1104,7 +1104,7 @@
     {
         "name": "Exoray",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Exoray.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1117,7 +1117,7 @@
     {
         "name": "Wraith",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Wraith.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1130,7 +1130,7 @@
     {
         "name": "Gemini (Sword)",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Gemini (Sword).png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1143,7 +1143,7 @@
     {
         "name": "Gemini (Club)",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Gemini (Club).png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1156,7 +1156,7 @@
     {
         "name": "Demonolith",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Demonolith.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1169,7 +1169,7 @@
     {
         "name": "Great Malboro",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Great Malboro.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1182,7 +1182,7 @@
     {
         "name": "Barbatos",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Barbatos.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1195,7 +1195,7 @@
     {
         "name": "Adamantoise",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Adamantoise.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1208,7 +1208,7 @@
     {
         "name": "Behemoth King",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Behemoth King.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1223,7 +1223,7 @@
     {
         "name": "Zaurus",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Zaurus.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1236,7 +1236,7 @@
     {
         "name": "Floating Death",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Floating Death.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1249,7 +1249,7 @@
     {
         "name": "Black Element",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Black Element.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1262,7 +1262,7 @@
     {
         "name": "Halma",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Halma.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1275,7 +1275,7 @@
     {
         "name": "Puroboros",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Puroboros.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1288,7 +1288,7 @@
     {
         "name": "Spirit",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Spirit.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1301,7 +1301,7 @@
     {
         "name": "Machea",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Machea.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1314,7 +1314,7 @@
     {
         "name": "Master Coeurl",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Master Coeurl.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1327,7 +1327,7 @@
     {
         "name": "Master Tonberry",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Master Tonberry.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1340,7 +1340,7 @@
     {
         "name": "Varuna",
         "type": "consumable",
-        "img": "images/items/hd/Battle_Item_HD.png",
+        "img": "images/fiends/Varuna.png",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1355,9 +1355,8 @@
     {
         "name": "Stratoavis",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Stratoavis.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "stratoavis"
@@ -1365,9 +1364,8 @@
     {
         "name": "Malboro Menace",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Malboro Menace.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "malboromenace"
@@ -1375,9 +1373,8 @@
     {
         "name": "Kottos",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Kottos.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "kottos"
@@ -1385,9 +1382,8 @@
     {
         "name": "Coeurlregina",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Coeurlregina.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "coeurlregina"
@@ -1395,9 +1391,8 @@
     {
         "name": "Jormungand",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Jormungand.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "jormungand"
@@ -1405,9 +1400,8 @@
     {
         "name": "Cactuar King",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Cactuar King.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "cactuarking"
@@ -1415,9 +1409,8 @@
     {
         "name": "Espada",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Espada.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "espada"
@@ -1425,9 +1418,8 @@
     {
         "name": "Abyss Worm",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Abyss Worm.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "abyssworm"
@@ -1435,9 +1427,8 @@
     {
         "name": "Chimerageist",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Chimerageist.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "chimerageist"
@@ -1445,9 +1436,8 @@
     {
         "name": "Don Tonberry",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Don Tonberry.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "dontonberry"
@@ -1455,9 +1445,8 @@
     {
         "name": "Catoblepas",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Catoblepas.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "catoblepas"
@@ -1465,9 +1454,8 @@
     {
         "name": "Abaddon",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Abaddon.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "abaddon"
@@ -1475,9 +1463,8 @@
     {
         "name": "Vorban",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Vorban.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "vorban"
@@ -1487,9 +1474,8 @@
     {
         "name": "Fenrir",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Fenrir.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "fenrir"
@@ -1497,9 +1483,8 @@
     {
         "name": "Ornitholestes",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Ornitholestes.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "ornitholestes"
@@ -1507,9 +1492,8 @@
     {
         "name": "Pteryx",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Pteryx.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "pteryx"
@@ -1517,9 +1501,8 @@
     {
         "name": "Hornet",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Hornet.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "hornet"
@@ -1527,9 +1510,8 @@
     {
         "name": "Vidatu",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Vidatu.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "vidatu"
@@ -1537,9 +1519,8 @@
     {
         "name": "One-Eye",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/One-Eye.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "oneeye"
@@ -1547,9 +1528,8 @@
     {
         "name": "Jumbo Flan",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Jumbo Flan.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "jumboflan"
@@ -1557,9 +1537,8 @@
     {
         "name": "Nega Elemental",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Nega Elemental.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "negaelemental"
@@ -1567,9 +1546,8 @@
     {
         "name": "Tanket",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Tanket.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "tanket"
@@ -1577,9 +1555,8 @@
     {
         "name": "Fafnir",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Fafnir.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "fafnir"
@@ -1587,9 +1564,8 @@
     {
         "name": "Sleep Sprout",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Sleep Sprout.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "sleepsprout"
@@ -1597,9 +1573,8 @@
     {
         "name": "Bomb King",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Bomb King.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "bombking"
@@ -1607,9 +1582,8 @@
     {
         "name": "Juggernaut",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Juggernaut.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "juggernaut"
@@ -1617,9 +1591,8 @@
     {
         "name": "Ironclad",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Ironclad.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "ironclad"
@@ -1629,9 +1602,8 @@
     {
         "name": "Earth Eater",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Earth Eater.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "eartheater"
@@ -1639,9 +1611,8 @@
     {
         "name": "Greater Sphere",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Greater Sphere.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "greatersphere"
@@ -1649,9 +1620,8 @@
     {
         "name": "Catastrophe",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Catastrophe.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "catastrophe"
@@ -1659,9 +1629,8 @@
     {
         "name": "Th'uban",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Th'uban.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "thuban"
@@ -1669,9 +1638,8 @@
     {
         "name": "Neslug",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Neslug.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "neslug"
@@ -1679,9 +1647,8 @@
     {
         "name": "Ultima Buster",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Ultima Buster.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "ultimabuster"
@@ -1689,9 +1656,8 @@
     {
         "name": "Shinryu",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Shinryu.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "shinryu"
@@ -1699,12 +1665,130 @@
     {
         "name": "Nemesis",
         "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD_BW.png",
+        "img": "images/bosses/arena/Nemesis.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/items/hd/Battle_Item_HD.png",
         "disabled_img_mods": "",
         "initial_active_state": false,
         "codes": "nemesis"
+    },
+
+    //Boss Unlocks
+    {
+        "name": "Area Conquest - Besaid",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestbesaid"
+    },
+    {
+        "name": "Area Conquest - Kilika",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestkilika"
+    },
+    {
+        "name": "Area Conquest - Miihen Highroad",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestmiihen"
+    },
+    {
+        "name": "Area Conquest - Mushroom Rock Road",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestmrr"
+    },
+    {
+        "name": "Area Conquest - Djose Road",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestdjose"
+    },
+    {
+        "name": "Area Conquest - Thunder Plains",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestthunderplains"
+    },
+    {
+        "name": "Area Conquest - Macalania",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestmacalania"
+    },
+    {
+        "name": "Area Conquest - Bikanel",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestbikanel"
+    },
+    {
+        "name": "Area Conquest - Calm Lands",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestcalmlands"
+    },
+    {
+        "name": "Area Conquest - Cavern of the Stolen Fayth",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestcotsf"
+    },
+    {
+        "name": "Area Conquest - Mt. Gagazet",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestgagazet"
+    },
+    {
+        "name": "Area Conquest - Inside Sin",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestsin"
+    },
+    {
+        "name": "Area Conquest - Omega Dungeon",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "initial_active_state": false,
+        "codes": "areaconquestomega"
     },
 
     //Conquest Collections

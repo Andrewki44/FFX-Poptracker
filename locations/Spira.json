@@ -1512,12 +1512,416 @@
                 ]
             },
             {
-                "name": "Monster Arena",
-                "map_locations": [{ "map": "Spira", "x": 681, "y": 207, "size": 24, "shape": "diamond"}],
+                "name": "Monster Arena - Captures",
+                "map_locations": [{ "map": "Spira", "x": 785, "y": 185, "size": 24, "shape": "diamond"}],
                 "sections": [
                     {
-                        "name": "Area Conquest (Calm Lands) - Nirvana",
+                        "name": "Besaid",
+                        "hosted_item": "dingo, condor, waterflan",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Besaid"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Kilika",
+                        "hosted_item": "dinonix, killerbee, yellowelement, ragora",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Besaid"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Miihen Highroad",
+                        "hosted_item": "miihenfang, floatingeye, whiteelement, raldo, bomb, dualhorn",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Miihen Highroad - Old Road",
+                        "hosted_item": "ipiria, vouivre",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad, @Miihen Highroad/North"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Mushroom Rock Road",
+                        "hosted_item": "raptor, gandarewa, thunderflan, redelement, lamashtu, funguar, garuda",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Mushroom Rock Road"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Djose Road",
+                        "hosted_item": "garm, simurgh, bitebug, snowflan, bunyip, basilisk",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Moonflow",
+                        "hosted_item": "ochu",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Moonflow"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Thunder Plains",
+                        "hosted_item": "melusine, aerouge, buer, goldelement, kusariqqu, larva, irongiant, qactuar",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Macalania Woods",
+                        "hosted_item": "iguion, wasp, blueelement, murussu, xiphos, chimera",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Macalania"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Lake Macalania",
+                        "hosted_item": "snowwolf, evileye, iceflan, mafdet",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Macalania, @Macalania/Lake"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Bikanel",
+                        "hosted_item": "sandwolf, alcyone, mushussu, zu, sandworm, cactuar",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Bikanel"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Calm Lands",
+                        "hosted_item": "skoll, nebiros, flameflan, shred, anacondaur, ogre, coeurl, chimerabrain, malboro",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Calm Lands"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Cavern of the Stolen Fayth",
+                        "hosted_item": "yowie, imp, darkelement, nidhogg, thorn, valaha, epaaj, ghost, tonberry",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Cavern of the Stolen Fayth"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Mt. Gagazet",
+                        "hosted_item": "bandersnatch, grenade, grat, bashura",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Mt. Gagazet - Caves",
+                        "hosted_item": "ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet, @Mt. Gagazet/Inside"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Inside Sin",
+                        "hosted_item": "exoray, geminisword, geminiclub, adamantoise, behemothking",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Inside Sin - City of Dying Dreams",
+                        "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin, @Inside Sin/City of Dying Dreams"],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Omega Ruins",
+                        "hosted_item": "zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
+                        "access_rules": ["@Monster Arena/Fiend Capture/Omega Ruins"],
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Monster Arena - Rewards",
+                "map_locations": [{ "map": "Spira", "x": 770, "y": 215, "size": 24, "shape": "diamond"}],
+                "sections": [
+                    {
+                        "name": "Nirvana (Area Conquest - Calm Lands)",
                         "ref": "Celestial/Yuna/Nirvana"
+                    },
+                    {
+                        "name": "Area Conquest - Besaid",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Besaid"
+                    },
+                    {
+                        "name": "Area Conquest - Kilika",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Kilika"
+                    },
+                    {
+                        "name": "Area Conquest - Miihen Highroad",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Miihen Highroad"
+                    },
+                    {
+                        "name": "Area Conquest - Mushroom Rock Road",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Mushroom Rock Road"
+                    },
+                    {
+                        "name": "Area Conquest - Djose Road",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Djose Road"
+                    },
+                    {
+                        "name": "Area Conquest - Thunder Plains",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Thunder Plains"
+                    },
+                    {
+                        "name": "Area Conquest - Macalania",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Macalania"
+                    },
+                    {
+                        "name": "Area Conquest - Bikanel",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Bikanel"
+                    },
+                    {
+                        "name": "Area Conquest - Calm Lands",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Calm Lands"
+                    },
+                    {
+                        "name": "Area Conquest - Stolen Fayth Cavern",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Stolen Fayth Cavern"
+                    },
+                    {
+                        "name": "Area Conquest - Mt. Gagazet",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Mt. Gagazet"
+                    },
+                    {
+                        "name": "Area Conquest - Inside Sin",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Inside Sin"
+                    },
+                    {
+                        "name": "Area Conquest - Omega Dungeon",
+                        "ref": "Monster Arena/Area Conquest/Creation Rewards/Omega Dungeon"
+                    },
+                    {
+                        "name": "Species Conquest - Wolf (x3)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Wolf (x3)"
+                    },
+                    {
+                        "name": "Species Conquest - Reptile (3x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Reptile (3x)"
+                    },
+                    {
+                        "name": "Species Conquest - Bird (5x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Bird (5x)"
+                    },
+                    {
+                        "name": "Species Conquest - Wasp (4x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Wasp (4x)"
+                    },
+                    {
+                        "name": "Species Conquest - Imp (4x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Imp (4x)"
+                    },
+                    {
+                        "name": "Species Conquest - Eye (4x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Eye (4x)"
+                    },
+                    {
+                        "name": "Species Conquest - Flan (3x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Flan (3x)"
+                    },
+                    {
+                        "name": "Species Conquest - Element (3x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Element (3x)"
+                    },
+                    {
+                        "name": "Species Conquest - Helm (3x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Helm (3x)"
+                    },
+                    {
+                        "name": "Species Conquest - Drake (4x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Drake (4x)"
+                    },
+                    {
+                        "name": "Species Conquest - Fungus (5x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Fungus (5x)"
+                    },
+                    {
+                        "name": "Species Conquest - Bomb (5x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Bomb (5x)"
+                    },
+                    {
+                        "name": "Species Conquest - Ruminant (5x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Ruminant (5x)"
+                    },
+                    {
+                        "name": "Species Conquest - Iron Giant (10x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Iron Giant (10x)"
+                    },
+                    {
+                        "name": "Species Conquest - Wolf",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Wolf"
+                    },
+                    {
+                        "name": "Original Creation - Area Conquest x2",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/Area Conquest x2"
+                    },
+                    {
+                        "name": "Original Creation - Species Conquest x2",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/Species Conquest x2"
+                    },
+                    {
+                        "name": "Original Creation - Area Conquest x6",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/Area Conquest x6"
+                    },
+                    {
+                        "name": "Original Creation - Species Conquest x6",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/Species Conquest x6"
+                    },
+                    {
+                        "name": "Original Creation - All Fiends x1",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/All Fiends x1"
+                    },
+                    {
+                        "name": "Original Creation - All Fiends x5",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/All Fiends x5"
+                    },
+                    {
+                        "name": "Original Creation - Underwater Fiends in Mt. Gagazet x2",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/Underwater Fiends in Mt. Gagazet x2"
+                    },
+                    {
+                        "name": "Original Creation - All Fiends x10",
+                        "ref": "Monster Arena/Original Creation/Creation Rewards/All Fiends x10"
+                    }
+                ]
+            },
+            {
+                "name": "Monster Arena - Bosses",
+                "map_locations": [{ "map": "Spira", "x": 800, "y": 215, "size": 24, "shape": "diamond"}],
+                "sections": [
+                    {
+                        "name": "Arena Conquest - Stratoavis",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Stratoavis"
+                    },
+                    {
+                        "name": "Arena Conquest - Malboro Menace",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Malboro Menace"
+                    },
+                    {
+                        "name": "Arena Conquest - Kottos",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Kottos"
+                    },
+                    {
+                        "name": "Arena Conquest - Coeurlregina",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Coeurlregina"
+                    },
+                    {
+                        "name": "Arena Conquest - Jormungand",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Jormungand"
+                    },
+                    {
+                        "name": "Arena Conquest - Cactuar King",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Cactuar King"
+                    },
+                    {
+                        "name": "Arena Conquest - Espada",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Espada"
+                    },
+                    {
+                        "name": "Arena Conquest - Abyss Worm",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Abyss Worm"
+                    },
+                    {
+                        "name": "Arena Conquest - Chimerageist",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Chimerageist"
+                    },
+                    {
+                        "name": "Arena Conquest - Don Tonberry",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Don Tonberry"
+                    },
+                    {
+                        "name": "Arena Conquest - Catoblepas",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Catoblepas"
+                    },
+                    {
+                        "name": "Arena Conquest - Abaddon",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Abaddon"
+                    },
+                    {
+                        "name": "Arena Conquest - Vorban",
+                        "ref": "Monster Arena/Area Conquest/Defeat/Vorban"
+                    },
+                    {
+                        "name": "Species Conquest - Fenrir",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Fenrir"
+                    },
+                    {
+                        "name": "Species Conquest - Ornitholestes",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Ornitholestes"
+                    },
+                    {
+                        "name": "Species Conquest - Pteryx",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Pteryx"
+                    },
+                    {
+                        "name": "Species Conquest - Hornet",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Hornet"
+                    },
+                    {
+                        "name": "Species Conquest - Vidatu",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Vidatu"
+                    },
+                    {
+                        "name": "Species Conquest - One-Eye",
+                        "ref": "Monster Arena/Species Conquest/Defeat/One-Eye"
+                    },
+                    {
+                        "name": "Species Conquest - Jumbo Flan",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Jumbo Flan"
+                    },
+                    {
+                        "name": "Species Conquest - Nega Elemental",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Nega Elemental"
+                    },
+                    {
+                        "name": "Species Conquest - Tanket",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Tanket"
+                    },
+                    {
+                        "name": "Species Conquest - Fafnir",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Fafnir"
+                    },
+                    {
+                        "name": "Species Conquest - Sleep Sprout",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Sleep Sprout"
+                    },
+                    {
+                        "name": "Species Conquest - Bomb King",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Bomb King"
+                    },
+                    {
+                        "name": "Species Conquest - Juggernaut",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Juggernaut"
+                    },
+                    {
+                        "name": "Species Conquest - Ironclad",
+                        "ref": "Monster Arena/Species Conquest/Defeat/Ironclad"
+                    },
+                    {
+                        "name": "Original Creation - Earth Eater",
+                        "ref": "Monster Arena/Original Creation/Defeat/Earth Eater"
+                    },
+                    {
+                        "name": "Original Creation - Greater Sphere",
+                        "ref": "Monster Arena/Original Creation/Defeat/Greater Sphere"
+                    },
+                    {
+                        "name": "Original Creation - Catastrophe",
+                        "ref": "Monster Arena/Original Creation/Defeat/Catastrophe"
+                    },
+                    {
+                        "name": "Original Creation - Th'uban",
+                        "ref": "Monster Arena/Original Creation/Defeat/Th'uban"
+                    },
+                    {
+                        "name": "Original Creation - Neslug",
+                        "ref": "Monster Arena/Original Creation/Defeat/Neslug"
+                    },
+                    {
+                        "name": "Original Creation - Ultima Buster",
+                        "ref": "Monster Arena/Original Creation/Defeat/Ultima Buster"
+                    },
+                    {
+                        "name": "Original Creation - Shinryu",
+                        "ref": "Monster Arena/Original Creation/Defeat/Shinryu"
+                    },
+                    {
+                        "name": "Original Creation - Nemesis",
+                        "ref": "Monster Arena/Original Creation/Defeat/Nemesis"
                     }
                 ]
             },

@@ -73,6 +73,11 @@
                 "name": "Party Members And Aeons",
                 "img": "images/party/aeons/Valefor.png",
                 "codes": "goalpartymembersandaeons"
+            },
+            {
+                "name": "Nemesis",
+                "img": "images/bosses/arena/Nemesis.png",
+                "codes": "goalnemesis"
             }
         ]
     },

@@ -9,72 +9,72 @@
             {
                 "name": "Fenrir",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Fenrir"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Fenrir"}]
             },
             {
                 "name": "Ornitholestes",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Ornitholestes"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Ornitholestes"}]
             },
             {
                 "name": "Pteryx",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Pteryx"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Pteryx"}]
             },
             {
                 "name": "Hornet",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Hornet"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Hornet"}]
             },
             {
                 "name": "Vidatu",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Vidatu"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Vidatu"}]
             },
             {
                 "name": "One-Eye",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/One-Eye"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/One-Eye"}]
             },
             {
                 "name": "Jumbo Flan",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Jumbo Flan"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Jumbo Flan"}]
             },
             {
                 "name": "Nega Elemental",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Nega Elemental"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Nega Elemental"}]
             },
             {
                 "name": "Tanket",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Tanket"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Tanket"}]
             },
             {
                 "name": "Fafnir",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Fafnir"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Fafnir"}]
             },
             {
                 "name": "Sleep Sprout",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Sleep Sprout"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Sleep Sprout"}]
             },
             {
                 "name": "Bomb King",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Bomb King"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Bomb King"}]
             },
             {
                 "name": "Juggernaut",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Juggernaut"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Juggernaut"}]
             },
             {
                 "name": "Ironclad",
                 "map_locations": [{ "map": "Monster Arena - Species Conquest", "x": 1522, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Species Conquest/Defeat/Ironclad"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Species Conquest/Defeat/Ironclad"}]
             }
         ]
     }

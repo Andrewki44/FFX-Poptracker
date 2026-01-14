@@ -9,67 +9,67 @@
             {
                 "name": "Stratoavis",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Stratoavis"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Stratoavis"}]
             },
             {
                 "name": "Malboro Menace",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Malboro Menace"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Malboro Menace"}]
             },
             {
                 "name": "Kottos",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Kottos"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Kottos"}]
             },
             {
                 "name": "Coeurlregina",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Coeurlregina"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Coeurlregina"}]
             },
             {
                 "name": "Jormungand",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Jormungand"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Jormungand"}]
             },
             {
                 "name": "Cactuar King",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Cactuar King"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Cactuar King"}]
             },
             {
                 "name": "Espada",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Espada"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Espada"}]
             },
             {
                 "name": "Abyss Worm",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Abyss Worm"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abyss Worm"}]
             },
             {
                 "name": "Chimerageist",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Chimerageist"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Chimerageist"}]
             },
             {
                 "name": "Don Tonberry",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Don Tonberry"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Don Tonberry"}]
             },
             {
                 "name": "Catoblepas",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Catoblepas"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Catoblepas"}]
             },
             {
                 "name": "Abaddon",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Abaddon"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abaddon"}]
             },
             {
                 "name": "Vorban",
                 "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Area Conquest/Defeat/Vorban"}]
+                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Vorban"}]
             }
         ]
     }

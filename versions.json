@@ -10,8 +10,9 @@
                 " - - Capture tracking per individual fiend, up to 10",
                 " - - Access logic for Monster Arena rewards and boss fights",
                 " - - Custom logic for Original Creations",
-                " - - Nemesis goal suppoort",
-                " - - Capture auto-tracking from AP DataStorage"
+                " - - Capture auto-tracking from AP DataStorage",
+                " - Nemesis goal suppoort",
+                " - World Map updates for Monster Arena"
             ]
         },
         {

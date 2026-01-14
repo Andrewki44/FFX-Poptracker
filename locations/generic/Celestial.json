@@ -208,7 +208,7 @@
                 "sections": [
                     {
                         "name": "Nirvana",
-                        "access_rules": ["@Calm Lands, celestialmirror"]
+                        "access_rules": ["@Calm Lands, @Monster Arena/Area Conquest/Creation Rewards/Calm Lands, celestialmirror"]
                     },
                     {
                         "name": "Moon Crest",
