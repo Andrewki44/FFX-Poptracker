@@ -573,8 +573,9 @@
     {
         "name": "Chocobo Catcher",
         "type": "toggle",
-        "img": "images/npc/Chocobo.png",
-        "img_mods": "@disabled",
+        "img": "images/npc/Chocobo_BW.png",
+        "img_mods": "",
+        "disabled_img": "images/npc/Chocobo.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
