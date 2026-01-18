@@ -94,10 +94,18 @@ function applySlotData(slot_data)
         Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
     end
 
+    local captureSanity = slot_data["capture_sanity"]
+    if (captureSanity == 0) then 
+        Tracker:FindObjectForCode("capturesanity").CurrentStage = 0
+    elseif (captureSanity == 1) then
+        Tracker:FindObjectForCode("capturesanity").CurrentStage = 1
+    elseif (captureSanity == 2 or captureSanity == 3) then
+       Tracker:FindObjectForCode("capturesanity").CurrentStage = 2 
+    end
+
     Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
     Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
     Tracker:FindObjectForCode("recruitsanity").Active = slot_data["recruit_sanity"]
-    Tracker:FindObjectForCode("capturesanity").Active = slot_data["capture_sanity"]
     Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
 end
 

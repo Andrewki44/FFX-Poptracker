@@ -22,10 +22,26 @@
     },
     {
         "name": "Capture Sanity",
-        "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD.png",
-        "initial_active_state": false,
-        "codes": "capturesanity"
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "capturesanity",
+        "stages": [
+            {
+                "name": "Off",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "name": "On",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "codes": "capturesanity"
+            },
+            {
+                "name": "Early",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "codes": "capturesanity, capturesanityearly"
+            }
+        ]
     },
     {
         "name": "Logic Difficulty",

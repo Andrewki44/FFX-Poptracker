@@ -158,3 +158,20 @@ function CheckAllCreations()
     end
     return ACCESS_NORMAL
 end
+
+function CheckCaptureAccess()
+    local access = ACCESS_NONE
+    local captureSanityStage = Tracker:FindObjectForCode("capturesanity").CurrentStage
+    
+    if (captureSanityStage == 1) then
+        return CheckAccessLevel("calmlands")
+    elseif (captureSanityStage == 2) then
+        if (has("calmlands")) then
+            access = ACCESS_NORMAL
+        else
+            access = ACCESS_NONE
+        end
+    end
+
+    return access
+end
