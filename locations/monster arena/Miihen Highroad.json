@@ -17,9 +17,9 @@
                 "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Ipiria (3x Reptile)"}]
             },
             {
-                "name": "Floating Eye (5x One-Eye)",
+                "name": "Floating Eye (4x Eye)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Floating Eye (5x One-Eye)"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Floating Eye (4x Eye)"}]
             },
             {
                 "name": "White Element (3x Elemental)",

@@ -26,7 +26,7 @@
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Water Flan (3x Jumbo Flan)",
+                                "name": "Water Flan (3x Flan)",
                                 "hosted_item": "waterflan",
                                 "clear_as_group": false
                             }
@@ -76,7 +76,7 @@
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Floating Eye (5x One-Eye)",
+                                "name": "Floating Eye (5x Eye)",
                                 "hosted_item": "floatingeye",
                                 "clear_as_group": false
                             },
@@ -639,6 +639,7 @@
             },
             {
                 "name": "Area Conquest",
+                "access_rules": ["^$CheckAccessLevel|calmlands"],
                 "children": [
                     {
                         "name": "Creation Rewards",
@@ -814,6 +815,7 @@
             },
             {
                 "name": "Species Conquest",
+                "access_rules": ["^$CheckAccessLevel|calmlands"],
                 "children": [
                     {
                         "name": "Creation Rewards",
@@ -1001,6 +1003,7 @@
             },
             {
                 "name": "Original Creation",
+                "access_rules": ["^$CheckAccessLevel|calmlands"],
                 "children": [
                     {
                         "name": "Creation Rewards",
