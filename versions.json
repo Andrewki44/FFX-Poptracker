@@ -17,7 +17,7 @@
                 " - World Map updates for Monster Arena",
                 " - Added unique icons for boss & capture checks",
                 " - Added visibility rules to hide capture / recruit / minigame checks if the options are not enabled",
-                " - Added additional access logic for several checks in Besaid & Calm Lands",
+                " - Added additional access logic for several checks in Besaid & Calm Lands that were showing as available early",
                 " - Added Cloudy Mirror & World Champion to Minigames",
                 " - Updated Party Member, Celestial Weapon & Al Bhed Primer icons",
                 " - Updated Kilika cloister map",

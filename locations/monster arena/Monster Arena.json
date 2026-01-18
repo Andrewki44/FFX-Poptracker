@@ -401,32 +401,32 @@
                         "access_rules": ["@Cavern of the Stolen Fayth"],
                         "sections": [
                             {
-                                "name": "Yowie",
+                                "name": "Yowie (3x Reptile)",
                                 "hosted_item": "yowie",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Imp",
+                                "name": "Imp (Imp x4)",
                                 "hosted_item": "imp",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Dark Element",
+                                "name": "Dark Element (3x Elemental)",
                                 "hosted_item": "darkelement",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Nidhogg",
+                                "name": "Nidhogg (5x Drake)",
                                 "hosted_item": "nidhogg",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Thorn",
+                                "name": "Thorn (5x Fungus)",
                                 "hosted_item": "thorn",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Valaha",
+                                "name": "Valaha (5x Ruminant)",
                                 "hosted_item": "valaha",
                                 "clear_as_group": false
                             },
@@ -453,24 +453,24 @@
                         "access_rules": ["@Mt. Gagazet"],
                         "sections": [
                             {
-                                "name": "Bandersnatch",
+                                "name": "Bandersnatch (3x Wolf)",
                                 "hosted_item": "bandersnatch",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Ahriman",
+                                "name": "Ahriman (4x Eye)",
                                 "access_rules": ["@Mt. Gagazet/Inside"],
                                 "hosted_item": "ahriman",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Dark Flan",
+                                "name": "Dark Flan (3x Flan)",
                                 "access_rules": ["@Mt. Gagazet/Inside"],
                                 "hosted_item": "darkflan",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Grenade",
+                                "name": "Grenade (5x Bomb)",
                                 "hosted_item": "grenade",
                                 "clear_as_group": false
                             },
@@ -480,7 +480,7 @@
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Grendel",
+                                "name": "Grendel (5x Ruminant)",
                                 "access_rules": ["@Mt. Gagazet/Inside"],
                                 "hosted_item": "grendel",
                                 "clear_as_group": false
@@ -503,19 +503,19 @@
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Splasher",
+                                "name": "Splasher (2x Shinryu)",
                                 "access_rules": ["@Mt. Gagazet/Inside"],
                                 "hosted_item": "splasher",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Achelous",
+                                "name": "Achelous (2x Shinryu)",
                                 "access_rules": ["@Mt. Gagazet/Inside"],
                                 "hosted_item": "achelous",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Maelspike",
+                                "name": "Maelspike (2x Shinryu)",
                                 "access_rules": ["@Mt. Gagazet/Inside"],
                                 "hosted_item": "maelspike",
                                 "clear_as_group": false
@@ -528,7 +528,7 @@
                         "access_rules": ["@Inside Sin"],
                         "sections": [
                             {
-                                "name": "Exoray",
+                                "name": "Exoray (5x Fungus)",
                                 "hosted_item": "exoray",
                                 "clear_as_group": false
                             },
@@ -539,12 +539,12 @@
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Gemini (Sword)",
+                                "name": "Gemini (Sword) (10x Iron Giant)",
                                 "hosted_item": "geminisword",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Gemini (Club)",
+                                "name": "Gemini (Club) (10x Iron Giant)",
                                 "hosted_item": "geminiclub",
                                 "clear_as_group": false
                             },
@@ -584,27 +584,27 @@
                         "access_rules": ["@Omega Ruins"],
                         "sections": [
                             {
-                                "name": "Zaurus",
+                                "name": "Zaurus (3x Reptile)",
                                 "hosted_item": "zaurus",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Floating Death",
+                                "name": "Floating Death (4x Eye)",
                                 "hosted_item": "floatingdeath",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Black Element",
+                                "name": "Black Element (3x Elemental)",
                                 "hosted_item": "blackelement",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Halma",
+                                "name": "Halma (3x Helm)",
                                 "hosted_item": "halma",
                                 "clear_as_group": false
                             },
                             {
-                                "name": "Puroboros",
+                                "name": "Puroboros (5x Bomb)",
                                 "hosted_item": "puroboros",
                                 "clear_as_group": false
                             },

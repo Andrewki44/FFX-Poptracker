@@ -53,12 +53,57 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Omega Ruins", "x": 780, "y": 550, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture/Omega Ruins"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Omega Ruins",
-                        "hosted_item": "zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Omega Ruins"],
+                        "name": "Zaurus (3x Reptile)",
+                        "hosted_item": "zaurus",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Floating Death (4x Eye)",
+                        "hosted_item": "floatingdeath",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Black Element (3x Elemental)",
+                        "hosted_item": "blackelement",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Halma (3x Helm)",
+                        "hosted_item": "halma",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Puroboros (5x Bomb)",
+                        "hosted_item": "puroboros",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Spirit",
+                        "hosted_item": "spirit",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Machea",
+                        "hosted_item": "machea",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Master Coeurl",
+                        "hosted_item": "mastercoeurl",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Master Tonberry",
+                        "hosted_item": "mastertonberry",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Varuna",
+                        "hosted_item": "varuna",
                         "clear_as_group": false
                     }
                 ]

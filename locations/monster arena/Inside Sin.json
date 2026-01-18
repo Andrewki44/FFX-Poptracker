@@ -7,9 +7,9 @@
         "access_rules": ["^$CheckAccessLevel|calmlands"],
         "children": [
             {
-                "name": "Exoray",
+                "name": "Exoray (5x Fungus)",
                 "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Exoray"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Exoray (5x Fungus)"}]
             },
             {
                 "name": "Wraith",
@@ -17,14 +17,14 @@
                 "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Wraith"}]
             },
             {
-                "name": "Gemini (Sword)",
+                "name": "Gemini (Sword) (10x Iron Giant)",
                 "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Sword)"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Sword) (10x Iron Giant)"}]
             },
             {
-                "name": "Gemini (Club)",
+                "name": "Gemini (Club) (10x Iron Giant)",
                 "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Club)"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Club) (10x Iron Giant)"}]
             },
             {
                 "name": "Demonolith",

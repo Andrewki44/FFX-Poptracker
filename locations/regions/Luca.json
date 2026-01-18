@@ -57,7 +57,7 @@
                         "sections": [
                             {
                                 "name": "Jupiter Crest",
-                                "ref": "Celestial/Wakka/Jupiter Sigil"
+                                "ref": "Celestial/Wakka/Jupiter Crest"
                             }
                         ]
                     },
@@ -166,7 +166,6 @@
                         "name": "Talk to Owner After Placing at Least Third in a Tournament (Chest)",
                         "map_locations": [{"map": "Luca", "x": 1145, "y": 410}],
                         "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["minigames"],
                         "sections": [
                             {
                                 "name": "World Chamnpion",

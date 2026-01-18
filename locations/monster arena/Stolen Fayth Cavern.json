@@ -7,34 +7,34 @@
         "access_rules": ["^$CheckAccessLevel|calmlands"],
         "children": [
             {
-                "name": "Yowie",
+                "name": "Yowie (3x Reptile)",
                 "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Yowie"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Yowie (3x Reptile)"}]
             },
             {
-                "name": "Imp",
+                "name": "Imp (Imp x4)",
                 "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Imp"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Imp (Imp x4)"}]
             },
             {
-                "name": "Dark Element",
+                "name": "Dark Element (3x Elemental)",
                 "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Dark Element"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Dark Element (3x Elemental)"}]
             },
             {
-                "name": "Nidhogg",
+                "name": "Nidhogg (5x Drake)",
                 "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Nidhogg"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Nidhogg (5x Drake)"}]
             },
             {
-                "name": "Thorn",
+                "name": "Thorn (5x Fungus)",
                 "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/RalThorndo"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Thorn (5x Fungus)"}]
             },
             {
-                "name": "Valaha",
+                "name": "Valaha (5x Ruminant)",
                 "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Valaha"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Valaha (5x Ruminant)"}]
             },
             {
                 "name": "Epaaj",

@@ -67,12 +67,52 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 515, "y": 400, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture/Cavern of the Stolen Fayth"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Cavern of the Stolen Fayth",
-                        "hosted_item": "yowie, imp, darkelement, nidhogg, thorn, valaha, epaaj, ghost, tonberry",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Cavern of the Stolen Fayth"],
+                        "name": "Yowie (3x Reptile)",
+                        "hosted_item": "yowie",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Imp (Imp x4)",
+                        "hosted_item": "imp",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Dark Element (3x Elemental)",
+                        "hosted_item": "darkelement",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Nidhogg (5x Drake)",
+                        "hosted_item": "nidhogg",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Thorn (5x Fungus)",
+                        "hosted_item": "thorn",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Valaha (5x Ruminant)",
+                        "hosted_item": "valaha",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Epaaj",
+                        "hosted_item": "epaaj",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ghost",
+                        "hosted_item": "ghost",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Tonberry",
+                        "hosted_item": "tonberry",
                         "clear_as_group": false
                     }
                 ]
