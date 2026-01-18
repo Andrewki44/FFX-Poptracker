@@ -115,11 +115,6 @@
                                 "name": "Spherimorph",
                                 "hosted_item": "spherimorph",
                                 "clear_as_group": true
-                            },
-                            {
-                                "name": "Jecht Sphere",
-                                "hosted_item": "jechtsphere",
-                                "clear_as_group": true
                             }
                         ]
                     },
