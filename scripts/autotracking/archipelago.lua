@@ -92,6 +92,8 @@ function applySlotData(slot_data)
     elseif (goal == 3) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
         Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
+    elseif (goal == 4) then
+        Tracker:FindObjectForCode("goalrequirement").CurrentStage = 4
     end
 
     Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
