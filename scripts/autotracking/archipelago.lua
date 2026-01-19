@@ -374,10 +374,11 @@ function updateHints(locationID, status) -->
 end
 
 function onDataStorageUpdate(key, value, oldValue)
+    oldValue = oldValue or 0
     if (key == ap_autotab and value ~= nil and Tracker:FindObjectForCode("autotab").Active) then
         autoTab(value)
     elseif (string.match(key, "Slot:" .. Archipelago.PlayerNumber .. ":FFX_CAPTURE:.*$") ~= nil and value ~= nil) then
-        updateCaptures(key, value)
+        updateCaptures(key, value, oldValue)
     end
 end
 
