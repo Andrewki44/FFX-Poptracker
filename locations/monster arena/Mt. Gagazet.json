@@ -14,22 +14,22 @@
             {
                 "name": "Ahriman (4x Eye)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Ahriman"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Ahriman (4x Eye)"}]
             },
             {
                 "name": "Dark Flan (3x Flan)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Dark Flan"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Dark Flan (3x Flan)"}]
             },
             {
                 "name": "Grenade (5x Bomb)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grenade"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grenade (5x Bomb)"}]
             },
             {
                 "name": "Grat (5x Ruminant)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grat"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grat (5x Ruminant)"}]
             },
             {
                 "name": "Grendel",
@@ -54,17 +54,17 @@
             {
                 "name": "Splasher (2x Shinryu)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Splasher"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Splasher (2x Shinryu)"}]
             },
             {
                 "name": "Achelous (2x Shinryu)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Achelous"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Achelous (2x Shinryu)"}]
             },
             {
                 "name": "Maelspike (2x Shinryu)",
                 "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Maelspike"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Maelspike (2x Shinryu)"}]
             }
         ]
     }

@@ -12,9 +12,9 @@
                 "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Skoll (3x Wolf)"}]
             },
             {
-                "name": "Nebiros (4x Wasp",
+                "name": "Nebiros (4x Wasp)",
                 "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Nebiros (4x Wasp"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Nebiros (4x Wasp)"}]
             },
             {
                 "name": "Flame Flan (3x Flan)",
