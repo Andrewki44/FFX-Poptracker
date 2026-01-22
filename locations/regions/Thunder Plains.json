@@ -67,7 +67,7 @@
                     {
                         "name": "Lightning Dodging",
                         "map_locations": [{ "map": "Thunder Plains", "x": 325, "y": 255}],
-                        "access_rules": ["[minigames]"],
+                        "visibility_rules": ["minigames"],
                         "sections": [
                             {"name": "X-Potion x2 (5x Dodges)"},
                             {"name": "Mega-Potion x2 (10x Dodges)"},
@@ -116,11 +116,47 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Thunder Plains", "x": 360, "y": 430, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Thunder Plains",
-                        "hosted_item": "melusine, aerouge, buer, goldelement, kusariqqu, larva, irongiant, qactuar",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
+                        "name": "Melusine (3x Reptile)",
+                        "hosted_item": "melusine",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Aerouge (4x Imp)",
+                        "hosted_item": "aerouge",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Buer (4x Eye)",
+                        "hosted_item": "buer",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Gold Element (3x Elemental)",
+                        "hosted_item": "goldelement",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Kusariqqu (5x Drake)",
+                        "hosted_item": "kusariqqu",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Larva",
+                        "hosted_item": "larva",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Iron Giant (10x Iron Clad)",
+                        "hosted_item": "irongiant",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Qactuar",
+                        "hosted_item": "qactuar",
                         "clear_as_group": false
                     }
                 ]

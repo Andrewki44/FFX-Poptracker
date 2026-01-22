@@ -4,27 +4,27 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Skoll",
+                "name": "Skoll (3x Wolf)",
                 "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Skoll"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Skoll (3x Wolf)"}]
             },
             {
-                "name": "Nebiros",
+                "name": "Nebiros (4x Wasp)",
                 "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Nebiros"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Nebiros (4x Wasp)"}]
             },
             {
-                "name": "Flame Flan",
+                "name": "Flame Flan (3x Flan)",
                 "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Flame Flan"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Flame Flan (3x Flan)"}]
             },
             {
-                "name": "Shred",
+                "name": "Shred (3x Helm)",
                 "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Shred"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Shred (3x Helm)"}]
             },
             {
                 "name": "Anacondaur",

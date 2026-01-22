@@ -4,47 +4,47 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Miihen Fang",
+                "name": "Miihen Fang (3x Wolf)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Miihen Fang"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Miihen Fang (3x Wolf)"}]
             },
             {
-                "name": "Ipiria",
+                "name": "Ipiria (3x Reptile)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Ipiria"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Ipiria (3x Reptile)"}]
             },
             {
-                "name": "Floating Eye",
+                "name": "Floating Eye (4x Eye)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Floating Eye"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Floating Eye (4x Eye)"}]
             },
             {
-                "name": "White Element",
+                "name": "White Element (3x Elemental)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/White Element"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/White Element (3x Elemental)"}]
             },
             {
-                "name": "Raldo",
+                "name": "Raldo (3x Armoured)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Raldo"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Raldo (3x Armoured)"}]
             },
             {
-                "name": "Vouivre",
+                "name": "Vouivre (5x Drake)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Vouivre"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Vouivre (5x Drake)"}]
             },
             {
-                "name": "Bomb",
+                "name": "Bomb (5x Bomb)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Bomb"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Bomb (5x Bomb)"}]
             },
             {
-                "name": "Dual Horn",
+                "name": "Dual Horn (5x Ruminant)",
                 "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Dual Horn"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Dual Horn (5x Ruminant)"}]
             }
         ]
     }

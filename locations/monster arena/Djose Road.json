@@ -4,32 +4,32 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Garm",
+                "name": "Garm (3x Wolf)",
                 "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Garm"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Garm (3x Wolf)"}]
             },
             {
-                "name": "Simurgh",
+                "name": "Simurgh (5x Bird)",
                 "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Simurgh"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Simurgh (5x Bird)"}]
             },
             {
-                "name": "Bite Bug",
+                "name": "Bite Bug (4x Hornet)",
                 "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Bite Bug"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Bite Bug (4x Hornet)"}]
             },
             {
-                "name": "Snow Flan",
+                "name": "Snow Flan (3x Flan)",
                 "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Snow Flan"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Snow Flan (3x Flan)"}]
             },
             {
-                "name": "Bunyip",
+                "name": "Bunyip (3x Helm)",
                 "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Bunyip"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Bunyip (3x Helm)"}]
             },
             {
                 "name": "Basilisk",

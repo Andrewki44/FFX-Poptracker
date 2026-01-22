@@ -4,22 +4,22 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Dingo",
+                "name": "Dingo (3x Wolf)",
                 "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Dingo"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Dingo (3x Wolf)"}]
             },
             {
-                "name": "Condor",
+                "name": "Condor (5x Bird)",
                 "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Condor"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Condor (5x Bird)"}]
             },
             {
-                "name": "Water Flan",
+                "name": "Water Flan (3x Flan)",
                 "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Water Flan"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Water Flan (3x Flan)"}]
             }
         ]
     }

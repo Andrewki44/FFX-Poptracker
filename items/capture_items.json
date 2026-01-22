@@ -1672,129 +1672,13 @@
         "codes": "nemesis"
     },
 
-    //Boss Unlocks
-    {
-        "name": "Area Conquest - Besaid",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestbesaid"
-    },
-    {
-        "name": "Area Conquest - Kilika",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestkilika"
-    },
-    {
-        "name": "Area Conquest - Miihen Highroad",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestmiihen"
-    },
-    {
-        "name": "Area Conquest - Mushroom Rock Road",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestmrr"
-    },
-    {
-        "name": "Area Conquest - Djose Road",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestdjose"
-    },
-    {
-        "name": "Area Conquest - Thunder Plains",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestthunderplains"
-    },
-    {
-        "name": "Area Conquest - Macalania",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestmacalania"
-    },
-    {
-        "name": "Area Conquest - Bikanel",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestbikanel"
-    },
-    {
-        "name": "Area Conquest - Calm Lands",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestcalmlands"
-    },
-    {
-        "name": "Area Conquest - Cavern of the Stolen Fayth",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestcotsf"
-    },
-    {
-        "name": "Area Conquest - Mt. Gagazet",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestgagazet"
-    },
-    {
-        "name": "Area Conquest - Inside Sin",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestsin"
-    },
-    {
-        "name": "Area Conquest - Omega Dungeon",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "initial_active_state": false,
-        "codes": "areaconquestomega"
-    },
-
     //Conquest Collections
     {
         "name": "Area Conquests",
         "type": "consumable",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,
@@ -1807,6 +1691,9 @@
     {
         "name": "Species Conquests",
         "type": "consumable",
+        "img": "images/Treasure.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
         "overlay_font_size": 12,
         "overlay_align": "right",
         "capturable": true,

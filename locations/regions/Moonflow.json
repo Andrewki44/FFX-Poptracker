@@ -102,11 +102,32 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Moonflow", "x": 580, "y": 130, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Moonflow",
+                        "name": "Gandarewa (5x Imp)",
+                        "hosted_item": "gandarewa",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Garm (3x Wolf)",
+                        "hosted_item": "garm",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Bite Bug (4x Hornet)",
+                        "hosted_item": "bitebug",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Bunyip (3x Helm)",
+                        "hosted_item": "bunyip",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ochu",
                         "hosted_item": "ochu",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Moonflow"],
                         "clear_as_group": false
                     }
                 ]

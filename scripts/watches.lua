@@ -24,6 +24,7 @@ ScriptHost:AddWatchForCode("update access levels: kilika", "kilika", UpdateAcces
 ScriptHost:AddWatchForCode("update access levels: luca", "luca", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: macalania", "macalania", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: miihenhighroad", "miihenhighroad", UpdateAccessLevels)
+ScriptHost:AddWatchForCode("update access levels: monsterarena", "monsterarena", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: moonflow", "moonflow", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: mushroomrockroad", "mushroomrockroad", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: omegaruins", "omegaruins", UpdateAccessLevels)

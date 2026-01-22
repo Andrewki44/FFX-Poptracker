@@ -27,7 +27,8 @@
                     {
                         "name": "Win the Story Blitzball Tournament (Event)",
                         "map_locations": [{"map": "Luca", "x": 420, "y": 415}],
-                        "access_rules": ["oblitzerator, [$hasMinimumParty|3], [minigames]"],
+                        "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
+                        "visibility_rules": ["minigames"],
                         "sections": [{"name": "Story Win vs. Luca Goers Reward"}]
                     },
                     {
@@ -56,7 +57,7 @@
                         "sections": [
                             {
                                 "name": "Jupiter Crest",
-                                "ref": "Celestial/Wakka/Jupiter Sigil"
+                                "ref": "Celestial/Wakka/Jupiter Crest"
                             }
                         ]
                     },

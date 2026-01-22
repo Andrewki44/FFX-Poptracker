@@ -1,6 +1,7 @@
 -- Region Logic
 RegionDifficulty = {
-    ["guadosalam"] = 1,
+    ["monsterarena"] = 0,
+    ["guadosalam"] = 0,
     ["baajtemple"] = 1,
     ["besaid"] = 2,
     ["kilika"] = 3,
@@ -27,6 +28,7 @@ RegionDifficulty = {
 }
 
 RegionOrder = {
+    "monsterarena",
     "guadosalam",
     "baajtemple",
     "besaid",
@@ -54,6 +56,7 @@ RegionOrder = {
 }
 
 RegionAccessibility = {
+    ["monsterarena"] = ACCESS_NONE,
     ["guadosalam"] = ACCESS_NONE,
     ["baajtemple"] = ACCESS_NONE,
     ["besaid"] = ACCESS_NONE,
@@ -82,6 +85,7 @@ RegionAccessibility = {
 
 -- Must be in difficulty order
 RegionAccessRegions = {
+    ["monsterarena"] = {},
     ["guadosalam"] = {},
     ["baajtemple"] = {},
     ["besaid"] = {},

@@ -75,11 +75,37 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 650, "y": 580, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
+                        "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
-                                "name": "Gagazet Outside",
-                                "hosted_item": "bandersnatch, grenade, grat, bashura",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet"],
+                                "name": "Imp (Imp x4)",
+                                "hosted_item": "imp",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Nidhogg (5x Drake)",
+                                "hosted_item": "nidhogg",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Bandersnatch (3x Wolf)",
+                                "hosted_item": "bandersnatch",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Grenade (5x Bomb)",
+                                "hosted_item": "grenade",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Grat",
+                                "hosted_item": "grat",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Bashura",
+                                "hosted_item": "bashura",
                                 "clear_as_group": false
                             }
                         ]
@@ -128,11 +154,47 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 750, "y": 510, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
+                        "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
-                                "name": "Gagazet Cave",
-                                "hosted_item": "ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet, @Mt. Gagazet/Inside"],
+                                "name": "Ahriman (4x Eye)",
+                                "hosted_item": "ahriman",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Dark Flan (3x Flan)",
+                                "hosted_item": "darkflan",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Grendel (5x Ruminant)",
+                                "hosted_item": "grendel",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Mandragora",
+                                "hosted_item": "mandragora",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Behemoth",
+                                "hosted_item": "behemoth",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Splasher (2x Shinryu)",
+                                "hosted_item": "splasher",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Achelous (2x Shinryu)",
+                                "hosted_item": "achelous",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Maelspike (2x Shinryu)",
+                                "hosted_item": "maelspike",
                                 "clear_as_group": false
                             }
                         ]

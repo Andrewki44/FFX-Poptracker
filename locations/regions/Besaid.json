@@ -82,24 +82,41 @@
                         ]
                     },
                     {
-                        "name": "Village Slope - Element Tutorial (Event)",
-                        "map_locations": [{ "map": "Besaid Island", "x": 460, "y": 265}],
-                        "sections": [{"name": "Lulu", "ref": "Party Member/Character/Lulu"}]
-                    },
-                    {
-                        "name": "Waterfall Way - Summon Tutorial (Event)",
-                        "map_locations": [{ "map": "Besaid Island", "x": 100, "y": 600}],
-                        "sections": [{"name": "Yuna", "ref": "Party Member/Character/Yuna"}]
-                    },
-                    {
-                        "name": "Monster Captures",
-                        "map_locations": [{ "map": "Besaid Island", "x": 825, "y": 890, "shape": "diamond"}],
-                        "sections": [
+                        "name": "Post-Village",
+                        "access_rules": ["map"],
+                        "children": [
                             {
-                                "name": "Besaid",
-                                "hosted_item": "dingo, condor, waterflan",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Besaid"],
-                                "clear_as_group": false
+                                "name": "Village Slope - Element Tutorial (Event)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 460, "y": 265}],
+                                "sections": [{"name": "Lulu", "ref": "Party Member/Character/Lulu"}]
+                            },
+                            {
+                                "name": "Waterfall Way - Summon Tutorial (Event)",
+                                "map_locations": [{ "map": "Besaid Island", "x": 100, "y": 600}],
+                                "sections": [{"name": "Yuna", "ref": "Party Member/Character/Yuna"}]
+                            },
+                            {
+                                "name": "Monster Captures",
+                                "map_locations": [{ "map": "Besaid Island", "x": 825, "y": 890, "shape": "diamond"}],
+                                "access_rules": ["@Monster Arena/Fiend Capture"],
+                                "visibility_rules": ["capturesanity"],
+                                "sections": [
+                                    {
+                                        "name": "Dingo (3x Wolf)",
+                                        "hosted_item": "dingo",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Condor (5x Bird)",
+                                        "hosted_item": "condor",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Water Flan (3x Flan)",
+                                        "hosted_item": "waterflan",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             }
                         ]
                     }

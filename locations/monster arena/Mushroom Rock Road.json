@@ -4,37 +4,37 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Raptor",
+                "name": "Raptor (3x Reptile)",
                 "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Raptor"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Raptor (3x Reptile)"}]
             },
             {
-                "name": "Gandarewa",
+                "name": "Gandarewa (5x Imp)",
                 "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Gandarewa"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Gandarewa (5x Imp)"}]
             },
             {
-                "name": "Thunder Flan",
+                "name": "Thunder Flan (3x Flan)",
                 "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Thunder Flan"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Thunder Flan (3x Flan)"}]
             },
             {
-                "name": "Red Element",
+                "name": "Red Element (3x Elemental)",
                 "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Red Element"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Red Element (3x Elemental)"}]
             },
             {
-                "name": "Lamashtu",
+                "name": "Lamashtu (5x Drake)",
                 "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Lamashtu"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Lamashtu (5x Drake)"}]
             },
             {
-                "name": "Funguar",
+                "name": "Funguar (5x Fungus)",
                 "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Funguar"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Funguar (5x Fungus)"}]
             },
             {
                 "name": "Garuda",

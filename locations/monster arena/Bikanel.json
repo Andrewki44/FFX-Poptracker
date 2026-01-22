@@ -4,22 +4,22 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Sand Wolf",
+                "name": "Sand Wolf (3x Wolf)",
                 "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Sand Wolf"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Sand Wolf (3x Wolf)"}]
             },
             {
-                "name": "Alcyone",
+                "name": "Alcyone (5x Bird)",
                 "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Alcyone"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Alcyone (5x Bird)"}]
             },
             {
-                "name": "Mushussu",
+                "name": "Mushussu (5x Drake)",
                 "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Mushussu"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Mushussu (5x Drake)"}]
             },
             {
                 "name": "Zu",

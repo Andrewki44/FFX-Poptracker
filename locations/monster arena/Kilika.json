@@ -4,22 +4,22 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
+        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
-                "name": "Dinonix",
+                "name": "Dinonix (3x Reptile)",
                 "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Dinonix"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Dinonix (3x Reptile)"}]
             },
             {
-                "name": "Killer Bee",
+                "name": "Killer Bee (5x Wasp)",
                 "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Killer Bee"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Killer Bee (5x Wasp)"}]
             },
             {
-                "name": "Yellow Element",
+                "name": "Yellow Element (3x Elemental)",
                 "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Yellow Element"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Yellow Element (3x Elemental)"}]
             },
             {
                 "name": "Ragora",

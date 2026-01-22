@@ -286,3 +286,13 @@ function hasMinimumParty(quantity)
         return false
     end
 end
+
+function hasRanged()
+    if hasWakka() or hasLulu() then
+        return true
+    elseif hasYuna() and ((hasAeons(1) and not hasYojimbo()) or hasAeons(2)) then
+        return true
+    else
+        return false
+    end
+end

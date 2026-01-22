@@ -205,7 +205,7 @@
             },
             {
                 "name": "S.S. Liki",
-                "map_locations": [{ "map": "Spira", "x": 441, "y": 1000, "size": 24}],
+                "map_locations": [{ "map": "Spira", "x": 445, "y": 1000, "size": 24}],
                 "sections": [
                     {
                         "name": "Remedy x1 (Chest)",
@@ -1514,113 +1514,114 @@
             {
                 "name": "Monster Arena - Captures",
                 "map_locations": [{ "map": "Spira", "x": 785, "y": 185, "size": 24, "shape": "diamond"}],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
                         "name": "Besaid",
                         "hosted_item": "dingo, condor, waterflan",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Besaid"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Besaid/Island/Post-Village"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Kilika",
                         "hosted_item": "dinonix, killerbee, yellowelement, ragora",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Kilika"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Kilika"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Miihen Highroad",
                         "hosted_item": "miihenfang, floatingeye, whiteelement, raldo, bomb, dualhorn",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Miihen Highroad"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Miihen Highroad - Old Road",
-                        "hosted_item": "ipiria, vouivre",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad, @Miihen Highroad/North"],
+                        "hosted_item": "ipiria, vouivre, thunderflan",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Miihen Highroad/North"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Mushroom Rock Road",
-                        "hosted_item": "raptor, gandarewa, thunderflan, redelement, lamashtu, funguar, garuda",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Mushroom Rock Road"],
+                        "hosted_item": "bomb, floatingeye, dualhorn, ipiria, vouivre, raptor, gandarewa, thunderflan, redelement, lamashtu, funguar, garuda",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Mushroom Rock Road"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Djose Road",
-                        "hosted_item": "garm, simurgh, bitebug, snowflan, bunyip, basilisk",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
+                        "hosted_item": "raptor, gandarewa, lamashtu, funguar, garm, simurgh, bitebug, snowflan, bunyip, basilisk",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Djose"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Moonflow",
-                        "hosted_item": "ochu",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Moonflow"],
+                        "hosted_item": "gandarewa, garm, bitebug, bunyip, ochu",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Moonflow"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Thunder Plains",
                         "hosted_item": "melusine, aerouge, buer, goldelement, kusariqqu, larva, irongiant, qactuar",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Macalania Woods",
                         "hosted_item": "iguion, wasp, blueelement, murussu, xiphos, chimera",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Macalania"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Macalania"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Lake Macalania",
                         "hosted_item": "snowwolf, evileye, iceflan, mafdet",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Macalania, @Macalania/Lake"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Macalania/Lake"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Bikanel",
                         "hosted_item": "sandwolf, alcyone, mushussu, zu, sandworm, cactuar",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Bikanel"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Bikanel, zuboss, [$hasMinimumParty|3]"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Calm Lands",
                         "hosted_item": "skoll, nebiros, flameflan, shred, anacondaur, ogre, coeurl, chimerabrain, malboro",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Calm Lands"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Calm Lands"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Cavern of the Stolen Fayth",
-                        "hosted_item": "yowie, imp, darkelement, nidhogg, thorn, valaha, epaaj, ghost, tonberry",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Cavern of the Stolen Fayth"],
+                        "hosted_item": "coeurl, malboro, yowie, imp, darkelement, nidhogg, thorn, valaha, epaaj, ghost, tonberry",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Cavern of the Stolen Fayth"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Mt. Gagazet",
-                        "hosted_item": "bandersnatch, grenade, grat, bashura",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet"],
+                        "hosted_item": "imp, nidhogg, bandersnatch, grenade, grat, bashura",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Mt. Gagazet, biranyenke, [$hasMinimumParty|3]"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Mt. Gagazet - Caves",
                         "hosted_item": "ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet, @Mt. Gagazet/Inside"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Mt. Gagazet/Inside"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Inside Sin",
                         "hosted_item": "exoray, geminisword, geminiclub, adamantoise, behemothking",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Inside Sin"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Inside Sin - City of Dying Dreams",
                         "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin, @Inside Sin/City of Dying Dreams"],
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Inside Sin/City of Dying Dreams"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Omega Ruins",
-                        "hosted_item": "zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Omega Ruins"],
+                        "hosted_item": "geminisword, geminiclub, adamantoise, zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
+                        "access_rules": ["@Monster Arena/Fiend Capture, @Omega Ruins"],
                         "clear_as_group": false
                     }
                 ]

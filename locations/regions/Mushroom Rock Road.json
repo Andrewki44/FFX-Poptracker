@@ -133,7 +133,6 @@
                             },
                             {
                                 "name": "Sinspawn Gui 2",
-                                "access_rules": ["sinspawngui1"],
                                 "hosted_item": "sinspawngui",
                                 "clear_as_group": true
                             },
@@ -168,18 +167,74 @@
                                 "ref": "Celestial/Auron/Masamune"
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Monster Captures",
+                "map_locations": [{ "map": "Mushroom Rock Road", "x": 635, "y": 640, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
+                "visibility_rules": ["capturesanity"],
+                "sections": [
+                    {
+                        "name": "Bomb (5x Bomb)",
+                        "hosted_item": "bomb",
+                        "clear_as_group": false
                     },
                     {
-                        "name": "Monster Captures",
-                        "map_locations": [{ "map": "Mushroom Rock Road", "x": 635, "y": 640, "shape": "diamond"}],
-                        "sections": [
-                            {
-                                "name": "Mushroom Rock Road",
-                                "hosted_item": "raptor, gandarewa, thunderflan, redelement, lamashtu, funguar, garuda",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Mushroom Rock Road"],
-                                "clear_as_group": false
-                            }
-                        ]
+                        "name": "Floating Eye (4x Eye)",
+                        "hosted_item": "floatingeye",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Dual Horn (5x Ruminant)",
+                        "hosted_item": "dualhorn",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ipiria (3x Reptile)",
+                        "hosted_item": "ipiria",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Vouivre (5x Drake)",
+                        "hosted_item": "vouivre",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Raptor (3x Reptile)",
+                        "hosted_item": "raptor",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Gandarewa (5x Imp)",
+                        "hosted_item": "gandarewa",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Thunder Flan (3x Flan)",
+                        "hosted_item": "thunderflan",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Red Element (3x Elemental)",
+                        "hosted_item": "redelement",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Lamashtu (5x Drake)",
+                        "hosted_item": "lamashtu",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Funguar (5x Fungus)",
+                        "hosted_item": "funguar",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Garuda",
+                        "hosted_item": "garuda",
+                        "clear_as_group": false
                     }
                 ]
             }
