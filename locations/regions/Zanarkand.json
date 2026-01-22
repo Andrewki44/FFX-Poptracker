@@ -18,6 +18,39 @@
                         "name": "North Side, Left Alcove (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 255, "y": 1185}],
                         "sections": [{"name": "Spiritual Targe"}]
+                    }, 
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 300, "y": 225, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
+                        "visibility_rules": ["capturesanity"],
+                        "sections": [
+                            {
+                                "name": "Bashura",
+                                "hosted_item": "bashura",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Dark Flan (3x Flan)",
+                                "hosted_item": "darkflan",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Grendel (5x Ruminant)",
+                                "hosted_item": "grendel",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Mandragora",
+                                "hosted_item": "mandragora",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Behemoth",
+                                "hosted_item": "behemoth",
+                                "clear_as_group": false
+                            }
+                        ]
                     }
                 ]
             },

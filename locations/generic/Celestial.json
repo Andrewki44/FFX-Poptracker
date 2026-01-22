@@ -111,7 +111,7 @@
                     },
                     {
                         "name": "Mercury Crest",
-                        "access_rules": ["@Bikanel/Desert"]
+                        "access_rules": ["@Bikanel/Desert, zuboss, [$hasMinimumParty|3]"]
                     },
                     {
                         "name": "Mercury Sigil",

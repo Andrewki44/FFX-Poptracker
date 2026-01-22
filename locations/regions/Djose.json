@@ -140,42 +140,57 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Djose", "x": 90, "y": 105, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
+                        "name": "Raptor (3x Reptile)",
+                        "hosted_item": "raptor",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Gandarewa (5x Imp)",
+                        "hosted_item": "gandarewa",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Lamashtu (5x Drake)",
+                        "hosted_item": "lamashtu",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Funguar (5x Fungus)",
+                        "hosted_item": "funguar",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Garm (3x Wolf)",
                         "hosted_item": "garm",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Simurgh (5x Bird)",
                         "hosted_item": "simurgh",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Bite Bug (4x Hornet)",
                         "hosted_item": "bitebug",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Snow Flan (3x Flan)",
                         "hosted_item": "snowflan",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Bunyip (3x Helm)",
                         "hosted_item": "bunyip",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Basilisk",
                         "hosted_item": "basilisk",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
                         "clear_as_group": false
                     }
                 ]

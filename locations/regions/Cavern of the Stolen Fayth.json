@@ -67,9 +67,19 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 515, "y": 400, "shape": "diamond"}],
-                "access_rules": ["@Monster Arena/Fiend Capture/Cavern of the Stolen Fayth"],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
+                    {
+                        "name": "Coeurl",
+                        "hosted_item": "coeurl",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Malboro",
+                        "hosted_item": "malboro",
+                        "clear_as_group": false
+                    },
                     {
                         "name": "Yowie (3x Reptile)",
                         "hosted_item": "yowie",

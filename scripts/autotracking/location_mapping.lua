@@ -531,6 +531,7 @@ LOCATION_MAPPING = {
 	[8273] = {"@Monster Arena/Original Creation/Defeat/Ultima Buster", "ultimabuster"},
 	[8274] = {"@Monster Arena/Original Creation/Defeat/Shinryu", "shinryu"},
 	[8275] = {"@Monster Arena/Original Creation/Defeat/Nemesis", "nemesis"},
+	[8276] = {"@Bikanel/Desert/Oasis/Defeat Zu (Boss)/Zu", "zuboss"},
 	-- [12288] = {"@Party Member/Character/Tidus", "tiduslocation"},
 	[12289] = {"@Party Member/Character/Yuna", "yunalocation"},
 	[12290] = {"@Party Member/Character/Auron", "auronlocation"},

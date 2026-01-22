@@ -151,6 +151,16 @@
         "codes": "wendigo"
     },
     {
+        "name": "Zu",
+        "type": "toggle",
+        "img": "images/bosses/Zu.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "zuboss"
+    },
+    {
         "name": "Evrae",
         "type": "toggle",
         "img": "images/bosses/Evrae.png",

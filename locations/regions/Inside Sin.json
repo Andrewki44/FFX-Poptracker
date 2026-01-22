@@ -140,7 +140,7 @@
                     {
                         "name": "Monster Captures - City of Dying Dreams",
                         "map_locations": [{ "map": "Inside Sin", "x": 1000, "y": 760, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {

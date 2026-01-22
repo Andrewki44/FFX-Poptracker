@@ -119,7 +119,7 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Calm Lands", "x": 180, "y": 860, "shape": "diamond"}],
-                "access_rules": ["@Monster Arena/Fiend Capture/Calm Lands"],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {

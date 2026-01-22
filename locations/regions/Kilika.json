@@ -101,30 +101,27 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Kilika Village", "x": 780, "y": 425, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
                                 "name": "Dinonix (3x Reptile)",
                                 "hosted_item": "dinonix",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Kilika"],
                                 "clear_as_group": false
                             },
                             {
                                 "name": "Killer Bee (5x Wasp)",
                                 "hosted_item": "killerbee",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Kilika"],
                                 "clear_as_group": false
                             },
                             {
                                 "name": "Yellow Element (3x Elemental)",
                                 "hosted_item": "yellowelement",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Kilika"],
                                 "clear_as_group": false
                             },
                             {
                                 "name": "Ragora",
                                 "hosted_item": "ragora",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Kilika"],
                                 "clear_as_group": false
                             }
                         ]

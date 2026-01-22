@@ -75,9 +75,19 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 650, "y": 580, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet"],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
+                            {
+                                "name": "Imp (Imp x4)",
+                                "hosted_item": "imp",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Nidhogg (5x Drake)",
+                                "hosted_item": "nidhogg",
+                                "clear_as_group": false
+                            },
                             {
                                 "name": "Bandersnatch (3x Wolf)",
                                 "hosted_item": "bandersnatch",
@@ -144,7 +154,7 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 750, "y": 510, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture/Mt. Gagazet, @Mt. Gagazet/Inside"],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {

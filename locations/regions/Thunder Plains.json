@@ -116,54 +116,47 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Thunder Plains", "x": 360, "y": 430, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
                         "name": "Melusine (3x Reptile)",
                         "hosted_item": "melusine",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Aerouge (4x Imp)",
                         "hosted_item": "aerouge",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Buer (4x Eye)",
                         "hosted_item": "buer",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Gold Element (3x Elemental)",
                         "hosted_item": "goldelement",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Kusariqqu (5x Drake)",
                         "hosted_item": "kusariqqu",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Larva",
                         "hosted_item": "larva",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Iron Giant (10x Iron Clad)",
                         "hosted_item": "irongiant",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     },
                     {
                         "name": "Qactuar",
                         "hosted_item": "qactuar",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Thunder Plains"],
                         "clear_as_group": false
                     }
                 ]

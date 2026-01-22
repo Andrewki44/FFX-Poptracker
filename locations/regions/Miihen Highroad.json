@@ -176,12 +176,18 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Miihen Highroad", "x": 500, "y": 720, "shape": "diamond"}],
-                "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad"],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
                         "name": "Miihen Fang (3x Wolf)",
                         "hosted_item": "miihenfang",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ipiria (3x Reptile)",
+                        "access_rules": ["@Miihen Highroad/North"],
+                        "hosted_item": "ipiria",
                         "clear_as_group": false
                     },
                     {
@@ -200,6 +206,12 @@
                         "clear_as_group": false
                     },
                     {
+                        "name": "Vouivre (5x Drake)",
+                        "access_rules": ["@Miihen Highroad/North"],
+                        "hosted_item": "vouivre",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Bomb (5x Bomb)",
                         "hosted_item": "bomb",
                         "clear_as_group": false
@@ -208,23 +220,11 @@
                         "name": "Dual Horn (5x Ruminant)",
                         "hosted_item": "dualhorn",
                         "clear_as_group": false
-                    }
-                ]
-            },
-            {
-                "name": "Monster Captures - Old Road",
-                "map_locations": [{ "map": "Miihen Highroad", "x": 530, "y": 720, "shape": "diamond"}],
-                "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad, @Miihen Highroad/North"],
-                "visibility_rules": ["capturesanity"],
-                "sections": [
-                    {
-                        "name": "Ipiria (3x Reptile)",
-                        "hosted_item": "ipiria",
-                        "clear_as_group": false
                     },
                     {
-                        "name": "Vouivre (5x Drake)",
-                        "hosted_item": "vouivre",
+                        "name": "Thunder Flan (3x Flan)",
+                        "access_rules": ["@Miihen Highroad/North"],
+                        "hosted_item": "thunderflan",
                         "clear_as_group": false
                     }
                 ]

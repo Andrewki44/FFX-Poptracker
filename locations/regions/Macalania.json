@@ -137,7 +137,7 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Macalania Woods", "x": 620, "y": 230, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture/Macalania"],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
@@ -270,7 +270,7 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Lake Macalania", "x": 950, "y": 165, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture/Macalania, @Macalania/Lake"],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
