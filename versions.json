@@ -3,7 +3,7 @@
         {
             "package_version": "0.3.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
-            "sha256": "",
+            "sha256": "446103193d7f29e4c762e687e39aa19f9c39e37f271ccc879db1f1bf2fb328bd",
             "changelog": [
                 " - Full Capture Sanity Support",
                 " - - Monster Arena Map / Menu, for overview & per region",
@@ -12,7 +12,6 @@
                 " - - Access logic for Monster Arena rewards and boss fights",
                 " - - Custom logic for Original Creations",
                 " - - Capture auto-tracking from AP DataStorage",
-                " - - - Known Issue: Captures data syncs on fiend capture, so values may temporarily fall out of sync after a Game Over. Will re-sync on next capture",
                 " - Nemesis goal suppoort",
                 " - World Map updates for Monster Arena",
                 " - Added unique icons for boss & capture checks",
