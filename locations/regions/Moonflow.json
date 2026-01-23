@@ -111,6 +111,11 @@
                         "clear_as_group": false
                     },
                     {
+                        "name": "Funguar (5x Fungus)",
+                        "hosted_item": "funguar",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Garm (3x Wolf)",
                         "hosted_item": "garm",
                         "clear_as_group": false

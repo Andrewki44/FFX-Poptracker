@@ -1558,7 +1558,7 @@
                     },
                     {
                         "name": "Moonflow",
-                        "hosted_item": "gandarewa, garm, bitebug, snowflan, bunyip, ochu",
+                        "hosted_item": "gandarewa, funguar, garm, bitebug, snowflan, bunyip, ochu",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Moonflow"],
                         "clear_as_group": false
                     },
