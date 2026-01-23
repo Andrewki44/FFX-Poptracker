@@ -127,7 +127,7 @@
                         "map_locations": [{ "map": "Djose", "x": 200, "y": 400}],
                         "sections": [
                             {"name": "Potion x10"},
-                            {"name": "Recruit", "ref": "Blitzball Recruits/Kyou"}
+                            {"name": "Recruit: Kyou", "ref": "Blitzball Recruits/Kyou"}
                         ]
                     },
                     {
