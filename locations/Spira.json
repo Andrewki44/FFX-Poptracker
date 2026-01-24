@@ -1606,7 +1606,7 @@
                     },
                     {
                         "name": "Mt. Gagazet - Caves",
-                        "hosted_item": "ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
+                        "hosted_item": "bashura, ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Mt. Gagazet/Inside"],
                         "clear_as_group": false
                     },
