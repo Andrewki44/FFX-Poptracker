@@ -48,7 +48,7 @@
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Inside Sin", "x": 1000, "y": 760, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 980, "y": 760, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
@@ -139,28 +139,33 @@
                     },
                     {
                         "name": "Monster Captures - City of Dying Dreams",
-                        "map_locations": [{ "map": "Inside Sin", "x": 1000, "y": 760, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 1020, "y": 760, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
                                 "name": "Wraith",
-                                "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
+                                "hosted_item": "wraith",
                                 "clear_as_group": false
                             },
                             {
                                 "name": "Demonolith",
-                                "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
+                                "hosted_item": "demonolith",
                                 "clear_as_group": false
                             },
                             {
                                 "name": "Great Malboro",
-                                "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
+                                "hosted_item": "greatmalboro",
                                 "clear_as_group": false
                             },
                             {
                                 "name": "Barbatos",
-                                "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
+                                "hosted_item": "barbatos",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Varuna",
+                                "hosted_item": "varuna",
                                 "clear_as_group": false
                             }
                         ]

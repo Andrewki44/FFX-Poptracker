@@ -1618,7 +1618,7 @@
                     },
                     {
                         "name": "Inside Sin - City of Dying Dreams",
-                        "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
+                        "hosted_item": "wraith, demonolith, greatmalboro, barbatos, varuna",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Inside Sin/City of Dying Dreams"],
                         "clear_as_group": false
                     },
