@@ -1624,7 +1624,7 @@
                     },
                     {
                         "name": "Omega Ruins",
-                        "hosted_item": "geminisword, geminiclub, adamantoise demonolith, zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
+                        "hosted_item": "geminisword, geminiclub, adamantoise, demonolith, greatmalboro, zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Omega Ruins"],
                         "clear_as_group": false
                     }
