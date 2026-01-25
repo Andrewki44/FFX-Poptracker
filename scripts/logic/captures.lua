@@ -160,3 +160,45 @@ function CheckAllCreations()
     end
     return ACCESS_NORMAL
 end
+
+function CheckCaptures(fiend)
+    local capture = Tracker:FindObjectForCode(fiend)
+    local access = ACCESS_NONE
+
+    if (capture.AcquiredCount ~= 0) then
+        if (capture.AcquiredCount > 0) then
+            if (capture.AcquiredCount == 10) then
+                print(fiend .. " ACCESS = CLEARED")
+                return ACCESS_CLEARED
+            end
+            print(fiend .. " ACCESS = INSPECT")
+            return ACCESS_INSPECT
+        end
+        print(fiend .. " ACCESS = NONE")
+        return ACCESS_NONE
+    else
+        print(fiend .. " ACCESS = NORMAL")
+        return ACCESS_NORMAL
+    end
+end
+
+function CheckCaptures(fiends)
+    local access = ACCESS_NONE
+    
+    for fiend in ipairs(fiends) do
+        local capture = Tracker:FindObjectForCode(fiend)
+
+        if (capture.AcquiredCount >= 1) then
+            if (capture.AcquiredCount < 10) then
+                access = ACCESS_INSPECT
+                goto continue
+            end
+        end
+        
+        ::continue::
+    end
+    
+    
+
+    
+end

@@ -1578,6 +1578,7 @@
                         "name": "Lake Macalania",
                         "hosted_item": "snowwolf, evileye, iceflan, mafdet",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Macalania/Lake"],
+                        // "access_rules": ["@Monster Arena/Fiend Capture, @Macalania/Lake, ^$CheckCaptures|[snowwolf, evileye, iceflan, mafdet]"],
                         "clear_as_group": false
                     },
                     {
