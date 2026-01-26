@@ -97,25 +97,25 @@ function applySlotData(slot_data)
     end
 
     local creation_rewards = slot_data["creation_rewards"]
-    if (creation_rewards = 0) then
-        Tracker:FindObjectForCode("creationrewards").CurrentStage = 0
-    elseif (creation_rewards = 1) then
-        Tracker:FindObjectForCode("creationrewards").CurrentStage = 1
-    elseif (creation_rewards = 2) then
-        Tracker:FindObjectForCode("creationrewards").CurrentStage = 2
-    elseif (creation_rewards = 3) then
-        Tracker:FindObjectForCode("creationrewards").CurrentStage = 3
+    if (creation_rewards == 0) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 0
+    elseif (creation_rewards == 1) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 1
+    elseif (creation_rewards == 2) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 2
+    elseif (creation_rewards == 3) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 3
     end
 
     local arena_bosses = slot_data["arena_bosses"]
-    if (arena_bosses = 0) then
-        Tracker:FindObjectForCode("creationbosses").CurrentStage = 0
-    elseif (arena_bosses = 1) then
-        Tracker:FindObjectForCode("creationbosses").CurrentStage = 1
-    elseif (arena_bosses = 2) then
-        Tracker:FindObjectForCode("creationbosses").CurrentStage = 2
-    elseif (arena_bosses = 3) then
-        Tracker:FindObjectForCode("creationbosses").CurrentStage = 3
+    if (arena_bosses == 0) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 0
+    elseif (arena_bosses == 1) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 1
+    elseif (arena_bosses == 2) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 2
+    elseif (arena_bosses == 3) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 3
     end
 
     

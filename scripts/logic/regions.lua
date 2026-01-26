@@ -206,5 +206,16 @@ function CheckGoalRequirement()
         end
     end
 
-    return goal_access
+    if (primers > 0) then
+        if (Tracker:FindObjectForCode("albhedprimers").AcquiredCount >= primers) then
+            primer_condition = true
+        end
+    end
+
+    if (goal_condition and primer_condition) then
+        return ACCESS_NORMAL
+    else
+        return ACCESS_NONE
+    end
+    
 end

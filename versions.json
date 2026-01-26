@@ -3,7 +3,7 @@
         {
             "package_version": "0.3.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
-            "sha256": "12f6697e24e3131c55fda54b7e053829717f0fe58ffd2deb7417618cf6da4378",
+            "sha256": "401ef450c3f359840c845b6c3d125f0c1152cd566dc762d3173a4e3af4d9a2f5",
             "changelog": [
                 " - Full Capture Sanity Support",
                 " - - Monster Arena Map / Menu, for overview & per region",
@@ -12,7 +12,7 @@
                 " - - Access logic for Monster Arena rewards and boss fights",
                 " - - Custom logic for Original Creations",
                 " - - Capture auto-tracking from AP DataStorage",
-                " - Nemesis goal suppoort",
+                " - Nemesis goal support",
                 " - Al Bhed Primer goal support",
                 " - World Map updates for Monster Arena",
                 " - Added unique icons for boss & capture checks",
