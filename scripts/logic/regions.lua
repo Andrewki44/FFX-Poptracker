@@ -23,7 +23,7 @@ RegionDifficulty = {
     ["airshipsin"] = 16,
     ["sin"] = 16,
     ["omegaruins"] = 17,
-    ["creationbosses"] = 17,
+    ["arenabosses"] = 17,
     ["superbosses"] = 18,
 }
 
@@ -51,7 +51,7 @@ RegionOrder = {
     "airshipsin",
     "sin",
     "omegaruins",
-    "creationbosses",
+    "arenabosses",
     "superbosses",
 }
 
@@ -79,7 +79,7 @@ RegionAccessibility = {
     ["airshipsin"] = ACCESS_NONE,
     ["sin"] = ACCESS_NONE,
     ["omegaruins"] = ACCESS_NONE,
-    ["creationbosses"] = ACCESS_NONE,
+    ["arenabosses"] = ACCESS_NONE,
     ["superbosses"] = ACCESS_NONE,
 }
 
@@ -108,7 +108,7 @@ RegionAccessRegions = {
     ["airshipsin"] = {},
     ["sin"] = {},
     ["omegaruins"] = {},
-    ["creationbosses"] = {},
+    ["arenabosses"] = {},
     ["superbosses"] = {},
 }
 
@@ -143,7 +143,7 @@ function UpdateAccessLevels()
     for Index, Region in ipairs(RegionOrder) do
         -- print(Index .. " | " .. Region)
         -- Check for region item
-        if (Tracker:FindObjectForCode(Region).Active == true or Region == "superbosses" or Region == "creationbosses") then
+        if (Tracker:FindObjectForCode(Region).Active == true or Region == "superbosses" or Region == "arenabosses") then
             -- Has region item
             -- Difficulty < 5 --> Always have access
             if (RegionDifficulty[Region] < 5) then

@@ -80,26 +80,49 @@ end
 function applySlotData(slot_data)
     print("APPLY SLOT DATA")
 
-    local goal = slot_data["goal_requirement"]
-    print("GOAL: " .. goal)
-    if (goal == 0) then
+    local goal_requirement = slot_data["goal_requirement"]
+    print("GOAL: " .. goal_requirement)
+    if (goal_requirement == 0) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 0
-    elseif (goal == 1) then
+    elseif (goal_requirement == 1) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
         Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
-    elseif (goal == 2) then
+    elseif (goal_requirement == 2) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
-    elseif (goal == 3) then
+    elseif (goal_requirement == 3) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
         Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
-    elseif (goal == 4) then
+    elseif (goal_requirement == 4) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 4
     end
 
-    Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
+    local creation_rewards = slot_data["creation_rewards"]
+    if (creation_rewards = 0) then
+        Tracker:FindObjectForCode("creationrewards").CurrentStage = 0
+    elseif (creation_rewards = 1) then
+        Tracker:FindObjectForCode("creationrewards").CurrentStage = 1
+    elseif (creation_rewards = 2) then
+        Tracker:FindObjectForCode("creationrewards").CurrentStage = 2
+    elseif (creation_rewards = 3) then
+        Tracker:FindObjectForCode("creationrewards").CurrentStage = 3
+    end
+
+    local arena_bosses = slot_data["arena_bosses"]
+    if (arena_bosses = 0) then
+        Tracker:FindObjectForCode("creationbosses").CurrentStage = 0
+    elseif (arena_bosses = 1) then
+        Tracker:FindObjectForCode("creationbosses").CurrentStage = 1
+    elseif (arena_bosses = 2) then
+        Tracker:FindObjectForCode("creationbosses").CurrentStage = 2
+    elseif (arena_bosses = 3) then
+        Tracker:FindObjectForCode("creationbosses").CurrentStage = 3
+    end
+
+    
     Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
     Tracker:FindObjectForCode("recruitsanity").Active = slot_data["recruit_sanity"]
     Tracker:FindObjectForCode("capturesanity").Active = slot_data["capture_sanity"]
+    Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
     Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
 end
 

@@ -217,7 +217,7 @@
                     {
                         "name": "Nirvana",
                         "access_rules": ["@Calm Lands, @Monster Arena/Area Conquest/Creation Rewards/Calm Lands, celestialmirror"],
-                        "visibility_rules": ["capturesanity"]
+                        "visibility_rules": ["capturesanity, capturerewardsarea", "capturesanity, capturerewardsspecies", "capturesanity, capturerewardsoriginal"]
                     },
                     {
                         "name": "Moon Crest",

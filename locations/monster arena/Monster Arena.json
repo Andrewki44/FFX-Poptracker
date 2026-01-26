@@ -677,6 +677,7 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 915}],
+                        "visibility_rules": ["capturerewardsarea", "capturerewardsspecies", "capturerewardsoriginal"],
                         "sections": [
                             {
                                 "name": "Besaid",
@@ -774,8 +775,8 @@
                     {
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 915}],
-                        "access_rules": ["^$CheckAccessLevel|creationbosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["superbosses"],
+                        "access_rules": ["^$CheckAccessLevel|arenabosses, [$hasMinimumParty|3]"],
+                        "visibility_rules": ["capturebossesarea", "capturebossesspecies", "capturebossesriginal"],
                         "sections": [
                             {
                                 "name": "Stratoavis",
@@ -865,6 +866,7 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 580, "y": 1045}],
+                        "visibility_rules": ["capturerewardsspecies", "capturerewardsoriginal"],
                         "sections": [
                             {
                                 "name": "Wolf (3x)",
@@ -969,8 +971,8 @@
                     {
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 1045}],
-                        "access_rules": ["^$CheckAccessLevel|creationbosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["superbosses"],
+                        "access_rules": ["^$CheckAccessLevel|arenabosses, [$hasMinimumParty|3]"],
+                        "visibility_rules": ["capturebossesspecies", "capturebossesriginal"],
                         "sections": [
                             {
                                 "name": "Fenrir",
@@ -1066,6 +1068,7 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 1045}],
+                        "visibility_rules": ["capturerewardsoriginal"],
                         "sections": [
                             {
                                 "name": "Area Conquest x2",
@@ -1105,7 +1108,7 @@
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 1045}],
                         "access_rules": ["^$CheckAccessLevel|superbosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["superbosses"],
+                        "visibility_rules": ["capturebossesriginal"],
                         "sections": [
                             {
                                 "name": "Earth Eater",
