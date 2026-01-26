@@ -403,7 +403,7 @@ function onDataStorageUpdate(key, value, oldValue)
     if (key == ap_autotab and value ~= nil and Tracker:FindObjectForCode("autotab").Active) then
         autoTab(value)
     elseif (string.match(key, "Slot:" .. Archipelago.PlayerNumber .. ":FFX_CAPTURE_.*$") ~= nil and value ~= nil) then
-        updateCaptures(key, value, oldValue)
+        updateCaptures(key, value)
     end
 end
 

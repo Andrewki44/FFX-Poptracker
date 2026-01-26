@@ -1,5 +1,5 @@
 -- key = Slot:1:FFX_CAPTURE:54
-function updateCaptures(key, value, oldValue)
+function updateCaptures(key, value)
     local arena_idx = tonumber(string.match(key, "[^:]*:[^:]*:.*_(.*)"))
     local fiend = Tracker:FindObjectForCode(AllCaptures[arena_idx])
     

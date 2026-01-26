@@ -3,7 +3,7 @@
         {
             "package_version": "0.3.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
-            "sha256": "446103193d7f29e4c762e687e39aa19f9c39e37f271ccc879db1f1bf2fb328bd",
+            "sha256": "28c5fd183d15645e3ed2b8e5d7eff23a7ea123ded0647e0d7b9dacd20cb2fbe0",
             "changelog": [
                 " - Full Capture Sanity Support",
                 " - - Monster Arena Map / Menu, for overview & per region",
