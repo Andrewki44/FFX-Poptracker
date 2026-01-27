@@ -178,7 +178,7 @@ end
 
 function CheckGoalRequirement()
     local goal = Tracker:FindObjectForCode("goalrequirement").CurrentStage
-    local primers = Tracker:FindObjectForCode("primersrequires").AcquiredCount
+    local primers = Tracker:FindObjectForCode("requiredprimers").AcquiredCount
     local goal_condition = false
     local primer_condition = false
     
@@ -210,6 +210,8 @@ function CheckGoalRequirement()
         if (Tracker:FindObjectForCode("albhedprimers").AcquiredCount >= primers) then
             primer_condition = true
         end
+    else
+        primer_condition = true
     end
 
     if (goal_condition and primer_condition) then
