@@ -1,35 +1,31 @@
 [
     {
         "name": "Monster Arena - Thunder Plains",
-        "chest_unopened_img": "/images/Treasure.png",
-        "chest_opened_img": "/images/TreasureBW.png",
-        "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
         "children": [
             {
-                "name": "Melusine",
+                "name": "Melusine (3x Reptile)",
                 "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Melusine"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Melusine (3x Reptile)"}]
             },
             {
-                "name": "Aerouge",
+                "name": "Aerouge (4x Imp)",
                 "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Aerouge"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Aerouge (4x Imp)"}]
             },
             {
-                "name": "Buer",
+                "name": "Buer (4x Eye)",
                 "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Buer"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Buer (4x Eye)"}]
             },
             {
-                "name": "Gold Element",
+                "name": "Gold Element (3x Elemental)",
                 "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Gold Element"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Gold Element (3x Elemental)"}]
             },
             {
-                "name": "Kusariqqu",
+                "name": "Kusariqqu (5x Drake)",
                 "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Kusariqqu"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Kusariqqu (5x Drake)"}]
             },
             {
                 "name": "Larva",
@@ -37,9 +33,9 @@
                 "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Larva"}]
             },
             {
-                "name": "Iron Giant",
+                "name": "Iron Giant (10x Iron Clad)",
                 "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Iron Giant"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Iron Giant (10x Iron Clad)"}]
             },
             {
                 "name": "Qactuar",

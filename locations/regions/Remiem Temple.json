@@ -19,6 +19,7 @@
             {
                 "name": "Win Chocobo Race (Event)",
                 "map_locations": [{ "map": "Remiem Temple", "x": 195, "y": 60}],
+                "visibility_rules": ["minigames"],
                 "sections": [
                     {
                         "name": "Cloudy Mirror",

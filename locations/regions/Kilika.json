@@ -101,11 +101,27 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Kilika Village", "x": 780, "y": 425, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
+                        "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
-                                "name": "Kilika",
-                                "hosted_item": "dinonix, killerbee, yellowelement, ragora",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Kilika"],
+                                "name": "Dinonix (3x Reptile)",
+                                "hosted_item": "dinonix",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Killer Bee (5x Wasp)",
+                                "hosted_item": "killerbee",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Yellow Element (3x Elemental)",
+                                "hosted_item": "yellowelement",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Ragora",
+                                "hosted_item": "ragora",
                                 "clear_as_group": false
                             }
                         ]
@@ -118,12 +134,12 @@
                 "children": [
                     {
                         "name": "Blitzball Recruit",
-                        "map_locations": [{ "map": "Kilika Temple", "x": 140, "y": 815}],
+                        "map_locations": [{ "map": "Kilika Temple", "x": 140, "y": 465}],
                         "sections": [{"name": "Mep", "ref": "Blitzball Recruits/Mep"}]
                     },
                     {
                         "name": "Cloister of Trials",
-                        "map_locations": [{ "map": "Kilika Temple", "x": 675, "y": 835}],
+                        "map_locations": [{ "map": "Kilika Temple", "x": 560, "y": 140}],
                         "sections": [
                             {
                                 "name": "Destruction Sphere - Red Armlet",
@@ -135,7 +151,7 @@
                     },
                     {
                         "name": "Chamber of the Fayth",
-                        "map_locations": [{ "map": "Kilika Temple", "x": 588, "y": 415}],
+                        "map_locations": [{ "map": "Kilika Temple", "x": 675, "y": 375}],
                         "sections": [{"name": "Ifrit", "ref": "Party Member/Aeon/Ifrit"}]
                     }
                 ]

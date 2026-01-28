@@ -1,53 +1,5 @@
 [
     {
-        "name": "Super Bosses",
-        "type": "toggle",
-        "img": "images/items/hd/Support_use_item_HD.png",
-        "initial_active_state": false,
-        "codes": "superbosses"
-    },
-    {
-        "name": "Minigames",
-        "type": "toggle",
-        "img": "images/items/hd/Support_use_item_HD.png",
-        "initial_active_state": false,
-        "codes": "minigames"
-    },
-    {
-        "name": "Recruit Sanity",
-        "type": "toggle",
-        "img": "images/items/hd/Blitzball.png",
-        "initial_active_state": false,
-        "codes": "recruitsanity"
-    },
-    {
-        "name": "Capture Sanity",
-        "type": "toggle",
-        "img": "images/items/hd/Battle_Item_HD.png",
-        "initial_active_state": false,
-        "codes": "capturesanity"
-    },
-    {
-        "name": "Logic Difficulty",
-        "type": "consumable",
-        "img": "images/items/hd/Support_use_item_HD.png",
-        "min_quantity": 1,
-        "max_quantity": 10,
-        "increment": 1,
-        "initial_quantity": 3,
-        "codes": "logicdifficulty"
-    },
-    {
-        "name": "Required Party Members",
-        "type": "consumable",
-        "img": "images/items/hd/Support_use_item_HD.png",
-        "min_quantity": 0,
-        "max_quantity": 16,
-        "increment": 1,
-        "initial_quantity": 0,
-        "codes": "requiredpartymembers"
-    },
-    {
         "name": "Goal Requirement",
         "type": "progressive",
         "allow_disabled": false,
@@ -61,7 +13,7 @@
             },
             {
                 "name": "Party Members",
-                "img": "images/party/characters/Tidus.png",
+                "img": "images/party/characters/Tidus Portrait.png",
                 "codes": "goalpartymembers"
             },
             {
@@ -80,6 +32,122 @@
                 "codes": "goalnemesis"
             }
         ]
+    },
+    {
+        "name": "Required Party Members",
+        "type": "consumable",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "min_quantity": 0,
+        "max_quantity": 16,
+        "increment": 1,
+        "initial_quantity": 0,
+        "codes": "requiredpartymembers"
+    },
+    {
+        "name": "Required Al Bhed Primers",
+        "type": "consumable",
+        "img": "images/items/hd/Al Bhed Primer.png",
+        "min_quantity": 0,
+        "max_quantity": 26,
+        "increment": 1,
+        "initial_quantity": 0,
+        "codes": "requiredprimers"
+    },
+    {
+        "name": "Minigames",
+        "type": "toggle",
+        "img": "images/npc/Chocobo.png",
+        "initial_active_state": false,
+        "codes": "minigames"
+    },
+    {
+        "name": "Recruit Sanity",
+        "type": "toggle",
+        "img": "images/items/hd/Blitzball.png",
+        "initial_active_state": false,
+        "codes": "recruitsanity"
+    },
+    {
+        "name": "Capture Sanity",
+        "type": "toggle",
+        "img": "images/items/hd/Battle_Item_HD.png",
+        "initial_active_state": true,
+        "codes": "capturesanity"
+    },
+    {
+        "name": "Capture Rewards",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "capturerewards",
+        "stages": [
+            {
+                "name": "No Capture Rewards",
+                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "img_mods": "@disabled",
+                "codes": "capturerewardsnone"
+            },
+            {
+                "name": "Area Conquest Rewards",
+                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "codes": "capturerewardsarea"
+            },
+            {
+                "name": "Area & Species Conquest Rewards",
+                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "codes": "capturerewardsspecies"
+            },
+            {
+                "name": "Area, Species & Original Creations Rewards",
+                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "codes": "capturerewardsoriginal"
+            }
+        ]
+    },
+    {
+        "name": "Arena Bosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "capturebosses",
+        "stages": [
+            {
+                "name": "No Arena Bosses",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "img_mods": "@disabled",
+                "codes": "capturebossesnone"
+            },
+            {
+                "name": "Area Conquest Bosses",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "codes": "capturebossesarea"
+            },
+            {
+                "name": "Area & Species Conquest Bosses",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "codes": "capturebossesspecies"
+            },
+            {
+                "name": "Area, Species & Original Creations Bosses",
+                "img": "images/items/hd/Battle_Item_HD.png",
+                "codes": "capturebossesriginal"
+            }
+        ]    
+    },
+    {
+        "name": "Super Bosses",
+        "type": "toggle",
+        "img": "images/items/hd/Crossed Swords.png",
+        "initial_active_state": false,
+        "codes": "superbosses"
+    },
+    {
+        "name": "Logic Difficulty",
+        "type": "consumable",
+        "img": "images/items/hd/Support_use_item_HD.png",
+        "min_quantity": 1,
+        "max_quantity": 10,
+        "increment": 1,
+        "initial_quantity": 3,
+        "codes": "logicdifficulty"
     },
     {
         "name": "Auto Tab",

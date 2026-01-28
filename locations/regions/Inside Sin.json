@@ -45,6 +45,39 @@
                                 "clear_as_group": true
                             }
                         ]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Inside Sin", "x": 980, "y": 760, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
+                        "visibility_rules": ["capturesanity"],
+                        "sections": [
+                            {
+                                "name": "Exoray (5x Fungus)",
+                                "hosted_item": "exoray",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Gemini (Sword) (10x Iron Giant)",
+                                "hosted_item": "geminisword",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Gemini (Club) (10x Iron Giant)",
+                                "hosted_item": "geminiclub",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Adamantoise",
+                                "hosted_item": "adamantoise",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Behemoth King",
+                                "hosted_item": "behemothking",
+                                "clear_as_group": false
+                            }
+                        ]
                     }
                 ]
             },
@@ -103,24 +136,34 @@
                                 "clear_as_group": true
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "name": "Monster Captures",
-                "map_locations": [{ "map": "Inside Sin", "x": 1000, "y": 760, "shape": "diamond"}],
-                "sections": [
-                    {
-                        "name": "Sea of Sorrows",
-                        "hosted_item": "exoray, geminisword, geminiclub, adamantoise, behemothking",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
-                        "clear_as_group": false
                     },
                     {
-                        "name": "City of Dying Dreams",
-                        "hosted_item": "wraith, demonolith, greatmalboro, barbatos",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin, @Inside Sin/City of Dying Dreams"],
-                        "clear_as_group": false
+                        "name": "Monster Captures - City of Dying Dreams",
+                        "map_locations": [{ "map": "Inside Sin", "x": 1020, "y": 760, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture"],
+                        "visibility_rules": ["capturesanity"],
+                        "sections": [
+                            {
+                                "name": "Wraith",
+                                "hosted_item": "wraith",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Demonolith",
+                                "hosted_item": "demonolith",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Great Malboro",
+                                "hosted_item": "greatmalboro",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Barbatos",
+                                "hosted_item": "barbatos",
+                                "clear_as_group": false
+                            }
+                        ]
                     }
                 ]
             }

@@ -104,7 +104,12 @@
                     {
                         "name": "Behind Desk (Chest)",
                         "map_locations": [{ "map": "Djose", "x": 549, "y": 505}],
-                        "sections": [{"name": "Switch Hitter"}]
+                        "sections": [
+                            {
+                                "name": "Switch Hitter",
+                                "access_rules": ["djosecloister"]
+                            }
+                        ]
                     }
                 ]
             },
@@ -119,15 +124,15 @@
                     },
                     {
                         "name": "South End, Silver & Purple Armor (NPC)",
-                        "map_locations": [{ "map": "Djose", "x": 200, "y": 400}],
+                        "map_locations": [{ "map": "Djose", "x": 170, "y": 490}],
                         "sections": [
                             {"name": "Potion x10"},
-                            {"name": "Recruit", "ref": "Blitzball Recruits/Kyou"}
+                            {"name": "Recruit: Kyou", "ref": "Blitzball Recruits/Kyou"}
                         ]
                     },
                     {
                         "name": "Monk Pacing Along Bridge (NPC)",
-                        "map_locations": [{ "map": "Djose", "x": 170, "y": 490}],
+                        "map_locations": [{ "map": "Djose", "x": 200, "y": 400}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     }
                 ]
@@ -135,11 +140,57 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Djose", "x": 90, "y": 105, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Djose",
-                        "hosted_item": "garm, simurgh, bitebug, snowflan, bunyip, basilisk",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Djose Road, @Djose"],
+                        "name": "Raptor (3x Reptile)",
+                        "hosted_item": "raptor",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Gandarewa (5x Imp)",
+                        "hosted_item": "gandarewa",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Lamashtu (5x Drake)",
+                        "hosted_item": "lamashtu",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Funguar (5x Fungus)",
+                        "hosted_item": "funguar",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Garm (3x Wolf)",
+                        "hosted_item": "garm",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Simurgh (5x Bird)",
+                        "hosted_item": "simurgh",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Bite Bug (4x Hornet)",
+                        "hosted_item": "bitebug",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Snow Flan (3x Flan)",
+                        "hosted_item": "snowflan",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Bunyip (3x Helm)",
+                        "hosted_item": "bunyip",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Basilisk",
+                        "hosted_item": "basilisk",
                         "clear_as_group": false
                     }
                 ]

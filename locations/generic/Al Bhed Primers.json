@@ -1,8 +1,8 @@
 [
     {
         "name": "Al Bhed Primers",
-        "chest_unopened_img": "/images/items/hd/Al_Bhed_Primer_HD.png",
-        "chest_opened_img": "/images/items/hd/Al_Bhed_Primer_HD_BW.png",
+        "chest_unopened_img": "/images/items/hd/Al Bhed Primer.png",
+        "chest_opened_img": "/images/items/hd/Al Bhed Primer BW.png",
         "overlay_background": "#000000",
         "sections": [
             {
@@ -27,7 +27,7 @@
                 "name": "Al Bhed Primer III",
                 "sections": [
                     {"name": "S.S. Liki", "access_rules": ["@S.S. Liki"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/Oasis"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/Oasis, zuboss, [$hasMinimumParty|3]"]}
                 ]
             },
             {
@@ -39,7 +39,7 @@
                 "name": "Al Bhed Primer V",
                 "sections": [
                     {"name": "S.S. Winno", "access_rules": ["@S.S. Winno"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/East"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/East, zuboss, [$hasMinimumParty|3]"]}
                 ]
             },
             {
@@ -86,7 +86,7 @@
                 "name": "Al Bhed Primer XIV",
                 "sections": [
                     {"name": "Thunder Plains", "access_rules": ["@Thunder Plains/Agency"]},
-                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/East"]}
+                    {"name": "Bikanel", "access_rules": ["@Bikanel/Desert/East, zuboss, [$hasMinimumParty|3]"]}
                 ]
             },
             {
@@ -101,12 +101,12 @@
             },
             {
                 "name": "Al Bhed Primer XVII",
-                "access_rules": ["@Bikanel/Desert"],
+                "access_rules": ["@Bikanel/Desert, zuboss, [$hasMinimumParty|3]"],
                 "sections": [{"name": "Bikanel"}]
             },
             {
                 "name": "Al Bhed Primer XVIII",
-                "access_rules": ["@Bikanel/Desert"],
+                "access_rules": ["@Bikanel/Desert, zuboss, [$hasMinimumParty|3]"],
                 "sections": [{"name": "Bikanel"}]
             },
             {

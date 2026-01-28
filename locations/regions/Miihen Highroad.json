@@ -107,7 +107,7 @@
                     },
                     {
                         "name": "Blitzball Recruit",
-                        "map_locations": [{ "map": "Miihen Highroad", "x": 365, "y": 290}],
+                        "map_locations": [{ "map": "Miihen Highroad", "x": 365, "y": 270}],
                         "sections": [{"name": "Ropp", "ref": "Blitzball Recruits/Ropp"}]
                     },
                     {
@@ -176,23 +176,55 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Miihen Highroad", "x": 500, "y": 720, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Miihen Highroad",
-                        "hosted_item": "miihenfang, floatingeye, whiteelement, raldo, bomb, dualhorn",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad"],
+                        "name": "Miihen Fang (3x Wolf)",
+                        "hosted_item": "miihenfang",
                         "clear_as_group": false
-                    }
-                ]
-            },
-            {
-                "name": "Monster Captures",
-                "map_locations": [{ "map": "Miihen Highroad", "x": 530, "y": 720, "shape": "diamond"}],
-                "sections": [
+                    },
                     {
-                        "name": "Miihen Highroad - Old Road",
-                        "hosted_item": "ipiria, vouivre",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Miihen Highroad, @Miihen Highroad/North"],
+                        "name": "Ipiria (3x Reptile)",
+                        "access_rules": ["@Miihen Highroad/North"],
+                        "hosted_item": "ipiria",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Floating Eye (4x Eye)",
+                        "hosted_item": "floatingeye",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "White Element (3x Elemental)",
+                        "hosted_item": "whiteelement",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Raldo (3x Armoured)",
+                        "hosted_item": "raldo",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Vouivre (5x Drake)",
+                        "access_rules": ["@Miihen Highroad/North"],
+                        "hosted_item": "vouivre",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Bomb (5x Bomb)",
+                        "hosted_item": "bomb",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Dual Horn (5x Ruminant)",
+                        "hosted_item": "dualhorn",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Thunder Flan (3x Flan)",
+                        "access_rules": ["@Miihen Highroad/North"],
+                        "hosted_item": "thunderflan",
                         "clear_as_group": false
                     }
                 ]

@@ -74,6 +74,7 @@
             {
                 "name": "Monster Arena",
                 "map_locations": [{ "map": "Calm Lands", "x": 1060, "y": 600}],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
                         "name": "Nirvana (Arena Conquest - Calm Lands)",
@@ -95,15 +96,15 @@
                             },
                             {
                                 "name": "Dodger Chocobo Minigame (Event)",
-                                "access_rules": ["[minigames]"]
+                                "visibility_rules": ["minigames"]
                             },
                             {
                                 "name": "Hyper Dodger Chocobo Minigame (Event)",
-                                "access_rules": ["[minigames]"]
+                                "visibility_rules": ["minigames"]
                             },
                             {
                                 "name": "Catcher Chocobo Minigame (Event)",
-                                "access_rules": ["[minigames]"],
+                                "visibility_rules": ["minigames"],
                                 "hosted_item": "chocobocatcher",
                                 "clear_as_group": true
                             },
@@ -118,11 +119,52 @@
             {
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Calm Lands", "x": 180, "y": 860, "shape": "diamond"}],
+                "access_rules": ["@Monster Arena/Fiend Capture"],
+                "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
-                        "name": "Calm Lands",
-                        "hosted_item": "skoll, nebiros, flameflan, shred, anacondaur, ogre, coeurl, chimerabrain, malboro",
-                        "access_rules": ["@Monster Arena/Fiend Capture/Calm Lands"],
+                        "name": "Skoll (3x Wolf)",
+                        "hosted_item": "skoll",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Nebiros (4x Wasp)",
+                        "hosted_item": "nebiros",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Flame Flan (3x Flan)",
+                        "hosted_item": "flameflan",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shred (3x Helm)",
+                        "hosted_item": "shred",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Anacondaur",
+                        "hosted_item": "anacondaur",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ogre",
+                        "hosted_item": "ogre",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Coeurl",
+                        "hosted_item": "coeurl",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Chimera Brain",
+                        "hosted_item": "chimerabrain",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Malboro",
+                        "hosted_item": "malboro",
                         "clear_as_group": false
                     }
                 ]

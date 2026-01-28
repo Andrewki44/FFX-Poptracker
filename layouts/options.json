@@ -20,67 +20,52 @@
         "orientation": "vertical",
         "margin": "0, 0",
         "content": [
+            {
+                "type": "group",
+                "header": "Goal requirements",
+                "dock": "bottom",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "4, 4",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 48,
+                    "item_width": 48,
+                    "rows": [["goalrequirement", "requiredpartymembers", "requiredprimers"]]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Sanities",
+                "dock": "bottom",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "4, 4",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 48,
+                    "item_width": 48,
+                    "rows": [["minigames", "recruitsanity", "capturesanity", "capturerewards"]]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Bosses",
+                "dock": "bottom",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "4, 4",
+                    "h_alignment": "left",
+                    "item_h_alignment": "center",
+                    "item_v_alignment": "center",
+                    "item_height": 48,
+                    "item_width": 48,
+                    "rows": [["capturebosses", "superbosses"]]
+                }
+            },
             
-            {
-                "type": "group",
-                "header": "Super Bosses",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["superbosses"]]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Minigames",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["minigames"]]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Recruit Sanity",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["recruitsanity"]]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Capture Sanity",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["capturesanity"]]
-                }
-            },
             {
                 "type": "group",
                 "header": "Logic Difficulty",
@@ -96,36 +81,7 @@
                     "rows": [["logicdifficulty"]]
                 }
             },
-            {
-                "type": "group",
-                "header": "Goal requirement",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["goalpartymembers"]]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Required Party Members",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["requiredpartymembers"]]
-                }
-            },
+            
             {
                 "type": "group",
                 "header": "Auto Tabbing",

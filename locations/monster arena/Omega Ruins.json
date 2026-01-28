@@ -1,35 +1,31 @@
 [
     {
         "name": "Monster Arena - Omega Ruins",
-        "chest_unopened_img": "/images/Treasure.png",
-        "chest_opened_img": "/images/TreasureBW.png",
-        "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|calmlands, [capturesanity]"],
         "children": [
             {
-                "name": "Zaurus",
+                "name": "Zaurus (3x Reptile)",
                 "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Zaurus"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Zaurus (3x Reptile)"}]
             },
             {
-                "name": "Floating Death",
+                "name": "Floating Death (4x Eye)",
                 "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Floating Death"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Floating Death (4x Eye)"}]
             },
             {
-                "name": "Black Element",
+                "name": "Black Element (3x Elemental)",
                 "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Black Element"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Black Element (3x Elemental)"}]
             },
             {
-                "name": "Halma",
+                "name": "Halma (3x Helm)",
                 "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Halma"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Halma (3x Helm)"}]
             },
             {
-                "name": "Puroboros",
+                "name": "Puroboros (5x Bomb)",
                 "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Puroboros"}]
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Puroboros (5x Bomb)"}]
             },
             {
                 "name": "Spirit",

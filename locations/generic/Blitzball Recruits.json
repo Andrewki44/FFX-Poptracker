@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/items/hd/Blitzball.png",
         "chest_opened_img": "/images/items/hd/Blitzball_BW.png",
         "overlay_background": "#000000",
-        "access_rules": ["[recruitsanity]"],
+        "visibility_rules": ["recruitsanity"],
         "sections": [
             {
                 "name": "Biggs",

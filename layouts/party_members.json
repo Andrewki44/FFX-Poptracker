@@ -1,76 +1,48 @@
 {
     "party_members_horizontal": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0, 0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0, 0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "4, 2",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
-                        "item_height": 40,
-                        "item_width": 40,
-                        "rows": [
-                            [
-                                "partymember:tidus",
-                                "partymember:wakka",
-                                "partymember:lulu",
-                                "partymember:yuna"
-                            ],
-                            [
-                                "partymember:kimahri",
-                                "partymember:auron",
-                                "partymember:rikku",
-                                "partymember:seymour"
-                            ]
-                        ]
-                    }
-                ]
-            }
+        "type": "itemgrid",
+        "item_margin": "1, 0",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 48,
+        "item_width": 48,
+        "rows": [
+            [
+                "partymember:tidus",
+                "partymember:wakka",
+                "partymember:lulu",
+                "partymember:yuna"
+            ],
+            [
+                "partymember:kimahri",
+                "partymember:auron",
+                "partymember:rikku",
+                "partymember:seymour"
+            ]
         ]
-    },
+    },    
     "aeons_horizontal": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0, 0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0, 0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "4, 2",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
-                        "item_height": 40,
-                        "item_width": 40,
-                        "rows": [
-                            [
-                                "partymember:valefor",
-                                "partymember:ifrit",
-                                "partymember:ixion",
-                                "partymember:shiva"
-                            ],
-                            [
-                                "partymember:bahamut",
-                                "partymember:yojimbo",
-                                "partymember:anima",
-                                "partymember:magussisters"
-                            ]
-                        ]
-                    }
-                ]
-            }
+        "type": "itemgrid",
+        "item_margin": "4, 2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 40,
+        "item_width": 40,
+        "rows": [
+            [
+                "partymember:valefor",
+                "partymember:ifrit",
+                "partymember:ixion",
+                "partymember:shiva"
+            ],
+            [
+                "partymember:bahamut",
+                "partymember:yojimbo",
+                "partymember:anima",
+                "partymember:magussisters"
+            ]
         ]
     }
 }

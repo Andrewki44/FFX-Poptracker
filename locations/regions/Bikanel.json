@@ -28,8 +28,21 @@
                                 ]
                             },
                             {
+                                "name": "Defeat Zu",
+                                "map_locations": [{ "map": "Bikanel", "x": 1180, "y": 990, "shape": "diamond", "size": 32}],
+                                "access_rules": ["[$hasMinimumParty|3]"],
+                                "sections": [
+                                    {
+                                        "name": "This doesn't send a check",
+                                        "hosted_item": "zuboss",
+                                        "clear_as_group": true
+                                    }
+                                ]
+                            },
+                            {
                                 "name": "Next to Tent (Chest & Primer)",
                                 "map_locations": [{ "map": "Bikanel", "x": 1000, "y": 740}],
+                                "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                                 "sections": [
                                     {"name": "Al Bhed Potion x8"},
                                     {
@@ -42,6 +55,7 @@
                     },
                     {
                         "name": "East",
+                        "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "Behind Machinery Near Kimahri (Primer)",
@@ -80,6 +94,7 @@
                     },
                     {
                         "name": "Central",
+                        "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "Structure Southeast of Save Sphere (Chest)",
@@ -138,6 +153,7 @@
                     },
                     {
                         "name": "West",
+                        "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                         "children": [
                             {
                                 "name": "Left Sinkhole on Main Path (Chest)",
@@ -182,11 +198,37 @@
                     {
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Bikanel", "x": 220, "y": 1070, "shape": "diamond"}],
+                        "access_rules": ["@Monster Arena/Fiend Capture, zuboss, [$hasMinimumParty|3]"],
+                        "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
-                                "name": "Bikanel",
-                                "hosted_item": "sandwolf, alcyone, mushussu, zu, sandworm, cactuar",
-                                "access_rules": ["@Monster Arena/Fiend Capture/Bikanel"],
+                                "name": "Sand Wolf (3x Wolf)",
+                                "hosted_item": "sandwolf",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Alcyone (5x Bird)",
+                                "hosted_item": "alcyone",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Mushussu (5x Drake)",
+                                "hosted_item": "mushussu",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Zu",
+                                "hosted_item": "zu",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Sand Worm",
+                                "hosted_item": "sandworm",
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Cactuar",
+                                "hosted_item": "cactuar",
                                 "clear_as_group": false
                             }
                         ]
@@ -195,6 +237,7 @@
             },
             {
                 "name": "Home",
+                "access_rules": ["[$hasMinimumParty|3]"],
                 "children": [
                     {
                         "name": "Keyakku, on Ground (NPC)",
@@ -254,9 +297,24 @@
                         "name": "Area Completion",
                         "map_locations": [{ "map": "Home", "x": 300, "y": 115}],
                         "sections": [
-                            {"name": "Lv. 2 Key Sphere x1"},
-                            {"name": "Lv. 4 Key Sphere x4"},
-                            {"name": "10000 gil"}
+                            {
+                                "name": "Lv. 2 Key Sphere x1",
+                                "hosted_item": "homecompletion1",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Lv. 4 Key Sphere x4",
+                                "hosted_item": "homecompletion2",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "10000 gil",
+                                "hosted_item": "homecompletion3",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
                         ]
                     }
                 ]

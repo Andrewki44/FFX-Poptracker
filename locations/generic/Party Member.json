@@ -63,7 +63,7 @@
                 "sections": [
                     {
                         "name": "Auron",
-                        "access_rules": ["@Luca, oblitzerator"],
+                        "access_rules": ["@Luca, oblitzerator, [$hasMinimumParty|3]"],
                         "hosted_item": "auronlocation",
                         "clear_as_group": true
                     },
@@ -75,7 +75,7 @@
                     },
                     {
                         "name": "Lulu",
-                        "access_rules": ["@Besaid/Island"],
+                        "access_rules": ["@Besaid/Island, map"],
                         "hosted_item": "lululocation",
                         "clear_as_group": true
                     },
@@ -105,7 +105,7 @@
                     },
                     {
                         "name": "Yuna",
-                        "access_rules": ["@Besaid/Island"],
+                        "access_rules": ["@Besaid/Island, map"],
                         "hosted_item": "yunalocation",
                         "clear_as_group": true
                     }
