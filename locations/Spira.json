@@ -1050,6 +1050,22 @@
                         "ref": "Celestial/General/Celestial Mirror"
                     },
                     {
+                        "name": "Tidus - Caladbolg Crest Upgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Sigil Upgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Crest Upgrade",
+                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Sigil Upgrade",
+                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
+                    },
+                    {
                         "name": "Auron - Masamune Crest Upgrade",
                         "ref": "Celestial/Auron/Masamune Crest Upgrade"
                     },
@@ -1066,6 +1082,14 @@
                         "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
                     },
                     {
+                        "name": "Wakka - World Champion Crest Upgrade",
+                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
+                    },
+                    {
+                        "name": "Wakka - World Champion Sigil Upgrade",
+                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
+                    },
+                    {
                         "name": "Lulu - Onion Knight Crest Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
                     },
@@ -1080,30 +1104,6 @@
                     {
                         "name": "Rikku - Godhand Sigil Upgrade",
                         "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
-                    },
-                    {
-                        "name": "Tidus - Caladbolg Crest Upgrade",
-                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
-                    },
-                    {
-                        "name": "Tidus - Caladbolg Sigil Upgrade",
-                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
-                    },
-                    {
-                        "name": "Wakka - World Champion Crest Upgrade",
-                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
-                    },
-                    {
-                        "name": "Wakka - World Champion Sigil Upgrade",
-                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
-                    },
-                    {
-                        "name": "Yuna - Nirvana Crest Upgrade",
-                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
-                    },
-                    {
-                        "name": "Yuna - Nirvana Sigil Upgrade",
-                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
                     }
                 ]
             },
@@ -1118,6 +1118,10 @@
                     {
                         "name": "Bikanel Oasis - Al Bhed Primer I",
                         "ref": "Al Bhed Primers/Al Bhed Primer I/Bikanel"
+                    },
+                    {
+                        "name": "Bikanel Oasis - Zu",
+                        "ref": "Bikanel/Desert/Oasis/Defeat Zu (Boss)/Zu"
                     },
                     {
                         "name": "Bikanel Oasis - Al Bhed Potion x8",
@@ -1314,10 +1318,6 @@
                     {
                         "name": "Roof - Overdrive Sin",
                         "ref": "Airship/Roof (Bosses)/Overdrive Sin"
-                    },
-                    {
-                        "name": "Super Bosses - Penance",
-                        "ref": "Super Bosses/Penance"
                     }
                 ]
             },
@@ -1554,7 +1554,7 @@
                     },
                     {
                         "name": "Moonflow",
-                        "hosted_item": "gandarewa, garm, bitebug, bunyip, ochu",
+                        "hosted_item": "gandarewa, funguar, garm, bitebug, snowflan, bunyip, ochu",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Moonflow"],
                         "clear_as_group": false
                     },
@@ -1602,7 +1602,7 @@
                     },
                     {
                         "name": "Mt. Gagazet - Caves",
-                        "hosted_item": "ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
+                        "hosted_item": "bashura, ahriman, darkflan, grendel, mandragora, behemoth, splasher, achelous, maelspike",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Mt. Gagazet/Inside"],
                         "clear_as_group": false
                     },
@@ -1620,7 +1620,7 @@
                     },
                     {
                         "name": "Omega Ruins",
-                        "hosted_item": "geminisword, geminiclub, adamantoise, zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
+                        "hosted_item": "geminisword, geminiclub, adamantoise, demonolith, greatmalboro, zaurus, floatingdeath, blackelement, halma, puroboros, spirit, machea, mastercoeurl, mastertonberry, varuna",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Omega Ruins"],
                         "clear_as_group": false
                     }

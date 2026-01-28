@@ -3,6 +3,7 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/auto_tabbing")
 require("scripts/autotracking/capture_tracking")
+require("scripts/autotracking/battle_tracking")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -80,26 +81,50 @@ end
 function applySlotData(slot_data)
     print("APPLY SLOT DATA")
 
-    local goal = slot_data["goal_requirement"]
-    print("GOAL: " .. goal)
-    if (goal == 0) then
+    local goal_requirement = slot_data["goal_requirement"]
+    print("GOAL: " .. goal_requirement)
+    if (goal_requirement == 0) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 0
-    elseif (goal == 1) then
+    elseif (goal_requirement == 1) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
         Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
-    elseif (goal == 2) then
+    elseif (goal_requirement == 2) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
-    elseif (goal == 3) then
+    elseif (goal_requirement == 3) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 3
         Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
-    elseif (goal == 4) then
+    elseif (goal_requirement == 4) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 4
     end
 
-    Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
+    local creation_rewards = slot_data["creation_rewards"]
+    if (creation_rewards == 0) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 0
+    elseif (creation_rewards == 1) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 1
+    elseif (creation_rewards == 2) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 2
+    elseif (creation_rewards == 3) then
+        Tracker:FindObjectForCode("capturerewards").CurrentStage = 3
+    end
+
+    local arena_bosses = slot_data["arena_bosses"]
+    if (arena_bosses == 0) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 0
+    elseif (arena_bosses == 1) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 1
+    elseif (arena_bosses == 2) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 2
+    elseif (arena_bosses == 3) then
+        Tracker:FindObjectForCode("capturebosses").CurrentStage = 3
+    end
+
+    
+    Tracker:FindObjectForCode("requiredprimers").AcquiredCount = slot_data["required_primers"]
     Tracker:FindObjectForCode("minigames").Active = slot_data["mini_games"]
     Tracker:FindObjectForCode("recruitsanity").Active = slot_data["recruit_sanity"]
     Tracker:FindObjectForCode("capturesanity").Active = slot_data["capture_sanity"]
+    Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
     Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
 end
 
@@ -160,29 +185,30 @@ function onClear(slot_data)
         end
     end
 
-    applySlotData(slot_data)
-
-    ap_autotab = "Slot:" .. Archipelago.PlayerNumber .. ":FFX_ROOM"
-    print("Setting Notify for: "..ap_autotab)
-    Archipelago:SetNotify({ap_autotab})
-    Archipelago:Get({ap_autotab})
-
-    -- ap_captures = {}
-    for i = 0, 103 do
-        ap_captures = "Slot:" .. Archipelago.PlayerNumber .. ":FFX_CAPTURE_" .. i
-        Archipelago:SetNotify({ap_captures})
-        Archipelago:Get({ap_captures})
-    end
-    print("Setting Notify for: Slot:" .. Archipelago.PlayerNumber .. ":FFX_CAPTURE")
-
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     autoFill(slot_data)
-    -- end
-    -- print(PLAYER_ID, TEAM_NUMBER)
+
     if Archipelago.PlayerNumber > -1 then
+        applySlotData(SLOT_DATA)
+        
+        ap_autotab = "Slot:" .. PLAYER_ID .. ":FFX_ROOM"
+        print("Setting Notify for: "..ap_autotab)
+        Archipelago:SetNotify({ap_autotab})
+        Archipelago:Get({ap_autotab})
+
+        for i = 0, 103 do
+            ap_captures = "Slot:" .. PLAYER_ID .. ":FFX_CAPTURE_" .. i
+            Archipelago:SetNotify({ap_captures})
+            Archipelago:Get({ap_captures})
+        end
+        print("Setting Notify for: Slot:" .. PLAYER_ID .. ":FFX_CAPTURE")
+        
+        ap_logic_zu = "Slot:" .. PLAYER_ID .. ":FFX_LOGIC_ZU"
+        Archipelago:SetNotify({ap_logic_zu})
+        Archipelago:Get({ap_logic_zu})
+        print("Setting Notify for: " .. ap_logic_zu)
+
         if #ALL_LOCATIONS > 0 then
             ALL_LOCATIONS = {}
         end
@@ -380,7 +406,9 @@ function onDataStorageUpdate(key, value, oldValue)
     if (key == ap_autotab and value ~= nil and Tracker:FindObjectForCode("autotab").Active) then
         autoTab(value)
     elseif (string.match(key, "Slot:" .. Archipelago.PlayerNumber .. ":FFX_CAPTURE_.*$") ~= nil and value ~= nil) then
-        updateCaptures(key, value, oldValue)
+        updateCaptures(key, value)
+    elseif (key == ap_logic_zu and value ~= nil) then
+        updateBattleLogic("zu", value)
     end
 end
 

@@ -14,6 +14,16 @@
         "codes": "dingo"
     },
     {
+        "name": "Dingo Complete",
+        "type": "toggle",
+        "img": "images/fiends/Dingo.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "dingocomplete"
+    },
+    {
         "name": "Condor",
         "type": "consumable",
         "img": "images/fiends/Condor.png",
@@ -27,6 +37,16 @@
         "codes": "condor"
     },
     {
+        "name": "Condor Complete",
+        "type": "toggle",
+        "img": "images/fiends/Condor.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "condorcomplete"
+    },
+    {
         "name": "Water Flan",
         "type": "consumable",
         "img": "images/fiends/Water Flan.png",
@@ -38,6 +58,16 @@
         "increment": 1,
         "initial_quantity": 0,
         "codes": "waterflan"
+    },
+    {
+        "name": "Water Flan Complete",
+        "type": "toggle",
+        "img": "images/fiends/Water Flan.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "waterflancomplete"
     },
 
     //Kilika
@@ -1676,11 +1706,6 @@
     {
         "name": "Area Conquests",
         "type": "consumable",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "overlay_font_size": 12,
-        "overlay_align": "right",
         "capturable": true,
         "min_quantity": 0,
         "max_quantity": 6,
@@ -1691,11 +1716,6 @@
     {
         "name": "Species Conquests",
         "type": "consumable",
-        "img": "images/Treasure.png",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "",
-        "overlay_font_size": 12,
-        "overlay_align": "right",
         "capturable": true,
         "min_quantity": 0,
         "max_quantity": 6,

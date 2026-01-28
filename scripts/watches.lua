@@ -38,3 +38,11 @@ ScriptHost:AddWatchForCode("Update Region Access Table", "logicdifficulty", Upda
 
 -- Primer Watch
 ScriptHost:AddWatchForCode("Update Al Bhed Primer Total", "albhedprimer", UpdatePrimerTotal)
+
+-- Capture Watches
+for i = 0, 103 do
+    capture = AllCaptures[i]
+    if (capture ~= "") then
+        ScriptHost:AddWatchForCode("Capture: " .. capture, capture, OnCapture)
+    end
+end

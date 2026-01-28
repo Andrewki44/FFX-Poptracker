@@ -3,7 +3,7 @@
         {
             "package_version": "0.3.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
-            "sha256": "",
+            "sha256": "401ef450c3f359840c845b6c3d125f0c1152cd566dc762d3173a4e3af4d9a2f5",
             "changelog": [
                 " - Full Capture Sanity Support",
                 " - - Monster Arena Map / Menu, for overview & per region",
@@ -12,8 +12,8 @@
                 " - - Access logic for Monster Arena rewards and boss fights",
                 " - - Custom logic for Original Creations",
                 " - - Capture auto-tracking from AP DataStorage",
-                " - - - Known Issue: Captures data syncs on fiend capture, so values may temporarily fall out of sync after a Game Over. Will re-sync on next capture",
-                " - Nemesis goal suppoort",
+                " - Nemesis goal support",
+                " - Al Bhed Primer goal support",
                 " - World Map updates for Monster Arena",
                 " - Added unique icons for boss & capture checks",
                 " - Added visibility rules to hide capture, recruit, minigame & superboss checks if the relevant options are not enabled",
@@ -22,9 +22,11 @@
                 " - Updated Party Member, Celestial Weapon & Al Bhed Primer icons",
                 " - Updated Kilika cloister map",
                 " - Added missing Dark Magus Sisters checks to the World Map",
-                " - Removed disabled Jecht Sphere check",
+                " - Removed disabled Jecht Sphere & Penance checks",
                 " - Updated S.S. Liki logic to required ranged, instead of just Wakka",
-                " - Added new Zu location to Bikanel"
+                " - Added new Zu location to Bikanel",
+                " - Updated Mercury Sigil access rules to require 2nd visit",
+                " - Updated the order of the Celestial Flower locations to match the in-game menu"
             ]
         },
         {

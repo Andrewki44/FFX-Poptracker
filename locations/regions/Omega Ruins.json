@@ -79,6 +79,16 @@
                         "clear_as_group": false
                     },
                     {
+                        "name": "Demonolith",
+                        "hosted_item": "demonolith",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Great Malboro",
+                        "hosted_item": "greatmalboro",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Floating Death (4x Eye)",
                         "hosted_item": "floatingdeath",
                         "clear_as_group": false

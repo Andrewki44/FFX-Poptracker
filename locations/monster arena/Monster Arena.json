@@ -12,26 +12,50 @@
                 "children": [
                     {
                         "name": "Besaid",
-                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 130}],
                         "access_rules": ["@Besaid"],
-                        "sections": [
+                        "children": [
                             {
-                                "name": "Dingo (3x Wolf)",
-                                "hosted_item": "dingo",
-                                "clear_as_group": false
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 130}],
+                                "sections": [
+                                    {
+                                        "name": "Dingo (3x Wolf)",
+                                        "hosted_item": "dingo",
+                                        "clear_as_group": true
+                                    },
+                                    {
+                                        "name": "Condor (5x Bird)",
+                                        "hosted_item": "condor",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Water Flan (3x Flan)",
+                                        "hosted_item": "waterflan",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Condor (5x Bird)",
-                                "hosted_item": "condor",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Water Flan (3x Flan)",
-                                "hosted_item": "waterflan",
-                                "clear_as_group": false
+                                "name": "More captures required for logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 670, "y": 150, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Dingo",
+                                        "hosted_item": "dingocomplete"
+                                    },
+                                    {
+                                        "name": "Condor",
+                                        "hosted_item": "condorcomplete"
+                                    },
+                                    {
+                                        "name": "Water Flan",
+                                        "hosted_item": "waterflancomplete"
+                                    }
+                                ]
                             }
                         ]
                     },
+                    
                     {
                         "name": "Kilika",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 130}],
@@ -677,83 +701,97 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 915}],
+                        "visibility_rules": ["capturerewardsarea", "capturerewardsspecies", "capturerewardsoriginal"],
                         "sections": [
                             {
                                 "name": "Besaid",
                                 "access_rules": ["dingo:1, condor:1, waterflan:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Kilika",
                                 "access_rules": ["dinonix:1, killerbee:1, yellowelement:1, ragora:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Miihen Highroad",
                                 "access_rules": ["miihenfang:1, ipiria:1, floatingeye:1, whiteelement:1, raldo:1, vouivre:1, bomb:1, dualhorn:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Mushroom Rock Road",
                                 "access_rules": ["raptor:1, gandarewa:1, thunderflan:1, redelement:1, lamashtu:1, funguar:1, garuda:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Djose Road",
                                 "access_rules": ["garm:1, simurgh:1, bitebug:1, snowflan:1, bunyip:1, basilisk:1, ochu:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Thunder Plains",
                                 "access_rules": ["melusine:1, aerouge:1, buer:1, goldelement:1, kusariqqu:1, larva:1, irongiant:1, qactuar:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Macalania",
                                 "access_rules": ["snowwolf:1, iguion:1, wasp:1, evileye:1, iceflan:1, blueelement:1, murussu:1, mafdet:1, xiphos:1, chimera:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Bikanel",
                                 "access_rules": ["sandwolf:1, alcyone:1, mushussu:1, zu:1, sandworm:1, cactuar:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Calm Lands",
                                 "access_rules": ["skoll:1, nebiros:1, flameflan:1, shred:1, anacondaur:1, ogre:1, coeurl:1, chimerabrain:1, malboro:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Stolen Fayth Cavern",
                                 "access_rules": ["yowie: 1, imp:1, darkelement:1, nidhogg:1, thorn:1, valaha:1, epaaj:1, ghost:1, tonberry:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Mt. Gagazet",
                                 "access_rules": ["bandersnatch:1, ahriman:1, darkflan:1, grenade:1, grat:1, grendel:1, bashura:1, mandragora:1, behemoth:1, splasher:1, achelous:1, maelspike:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Inside Sin",
                                 "access_rules": ["exoray:1, wraith:1, geminisword:1, geminiclub:1, demonolith:1, greatmalboro:1, barbatos:1, adamantoise:1, behemothking:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Omega Dungeon",
                                 "access_rules": ["zaurus:1, floatingdeath:1, blackelement:1, halma:1, puroboros:1, spirit:1, machea:1, mastercoeurl:1, mastertonberry:1, varuna:1"],
                                 "hosted_item": "areaconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -761,8 +799,8 @@
                     {
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 915}],
-                        "access_rules": ["^$CheckAccessLevel|creationbosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["superbosses"],
+                        "access_rules": ["^$CheckAccessLevel|arenabosses, [$hasMinimumParty|3]"],
+                        "visibility_rules": ["capturebossesarea", "capturebossesspecies", "capturebossesriginal"],
                         "sections": [
                             {
                                 "name": "Stratoavis",
@@ -852,89 +890,104 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 580, "y": 1045}],
+                        "visibility_rules": ["capturerewardsspecies", "capturerewardsoriginal"],
                         "sections": [
                             {
                                 "name": "Wolf (3x)",
                                 "access_rules": ["dingo:3, miihenfang:3, garm:3, snowwolf:3, sandwolf:3, skoll:3, bandersnatch:3"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Reptile (3x)",
                                 "access_rules": ["dinonix:3, ipiria:3, raptor:3, melusine:3, iguion:3, yowie:3, zaurus:3"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Bird (5x)",
                                 "access_rules": ["condor:3, simurgh:3, alcyone:3"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Wasp (4x)",
                                 "access_rules": ["killerbee:4, bitebug:4, wasp:4, nebiros:4"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Imp (4x)",
                                 "access_rules": ["gandarewa:4, aerouge:4, imp:4"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Eye (4x)",
                                 "access_rules": ["floatingeye:4, buer:4, evileye:4, ahriman:4, floatingdeath:4"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Flan (3x)",
                                 "access_rules": ["waterflan:3, thunderflan:3, snowflan:3, iceflan:3, flameflan:3, darkflan:3"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Element (3x)",
                                 "access_rules": ["yellowelement:3, whiteelement:3, redelement:3, goldelement:3, blueelement:3, darkelement:3, blackelement:3"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Helm (3x)",
                                 "access_rules": ["raldo:3, bunyip:3, murussu:3, mafdet:3, shred:3, halma:3"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Drake (4x)",
                                 "access_rules": ["vouivre:4, lamashtu:4, kusariqqu:4, mushussu:4, nidhogg:4"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Fungus (5x)",
                                 "access_rules": ["funguar:5, thorn:5, exoray:5"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Bomb (5x)",
                                 "access_rules": ["bomb:5, grenade:5, puroboros:5"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Ruminant (5x)",
                                 "access_rules": ["dualhorn:5, valaha:5, grendel:5"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
                                 "name": "Iron Giant (10x)",
                                 "access_rules": ["irongiant:10, geminisword:10, geminiclub:10"],
                                 "hosted_item": "speciesconquests",
+                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]
@@ -942,8 +995,8 @@
                     {
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 1045}],
-                        "access_rules": ["^$CheckAccessLevel|creationbosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["superbosses"],
+                        "access_rules": ["^$CheckAccessLevel|arenabosses, [$hasMinimumParty|3]"],
+                        "visibility_rules": ["capturebossesspecies", "capturebossesriginal"],
                         "sections": [
                             {
                                 "name": "Fenrir",
@@ -1039,6 +1092,7 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 1045}],
+                        "visibility_rules": ["capturerewardsoriginal"],
                         "sections": [
                             {
                                 "name": "Area Conquest x2",
@@ -1078,7 +1132,7 @@
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 1045}],
                         "access_rules": ["^$CheckAccessLevel|superbosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["superbosses"],
+                        "visibility_rules": ["capturebossesriginal"],
                         "sections": [
                             {
                                 "name": "Earth Eater",

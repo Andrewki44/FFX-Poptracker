@@ -1,10 +1,6 @@
 [
     {
         "name": "Monster Arena - Macalania",
-        "chest_unopened_img": "/images/Treasure.png",
-        "chest_opened_img": "/images/TreasureBW.png",
-        "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|monsterarena"],
         "children": [
             {
                 "name": "Snow Wolf (3x Wolf)",

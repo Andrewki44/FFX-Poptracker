@@ -124,15 +124,15 @@
                     },
                     {
                         "name": "South End, Silver & Purple Armor (NPC)",
-                        "map_locations": [{ "map": "Djose", "x": 200, "y": 400}],
+                        "map_locations": [{ "map": "Djose", "x": 170, "y": 490}],
                         "sections": [
                             {"name": "Potion x10"},
-                            {"name": "Recruit", "ref": "Blitzball Recruits/Kyou"}
+                            {"name": "Recruit: Kyou", "ref": "Blitzball Recruits/Kyou"}
                         ]
                     },
                     {
                         "name": "Monk Pacing Along Bridge (NPC)",
-                        "map_locations": [{ "map": "Djose", "x": 170, "y": 490}],
+                        "map_locations": [{ "map": "Djose", "x": 200, "y": 400}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     }
                 ]

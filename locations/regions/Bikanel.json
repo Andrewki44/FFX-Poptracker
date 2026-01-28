@@ -28,12 +28,12 @@
                                 ]
                             },
                             {
-                                "name": "Defeat Zu (Boss)",
-                                "map_locations": [{ "map": "Bikanel", "x": 1180, "y": 990, "shape": "trapezoid", "size": 32}],
+                                "name": "Defeat Zu",
+                                "map_locations": [{ "map": "Bikanel", "x": 1180, "y": 990, "shape": "diamond", "size": 32}],
                                 "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
-                                        "name": "Zu",
+                                        "name": "This doesn't send a check",
                                         "hosted_item": "zuboss",
                                         "clear_as_group": true
                                     }
@@ -297,9 +297,24 @@
                         "name": "Area Completion",
                         "map_locations": [{ "map": "Home", "x": 300, "y": 115}],
                         "sections": [
-                            {"name": "Lv. 2 Key Sphere x1"},
-                            {"name": "Lv. 4 Key Sphere x4"},
-                            {"name": "10000 gil"}
+                            {
+                                "name": "Lv. 2 Key Sphere x1",
+                                "hosted_item": "homecompletion1",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "Lv. 4 Key Sphere x4",
+                                "hosted_item": "homecompletion2",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            },
+                            {
+                                "name": "10000 gil",
+                                "hosted_item": "homecompletion3",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
                         ]
                     }
                 ]

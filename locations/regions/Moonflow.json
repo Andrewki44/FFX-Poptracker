@@ -111,6 +111,11 @@
                         "clear_as_group": false
                     },
                     {
+                        "name": "Funguar (5x Fungus)",
+                        "hosted_item": "funguar",
+                        "clear_as_group": false
+                    },
+                    {
                         "name": "Garm (3x Wolf)",
                         "hosted_item": "garm",
                         "clear_as_group": false
@@ -118,6 +123,11 @@
                     {
                         "name": "Bite Bug (4x Hornet)",
                         "hosted_item": "bitebug",
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Snow Flan (3x Flan)",
+                        "hosted_item": "snowflan",
                         "clear_as_group": false
                     },
                     {

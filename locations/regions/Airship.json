@@ -62,8 +62,7 @@
                         "access_rules": ["^$CheckAccessLevel|airshipsin, sincore"],
                         "hosted_item": "sinoverdrive",
                         "clear_as_group": true
-                    },
-                    {"name": "Penance", "ref": "Super Bosses/Penance"}
+                    }
                 ]
             }
         ]

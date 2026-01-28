@@ -1094,10 +1094,6 @@
     {
         "name": "Lv. 2 Key Sphere x1",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
-        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "homecompletion1"
@@ -1105,10 +1101,6 @@
     {
         "name": "Lv. 4 Key Sphere x4",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
-        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "homecompletion2"
@@ -1116,10 +1108,6 @@
     {
         "name": "10000 gil",
         "type": "toggle",
-        "img": "images/TreasureBW.png",
-        "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
-        "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "homecompletion3"
@@ -1335,7 +1323,7 @@
         "type": "toggle",
         "img": "images/items/hd/Support_use_item_HD.png",
         "initial_active_state": false,
-        "codes": "creationbosses"
+        "codes": "arenabosses"
     },
 
     //Primer misc items

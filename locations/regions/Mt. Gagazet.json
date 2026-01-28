@@ -158,6 +158,11 @@
                         "visibility_rules": ["capturesanity"],
                         "sections": [
                             {
+                                "name": "Bashura",
+                                "hosted_item": "bashura",
+                                "clear_as_group": false
+                            },
+                            {
                                 "name": "Ahriman (4x Eye)",
                                 "hosted_item": "ahriman",
                                 "clear_as_group": false

@@ -16,6 +16,22 @@
                         "ref": "Celestial/General/Celestial Mirror"
                     },
                     {
+                        "name": "Tidus - Caladbolg Crest Upgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
+                    },
+                    {
+                        "name": "Tidus - Caladbolg Sigil Upgrade",
+                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Crest Upgrade",
+                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
+                    },
+                    {
+                        "name": "Yuna - Nirvana Sigil Upgrade",
+                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
+                    },
+                    {
                         "name": "Auron - Masamune Crest Upgrade",
                         "ref": "Celestial/Auron/Masamune Crest Upgrade"
                     },
@@ -32,6 +48,14 @@
                         "ref": "Celestial/Kimahri/Spirit Lance Sigil Upgrade"
                     },
                     {
+                        "name": "Wakka - World Champion Crest Upgrade",
+                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
+                    },
+                    {
+                        "name": "Wakka - World Champion Sigil Upgrade",
+                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
+                    },
+                    {
                         "name": "Lulu - Onion Knight Crest Upgrade",
                         "ref": "Celestial/Lulu/Onion Knight Crest Upgrade"
                     },
@@ -46,30 +70,6 @@
                     {
                         "name": "Rikku - Godhand Sigil Upgrade",
                         "ref": "Celestial/Rikku/Godhand Sigil Upgrade"
-                    },
-                    {
-                        "name": "Tidus - Caladbolg Crest Upgrade",
-                        "ref": "Celestial/Tidus/Caladbolg Crest Upgrade"
-                    },
-                    {
-                        "name": "Tidus - Caladbolg Sigil Upgrade",
-                        "ref": "Celestial/Tidus/Caladbolg Sigil Upgrade"
-                    },
-                    {
-                        "name": "Wakka - World Champion Crest Upgrade",
-                        "ref": "Celestial/Wakka/World Champion Crest Upgrade"
-                    },
-                    {
-                        "name": "Wakka - World Champion Sigil Upgrade",
-                        "ref": "Celestial/Wakka/World Champion Sigil Upgrade"
-                    },
-                    {
-                        "name": "Yuna - Nirvana Crest Upgrade",
-                        "ref": "Celestial/Yuna/Nirvana Crest Upgrade"
-                    },
-                    {
-                        "name": "Yuna - Nirvana Sigil Upgrade",
-                        "ref": "Celestial/Yuna/Nirvana Sigil Upgrade"
                     }
                 ]
             },
