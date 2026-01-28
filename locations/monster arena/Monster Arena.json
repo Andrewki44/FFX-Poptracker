@@ -12,27 +12,50 @@
                 "children": [
                     {
                         "name": "Besaid",
-                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 130}],
                         "access_rules": ["@Besaid"],
-                        "sections": [
+                        "children": [
                             {
-                                "name": "Dingo (3x Wolf)",
-                                "access_rules": ["^$CheckCapture|dingo"],
-                                "hosted_item": "dingo",
-                                "clear_as_group": true
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 130}],
+                                "sections": [
+                                    {
+                                        "name": "Dingo (3x Wolf)",
+                                        "hosted_item": "dingo",
+                                        "clear_as_group": true
+                                    },
+                                    {
+                                        "name": "Condor (5x Bird)",
+                                        "hosted_item": "condor",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Water Flan (3x Flan)",
+                                        "hosted_item": "waterflan",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Condor (5x Bird)",
-                                "hosted_item": "condor",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Water Flan (3x Flan)",
-                                "hosted_item": "waterflan",
-                                "clear_as_group": false
+                                "name": "More captures required for logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 670, "y": 150, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Dingo",
+                                        "hosted_item": "dingocomplete"
+                                    },
+                                    {
+                                        "name": "Condor",
+                                        "hosted_item": "condorcomplete"
+                                    },
+                                    {
+                                        "name": "Water Flan",
+                                        "hosted_item": "waterflancomplete"
+                                    }
+                                ]
                             }
                         ]
                     },
+                    
                     {
                         "name": "Kilika",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 130}],

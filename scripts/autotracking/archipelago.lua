@@ -202,7 +202,7 @@ function onClear(slot_data)
             Archipelago:SetNotify({ap_captures})
             Archipelago:Get({ap_captures})
         end
-        print("Setting Notify for: Slot:" .. Archipelago.PlayerNumber .. ":FFX_CAPTURE")
+        print("Setting Notify for: Slot:" .. PLAYER_ID .. ":FFX_CAPTURE")
         
         ap_logic_zu = "Slot:" .. PLAYER_ID .. ":FFX_LOGIC_ZU"
         Archipelago:SetNotify({ap_logic_zu})
