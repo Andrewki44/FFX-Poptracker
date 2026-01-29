@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Monster Arena - Calm Lands",
+        "children": [
+            {
+                "name": "Skoll (3x Wolf)",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Skoll (3x Wolf)"}]
+            },
+            {
+                "name": "Nebiros (4x Wasp)",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Nebiros (4x Wasp)"}]
+            },
+            {
+                "name": "Flame Flan (3x Flan)",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Flame Flan (3x Flan)"}]
+            },
+            {
+                "name": "Shred (3x Helm)",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Shred (3x Helm)"}]
+            },
+            {
+                "name": "Anacondaur",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Anacondaur"}]
+            },
+            {
+                "name": "Ogre",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Ogre"}]
+            },
+            {
+                "name": "Coeurl",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Coeurl"}]
+            },
+            {
+                "name": "Chimera Brain",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Chimera Brain"}]
+            },
+            {
+                "name": "Malboro",
+                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1522, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Malboro"}]
+            }
+        ]
+    }
+]

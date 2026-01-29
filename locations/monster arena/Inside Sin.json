@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Monster Arena - Inside Sin",
+        "children": [
+            {
+                "name": "Exoray (5x Fungus)",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Exoray (5x Fungus)"}]
+            },
+            {
+                "name": "Wraith",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Wraith"}]
+            },
+            {
+                "name": "Gemini (Sword) (10x Iron Giant)",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Sword) (10x Iron Giant)"}]
+            },
+            {
+                "name": "Gemini (Club) (10x Iron Giant)",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Club) (10x Iron Giant)"}]
+            },
+            {
+                "name": "Demonolith",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Demonolith"}]
+            },
+            {
+                "name": "Great Malboro",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Great Malboro"}]
+            },
+            {
+                "name": "Barbatos",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Barbatos"}]
+            },
+            {
+                "name": "Adamantoise",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Adamantoise"}]
+            },
+            {
+                "name": "Behemoth King",
+                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1522, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Behemoth King"}]
+            }
+        ]
+    }
+]

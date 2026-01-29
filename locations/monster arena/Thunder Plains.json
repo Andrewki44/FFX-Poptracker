@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Monster Arena - Thunder Plains",
+        "children": [
+            {
+                "name": "Melusine (3x Reptile)",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Melusine (3x Reptile)"}]
+            },
+            {
+                "name": "Aerouge (4x Imp)",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Aerouge (4x Imp)"}]
+            },
+            {
+                "name": "Buer (4x Eye)",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Buer (4x Eye)"}]
+            },
+            {
+                "name": "Gold Element (3x Elemental)",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Gold Element (3x Elemental)"}]
+            },
+            {
+                "name": "Kusariqqu (5x Drake)",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Kusariqqu (5x Drake)"}]
+            },
+            {
+                "name": "Larva",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Larva"}]
+            },
+            {
+                "name": "Iron Giant (10x Iron Clad)",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Iron Giant (10x Iron Clad)"}]
+            },
+            {
+                "name": "Qactuar",
+                "map_locations": [{ "map": "Monster Arena - Thunder Plains", "x": 1522, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Qactuar"}]
+            }
+        ]
+    }
+]

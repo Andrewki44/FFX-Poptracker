@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Monster Arena - Kilika",
+        "children": [
+            {
+                "name": "Dinonix",
+                "children": [
+                    {
+                        "name": "Dinonix (3x Reptile)",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Dinonix (3x Reptile)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Dinonix", "ref": "Monster Arena/Fiend Capture/Kilika/Captures Required for Logic/Dinonix"}]
+                    }
+                ]
+            },
+            {
+                "name": "Killer Bee",
+                "children": [
+                    {
+                        "name": "Killer Bee (5x Wasp)",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Killer Bee (5x Wasp)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Killer Bee", "ref": "Monster Arena/Fiend Capture/Kilika/Captures Required for Logic/Killer Bee"}]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Element",
+                "children": [
+                    {
+                        "name": "Yellow Element (3x Elemental)",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Yellow Element (3x Elemental)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Yellow Element", "ref": "Monster Arena/Fiend Capture/Kilika/Captures Required for Logic/Yellow Element"}]
+                    }
+                ]
+            },
+            {
+                "name": "Ragora",
+                "children": [
+                    {
+                        "name": "Ragora",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Ragora"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Kilika", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "DinRagorago", "ref": "Monster Arena/Fiend Capture/Kilika/Captures Required for Logic/Ragora"}]
+                    }
+                ]
+            }
+        ]
+    }
+]

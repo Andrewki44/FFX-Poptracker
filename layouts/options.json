@@ -22,7 +22,7 @@
         "content": [
             {
                 "type": "group",
-                "header": "Super Bosses",
+                "header": "Goal requirements",
                 "dock": "bottom",
                 "content": {
                     "type": "itemgrid",
@@ -32,12 +32,12 @@
                     "item_v_alignment": "center",
                     "item_height": 48,
                     "item_width": 48,
-                    "rows": [["superbosses"]]
+                    "rows": [["goalrequirement", "requiredpartymembers", "requiredprimers"]]
                 }
             },
             {
                 "type": "group",
-                "header": "Minigames",
+                "header": "Sanities",
                 "dock": "bottom",
                 "content": {
                     "type": "itemgrid",
@@ -47,12 +47,12 @@
                     "item_v_alignment": "center",
                     "item_height": 48,
                     "item_width": 48,
-                    "rows": [["minigames"]]
+                    "rows": [["minigames", "recruitsanity", "capturesanity", "capturerewards"]]
                 }
             },
             {
                 "type": "group",
-                "header": "Recruit Sanity",
+                "header": "Bosses",
                 "dock": "bottom",
                 "content": {
                     "type": "itemgrid",
@@ -62,9 +62,10 @@
                     "item_v_alignment": "center",
                     "item_height": 48,
                     "item_width": 48,
-                    "rows": [["recruitsanity"]]
+                    "rows": [["creationbosses", "superbosses"]]
                 }
             },
+            
             {
                 "type": "group",
                 "header": "Logic Difficulty",
@@ -80,36 +81,7 @@
                     "rows": [["logicdifficulty"]]
                 }
             },
-            {
-                "type": "group",
-                "header": "Goal requirement",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["goalpartymembers"]]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Required Party Members",
-                "dock": "bottom",
-                "content": {
-                    "type": "itemgrid",
-                    "item_margin": "4, 4",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 48,
-                    "item_width": 48,
-                    "rows": [["requiredpartymembers"]]
-                }
-            },
+            
             {
                 "type": "group",
                 "header": "Auto Tabbing",

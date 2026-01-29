@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Monster Arena - Miihen Highroad",
+        "children": [
+            {
+                "name": "Miihen Fang",
+                "children": [
+                    {
+                        "name": "Miihen Fang (3x Wolf)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Miihen Fang (3x Wolf)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Miihen Fang", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Miihen Fang"}]
+                    }
+                ]
+            },
+            {
+                "name": "Ipiria",
+                "children": [
+                    {
+                        "name": "Ipiria (3x Reptile)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Ipiria (3x Reptile)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Ipiria", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Ipiria"}]
+                    }
+                ]
+            },
+            {
+                "name": "Floating Eye",
+                "children": [
+                    {
+                        "name": "Floating Eye (4x Eye)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Floating Eye (4x Eye)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Floating Eye", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Floating Eye"}]
+                    }
+                ]
+            },
+            {
+                "name": "White Element",
+                "children": [
+                    {
+                        "name": "White Element (3x Elemental)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/White Element (3x Elemental)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "White Element", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/White Element"}]
+                    }
+                ]
+            },
+            {
+                "name": "Raldo",
+                "children": [
+                    {
+                        "name": "Raldo (3x Armoured)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Raldo (3x Armoured)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Raldo", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Raldo"}]
+                    }
+                ]
+            },
+            {
+                "name": "Vouivre",
+                "children": [
+                    {
+                        "name": "Vouivre (5x Drake)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Vouivre (5x Drake)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Vouivre", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Vouivre"}]
+                    }
+                ]
+            },
+            {
+                "name": "Bomb",
+                "children": [
+                    {
+                        "name": "Bomb (5x Bomb)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb (5x Bomb)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Bomb"}]
+                    }
+                ]
+            },
+            {
+                "name": "Dual Horn",
+                "children": [
+                    {
+                        "name": "Dual Horn (5x Ruminant)",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Dual Horn (5x Ruminant)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Miihen Highroad", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Dual Horn", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Dual Horn"}]
+                    }
+                ]
+            }
+        ]
+    }
+]

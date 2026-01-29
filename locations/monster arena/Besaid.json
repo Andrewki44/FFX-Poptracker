@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Monster Arena - Besaid",
+        "children": [
+            {
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Dingo (3x Wolf)",
+                        "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Dingo (3x Wolf)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Besaid", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Dingo", "ref": "Monster Arena/Fiend Capture/Besaid/Captures Required for Logic/Dingo"}]
+                    }
+                ]
+            },
+            {
+                "name": "Condor",
+                "children": [
+                    {
+                        "name": "Condor (5x Bird)",
+                        "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Condor (5x Bird)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Besaid", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Condor", "ref": "Monster Arena/Fiend Capture/Besaid/Captures Required for Logic/Condor"}]
+                    }
+                ]
+            },
+            {
+                "name": "Water Flan",
+                "children": [
+                    {
+                        "name": "Water Flan (3x Flan)",
+                        "map_locations": [{ "map": "Monster Arena - Besaid", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Water Flan (3x Flan)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Besaid", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Water Flan", "ref": "Monster Arena/Fiend Capture/Besaid/Captures Required for Logic/Water Flan"}]
+                    }
+                ]
+            }
+        ]
+    }
+]

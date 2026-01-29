@@ -19,17 +19,17 @@
                         "item_width": 36,
                         "rows": [
                             [
+                                "guadosalam",
                                 "baajtemple",
                                 "besaid",
                                 "kilika",
-                                "luca",
-                                "miihenhighroad"
+                                "luca"
                             ],
                             [
+                                "miihenhighroad",
                                 "mushroomrockroad",
                                 "djose",
                                 "moonflow",
-                                "guadosalam",
                                 "thunderplains"
                             ],
                             [
@@ -45,6 +45,9 @@
                                 "zanarkand",
                                 "sin",
                                 "omegaruins"
+                            ],
+                            [
+                                "monsterarena"
                             ]
                         ]
                     }

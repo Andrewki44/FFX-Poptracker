@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Monster Arena - Mushroom Rock Road",
+        "children": [
+            {
+                "name": "Raptor",
+                "children": [
+                    {
+                        "name": "Raptor (3x Reptile)",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Raptor (3x Reptile)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Raptor", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Raptor"}]
+                    }
+                ]
+            },
+            {
+                "name": "Gandarewa",
+                "children": [
+                    {
+                        "name": "Gandarewa (5x Imp)",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Gandarewa (5x Imp)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Gandarewa", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Gandarewa"}]
+                    }
+                ]
+            },
+            {
+                "name": "Thunder Flan",
+                "children": [
+                    {
+                        "name": "Thunder Flan (3x Flan)",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Thunder Flan (3x Flan)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Thunder Flan", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Thunder Flan"}]
+                    }
+                ]
+            },
+            {
+                "name": "Red Element",
+                "children": [
+                    {
+                        "name": "Red Element (3x Elemental)",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Red Element (3x Elemental)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Red Element", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Red Element"}]
+                    }
+                ]
+            },
+            {
+                "name": "Lamashtu",
+                "children": [
+                    {
+                        "name": "Lamashtu (5x Drake)",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Lamashtu (5x Drake)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Lamashtu", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Lamashtu"}]
+                    }
+                ]
+            },
+            {
+                "name": "Funguar",
+                "children": [
+                    {
+                        "name": "Funguar (5x Fungus)",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Funguar (5x Fungus)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Funguar", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Funguar"}]
+                    }
+                ]
+            },
+            {
+                "name": "Garuda",
+                "children": [
+                    {
+                        "name": "Garuda",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Garuda"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mushroom Rock Road", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Garuda", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Garuda"}]
+                    }
+                ]
+            }
+        ]
+    }
+]

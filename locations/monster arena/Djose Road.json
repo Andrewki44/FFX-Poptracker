@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Monster Arena - Djose Road",
+        "children": [
+            {
+                "name": "Garm (3x Wolf)",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Garm (3x Wolf)"}]
+            },
+            {
+                "name": "Simurgh (5x Bird)",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Simurgh (5x Bird)"}]
+            },
+            {
+                "name": "Bite Bug (4x Hornet)",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Bite Bug (4x Hornet)"}]
+            },
+            {
+                "name": "Snow Flan (3x Flan)",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Snow Flan (3x Flan)"}]
+            },
+            {
+                "name": "Bunyip (3x Helm)",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Bunyip (3x Helm)"}]
+            },
+            {
+                "name": "Basilisk",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Basilisk"}]
+            },
+            {
+                "name": "Ochu",
+                "map_locations": [{ "map": "Monster Arena - Djose Road", "x": 752, "y": 1028}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Djose Road/Ochu"}]
+            }
+        ]
+    }
+]

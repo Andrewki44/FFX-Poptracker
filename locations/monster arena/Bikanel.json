@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Monster Arena - Bikanel",
+        "children": [
+            {
+                "name": "Sand Wolf (3x Wolf)",
+                "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 128}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Sand Wolf (3x Wolf)"}]
+            },
+            {
+                "name": "Alcyone (5x Bird)",
+                "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 278}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Alcyone (5x Bird)"}]
+            },
+            {
+                "name": "Mushussu (5x Drake)",
+                "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 428}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Mushussu (5x Drake)"}]
+            },
+            {
+                "name": "Zu",
+                "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 578}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Zu"}]
+            },
+            {
+                "name": "Sand Worm",
+                "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 728}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Sand Worm"}]
+            },
+            {
+                "name": "Cactuar",
+                "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 878}],
+                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Cactuar"}]
+            }
+        ]
+    }
+]
