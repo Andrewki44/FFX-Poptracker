@@ -11,17 +11,17 @@
                 "children": [
                     {
                         "name": "Northeast Structure (Chest)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 1240, "y": 660}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 1137, "y": 635}],
                         "sections": [{"name": "200 gil"}]
                     },
                     {
                         "name": "Northwest Structure (Chest)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 910, "y": 610}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 900, "y": 608}],
                         "sections": [{"name": "Potion x2"}]
                     },
                     {
                         "name": "West Branch of Main Path (Chest)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 780, "y": 510}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 780, "y": 490}],
                         "sections": [{"name": "Hi-Potion x1"}]
                     }
                 ]
@@ -31,7 +31,7 @@
                 "children": [
                     {
                         "name": "Flint Inside Desk (Event)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 420, "y": 690}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 253, "y": 670}],
                         "sections": [{"name": "Flint"}]
                     },
                     {
@@ -41,17 +41,17 @@
                     },
                     {
                         "name": "South End (Chest)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 280, "y": 265}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 279, "y": 265}],
                         "sections": [{"name": "Ether"}]
                     },
                     {
                         "name": "Flowers in Sconce on Right Wall, North End (Event)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 285, "y": 90}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 285, "y": 85}],
                         "sections": [{"name": "Withered Bouquet"}]
                     },
                     {
                         "name": "North exit from Stairs, East End (Chest)",
-                        "map_locations": [{ "map": "Baaj Temple", "x": 590, "y": 315}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 500, "y": 290}],
                         "sections": [{"name": "Hi-Potion x1"}]
                     },
                     {
@@ -97,13 +97,13 @@
                     {
                         "name": "Right Side (Chest)",
                         "access_rules": ["geosgaeno, [$hasSwimmers|3]"],
-                        "map_locations": [{ "map": "Baaj Temple", "x": 155, "y": 555}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 210, "y": 535}],
                         "sections": [{"name": "Megalixir"}]
                     },
                     {
                         "name": "Left Side (Chest)",
                         "access_rules": ["geosgaeno, [$hasSwimmers|3]"],
-                        "map_locations": [{ "map": "Baaj Temple", "x": 55, "y": 550}],
+                        "map_locations": [{ "map": "Baaj Temple", "x": 90, "y": 535}],
                         "sections": [{"name": "Mega Phoenix x4"}]
                     },
                     {

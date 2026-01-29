@@ -93,7 +93,7 @@
                 "children": [
                     {
                         "name": "Defeat Evrae Altana (Boss)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 905, "y": 690, "shape": "trapezoid", "size": 32}],
+                        "map_locations": [{ "map": "Via Purifico", "x": 877, "y": 610, "shape": "trapezoid", "size": 32}],
                         "access_rules": ["[$hasSwimmers|3]"],
                         "sections": [
                             {
@@ -105,13 +105,13 @@
                     },
                     {
                         "name": "Right Side Before First Turn (Chest)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 905, "y": 555}],
+                        "map_locations": [{ "map": "Via Purifico", "x": 880, "y": 530}],
                         "access_rules": ["evraealtana, [$hasSwimmers|3]"],
                         "sections": [{"name": "Rematch"}]
                     },
                     {
                         "name": "Right Side After First Turn (Chest)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 965, "y": 500}],
+                        "map_locations": [{ "map": "Via Purifico", "x": 935, "y": 460}],
                         "access_rules": ["evraealtana, [$hasSwimmers|3]"],
                         "sections": [{"name": "Avenger"}]
                     }
@@ -123,7 +123,7 @@
                 "children": [
                     {
                         "name": "Defeat Seymour Natus (Boss)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 1145, "y": 80, "shape": "trapezoid", "size": 32}],
+                        "map_locations": [{ "map": "Via Purifico", "x": 1115, "y": 80, "shape": "trapezoid", "size": 32}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {

@@ -11,12 +11,12 @@
                 "children": [
                     {
                         "name": "South Side, West Bend (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 565, "y": 1575}],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 900, "y": 510}],
                         "sections": [{"name": "Fortune Sphere x1"}]
                     },
                     {
                         "name": "North Side, Left Alcove (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 255, "y": 1185}],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 680, "y": 220}],
                         "sections": [{"name": "Spiritual Targe"}]
                     }, 
                     {
@@ -59,22 +59,22 @@
                 "children": [
                     {
                         "name": "Road Above Underpass (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 735, "y": 900}],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 780, "y": 450}],
                         "sections": [{"name": "10000 gil"}]
                     },
                     {
                         "name": "West From 4-Way Intersection (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 370, "y": 805}],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 360, "y": 610}],
                         "sections": [{"name": "Friend Sphere x1"}]
                     },
                     {
                         "name": "Rubble Path Down Before Circular Doorway (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 255, "y": 628}],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 240, "y": 480}],
                         "sections": [{"name": "Lv. 3 Key Sphere x1"}]
                     },
                     {
                         "name": "Right Side (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 970, "y": 685}],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 80, "y": 550}],
                         "sections": [{"name": "Luck Sphere x1"}]
                     }
                 ]
@@ -84,7 +84,7 @@
                 "children": [
                     {
                         "name": "Defeat Spectral Keeper (Boss)",
-                        "map_locations": [{ "map": "Zanarkand Temple", "x": 452, "y": 1630, "shape": "trapezoid", "size": 32}],
+                        "map_locations": [{ "map": "Zanarkand Temple", "x": 381, "y": 695, "shape": "trapezoid", "size": 32}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -96,7 +96,7 @@
                     },
                     {
                         "name": "Defeat Yunalesca (Boss)",
-                        "map_locations": [{ "map": "Zanarkand Temple", "x": 635, "y": 500, "shape": "trapezoid", "size": 32}],
+                        "map_locations": [{ "map": "Zanarkand Temple", "x": 630, "y": 200, "shape": "trapezoid", "size": 32}],
                         "access_rules": ["spectralkeeper, [$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -108,7 +108,7 @@
                     },
                     {
                         "name": "Chest After Taking Left/Right in Yunalesca Arena (Chest)",
-                        "map_locations": [{ "map": "Zanarkand Temple", "x": 450, "y": 40}],
+                        "map_locations": [{ "map": "Zanarkand Temple", "x": 570, "y": 37}],
                         "sections": [
                             {
                                 "name": "Sun Crest",
@@ -118,7 +118,7 @@
                     },
                     {
                         "name": "Cloister of Trials",
-                        "map_locations": [{ "map": "Zanarkand Temple", "x": 450, "y": 1390}],
+                        "map_locations": [{ "map": "Zanarkand Temple", "x": 380, "y": 420}],
                         "access_rules": ["yunalesca, [$hasMinimumParty|3]"],
                         "sections": [
                             { 
@@ -130,7 +130,7 @@
                     },
                     {
                         "name": "Defeat Dark Bahamut (Superboss)",
-                        "map_locations": [{ "map": "Zanarkand Temple", "x": 635, "y": 400, "shape": "trapezoid", "size": 32}],
+                        "map_locations": [{ "map": "Zanarkand Temple", "x": 630, "y": 300, "shape": "trapezoid", "size": 32}],
                         "sections": [{"name": "Dark Bahamut", "ref": "Super Bosses/Dark Bahamut"}]
                     }
                 ]

@@ -19,7 +19,7 @@
                             },
                             {
                                 "name": "Northeast of Water (Primer)",
-                                "map_locations": [{ "map": "Bikanel", "x": 1215, "y": 1040}],
+                                "map_locations": [{ "map": "Bikanel", "x": 1215, "y": 1030}],
                                 "sections": [
                                     {
                                         "name": "Al Bhed Primer I",
@@ -69,7 +69,7 @@
                             },
                             {
                                 "name": "Near First Tent (Chests)",
-                                "map_locations": [{ "map": "Bikanel", "x": 650, "y": 900}],
+                                "map_locations": [{ "map": "Bikanel", "x": 653, "y": 888}],
                                 "sections": [
                                     {"name": "Ether x2"},
                                     {"name": "Al Bhed Potion x8"}
@@ -113,7 +113,7 @@
                             },
                             {
                                 "name": "Right of Save Sphere (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 335, "y": 480}],
+                                "map_locations": [{ "map": "Bikanel", "x": 360, "y": 495}],
                                 "sections": [{"name": "Al Bhed Potion x8"}]
                             },
                             {

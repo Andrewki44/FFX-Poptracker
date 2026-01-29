@@ -8,17 +8,17 @@
         "children": [
             {
                 "name": "Blitzball Recruit - Brother",
-                "map_locations": [{ "map": "Airship", "x": 555, "y": 45}],
+                "map_locations": [{ "map": "Airship", "x": 490, "y": 15}],
                     "sections": [{"name": "Brother", "ref": "Blitzball Recruits/Brother"}]
             },
             {
                 "name": "Blitzball Recruit - Wakka",
-                "map_locations": [{ "map": "Airship", "x": 510, "y": 150}],
+                "map_locations": [{ "map": "Airship", "x": 450, "y": 150}],
                     "sections": [{"name": "Wakka", "ref": "Blitzball Recruits/Wakka"}]
             },
             {
                 "name": "Rin",
-                "map_locations": [{ "map": "Airship", "x": 522, "y": 870}],
+                "map_locations": [{ "map": "Airship", "x": 297, "y": 382}],
                 "sections": [
                     {"name": "Recruit Rin", "ref": "Blitzball Recruits/Rin"},
                     {"name": "Collect All Primers", "ref": "Al Bhed Primers/Complete Al Bhed Primers"}
@@ -26,12 +26,12 @@
             },
             {
                 "name": "Before Evrae, Yellow Al Bhed on Left (NPC)",
-                "map_locations": [{ "map": "Airship", "x": 30, "y": 855}],
+                "map_locations": [{ "map": "Airship", "x": 17, "y": 473}],
                 "sections": [{"name": "Al Bhed Potion x4 (NPC)"}]
             },
             {
                 "name": "Roof (Bosses)",
-                "map_locations": [{ "map": "Airship", "x": 145, "y": 180, "shape": "trapezoid", "size": 28}],
+                "map_locations": [{ "map": "Airship", "x": 80, "y": 130, "shape": "trapezoid", "size": 28}],
                 "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
