@@ -46,7 +46,7 @@
                     },
                     {
                         "name": "South End, Silver & Purple Armor (NPC)",
-                        "map_locations": [{ "map": "Djose", "x": 165, "y": 105}],
+                        "map_locations": [{ "map": "Djose", "x": 35, "y": 350}],
                         "sections": [{"name": "Variable Steel"}]
                     },
                     {
