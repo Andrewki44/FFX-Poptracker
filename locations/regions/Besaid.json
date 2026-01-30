@@ -14,7 +14,7 @@
                         "children": [
                             {
                                 "name": "East Alcove (Chest)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 565, "y": 740}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 325, "y": 515}],
                                 "sections": [
                                     {
                                         "name": "Moon Crest",
@@ -24,12 +24,12 @@
                             },
                             {
                                 "name": "West Near Huts (Chest)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 310, "y": 800}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 160, "y": 560}],
                                 "sections": [{"name": "Antidote x2"}]
                             },
                             {
                                 "name": "Aurochs (NPCs)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 380, "y": 640}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 210, "y": 450}],
                                 "sections": [
                                     {"name": "Hi-Potion x1 (Datto)"},
                                     {"name": "Potion x3 (Jassu)"},
@@ -39,7 +39,7 @@
                             },
                             {
                                 "name": "Dock (NPCs)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 185, "y": 730}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 80, "y": 510}],
                                 "access_rules": ["map"],
                                 "sections": [
                                     {"name": "Remedy x1 (Kid)"},
@@ -56,7 +56,7 @@
                         "children": [
                             {
                                 "name": "Enter the Valley (Event)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 490, "y": 440}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 380, "y": 300}],
                                 "sections": [
                                     {
                                         "name": "Wakka",
@@ -66,17 +66,17 @@
                             },
                             {
                                 "name": "South of Spawn, Right Side (Chest)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 745, "y": 680}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 520, "y": 520}],
                                 "sections": [{"name": "Phoenix Down x1"}]
                             },
                             {
                                 "name": "South Side, Hidden Behind Right Wall (Chest)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 800, "y": 710}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 565, "y": 550}],
                                 "sections": [{"name": "Hi-Potion x1"}]
                             },
                             {
                                 "name": "East Side, Right of Path (Chest)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 945, "y": 680}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 670, "y": 535}],
                                 "sections": [{"name": "Antidote x2"}]
                             }
                         ]
@@ -87,17 +87,17 @@
                         "children": [
                             {
                                 "name": "Village Slope - Element Tutorial (Event)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 460, "y": 265}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 825, "y": 500}],
                                 "sections": [{"name": "Lulu", "ref": "Party Member/Character/Lulu"}]
                             },
                             {
                                 "name": "Waterfall Way - Summon Tutorial (Event)",
-                                "map_locations": [{ "map": "Besaid Island", "x": 100, "y": 600}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 640, "y": 195}],
                                 "sections": [{"name": "Yuna", "ref": "Party Member/Character/Yuna"}]
                             },
                             {
                                 "name": "Monster Captures",
-                                "map_locations": [{ "map": "Besaid Island", "x": 825, "y": 890}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 457, "y": 100}],
                                 "sections": [
                                     {"name": "Dingo (3x Wolf)", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Dingo (3x Wolf)"},
                                     {"name": "Condor (5x Bird)", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Condor (5x Bird)"},
@@ -106,7 +106,7 @@
                             },
                             {
                                 "name": "Captures Required for Logic",
-                                "map_locations": [{ "map": "Besaid Island", "x": 849, "y": 890, "size": 16, "shape": "diamond"}],
+                                "map_locations": [{ "map": "Besaid Island", "x": 481, "y": 100, "size": 16, "shape": "diamond"}],
                                 "sections": [
                                     {"name": "Dingo", "ref": "Monster Arena/Fiend Capture/Besaid/Captures Required for Logic/Dingo"},
                                     {"name": "Condor", "ref": "Monster Arena/Fiend Capture/Besaid/Captures Required for Logic/Condor"},

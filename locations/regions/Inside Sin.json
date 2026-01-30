@@ -11,32 +11,32 @@
                 "children": [
                     {
                         "name": "West Alcove (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 25, "y": 927}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 755, "y": 710}],
                         "sections": [{"name": "Phantom Ring"}]
                     },
                     {
                         "name": "Atop Western Falls (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 100, "y": 1015}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 840, "y": 780}],
                         "sections": [{"name": "Special Sphere x1"}]
                     },
                     {
                         "name": "Northwestern Alcove (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 137, "y": 732}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 830, "y": 500}],
                         "sections": [{"name": "Elixir x1"}]
                     },
                     {
                         "name": "Atop Eastern Falls (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 325, "y": 912}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 1040, "y": 640}],
                         "sections": [{"name": "Wizard Lance"}]
                     },
                     {
                         "name": "Eastern Alcove, Near Final North Branch (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 410, "y": 845}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 1120, "y": 550}],
                         "sections": [{"name": "Lv. 3 Key Sphere x1"}]
                     },
                     {
                         "name": "Defeat Seymour Omnis (Boss)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 245, "y": 460, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 655, "y": 470, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -48,7 +48,7 @@
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Inside Sin", "x": 980, "y": 760, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 150, "y": 905, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
@@ -87,47 +87,47 @@
                 "children": [
                     {
                         "name": "East Glyph Near South Exit, Defeat 10-10-15 Fiends (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 980, "y": 950}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 650, "y": 780}],
                         "sections": [{"name": "Lv. 4 Key Sphere x1"}]
                     },
                     {
                         "name": "South Side, Lift on Small Bridge (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 665, "y": 690}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 290, "y": 590}],
                         "sections": [{"name": "Four-on-One"}]
                     },
                     {
                         "name": "South of First Open Area, Push North Wall Down (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 515, "y": 650}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 130, "y": 570}],
                         "sections": [{"name": "Defending Bracer"}]
                     },
                     {
                         "name": "First Open Area, Ramp Down in Center (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 623, "y": 532}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 212, "y": 435}],
                         "sections": [{"name": "20000 gil"}]
                     },
                     {
                         "name": "First Open Area, Glyph in Northwest Corner (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 480, "y": 505}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 75, "y": 433}],
                         "sections": [{"name": "Megalixir x1"}]
                     },
                     {
                         "name": "Lift Up in Center of First Open Area (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 715, "y": 612}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 325, "y": 495}],
                         "sections": [{"name": "HP Sphere x1"}]
                     },
                     {
                         "name": "Lift Up in Center of First Area, Just Before Lift Down (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 705, "y": 580}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 305, "y": 455}],
                         "sections": [{"name": "Defense Sphere x1"}]
                     },
                     {
                         "name": "Secret Slide South of Rising Block Area (Chest)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 1020, "y": 512}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 610, "y": 340}],
                         "sections": [{"name": "Laevatein"}]
                     },
                     {
                         "name": "Defeat Braska's Final Aeon (Boss)",
-                        "map_locations": [{ "map": "Inside Sin", "x": 245, "y": 100, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 761, "y": 66, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["^$CheckGoalRequirement"],
                         "sections": [
                             {
@@ -139,7 +139,7 @@
                     },
                     {
                         "name": "Monster Captures - City of Dying Dreams",
-                        "map_locations": [{ "map": "Inside Sin", "x": 1020, "y": 760, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Inside Sin", "x": 180, "y": 905, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [

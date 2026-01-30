@@ -108,7 +108,7 @@
                     },
                     {
                         "name": "Defeat Spherimorph (Boss)",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 715, "y": 300, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 555, "y": 290, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -120,7 +120,7 @@
                     },
                     {
                         "name": "Campsite (Chest)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 870, "y": 55}],
+                        "map_locations": [{ "map": "Via Purifico", "x": 860, "y": 85}],
                         "access_rules": ["spherimorph, seymournatus, [$hasMinimumParty|3]"],
                         "sections": [{"name": "Lucid Ring"}]
                     },
@@ -136,7 +136,7 @@
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Macalania Woods", "x": 620, "y": 230, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Macalania Woods", "x": 730, "y": 170, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
@@ -183,7 +183,7 @@
                         "children": [
                             {
                                 "name": "Left Side (Primer)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 975, "y": 640}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 710, "y": 520}],
                                 "sections": [
                                     {
                                         "name": "Al Bhed Primer XVI",
@@ -193,7 +193,7 @@
                             },
                             {
                                 "name": "Right Side (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 900, "y": 700}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 680, "y": 540}],
                                 "access_rules": ["crawler"],
                                 "sections": [{"name": "4000 gil"}]
                             }
@@ -204,7 +204,7 @@
                         "children": [
                             {
                                 "name": "Cross the Lake (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 800, "y": 280, "shape": "trapezoid", "size": 32}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 630, "y": 250, "shape": "trapezoid", "size": 32}],
                                 "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
@@ -228,17 +228,17 @@
                         "children": [
                             {
                                 "name": "South End of Narrow Path (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 400, "y": 340}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 298, "y": 290}],
                                 "sections": [{"name": "Lv. 1 Key Sphere x1"}]
                             },
                             {
                                 "name": "Near North Exit (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 350, "y": 80}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 275, "y": 55}],
                                 "sections": [{"name": "Mega-Potion x1"}]
                             },
                             {
                                 "name": "Linna, at Bottom of Stairs (NPC)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 320, "y": 650}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 250, "y": 600}],
                                 "sections": [
                                     {"name": "400 gil"},
                                     {"name": "Recruit", "ref": "Blitzball Recruits/Linna"}
@@ -246,7 +246,7 @@
                             },
                             {
                                 "name": "Defeat Dark Shiva (Superboss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 57, "y": 500}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 21, "y": 435}],
                                 "sections": [{"name": "Dark Shiva", "ref": "Super Bosses/Dark Shiva"}]
                             }
                         ]
@@ -257,19 +257,19 @@
                         "children": [
                             {
                                 "name": "Hidden Behind Kimahri (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 620, "y": 570}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 520, "y": 480}],
                                 "sections": [{"name": "Lv. 2 Key Sphere"}]
                             },
                             {
                                 "name": "Hidden Left of Auron (Chest)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 500, "y": 400}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 400, "y": 330}],
                                 "sections": [{"name": "Avenger"}]
                             }
                         ]
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Lake Macalania", "x": 950, "y": 165, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Lake Macalania", "x": 740, "y": 140, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [
@@ -343,7 +343,7 @@
                     },
                     {
                         "name": "Defeat Seymour (Boss)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 380, "y": 510, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 378, "y": 600, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -355,7 +355,7 @@
                     },
                     {
                         "name": "Cloister of Trials",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 245, "y": 475}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 395, "y": 230}],
                         "sections": [
                             {
                                 "name": "Destruction Sphere - Luck Sphere",
@@ -367,7 +367,7 @@
                     },
                     {
                         "name": "Chamber of the Fayth",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 380, "y": 560}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 378, "y": 710}],
                         "sections": [{"name": "Shiva", "ref": "Party Member/Aeon/Shiva"}]
                     }
                 ]

@@ -11,37 +11,37 @@
                 "children": [
                     {
                         "name": "Right of Shelinda (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 830, "y": 458}],
+                        "map_locations": [{ "map": "Moonflow", "x": 795, "y": 377}],
                         "sections": [{"name": "Lv. 1 Key Sphere x3"}]
                     },
                     {
                         "name": "West Corner as Path Bends East (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 813, "y": 292}],
+                        "map_locations": [{ "map": "Moonflow", "x": 785, "y": 255}],
                         "sections": [{"name": "X-Potion x1"}]
                     },
                     {
                         "name": "East Alcove as Path Bends North (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 960, "y": 245}],
+                        "map_locations": [{ "map": "Moonflow", "x": 900, "y": 210}],
                         "sections": [{"name": "Lv. 1 Key Sphere x3"}]
                     },
                     {
                         "name": "West Alcove in Forest Past Belgemine (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 990, "y": 100}],
+                        "map_locations": [{ "map": "Moonflow", "x": 920, "y": 90}],
                         "sections": [{"name": "Magic Def Sphere x1"}]
                     },
                     {
                         "name": "Near O'aka XXIII (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 600, "y": 320}],
+                        "map_locations": [{ "map": "Moonflow", "x": 600, "y": 265}],
                         "sections": [{"name": "Phoenix Down x2"}]
                     },
                     {
                         "name": "Behind Lulu (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 295, "y": 75}],
+                        "map_locations": [{ "map": "Moonflow", "x": 330, "y": 65}],
                         "sections": [{"name": "5000 gil"}]
                     },
                     {
                         "name": "Defeat Extractor (Boss)",
-                        "map_locations": [{ "map": "Moonflow", "x": 525, "y": 400, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Moonflow", "x": 525, "y": 350, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasSwimmers|2]"],
                         "sections": [
                             {
@@ -59,7 +59,7 @@
                 "children": [
                     {
                         "name": "Up Slope Right of Hypello (Primer)",
-                        "map_locations": [{ "map": "Moonflow", "x": 425, "y": 440}],
+                        "map_locations": [{ "map": "Moonflow", "x": 420, "y": 380}],
                         "sections": [
                             {
                                 "name": "Al Bhed Primer XII",
@@ -69,17 +69,17 @@
                     },
                     {
                         "name": "Near Bench (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 220, "y": 205}],
+                        "map_locations": [{ "map": "Moonflow", "x": 220, "y": 160}],
                         "sections": [{"name": "Ether x1"}]
                     },
                     {
                         "name": "Blitzball Recruit",
-                        "map_locations": [{ "map": "Moonflow", "x": 265, "y": 220}],
+                        "map_locations": [{ "map": "Moonflow", "x": 265, "y": 170}],
                         "sections": [{"name": "Miyu", "ref": "Blitzball Recruits/Miyu"}]
                     },
                     {
                         "name": "Mix Tutorial (Event)",
-                        "map_locations": [{ "map": "Moonflow", "x": 100, "y": 390}],
+                        "map_locations": [{ "map": "Moonflow", "x": 45, "y": 390}],
                         "sections": [
                             {
                                 "name": "Rikku",
@@ -89,19 +89,19 @@
                     },
                     {
                         "name": "East Side, Right After the Wooden Bridge (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 55, "y": 420}],
+                        "map_locations": [{ "map": "Moonflow", "x": 65, "y": 380}],
                         "sections": [{"name": "Antidote x4"}]
                     },
                     {
                         "name": "West Side, Before Guadosalam (Chest)",
-                        "map_locations": [{ "map": "Moonflow", "x": 95, "y": 110}],
+                        "map_locations": [{ "map": "Moonflow", "x": 55, "y": 140}],
                         "sections": [{"name": "Mega-Potion x1"}]
                     }
                 ]
             },
             {
                 "name": "Monster Captures",
-                "map_locations": [{ "map": "Moonflow", "x": 580, "y": 130, "shape": "diamond"}],
+                "map_locations": [{ "map": "Moonflow", "x": 540, "y": 110, "shape": "diamond"}],
                 "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [

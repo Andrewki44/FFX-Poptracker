@@ -73,7 +73,7 @@
             },
             {
                 "name": "Monster Arena",
-                "map_locations": [{ "map": "Calm Lands", "x": 1060, "y": 600}],
+                "map_locations": [{ "map": "Calm Lands", "x": 1058, "y": 610}],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {

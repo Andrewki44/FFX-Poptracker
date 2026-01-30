@@ -8,12 +8,12 @@
         "children": [
             {
                 "name": "Press Both Glyphs, Then Take Narrow Central Path (Chest)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 480, "y": 640}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 430, "y": 490}],
                 "sections": [{"name": "Teleport Sphere x1"}]
             },
             {
                 "name": "North Side of Four Chest Intersection (Primer)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 450, "y": 285}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 390, "y": 200}],
                 "sections": [
                     {
                         "name": "Al Bhed Primer XXVI",
@@ -23,7 +23,7 @@
             },
             {
                 "name": "Defeat Ultima Weapon (Boss)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 857, "y": 287, "shape": "trapezoid", "size": 40}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 765, "y": 200, "shape": "trapezoid", "size": 40}],
                 "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
@@ -35,26 +35,26 @@
             },
             {
                 "name": "West Path (Chest)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 1725, "y": 370}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 1330, "y": 310}],
                 "access_rules": ["ultimaweapon, [$hasMinimumParty|3]"],
                 "sections": [{"name": "Friend Sphere x1"}]
             },
             {
                 "name": "Defeat Omega Weapon (Superboss)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 1535, "y": 635, "shape": "trapezoid", "size": 40}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 1200, "y": 490, "shape": "trapezoid", "size": 40}],
                 "visibility_rules": ["superbosses"],
                 "sections": [{"name": "Omega Weapon", "ref": "Super Bosses/Omega Weapon"}]
             },
             {
                 "name": "Omega Boss Arena (Chest)",
-                "map_locations": [{ "map": "Omega Ruins", "x": 1483, "y": 635}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 1150, "y": 490}],
                 "access_rules": ["omegaweapon, [$hasMinimumParty|3]"],
                 "visibility_rules": ["superbosses"],
                 "sections": [{"name": "Magic Sphere x1"}]
             },
             {
                 "name": "Monster Captures",
-                "map_locations": [{ "map": "Omega Ruins", "x": 780, "y": 550, "shape": "diamond"}],
+                "map_locations": [{ "map": "Omega Ruins", "x": 640, "y": 430, "shape": "diamond"}],
                 "access_rules": ["@Monster Arena/Fiend Capture"],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
