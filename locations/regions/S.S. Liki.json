@@ -16,7 +16,7 @@
                 "map_locations": [{ "map": "S.S. Liki", "x": 610, "y": 875}],
                 "sections": [
                     {
-                        "name": "Al Bhed Primer III",
+                        "name": "Power Room & Bikanel: Oasis (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer III/S.S. Liki"
                     }
                 ]
@@ -30,12 +30,12 @@
                         "ref": "Party Member/Character/Kimahri"
                     },
                     {
-                        "name": "Sin Fin",
+                        "name": "Defeat Sin Fin (Boss)",
                         "hosted_item": "sinfin",
                         "clear_as_group": true
                     },
                     { 
-                        "name": "Sinspawn Echuilles",
+                        "name": "Defeat Sinspawn Echuilles (Boss)",
                         "hosted_item": "echuilles",
                         "clear_as_group": true
                     }

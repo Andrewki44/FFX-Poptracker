@@ -8,7 +8,7 @@
         "children": [
             {
                 "name": "Defeat Biran and Yenke (Boss)",
-                "map_locations": [{ "map": "Gagazet Outside", "x": 862, "y": 600, "shape": "trapezoid", "size": 24}],
+                "map_locations": [{ "map": "Gagazet Outside", "x": 772, "y": 390, "shape": "trapezoid", "size": 24}],
                 "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
@@ -24,22 +24,22 @@
                 "children": [
                     {
                         "name": "Top of Right Ridge Near South Exit (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 892, "y": 455}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 809, "y": 277}],
                         "sections": [{"name": "20000 gil"}]
                     },
                     {
                         "name": "Left Alcove Near South Exit (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 830, "y": 360}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 740, "y": 178}],
                         "sections": [{"name": "Mega-Potion x2"}]
                     },
                     {
                         "name": "West Branch Before Bridge to Wantz (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 335, "y": 420}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 248, "y": 224}],
                         "sections": [{"name": "Defending Bracer"}]
                     },
                     {
                         "name": "Under Bridge After Wantz (Chests)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 700, "y": 970}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 630, "y": 494}],
                         "sections": [
                             {"name": "Lv. 4 Key Sphere x1"},
                             {"name": "HP Sphere x1"}
@@ -47,7 +47,7 @@
                     },
                     {
                         "name": "Defeat Seymour Flux (Boss)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 65, "y": 300, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 34, "y": 152, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -59,7 +59,7 @@
                     },
                     {
                         "name": "Hidden Between Left Pillars (Chest)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 190, "y": 25}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 90, "y": 26}],
                         "sections": [
                             {
                                 "name": "Saturn Crest",
@@ -69,12 +69,12 @@
                     },
                     {
                         "name": "Defeat Dark Anima (Superboss)",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 900, "y": 700, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 810, "y": 490, "shape": "trapezoid", "size": 24}],
                         "sections": [{"name": "Dark Anima", "ref": "Super Bosses/Dark Anima"}]
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 650, "y": 580, "shape": "diamond"}],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 480, "y": 656, "shape": "diamond"}],
                         "access_rules": ["@Monster Arena/Fiend Capture"],
                         "visibility_rules": ["capturesanity"],
                         "sections": [

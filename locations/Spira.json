@@ -10,59 +10,59 @@
                 "map_locations": [{ "map": "Spira", "x": 186, "y": 615}],
                 "sections": [
                     {
-                        "name": "Submerged Ruins - 200 gil (Chest)",
-                        "ref": "Baaj Temple/Outside/Northeast Structure (Chest)/200 gil"
+                        "name": "Submerged Ruins - Northeast Structure (Chest)",
+                        "ref": "Baaj Temple/Outside/Submerged Ruins - Northeast Structure (Chest)/200 gil"
                     },
                     {
-                        "name": "Submerged Ruins - Potion x2 (Chest)",
-                        "ref": "Baaj Temple/Outside/Northwest Structure (Chest)/Potion x2"
+                        "name": "Submerged Ruins - Northwest Structure (Chest)",
+                        "ref": "Baaj Temple/Outside/Submerged Ruins - Northwest Structure (Chest)/Potion x2"
                     },
                     {
-                        "name": "Underwater Hall - Hi-Potion x1 (Chest)",
-                        "ref": "Baaj Temple/Outside/West Branch of Main Path (Chest)/Hi-Potion x1"
+                        "name": "Underwater Hall - West Branch of Main Path (Chest)",
+                        "ref": "Baaj Temple/Outside/Underwater Hall - West Branch of Main Path (Chest)/Hi-Potion x1"
                     },
                     {
-                        "name": "Small Room - Flint",
-                        "ref": "Baaj Temple/Inside/Flint Inside Desk (Event)/Flint"
+                        "name": "Small Room - Flint Inside Desk (Event)",
+                        "ref": "Baaj Temple/Inside/Small Room - Flint Inside Desk (Event)/Flint"
                     },
                     {
-                        "name": "Hall - X-Potion x1 (Chest)",
-                        "ref": "Baaj Temple/Inside/South Side of East Door (Chest)/X-Potion x1"
+                        "name": "Hall - South Side of East Door (Chest)",
+                        "ref": "Baaj Temple/Inside/Hall - South Side of East Door (Chest)/X-Potion x1"
                     },
                     {
-                        "name": "Stairs - Ether (Chest)",
-                        "ref": "Baaj Temple/Inside/South End (Chest)/Ether"
+                        "name": "Stairs - South End (Chest)",
+                        "ref": "Baaj Temple/Inside/Stairs - South End (Chest)/Ether"
                     },
                     {
-                        "name": "Stairs - Withered Bouquet",
-                        "ref": "Baaj Temple/Inside/Flowers in Sconce on Right Wall, North End (Event)/Withered Bouquet"
+                        "name": "Stairs - Flowers in Sconce on Right Wall, North End (Event)",
+                        "ref": "Baaj Temple/Inside/Stairs - Flowers in Sconce on Right Wall, North End (Event)/Withered Bouquet"
                     },
                     {
-                        "name": "Hall - Hi-Potion x1 (Chest)",
-                        "ref": "Baaj Temple/Inside/North exit from Stairs, East End (Chest)/Hi-Potion x1"
+                        "name": "Hall - North exit from Stairs, East End (Chest)",
+                        "ref": "Baaj Temple/Inside/Hall - North exit from Stairs, East End (Chest)/Hi-Potion x1"
                     },
                     {
-                        "name": "Hall - Klikk",
+                        "name": "Defeat Klikk (Boss)",
                         "ref": "Baaj Temple/Inside/Defeat Klikk (Boss)/Klikk"
                     },
                     {
-                        "name": "Underwater Hall - Geosgaeno",
+                        "name": "Defeat Geosgaeno (Boss)",
                         "ref": "Baaj Temple/Temple/Defeat Geosgaeno (Boss)/Geosgaeno"
                     },
                     {
-                        "name": "Underwater Hall - Onion Knight (Chest)",
+                        "name": "Underwater Hall - South Side Hidden Under Rocks (Chest)",
                         "ref": "Celestial/Lulu/Onion Knight"
                     },
                     {
-                        "name": "Antechamber - Megalixir (Chest)",
-                        "ref": "Baaj Temple/Temple/Right Side (Chest)/Megalixir"
+                        "name": "Antechamber - Right Side (Chest)",
+                        "ref": "Baaj Temple/Temple/Antechamber - Right Side (Chest)/Megalixir"
                     },
                     {
-                        "name": "Antechamber - Mega Phoenix x4 (Chest)",
-                        "ref": "Baaj Temple/Temple/Left Side (Chest)/Mega Phoenix x4"
+                        "name": "Antechamber - Left Side (Chest)",
+                        "ref": "Baaj Temple/Temple/Antechamber - Left Side (Chest)/Mega Phoenix x4"
                     },
                     {
-                        "name": "Antechamber - Anima",
+                        "name": "Release Anima (Event)",
                         "ref": "Party Member/Aeon/Anima"
                     }
                 ]
@@ -72,15 +72,15 @@
                 "map_locations": [{ "map": "Spira", "x": 241, "y": 675}],
                 "sections": [
                     {
-                        "name": "Deck - Potion x 3 (NPC)",
-                        "ref": "Al Bhed Ship/Yellow Al Bhed, on Left (NPC)/Potion x 3"
+                        "name": "Deck - Yellow Al Bhed, on Left (NPC)",
+                        "ref": "Al Bhed Ship/Deck - Yellow Al Bhed, on Left (NPC)/Potion x 3"
                     },
                     {
-                        "name": "Deck- Al Bhed Primer I",
+                        "name": "Al Bhed Ship: Deck & Bikanel: Oasis (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer I/Al Bhed Ship"
                     },
                     {
-                        "name": "Sunken Ruins - Tros",
+                        "name": "Defeat Tros (Boss)",
                         "ref": "Al Bhed Ship/Defeat Tros (Boss)/Tros"
                     }
                 ]
@@ -90,115 +90,115 @@
                 "map_locations": [{ "map": "Spira", "x": 410, "y": 1005}],
                 "sections": [
                     {
-                        "name": "Beach - Antidote x2 (Chest)",
-                        "ref": "Besaid/Island/Beach/West Near Huts (Chest)/Antidote x2"
+                        "name": "Beach - West Near Huts (Chest)",
+                        "ref": "Besaid/Island/Beach/Beach - West Near Huts (Chest)/Antidote x2"
                     },
                     {
-                        "name": "Beach - Moon Crest (Chest)",
+                        "name": "Beach - East Alcove (Chest)",
                         "ref": "Celestial/Yuna/Moon Crest"
                     },
                     {
-                        "name": "Beach - Aurochs (Datto)",
-                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Hi-Potion x1 (Datto)"
+                        "name": "Beach - Datto (NPC)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Beach - Datto (NPC)"
                     },
                     {
-                        "name": "Beach - Aurochs (Jassu)",
-                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Potion x3 (Jassu)"
+                        "name": "Beach - Jassu (NPC)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Beach - Jassu (NPC)"
                     },
                     {
-                        "name": "Beach - Aurochs (Botta)",
-                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Potion x2 (Botta)"
+                        "name": "Beach - Botta (NPC)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Beach - Botta (NPC)"
                     },
                     {
-                        "name": "Beach - Aurochs (Keepa)",
-                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/200 gil (Keepa)"
+                        "name": "Beach - Keepa (NPC)",
+                        "ref": "Besaid/Island/Beach/Aurochs (NPCs)/Beach - Keepa (NPC)"
                     },
                     {
-                        "name": "Valley - Wakka",
+                        "name": "Enter the Valley (Event)",
                         "ref": "Party Member/Character/Wakka"
                     },
                     {
-                        "name": "Valley - Phoenix Down x1 (Chest)",
-                        "ref": "Besaid/Island/Valley/South of Spawn, Right Side (Chest)/Phoenix Down x1"
+                        "name": "Valley - South of Spawn, Right Side (Chest)",
+                        "ref": "Besaid/Island/Valley/Valley - South of Spawn, Right Side (Chest)/Phoenix Down x1"
                     },
                     {
-                        "name": "Valley - Hi-Potion x1 (Chest)",
-                        "ref": "Besaid/Island/Valley/South Side, Hidden Behind Right Wall (Chest)/Hi-Potion x1"
+                        "name": "Valley - South Side, Hidden Behind Right Wall (Chest)",
+                        "ref": "Besaid/Island/Valley/Valley - South Side, Hidden Behind Right Wall (Chest)/Hi-Potion x1"
                     },
                     {
-                        "name": "Valley - Antidote x2 (Chest)",
-                        "ref": "Besaid/Island/Valley/East Side, Right of Path (Chest)/Antidote x2"
+                        "name": "Valley - East Side, Right of Path (Chest)",
+                        "ref": "Besaid/Island/Valley/Valley - East Side, Right of Path (Chest)/Antidote x2"
                     },
                     {
-                        "name": "Village - Phoenix Down x1 (Chest)",
-                        "ref": "Besaid/Village/Front of Shop (Chest)/Phoenix Down x1"
+                        "name": "Village - Front of Shop (Chest)",
+                        "ref": "Besaid/Village/Village - Front of Shop (Chest)/Phoenix Down x1"
                     },
                     {
-                        "name": "Village - Behind the Shop (Bottom Chest)",
-                        "ref": "Besaid/Village/Behind Shop (Chests)/Hi-Potion x1"
+                        "name": "Village - Behind Shop, Bottom (Chest)",
+                        "ref": "Besaid/Village/Behind Shop (Chests)/Village - Behind Shop, Bottom (Chest)"
                     },
                     {
-                        "name": "Village - Behind the Shop (Middle Chest)",
-                        "ref": "Besaid/Village/Behind Shop (Chests)/400 gil"
+                        "name": "Village - Behind Shop, Middle (Chest)",
+                        "ref": "Besaid/Village/Behind Shop (Chests)/Village - Behind Shop, Middle (Chest)"
                     },
                     {
-                        "name": "Village - Behind the Shop (Top Chest)",
-                        "ref": "Besaid/Village/Behind Shop (Chests)/Potion x2"
+                        "name": "Village - Behind Shop, Top (Chest)",
+                        "ref": "Besaid/Village/Behind Shop (Chests)/Village - Behind Shop, Top (Chest)"
                     },
                     {
-                        "name": "Village - Al Bhed Primer II",
+                        "name": "Village, Crusader Lodge - On Ground Near Counter (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer II/Besaid"
                     },
                     {
-                        "name": "Village - Recruit Vilucha",
+                        "name": "Recruit: Vilucha",
                         "ref": "Blitzball Recruits/Vilucha"
                     },
                     {
-                        "name": "Temple - Cloister of Trials - Destruction Sphere",
-                        "ref": "Besaid/Temple/Cloister of Trials/Destruction Sphere - Rod of Wisdom"
+                        "name": "Cloister - Destruction Sphere (Chest)",
+                        "ref": "Besaid/Temple/Cloister - Destruction Sphere (Chest)/Destruction Sphere - Rod of Wisdom"
                     },
                     {
-                        "name": "Village - Cloister of Trials - Valefor",
+                        "name": "Name Valefor (Event)",
                         "ref": "Party Member/Aeon/Valefor"
                     },
                     {
-                        "name": "Village - Exit the Village (Map)" ,
+                        "name": "Exit the Village (Event) (2)" ,
                         "ref": "Besaid/Village/Exit the Village (Event)/Map"
                     },
                     {
-                        "name": "Village - Exit the Village (Brotherhood)" ,
+                        "name": "Exit the Village (Event) (1)" ,
                         "ref": "Celestial/Tidus/Brotherhood"
                     },
                     {
-                        "name": "Village Slope - Lulu",
+                        "name": "Village Slope - Element Tutorial (Event)",
                         "ref": "Party Member/Character/Lulu"
                     },
                     {
-                        "name": "Waterfall Way - Yuna",
+                        "name": "Waterfall Way - Summon Tutorial (Event)",
                         "ref": "Party Member/Character/Yuna"
                     },
                     {
-                        "name": "Beach - Dock (Kid))",
-                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Remedy x1 (Kid)"
+                        "name": "Beach, Dock - Boy (NPC)",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Beach, Dock - Boy (NPC)"
                     },
                     {
-                        "name": "Beach - Dock (Priest))",
-                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Seekers Ring (Priest)"
+                        "name": "Beach, Dock - Priest (NPC)",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Beach, Dock - Priest (NPC)"
                     },
                     {
-                        "name": "Beach - Dock (Woman))",
-                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Phoenix Down x3 (Woman)"
+                        "name": "Beach, Dock - Woman (NPC)",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Beach, Dock - Woman (NPC)"
                     },
                     {
-                        "name": "Beach - Dock (Shirtless Man))",
-                        "ref": "Besaid/Island/Beach/Dock (NPCs)/400 gil (Shirtless Man)"
+                        "name": "Beach, Dock - Shirtless Man (NPC)",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Beach, Dock - Shirtless Man (NPC)"
                     },
                     {
-                        "name": "Beach - Dock (Green Shirt))",
-                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Ether (Green Shirt)"
+                        "name": "Beach, Dock - Green Shirt (NPC)",
+                        "ref": "Besaid/Island/Beach/Dock (NPCs)/Beach, Dock - Green Shirt (NPC)"
                     },
                     {
-                        "name": "Super Bosses - Dark Valefor",
+                        "name": "Defeat Dark Valefor (Superboss)",
                         "ref": "Super Bosses/Dark Valefor"
                     }
                 ]
@@ -208,11 +208,11 @@
                 "map_locations": [{ "map": "Spira", "x": 445, "y": 1000, "size": 24}],
                 "sections": [
                     {
-                        "name": "Remedy x1 (Chest)",
+                        "name": "Cabin (Chest)",
                         "ref": "S.S. Liki/Cabin (Chest)/Remedy x1"
                     },
                     {
-                        "name": "Al Bhed Primer III",
+                        "name": "Power Room & Bikanel: Oasis (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer III/S.S. Liki"
                     },
                     {
@@ -220,12 +220,12 @@
                         "ref": "Party Member/Character/Kimahri"
                     },
                     {
-                        "name": "Sin Fin",
-                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/Sin Fin"
+                        "name": "Defeat Sin Fin (Boss)",
+                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/Defeat Sin Fin (Boss)"
                     },
                     {
-                        "name": "Sinspawn Echuilles",
-                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/Sinspawn Echuilles"
+                        "name": "Defeat Sinspawn Echuilles (Boss)",
+                        "ref": "S.S. Liki/Encounter Sin Fin (Event)/Defeat Sinspawn Echuilles (Boss)"
                     }
                 ]
             },
@@ -234,67 +234,67 @@
                 "map_locations": [{ "map": "Spira", "x": 485, "y": 971}],
                 "sections": [
                     {
-                        "name": "Village - Potion x3 (Chest)",
-                        "ref": "Kilika/Village/Right of Collapsing House (Chest)/Potion x3"
+                        "name": "House - Right of Collapsing House (Chest)",
+                        "ref": "Kilika/Village/House - Right of Collapsing House (Chest)/Potion x3"
                     },
                     {
-                        "name": "Village - Ether x1 (Chest)",
-                        "ref": "Kilika/Village/After Rescuing Kulukan's Sister from Collapsing House (Chest)/Ether x1"
+                        "name": "Tavern - After Rescuing Kulukan's Sister from Collapsing House (Chest)",
+                        "ref": "Kilika/Village/Tavern - After Rescuing Kulukan's Sister from Collapsing House (Chest)/Ether x1"
                     },
                     {
-                        "name": "Village - Al Bhed Primer IV",
+                        "name": "Tavern - On Counter (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer IV/Kilika"
                     },
                     {
-                        "name": "Village - Recruit Tatts",
+                        "name": "Recruit: Tatts",
                         "ref": "Blitzball Recruits/Tatts"
                     },
                     {
-                        "name": "Woods - Mana Sphere x2 (Chest)",
-                        "ref": "Kilika/Woods/East of First Intersection (Chest)/Mana Sphere x2"
+                        "name": "Woods - East of First Intersection (Chest)",
+                        "ref": "Kilika/Woods/Woods - East of First Intersection (Chest)/Mana Sphere x2"
                     },
                     {
-                        "name": "Woods - Scout (Chest)",
-                        "ref": "Kilika/Woods/West of First Intersection, First North Fork (Chest)/Scout"
+                        "name": "Woods - West of First Intersection, First North Fork (Chest)",
+                        "ref": "Kilika/Woods/Woods - West of First Intersection, First North Fork (Chest)/Scout"
                     },
                     {
-                        "name": "Woods - Remedy x1 (Leader NPC)",
-                        "ref": "Kilika/Woods/Crusader Commander West of Lord Ochu (NPC)/Remedy x1"
+                        "name": "Woods - Crusader Commander West of Lord Ochu (NPC)",
+                        "ref": "Kilika/Woods/Woods - Crusader Commander West of Lord Ochu (NPC)/Remedy x1"
                     },
                     {
-                        "name": "Woods - High Potion x1 (Guard NPC)",
-                        "ref": "Kilika/Woods/Crusader Commander North of Lord Ochu (NPC)/High Potion x1"
+                        "name": "Woods - Crusader Commander North of Lord Ochu (NPC)",
+                        "ref": "Kilika/Woods/Woods - Crusader Commander North of Lord Ochu (NPC)/High Potion x1"
                     },
                     {
-                        "name": "Woods - Luck Sphere x1 (Chest)",
-                        "ref": "Kilika/Woods/Path North of Lord Ochu, Curving West (Chest)/Luck Sphere x1"
+                        "name": "Woods - Path North of Lord Ochu, Curving West (Chest)",
+                        "ref": "Kilika/Woods/Woods - Path North of Lord Ochu, Curving West (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Woods - Luzzu - Before Ochu (NPC)",
-                        "ref": "Kilika/Woods/Luzzu (NPC)/Antidote x4 (Before Defeating Ochu)"
+                        "name": "Woods - Luzzu Before Beating Lord Ochu (NPC)",
+                        "ref": "Kilika/Woods/Woods - Luzzu Before Beating Lord Ochu (NPC)/Antidote x4 (Before Defeating Ochu)"
                     },
                     {
-                        "name": "Woods - Lord Ochu",
+                        "name": "Defeat Lord Ochu (Boss)",
                         "ref": "Kilika/Woods/Defeat Lord Ochu (Boss)/Lord Ochu"
                     },
                     {
                         "name": "Woods - Luzzu - After Ochu (NPC)",
-                        "ref": "Kilika/Woods/Luzzu (NPC)/Elixir x1 (After Defeating Ochu)"
+                        "ref": "Kilika/Woods/Woods - Luzzu After Beating Lord Ochu (NPC)/Elixir x1 (After Defeating Ochu)"
                     },
                     {
-                        "name": "Woods - Sinspawn Geneaux",
+                        "name": "Defeat Sinspawn Geneaux (Boss)",
                         "ref": "Kilika/Woods/Defeat Sinspawn Geneaux (Boss)/Sinspawn Geneaux"
                     },
                     {
-                        "name": "Temple - Recruit Mep",
+                        "name": "Recruit: Mep",
                         "ref": "Blitzball Recruits/Mep"
                     },
                     {
-                        "name": "Temple - Cloister of Trials",
-                        "ref": "Kilika/Temple/Cloister of Trials/Destruction Sphere - Red Armlet"
+                        "name": "Trials - Destruction Sphere (Chest)",
+                        "ref": "Kilika/Temple/Trials - Destruction Sphere (Chest)/Destruction Sphere - Red Armlet"
                     },
                     {
-                        "name": "Temple - Ifrit",
+                        "name": "Name Ifrit (Event)",
                         "ref": "Party Member/Aeon/Ifrit"
                     }                  
                 ]
@@ -304,20 +304,20 @@
                 "map_locations": [{ "map": "Spira", "x": 518, "y": 910, "size": 24}],
                 "sections": [
                     {
-                        "name": "Hi-Potion x1 (Chest)",
-                        "ref": "S.S. Winno/Left, Between Aurochs and Goers (Chest)/Hi-Potion x1"
+                        "name": "Cabin - Left, Between Aurochs and Goers (Chest)",
+                        "ref": "S.S. Winno/Cabin - Left, Between Aurochs and Goers (Chest)/Hi-Potion x1"
                     },
                     {
-                        "name": "Al Bhed Primer V",
+                        "name": "Bridge & Bikanel: Desert, East (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer V/S.S. Winno"
                     },
                     {
-                        "name": "Recruit Kiyuri",
+                        "name": "Recruit: Kiyuri\n2nd Visit",
                         "ref": "Blitzball Recruits/Kiyuri"
                     },
                     {
-                        "name": "Ace Wizard (11 Seagulls)",
-                        "ref": "S.S. Winno/Top Floor, Counting Gulls (2nd Visit, NPC - 11 Seagulls)/Ace Wizard"
+                        "name": "Deck - Top Floor, Counting Gulls (NPC)\n2nd Visit",
+                        "ref": "S.S. Winno/Deck - Top Floor, Counting Gulls (NPC)\n2nd Visit/Ace Wizard"
                     }
                 ]
             },
