@@ -64,7 +64,7 @@
         "name": "Recruit Sanity",
         "type": "toggle",
         "img": "images/items/hd/Blitzball.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "recruitsanity"
     },
     {
