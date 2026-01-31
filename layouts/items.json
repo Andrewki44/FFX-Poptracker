@@ -2579,13 +2579,13 @@
                             ],
                             [
                                 "weapon(tidus)caladbolg",
-                                "weapon(wakka)worldchampion",
-                                "weapon(lulu)onionknight",
-                                "weapon(yuna)nirvana"
+                                "weapon(yuna)nirvana",
+                                "weapon(auron)masamune",
+                                "weapon(kimahri)spiritlance"
                             ],
                             [
-                                "weapon(kimahri)spiritlance",
-                                "weapon(auron)masamune",
+                                "weapon(wakka)worldchampion",
+                                "weapon(lulu)onionknight",                                
                                 "weapon(rikku)godhand",
                                 "albhedprimers"
                             ]

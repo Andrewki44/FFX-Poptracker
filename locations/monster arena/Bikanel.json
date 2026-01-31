@@ -3,69 +3,93 @@
         "name": "Monster Arena - Bikanel",
         "children": [
             {
-                "name": "Murussu",
+                "name": "Sand Wolf",
                 "children": [
                     {
                         "name": "Sand Wolf (3x Wolf)",
                         "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 128}],
-                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Sand Wolf (3x Wolf)"}]
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Sand Wolf (3x Wolf)"}]
                     },
                     {
                         "name": "Captures Required for Logic",
-                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
-                        "sections": [{"name": "Murussu", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Murussu"}]
+                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Sand Wolf", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Sand Wolf"}]
                     }
                 ]
             },
             {
-                "name": "Murussu",
+                "name": "Alcyone",
                 "children": [
                     {
                         "name": "Alcyone (5x Bird)",
                         "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 278}],
-                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Alcyone (5x Bird)"}]
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Alcyone (5x Bird)"}]
                     },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Alcyone", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Alcyone"}]
+                    }
                 ]
             },
             {
-                "name": "Murussu",
+                "name": "Mushussu",
                 "children": [
                     {
                         "name": "Mushussu (5x Drake)",
                         "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 428}],
-                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Mushussu (5x Drake)"}]
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Mushussu (5x Drake)"}]
                     },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Mushussu", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Mushussu"}]
+                    }
                 ]
             },
             {
-                "name": "Murussu",
+                "name": "Zu",
                 "children": [
                     {
                         "name": "Zu",
                         "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 578}],
-                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Zu"}]
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Zu"}]
                     },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Zu", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Zu"}]
+                    }
                 ]
             },
             {
-                "name": "Murussu",
+                "name": "Sand Worm",
                 "children": [
                     {
                         "name": "Sand Worm",
                         "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 728}],
-                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Sand Worm"}]
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Sand Worm"}]
                     },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Sand Worm", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Sand Worm"}]
+                    }
                 ]
             },
             {
-                "name": "Murussu",
+                "name": "Cactuar",
                 "children": [
                     {
                         "name": "Cactuar",
                         "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 752, "y": 878}],
-                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Cactuar"}]
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Cactuar"}]
                     },
-
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Bikanel", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Cactuar", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Cactuar"}]
+                    }
                 ]
             }
         ]

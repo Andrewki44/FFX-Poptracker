@@ -611,7 +611,7 @@
                     {
                         "name": "Bikanel",
                         "access_rules": ["@Bikanel, zuboss, [$hasMinimumParty|3]"],
-                        "sections": [
+                        "children": [
                             {
                                 "name": "Fiends",
                                 "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 520}],

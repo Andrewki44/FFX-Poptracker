@@ -197,40 +197,26 @@
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Bikanel", "x": 220, "y": 1070, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture, zuboss, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["capturesanity"],
+                        "map_locations": [{ "map": "Bikanel", "x": 210, "y": 1070}],
                         "sections": [
-                            {
-                                "name": "Sand Wolf (3x Wolf)",
-                                "hosted_item": "sandwolf",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Alcyone (5x Bird)",
-                                "hosted_item": "alcyone",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Mushussu (5x Drake)",
-                                "hosted_item": "mushussu",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Zu",
-                                "hosted_item": "zu",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Sand Worm",
-                                "hosted_item": "sandworm",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Cactuar",
-                                "hosted_item": "cactuar",
-                                "clear_as_group": false
-                            }
+                            {"name": "Sand Wolf (3x Wolf)", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Sand Wolf (3x Wolf)"},
+                            {"name": "Alcyone (5x Bird)", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Alcyone (5x Bird)"},
+                            {"name": "Mushussu (5x Drake)", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Mushussu (5x Drake)"},
+                            {"name": "Zu", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Zu"},
+                            {"name": "Sand Worm", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Sand Worm"},
+                            {"name": "Cactuar", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Cactuar"}
+                        ]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Bikanel", "x": 250, "y": 1070, "shape": "diamond"}],
+                        "sections": [
+                            {"name": "Sand Wolf", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Sand Wolf"},
+                            {"name": "Alcyone", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Alcyone"},
+                            {"name": "Mushussu", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Mushussu"},
+                            {"name": "Zu", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Zu"},
+                            {"name": "Sand Worm", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Sand Worm"},
+                            {"name": "Cactuar", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Cactuar"}
                         ]
                     }
                 ]
