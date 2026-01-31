@@ -190,7 +190,7 @@
                         "children": [
                             {
                                 "name": "Cross the Lake (Boss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 630, "y": 250, "shape": "trapezoid", "size": 32}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 630, "y": 250, "shape": "trapezoid", "size": 24}],
                                 "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
@@ -232,7 +232,7 @@
                             },
                             {
                                 "name": "Defeat Dark Shiva (Superboss)",
-                                "map_locations": [{ "map": "Lake Macalania", "x": 21, "y": 435}],
+                                "map_locations": [{ "map": "Lake Macalania", "x": 21, "y": 435, "shape": "trapezoid", "size": 24}],
                                 "sections": [{"name": "Dark Shiva", "ref": "Super Bosses/Dark Shiva"}]
                             }
                         ]

@@ -41,7 +41,7 @@
                     },
                     {
                         "name": "Defeat Extractor (Boss)",
-                        "map_locations": [{ "map": "Moonflow", "x": 525, "y": 350, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Moonflow", "x": 525, "y": 350, "shape": "trapezoid", "size": 20}],
                         "access_rules": ["[$hasSwimmers|2]"],
                         "sections": [
                             {
