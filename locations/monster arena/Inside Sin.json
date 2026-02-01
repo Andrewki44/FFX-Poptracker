@@ -3,49 +3,139 @@
         "name": "Monster Arena - Inside Sin",
         "children": [
             {
-                "name": "Exoray (5x Fungus)",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Exoray (5x Fungus)"}]
+                "name": "Exoray",
+                "children": [
+                    {
+                        "name": "Exoray (5x Fungus)",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Exoray (5x Fungus)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Exoray", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Exoray"}]
+                    }
+                ]
             },
             {
                 "name": "Wraith",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Wraith"}]
+                "children": [
+                    {
+                        "name": "Wraith",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Wraith"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Wraith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Wraith"}]
+                    }
+                ]
             },
             {
-                "name": "Gemini (Sword) (10x Iron Giant)",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Sword) (10x Iron Giant)"}]
+                "name": "Gemini (Sword)",
+                "children": [
+                    {
+                        "name": "Gemini (Sword) (10x Iron Giant)",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Sword) (10x Iron Giant)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Gemini (Sword)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Sword)"}]
+                    }
+                ]
             },
             {
-                "name": "Gemini (Club) (10x Iron Giant)",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Gemini (Club) (10x Iron Giant)"}]
+                "name": "Gemini (Club)",
+                "children": [
+                    {
+                        "name": "Gemini (Club) (10x Iron Giant)",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Club) (10x Iron Giant)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Gemini (Club)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Club)"}]
+                    }
+                ]
             },
             {
                 "name": "Demonolith",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Demonolith"}]
+                "children": [
+                    {
+                        "name": "Demonolith",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Demonolith"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Demonolith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Demonolith"}]
+                    }
+                ]
             },
             {
                 "name": "Great Malboro",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Great Malboro"}]
+                "children": [
+                    {
+                        "name": "Great Malboro",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Great Malboro"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Great Malboro", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Great Malboro"}]
+                    }
+                ]
             },
             {
                 "name": "Barbatos",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Barbatos"}]
+                "children": [
+                    {
+                        "name": "Barbatos",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Barbatos"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Barbatos", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Barbatos"}]
+                    }
+                ]
             },
             {
                 "name": "Adamantoise",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Adamantoise"}]
+                "children": [
+                    {
+                        "name": "Adamantoise",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Adamantoise"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Adamantoise"}]
+                    }
+                ]
             },
             {
                 "name": "Behemoth King",
-                "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1522, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Behemoth King"}]
+                "children": [
+                    {
+                        "name": "Behemoth King",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1522, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Behemoth King"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Inside Sin", "x": 1458, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Behemoth King", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Behemoth King"}]
+                    }
+                ]
             }
         ]
     }

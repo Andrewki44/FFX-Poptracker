@@ -54,92 +54,42 @@
             },
             {
                 "name": "Monster Captures",
-                "map_locations": [{ "map": "Omega Ruins", "x": 640, "y": 430, "shape": "diamond"}],
-                "access_rules": ["@Monster Arena/Fiend Capture"],
-                "visibility_rules": ["capturesanity"],
+                "map_locations": [{ "map": "Omega Ruins", "x": 630, "y": 430}],
                 "sections": [
-                    {
-                        "name": "Gemini (Sword) (10x Iron Giant)",
-                        "visibility_rules": ["superbosses"],
-                        "hosted_item": "geminisword",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Gemini (Club) (10x Iron Giant)",
-                        "visibility_rules": ["superbosses"],
-                        "hosted_item": "geminiclub",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Adamantoise",
-                        "hosted_item": "adamantoise",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Zaurus (3x Reptile)",
-                        "hosted_item": "zaurus",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Wraith",
-                        "hosted_item": "wraith",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Demonolith",
-                        "hosted_item": "demonolith",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Great Malboro",
-                        "hosted_item": "greatmalboro",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Floating Death (4x Eye)",
-                        "hosted_item": "floatingdeath",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Black Element (3x Elemental)",
-                        "hosted_item": "blackelement",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Halma (3x Helm)",
-                        "hosted_item": "halma",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Puroboros (5x Bomb)",
-                        "hosted_item": "puroboros",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Spirit",
-                        "hosted_item": "spirit",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Machea",
-                        "hosted_item": "machea",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Master Coeurl",
-                        "hosted_item": "mastercoeurl",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Master Tonberry",
-                        "hosted_item": "mastertonberry",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Varuna",
-                        "hosted_item": "varuna",
-                        "clear_as_group": false
-                    }
+                    {"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Adamantoise"},
+                    {"name": "Wraith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Wraith"},
+                    {"name": "Demonolith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Demonolith"},
+                    {"name": "Great Malboro", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Great Malboro"},
+                    {"name": "Zaurus (3x Reptile)", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Zaurus (3x Reptile)"},
+                    {"name": "Floating Death (4x Eye)", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Floating Death (4x Eye)"},
+                    {"name": "Black Element (3x Elemental)", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Black Element (3x Elemental)"},
+                    {"name": "Halma (3x Helm)", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Halma (3x Helm)"},
+                    {"name": "Puroboros (5x Bomb)", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Puroboros (5x Bomb)"},
+                    {"name": "Spirit", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Spirit"},
+                    {"name": "Machea", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Machea"},
+                    {"name": "Master Coeurl", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Master Coeurl"},
+                    {"name": "Master Tonberry", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Master Tonberry"},
+                    {"name": "Varuna", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Varuna"}
+                ]
+            },
+            {
+                "name": "Monster Captures",
+                "map_locations": [{ "map": "Omega Ruins", "x": 670, "y": 430, "shape": "diamond"}],
+                "sections": [
+                    {"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Adamantoise"},
+                    {"name": "Wraith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Wraith"},
+                    {"name": "Demonolith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Demonolith"},
+                    {"name": "Great Malboro", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Great Malboro"},
+                    {"name": "Zaurus", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Zaurus"},
+                    {"name": "Floating Death", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Floating Death"},
+                    {"name": "Black Element", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Black Element"},
+                    {"name": "Halma", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Halma"},
+                    {"name": "Puroboros", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Puroboros"},
+                    {"name": "Spirit", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Spirit"},
+                    {"name": "Machea", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Machea"},
+                    {"name": "Master Coeurl", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Master Coeurl"},
+                    {"name": "Master Tonberry", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Master Tonberry"},
+                    {"name": "Varuna", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Varuna"}
                 ]
             }
         ]

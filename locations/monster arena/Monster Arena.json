@@ -998,22 +998,22 @@
                                 "map_locations": [{ "map": "Monster Arena", "x": 706, "y": 780, "shape": "diamond", "size": 28}],
                                 "sections": [
                                     {
-                                        "name": "Bandersnatch (3x Wolf)",
+                                        "name": "Bandersnatch",
                                         "access_rules": ["@Mt. Gagazet"],
                                         "hosted_item": "bandersnatchcomplete"
                                     },
                                     {
-                                        "name": "Ahriman (4x Eye)",
+                                        "name": "Ahriman",
                                         "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
                                         "hosted_item": "ahrimancomplete"
                                     },
                                     {
-                                        "name": "Dark Flan (3x Flan)",
+                                        "name": "Dark Flan",
                                         "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
                                         "hosted_item": "darkflancomplete"
                                     },
                                     {
-                                        "name": "Grenade (5x Bomb)",
+                                        "name": "Grenade",
                                         "access_rules": ["@Mt. Gagazet"],
                                         "hosted_item": "grenadecomplete"
                                     },
@@ -1023,7 +1023,7 @@
                                         "hosted_item": "gratcomplete"
                                     },
                                     {
-                                        "name": "Grendel (5x Ruminant)",
+                                        "name": "Grendel",
                                         "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
                                         "hosted_item": "grendelcomplete"
                                     },
@@ -1043,17 +1043,17 @@
                                         "hosted_item": "behemothcomplete"
                                     },
                                     {
-                                        "name": "Splasher (2x Shinryu)",
+                                        "name": "Splasher",
                                         "access_rules": ["@Mt. Gagazet/Inside"],
                                         "hosted_item": "splashercomplete"
                                     },
                                     {
-                                        "name": "Achelous (2x Shinryu)",
+                                        "name": "Achelous",
                                         "access_rules": ["@Mt. Gagazet/Inside"],
                                         "hosted_item": "achelouscomplete"
                                     },
                                     {
-                                        "name": "Maelspike (2x Shinryu)",
+                                        "name": "Maelspike",
                                         "access_rules": ["@Mt. Gagazet/Inside"],
                                         "hosted_item": "maelspikecomplete"
                                     }
@@ -1063,118 +1063,225 @@
                     },
                     {
                         "name": "Inside Sin",
-                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 780}],
-                        "sections": [
+                        "children": [
                             {
-                                "name": "Exoray (5x Fungus)",
-                                "access_rules": ["@Inside Sin"],
-                                "hosted_item": "exoray",
-                                "clear_as_group": false
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 780}],
+                                "sections": [
+                                    {
+                                        "name": "Exoray (5x Fungus)",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "exoray",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Wraith",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams", "@Omega Ruins"],
+                                        "hosted_item": "wraith",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Gemini (Sword) (10x Iron Giant)",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "geminisword",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Gemini (Club) (10x Iron Giant)",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "geminiclub",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Demonolith",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams", "@Omega Ruins"],
+                                        "hosted_item": "demonolith",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Great Malboro",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams", "@Omega Ruins"],
+                                        "hosted_item": "greatmalboro",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Barbatos",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams"],
+                                        "hosted_item": "barbatos",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Adamantoise",
+                                        "access_rules": ["@Inside Sin", "@Omega Ruins"],
+                                        "hosted_item": "adamantoise",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Behemoth King",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "behemothking",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Wraith",
-                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
-                                "hosted_item": "wraith",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Gemini (Sword) (10x Iron Giant)",
-                                "access_rules": ["@Inside Sin", "@Omega Ruins"],
-                                "hosted_item": "geminisword",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Gemini (Club) (10x Iron Giant)",
-                                "access_rules": ["@Inside Sin", "@Omega Ruins"],
-                                "hosted_item": "geminiclub",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Demonolith",
-                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
-                                "hosted_item": "demonolith",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Great Malboro",
-                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
-                                "hosted_item": "greatmalboro",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Barbatos",
-                                "access_rules": ["@Inside Sin/City of Dying Dreams"],
-                                "hosted_item": "barbatos",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Adamantoise",
-                                "access_rules": ["@Inside Sin", "@Omega Ruins"],
-                                "hosted_item": "adamantoise",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Behemoth King",
-                                "access_rules": ["@Inside Sin"],
-                                "hosted_item": "behemothking",
-                                "clear_as_group": false
+                                "name": "Captures Required for Logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 1596, "y": 780, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Exoray",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "exoraycomplete"
+                                    },
+                                    {
+                                        "name": "Wraith",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams", "@Omega Ruins"],
+                                        "hosted_item": "wraithcomplete"
+                                    },
+                                    {
+                                        "name": "Gemini (Sword)",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "geminiswordcomplete"
+                                    },
+                                    {
+                                        "name": "Gemini (Club)",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "geminiclubcomplete"
+                                    },
+                                    {
+                                        "name": "Demonolith",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams", "@Omega Ruins"],
+                                        "hosted_item": "demonolithcomplete"
+                                    },
+                                    {
+                                        "name": "Great Malboro",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams", "@Omega Ruins"],
+                                        "hosted_item": "greatmalborocomplete"
+                                    },
+                                    {
+                                        "name": "Barbatos",
+                                        "access_rules": ["@Inside Sin/City of Dying Dreams"],
+                                        "hosted_item": "barbatoscomplete"
+                                    },
+                                    {
+                                        "name": "Adamantoise",
+                                        "access_rules": ["@Inside Sin", "@Omega Ruins"],
+                                        "hosted_item": "adamantoisecomplete"
+                                    },
+                                    {
+                                        "name": "Behemoth King",
+                                        "access_rules": ["@Inside Sin"],
+                                        "hosted_item": "behemothkingcomplete"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         "name": "Omega Ruins",
-                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 915}],
                         "access_rules": ["@Omega Ruins"],
-                        "sections": [
+                        "children": [
                             {
-                                "name": "Zaurus (3x Reptile)",
-                                "hosted_item": "zaurus",
-                                "clear_as_group": false
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 915}],
+                                "sections": [
+                                    {
+                                        "name": "Zaurus (3x Reptile)",
+                                        "hosted_item": "zaurus",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Floating Death (4x Eye)",
+                                        "hosted_item": "floatingdeath",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Black Element (3x Elemental)",
+                                        "hosted_item": "blackelement",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Halma (3x Helm)",
+                                        "hosted_item": "halma",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Puroboros (5x Bomb)",
+                                        "hosted_item": "puroboros",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Spirit",
+                                        "hosted_item": "spirit",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Machea",
+                                        "hosted_item": "machea",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Master Coeurl",
+                                        "hosted_item": "mastercoeurl",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Master Tonberry",
+                                        "hosted_item": "mastertonberry",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Varuna",
+                                        "hosted_item": "varuna",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Floating Death (4x Eye)",
-                                "hosted_item": "floatingdeath",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Black Element (3x Elemental)",
-                                "hosted_item": "blackelement",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Halma (3x Helm)",
-                                "hosted_item": "halma",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Puroboros (5x Bomb)",
-                                "hosted_item": "puroboros",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Spirit",
-                                "hosted_item": "spirit",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Machea",
-                                "hosted_item": "machea",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Master Coeurl",
-                                "hosted_item": "mastercoeurl",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Master Tonberry",
-                                "hosted_item": "mastertonberry",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Varuna",
-                                "hosted_item": "varuna",
-                                "clear_as_group": false
+                                "name": "Captures Required for Logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 706, "y": 915, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Zaurus",
+                                        "hosted_item": "zauruscomplete"
+                                    },
+                                    {
+                                        "name": "Floating Death",
+                                        "hosted_item": "floatingdeathcomplete"
+                                    },
+                                    {
+                                        "name": "Black Element",
+                                        "hosted_item": "blackelementcomplete"
+                                    },
+                                    {
+                                        "name": "Halma",
+                                        "hosted_item": "halmacomplete"
+                                    },
+                                    {
+                                        "name": "Puroboros",
+                                        "hosted_item": "puroboroscomplete"
+                                    },
+                                    {
+                                        "name": "Spirit",
+                                        "hosted_item": "spiritcomplete"
+                                    },
+                                    {
+                                        "name": "Machea",
+                                        "hosted_item": "macheacomplete"
+                                    },
+                                    {
+                                        "name": "Master Coeurl",
+                                        "hosted_item": "mastercoeurlcomplete"
+                                    },
+                                    {
+                                        "name": "Master Tonberry",
+                                        "hosted_item": "mastertonberrycomplete"
+                                    },
+                                    {
+                                        "name": "Varuna",
+                                        "hosted_item": "varunacomplete"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -1186,7 +1293,7 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 1470, "y": 915}],
-                        "visibility_rules": ["capturerewardsarea", "capturerewardsspecies", "capturerewardsoriginal"],
+                        "visibility_rules": ["capturerewardsarea"],
                         "sections": [
                             {
                                 "name": "Besaid",
@@ -1285,7 +1392,7 @@
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 915}],
                         "access_rules": ["^$CheckAccessLevel|arenabosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["creationbossesarea", "creationbossesspecies", "creationbossesriginal"],
+                        "visibility_rules": ["creationbossesarea"],
                         "sections": [
                             {
                                 "name": "Stratoavis",
@@ -1375,7 +1482,7 @@
                     {
                         "name": "Creation Rewards",
                         "map_locations": [{ "map": "Monster Arena", "x": 580, "y": 1045}],
-                        "visibility_rules": ["capturerewardsspecies", "capturerewardsoriginal"],
+                        "visibility_rules": ["capturerewardsspecies"],
                         "sections": [
                             {
                                 "name": "Wolf (3x)",
@@ -1481,7 +1588,7 @@
                         "name": "Defeat",
                         "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 1045}],
                         "access_rules": ["^$CheckAccessLevel|arenabosses, [$hasMinimumParty|3]"],
-                        "visibility_rules": ["creationbossesspecies", "creationbossesriginal"],
+                        "visibility_rules": ["creationbossesspecies"],
                         "sections": [
                             {
                                 "name": "Fenrir",

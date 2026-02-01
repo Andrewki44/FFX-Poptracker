@@ -21,40 +21,26 @@
                     }, 
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 300, "y": 225, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture"],
-                        "visibility_rules": ["capturesanity"],
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 300, "y": 225}],
                         "sections": [
-                            {
-                                "name": "Bashura",
-                                "hosted_item": "bashura",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Ahriman (4x Eye)",
-                                "hosted_item": "ahriman",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Dark Flan (3x Flan)",
-                                "hosted_item": "darkflan",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grendel (5x Ruminant)",
-                                "hosted_item": "grendel",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Mandragora",
-                                "hosted_item": "mandragora",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Behemoth",
-                                "hosted_item": "behemoth",
-                                "clear_as_group": false
-                            }
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bashura"},
+                            {"name": "Ahriman (4x Eye)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman (4x Eye)"},
+                            {"name": "Dark Flan (3x Flan)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Dark Flan (3x Flan)"},
+                            {"name": "Grendel (5x Ruminant)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grendel (5x Ruminant)"},
+                            {"name": "Mandragora", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Mandragora"},
+                            {"name": "Behemoth", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Behemoth"}
+                        ]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Zanarkand Ruins", "x": 320, "y": 225, "shape": "diamond"}],
+                        "sections": [
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bashura"},
+                            {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Ahriman"},
+                            {"name": "Dark Flan", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Dark Flan"},
+                            {"name": "Grendel", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grendel"},
+                            {"name": "Mandragora", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Mandragora"},
+                            {"name": "Behemoth", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Behemoth"}
                         ]
                     }
                 ]

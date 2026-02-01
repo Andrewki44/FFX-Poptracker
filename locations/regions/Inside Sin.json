@@ -45,39 +45,6 @@
                                 "clear_as_group": true
                             }
                         ]
-                    },
-                    {
-                        "name": "Monster Captures",
-                        "map_locations": [{ "map": "Inside Sin", "x": 150, "y": 905, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture/Inside Sin"],
-                        "visibility_rules": ["capturesanity"],
-                        "sections": [
-                            {
-                                "name": "Exoray (5x Fungus)",
-                                "hosted_item": "exoray",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Gemini (Sword) (10x Iron Giant)",
-                                "hosted_item": "geminisword",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Gemini (Club) (10x Iron Giant)",
-                                "hosted_item": "geminiclub",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Adamantoise",
-                                "hosted_item": "adamantoise",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Behemoth King",
-                                "hosted_item": "behemothking",
-                                "clear_as_group": false
-                            }
-                        ]
                     }
                 ]
             },
@@ -136,35 +103,37 @@
                                 "clear_as_group": true
                             }
                         ]
-                    },
-                    {
-                        "name": "Monster Captures - City of Dying Dreams",
-                        "map_locations": [{ "map": "Inside Sin", "x": 180, "y": 905, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture"],
-                        "visibility_rules": ["capturesanity"],
-                        "sections": [
-                            {
-                                "name": "Wraith",
-                                "hosted_item": "wraith",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Demonolith",
-                                "hosted_item": "demonolith",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Great Malboro",
-                                "hosted_item": "greatmalboro",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Barbatos",
-                                "hosted_item": "barbatos",
-                                "clear_as_group": false
-                            }
-                        ]
                     }
+                ]
+            },
+            {
+                "name": "Monster Captures",
+                "map_locations": [{ "map": "Inside Sin", "x": 170, "y": 905}],
+                "sections": [
+                    {"name": "Exoray (5x Fungus)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Exoray (5x Fungus)"},
+                    {"name": "Gemini (Sword) (10x Iron Giant)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Sword) (10x Iron Giant)"},
+                    {"name": "Gemini (Club) (10x Iron Giant)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Club) (10x Iron Giant)"},
+                    {"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Adamantoise"},
+                    {"name": "Behemoth King", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Behemoth King"},
+                    {"name": "Wraith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Wraith"},
+                    {"name": "Demonolith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Demonolith"},
+                    {"name": "Great Malboro", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Great Malboro"},
+                    {"name": "Barbatos", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Barbatos"}
+                ]
+            },
+            {
+                "name": "Monster Captures",
+                "map_locations": [{ "map": "Inside Sin", "x": 190, "y": 905, "shape": "diamond"}],
+                "sections": [
+                    {"name": "Exoray", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Exoray"},
+                    {"name": "Gemini (Sword)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Sword)"},
+                    {"name": "Gemini (Club)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Club)"},
+                    {"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Adamantoise"},
+                    {"name": "Behemoth King", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Behemoth King"},
+                    {"name": "Wraith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Wraith"},
+                    {"name": "Demonolith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Demonolith"},
+                    {"name": "Great Malboro", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Great Malboro"},
+                    {"name": "Barbatos", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Barbatos"}
                 ]
             }
         ]

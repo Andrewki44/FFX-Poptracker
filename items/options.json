@@ -71,7 +71,7 @@
         "name": "Capture Sanity",
         "type": "toggle",
         "img": "images/items/hd/Battle_Item_HD.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "capturesanity"
     },
     {
@@ -81,7 +81,7 @@
         "codes": "capturerewards",
         "stages": [
             {
-                "name": "No Capture Rewards",
+                "name": "Capture Rewards",
                 "img": "images/items/hd/Battle_Item_Treasure.png",
                 "img_mods": "@disabled",
                 "codes": "capturerewardsnone"
@@ -94,12 +94,12 @@
             {
                 "name": "Area & Species Conquest Rewards",
                 "img": "images/items/hd/Battle_Item_Treasure.png",
-                "codes": "capturerewardsspecies"
+                "codes": "capturerewardsarea, capturerewardsspecies"
             },
             {
                 "name": "Area, Species & Original Creations Rewards",
                 "img": "images/items/hd/Battle_Item_Treasure.png",
-                "codes": "capturerewardsoriginal"
+                "codes": "capturerewardsarea, capturerewardsspecies, capturerewardsoriginal"
             }
         ]
     },
@@ -110,7 +110,7 @@
         "codes": "creationbosses",
         "stages": [
             {
-                "name": "No Arena Bosses",
+                "name": "Arena Bosses",
                 "img": "images/items/hd/Battle_Item_HD.png",
                 "img_mods": "@disabled",
                 "codes": "creationbossesnone"
@@ -123,12 +123,12 @@
             {
                 "name": "Area & Species Conquest Bosses",
                 "img": "images/items/hd/Battle_Item_HD.png",
-                "codes": "creationbossesspecies"
+                "codes": "creationbossesarea, creationbossesspecies"
             },
             {
                 "name": "Area, Species & Original Creations Bosses",
                 "img": "images/items/hd/Battle_Item_HD.png",
-                "codes": "creationbossesriginal"
+                "codes": "creationbossesarea, creationbossesspecies, creationbossesriginal"
             }
         ]    
     },
