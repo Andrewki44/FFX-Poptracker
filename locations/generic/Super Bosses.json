@@ -69,7 +69,7 @@
             },
             {
                 "name": "Dark Yojimbo",
-                "access_rules": ["@Cavern of the Stolen Fayth, @Calm Lands, [$hasMinimumParty|3]"],
+                "access_rules": ["@Cavern of the Stolen Fayth [$hasMinimumParty|3]"],
                 "hosted_item": "darkyojimbo",
                 "clear_as_group": true
             },

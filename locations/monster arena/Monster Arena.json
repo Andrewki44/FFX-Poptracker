@@ -458,35 +458,35 @@
                                 "sections": [
                                     {
                                         "name": "Melusine",
-                                        "hosted_item": "melusine"
+                                        "hosted_item": "melusinecomplete"
                                     },
                                     {
                                         "name": "Aerouge",
-                                        "hosted_item": "aerouge"
+                                        "hosted_item": "aerougecomplete"
                                     },
                                     {
                                         "name": "Buer",
-                                        "hosted_item": "buer"
+                                        "hosted_item": "buercomplete"
                                     },
                                     {
                                         "name": "Gold Element",
-                                        "hosted_item": "goldelement"
+                                        "hosted_item": "goldelementcomplete"
                                     },
                                     {
                                         "name": "Kusariqqu",
-                                        "hosted_item": "kusariqqu"
+                                        "hosted_item": "kusariqqucomplete"
                                     },
                                     {
                                         "name": "Larva",
-                                        "hosted_item": "larva"
+                                        "hosted_item": "larvacomplete"
                                     },
                                     {
                                         "name": "Iron Giant",
-                                        "hosted_item": "irongiant"
+                                        "hosted_item": "irongiantcomplete"
                                     },
                                     {
                                         "name": "Qactuar",
-                                        "hosted_item": "qactuar"
+                                        "hosted_item": "qactuarcomplete"
                                     }
                                 ]
                             }
@@ -563,46 +563,46 @@
                                     {
                                         "name": "Snow Wolf",
                                         "access_rules": ["@Macalania/Lake"],
-                                        "hosted_item": "snowwolf"
+                                        "hosted_item": "snowwolfcomplete"
                                     },
                                     {
                                         "name": "Iguion",
-                                        "hosted_item": "iguion"
+                                        "hosted_item": "iguioncomplete"
                                     },
                                     {
                                         "name": "Wasp",
-                                        "hosted_item": "wasp"
+                                        "hosted_item": "waspcomplete"
                                     },
                                     {
                                         "name": "Evil Eye",
                                         "access_rules": ["@Macalania/Lake"],
-                                        "hosted_item": "evileye"
+                                        "hosted_item": "evileyecomplete"
                                     },
                                     {
                                         "name": "Ice Flan",
                                         "access_rules": ["@Macalania/Lake"],
-                                        "hosted_item": "iceflan"
+                                        "hosted_item": "iceflancomplete"
                                     },
                                     {
                                         "name": "Blue Element",
-                                        "hosted_item": "blueelement"
+                                        "hosted_item": "blueelementcomplete"
                                     },
                                     {
                                         "name": "Murussu",
-                                        "hosted_item": "murussu"
+                                        "hosted_item": "murussucomplete"
                                     },
                                     {
                                         "name": "Mafdet",
                                         "access_rules": ["@Macalania/Lake"],
-                                        "hosted_item": "mafdet"
+                                        "hosted_item": "mafdetcomplete"
                                     },
                                     {
                                         "name": "Xiphos",
-                                        "hosted_item": "xiphos"
+                                        "hosted_item": "xiphoscomplete"
                                     },
                                     {
                                         "name": "Chimera",
-                                        "hosted_item": "chimera"
+                                        "hosted_item": "chimeracomplete"
                                     }
                                 ]
                             }
@@ -654,27 +654,27 @@
                                 "sections": [
                                     {
                                         "name": "Sand Wolf",
-                                        "hosted_item": "sandwolf"
+                                        "hosted_item": "sandwolfcomplete"
                                     },
                                     {
                                         "name": "Alcyone",
-                                        "hosted_item": "alcyone"
+                                        "hosted_item": "alcyonecomplete"
                                     },
                                     {
                                         "name": "Mushussu",
-                                        "hosted_item": "mushussu"
+                                        "hosted_item": "mushussucomplete"
                                     },
                                     {
                                         "name": "Zu",
-                                        "hosted_item": "zu"
+                                        "hosted_item": "zucomplete"
                                     },
                                     {
                                         "name": "Sand Worm",
-                                        "hosted_item": "sandworm"
+                                        "hosted_item": "sandwormcomplete"
                                     },
                                     {
                                         "name": "Cactuar",
-                                        "hosted_item": "cactuar"
+                                        "hosted_item": "cactuarcomplete"
                                     }
                                 ]
                             }
@@ -682,61 +682,117 @@
                     },
                     {
                         "name": "Calm Lands",
-                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 650}],
                         "sections": [
                             {
-                                "name": "Skoll (3x Wolf)",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "skoll",
-                                "clear_as_group": false
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 650}],
+                                "sections": [
+                                    {
+                                        "name": "Skoll (3x Wolf)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "skoll",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Nebiros (4x Wasp)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "nebiros",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Flame Flan (3x Flan)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "flameflan",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Shred (3x Helm)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "shred",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Anacondaur",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "anacondaur",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Ogre",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "ogre",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Coeurl",
+                                        "access_rules": ["@Calm Lands", "@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "coeurl",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Chimera Brain",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "chimerabrain",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Malboro",
+                                        "access_rules": ["@Calm Lands", "@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "malboro",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Nebiros (4x Wasp)",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "nebiros",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Flame Flan (3x Flan)",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "flameflan",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Shred (3x Helm)",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "shred",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Anacondaur",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "anacondaur",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Ogre",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "ogre",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Coeurl",
-                                "access_rules": ["@Calm Lands", "@Cavern of the Stolen Fayth"],
-                                "hosted_item": "coeurl",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Chimera Brain",
-                                "access_rules": ["@Calm Lands"],
-                                "hosted_item": "chimerabrain",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Malboro",
-                                "access_rules": ["@Calm Lands", "@Cavern of the Stolen Fayth"],
-                                "hosted_item": "malboro",
-                                "clear_as_group": false
+                                "name": "Captures Required for Logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 706, "y": 650, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Skoll (3x Wolf)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "skollcomplete"
+                                    },
+                                    {
+                                        "name": "Nebiros (4x Wasp)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "nebiroscomplete"
+                                    },
+                                    {
+                                        "name": "Flame Flan (3x Flan)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "flameflancomplete"
+                                    },
+                                    {
+                                        "name": "Shred (3x Helm)",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "shredcomplete"
+                                    },
+                                    {
+                                        "name": "Anacondaur",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "anacondaurcomplete"
+                                    },
+                                    {
+                                        "name": "Ogre",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "ogrecomplete"
+                                    },
+                                    {
+                                        "name": "Coeurl",
+                                        "access_rules": ["@Calm Lands", "@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "coeurlcomplete"
+                                    },
+                                    {
+                                        "name": "Chimera Brain",
+                                        "access_rules": ["@Calm Lands"],
+                                        "hosted_item": "chimerabraincomplete"
+                                    },
+                                    {
+                                        "name": "Malboro",
+                                        "access_rules": ["@Calm Lands", "@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "malborocomplete"
+                                    }
+                                ]
                             }
                         ]
                     },

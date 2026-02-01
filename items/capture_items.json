@@ -1294,6 +1294,17 @@
         "codes": "skoll"
     },
     {
+        "name": "Skoll Complete",
+        "type": "toggle",
+        "img": "images/fiends/Skoll.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "skollcomplete"
+    },
+
+    {
         "name": "Nebiros",
         "type": "consumable",
         "img": "images/fiends/Nebiros.png",
@@ -1306,6 +1317,17 @@
         "initial_quantity": 0,
         "codes": "nebiros"
     },
+    {
+        "name": "Nebiros Complete",
+        "type": "toggle",
+        "img": "images/fiends/Nebiros.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "nebiroscomplete"
+    },
+
     {
         "name": "Flame Flan",
         "type": "consumable",
@@ -1320,6 +1342,17 @@
         "codes": "flameflan"
     },
     {
+        "name": "Flame Flan Complete",
+        "type": "toggle",
+        "img": "images/fiends/Flame Flan.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "flameflancomplete"
+    },
+
+    {
         "name": "Shred",
         "type": "consumable",
         "img": "images/fiends/Shred.png",
@@ -1332,6 +1365,17 @@
         "initial_quantity": 0,
         "codes": "shred"
     },
+    {
+        "name": "Shred Complete",
+        "type": "toggle",
+        "img": "images/fiends/Shred.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "shredcomplete"
+    },
+
     {
         "name": "Anacondaur",
         "type": "consumable",
@@ -1346,6 +1390,17 @@
         "codes": "anacondaur"
     },
     {
+        "name": "Anacondaur Complete",
+        "type": "toggle",
+        "img": "images/fiends/Anacondaur.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "anacondaurcomplete"
+    },
+
+    {
         "name": "Ogre",
         "type": "consumable",
         "img": "images/fiends/Ogre.png",
@@ -1358,6 +1413,17 @@
         "initial_quantity": 0,
         "codes": "ogre"
     },
+    {
+        "name": "Ogre Complete",
+        "type": "toggle",
+        "img": "images/fiends/Ogre.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "ogrecomplete"
+    },
+
     {
         "name": "Coeurl",
         "type": "consumable",
@@ -1372,6 +1438,17 @@
         "codes": "coeurl"
     },
     {
+        "name": "Coeurl Complete",
+        "type": "toggle",
+        "img": "images/fiends/Coeurl.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "coeurlcomplete"
+    },
+
+    {
         "name": "Chimera Brain",
         "type": "consumable",
         "img": "images/fiends/Chimera Brain.png",
@@ -1385,6 +1462,17 @@
         "codes": "chimerabrain"
     },
     {
+        "name": "Chimera Brain Complete",
+        "type": "toggle",
+        "img": "images/fiends/Chimera Brain.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "chimerabraincomplete"
+    },
+
+    {
         "name": "Malboro",
         "type": "consumable",
         "img": "images/fiends/Malboro.png",
@@ -1397,6 +1485,17 @@
         "initial_quantity": 0,
         "codes": "malboro"
     },
+    {
+        "name": "Malboro Complete",
+        "type": "toggle",
+        "img": "images/fiends/Malboro.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "malborocomplete"
+    },
+
 
     //Cavern of the Stolen Fayth
     {
