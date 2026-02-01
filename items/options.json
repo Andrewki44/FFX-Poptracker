@@ -57,7 +57,7 @@
         "name": "Minigames",
         "type": "toggle",
         "img": "images/npc/Chocobo.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "minigames"
     },
     {
@@ -136,7 +136,7 @@
         "name": "Super Bosses",
         "type": "toggle",
         "img": "images/items/hd/Crossed Swords.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "superbosses"
     },
     {

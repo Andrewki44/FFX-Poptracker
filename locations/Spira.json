@@ -326,95 +326,95 @@
                 "map_locations": [{ "map": "Spira", "x": 546, "y": 845}],
                 "sections": [
                     {
-                        "name": "Stadium Basement B - Hi-Potion x2 (Chest)",
-                        "ref": "Luca/Stadium/West Locker Hall (Chest)/Hi-Potion x2"
+                        "name": "Stadium Basement B - West Locker Hall (Chest)",
+                        "ref": "Luca/Stadium/Stadium Basement B - West Locker Hall (Chest)/Hi-Potion x2"
                     },
                     {
-                        "name": "Stadium Basement B - Al Bhed Primer VI",
+                        "name": "Stadium Basement B - Behind Isken (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer VI/Luca"
                     },
                     {
-                        "name": "Dock 1 - 600 Gil (Chest)",
+                        "name": "Dock 1 - Right Side (Chest)",
                         "ref": "Luca/Dock/Dock 1 - Right Side (Chest)/600 Gil"
                     },
                     {
-                        "name": "Dock 1 - Tidal Spear (Chest)",
+                        "name": "Dock 1 - End (Chest)",
                         "ref": "Luca/Dock/Dock 1 - End (Chest)/Tidal Spear"
                     },
                     {
-                        "name": "Dock 2 - Phoenix Down x2 (Chest)",
+                        "name": "Dock 2 - Left Side (Chest)",
                         "ref": "Luca/Dock/Dock 2 - Left Side (Chest)/Phoenix Down x2"
                     },
                     {
-                        "name": "Dock 5 - HP Sphere x1 (Chest)",
-                        "ref": "Luca/Dock/Dock 5 - End, Hidden Behind Boxes (Chests)/HP Sphere x1"
+                        "name": "Dock 5 - End, Hidden Behind Boxes, Left (Chest)",
+                        "ref": "Luca/Dock/Dock 5 - End, Hidden Behind Boxes, Left (Chest)/HP Sphere x1"
                     },
                     {
-                        "name": "Dock 5 - Magic Sphere x1 (Chest)",
-                        "ref": "Luca/Dock/Dock 5 - End, Hidden Behind Boxes (Chests)/Magic Sphere x1"
+                        "name": "Dock 5 - End, Hidden Behind Boxes, Right (Chest)",
+                        "ref": "Luca/Dock/Dock 5 - End, Hidden Behind Boxes, Right (Chest)/Magic Sphere x1"
                     },
                     {
-                        "name": "Theater Reception - Al Bhed Primer VII",
+                        "name": "Theater Reception - Bottom of Stairs, Left Side (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer VII/Luca"
                     },
                     {
-                        "name": "City Limits - 1000 Gil (Chest)",
-                        "ref": "Luca/City/Staircase Leading to Mi'ihen (Chest)/1000 Gil"
+                        "name": "City Limits - Staircase Leading to Mi'ihen (Chest)",
+                        "ref": "Luca/City/City Limits - Staircase Leading to Mi'ihen (Chest)/1000 Gil"
                     },
                     {
-                        "name": "Dock - Recruit Nedus",
+                        "name": "Recruit: Nedus",
                         "ref": "Blitzball Recruits/Nedus"
                     },
                     {
-                        "name": "Dock - Recruit Zev Ronso",
+                        "name": "Recruit: Zev Ronso",
                         "ref": "Blitzball Recruits/Zev Ronso"
                     },
                     {
-                        "name": "Stadium - Recruit Biggs",
+                        "name": "Recruit: Biggs",
                         "ref": "Blitzball Recruits/Biggs"
                     },
                     {
-                        "name": "Stadium - Recruit Wedge",
+                        "name": "Recruit: Wedge",
                         "ref": "Blitzball Recruits/Wedge"
                     },
                     {
-                        "name": "City - Recruit Jumal",
+                        "name": "Recruit: Jumal",
                         "ref": "Blitzball Recruits/Jumal"
                     },
                     {
-                        "name": "City - Recruit Shaami",
+                        "name": "Recruit: Shaami",
                         "ref": "Blitzball Recruits/Shaami"
                     },
                     {
-                        "name": "City - Recruit Zalitz",
+                        "name": "Recruit: Zalits",
                         "ref": "Blitzball Recruits/Zalitz"
                     },
                     {
-                        "name": "Dock - Oblitzerator",
+                        "name": "Defeat Oblitzerator (Boss)",
                         "ref": "Luca/Dock/Defeat Oblitzerator (Boss)/Oblitzerator"
                     },
                     {
-                        "name": "Stadium - Story Win vs. Luca Goers Reward",
+                        "name": "Win the Story Blitzball Tournament (Event)",
                         "ref": "Luca/Stadium/Win the Story Blitzball Tournament (Event)/Story Win vs. Luca Goers Reward"
                     },
                     {
-                        "name": "Stadium - Auron",
+                        "name": "Post-Blitzball Tournament (Event)",
                         "ref": "Party Member/Character/Auron"
                     },
                     {
-                        "name": "Stadium Locker Room - Jupiter Crest (Locker)",
+                        "name": "Stadium Locker Room - Inside Back Right Locker (Event)",
                         "ref": "Celestial/Wakka/Jupiter Crest"
                     },
                     {
-                        "name": "City - Recruit Shuu",
+                        "name": "Recruit: Shuu",
                         "ref": "Blitzball Recruits/Shuu"
                     },
                     {
-                        "name": "City Cafe - World Champion",
+                        "name": "Cafe - Talk to Owner After Placing at Least Third in a Tournament (Chest)",
                         "ref": "Celestial/Wakka/World Champion"
                     },
                     {
-                        "name": "Blitzball - Jupiter Sigil (Blitzball League)",
+                        "name": "Blitzball: Obtain The Jupiter Sigil League Prize (Event)",
                         "ref": "Celestial/Wakka/Jupiter Sigil"
                     }
                 ]
@@ -424,107 +424,107 @@
                 "map_locations": [{ "map": "Spira", "x": 526, "y": 760}],
                 "sections": [
                     {
-                        "name": "South - Hi-Potion (Yellow Shirt NPC)",
-                        "ref": "Miihen Highroad/South/Yellow Man, Looping South to North (NPC)/Hi-Potion"
+                        "name": "South End - Yellow Man, Looping South to North (NPC)",
+                        "ref": "Miihen Highroad/South/South End - Yellow Man, Looping South to North (NPC)/Hi-Potion"
                     },
                     {
-                        "name": "South - Hunters Spear (Blue Shirt NPC)",
-                        "ref": "Miihen Highroad/South/Blue-White Man, Looping North to South (NPC)/Hunters Spear"
+                        "name": "South End - Blue/White Man, Looping North to South (NPC)",
+                        "ref": "Miihen Highroad/South/South End - Blue/White Man, Looping North to South (NPC)/Hunters Spear"
                     },
                     {
-                        "name": "South - Antidote x2 (Red Skirt NPC)",
-                        "ref": "Miihen Highroad/South/Red Skirt Girl, Pacing Between Maechen and Ruins (NPC)/Antidote x2"
+                        "name": "South End - Red Skirt Girl, Pacing Between Maechen and Ruins (NPC)",
+                        "ref": "Miihen Highroad/South/South End - Red Skirt Girl, Pacing Between Maechen and Ruins (NPC)/Antidote x2"
                     },
                     {
-                        "name": "South - Ice Brand (Chest)",
-                        "ref": "Miihen Highroad/South/Behind Ruins on Left (Chest)/Ice Brand"
+                        "name": "South End - Behind Ruins on Left (Chest)",
+                        "ref": "Miihen Highroad/South/South End - Behind Ruins on Left (Chest)/Ice Brand"
                     },
                     {
-                        "name": "South - Remedy x1 (Chest)",
-                        "ref": "Miihen Highroad/South/Behind Elma, North Side (Chest)/Remedy x1"
+                        "name": "South - Behind Elma, North Side (Chest)",
+                        "ref": "Miihen Highroad/South/South - Behind Elma, North Side (Chest)/Remedy x1"
                     },
                     {
-                        "name": "South - Red Ring (Crusader NPC)",
-                        "ref": "Miihen Highroad/South/Crusader Running East then West (NPC)/Red Ring"
+                        "name": "South - Crusader Running East then West (NPC)",
+                        "ref": "Miihen Highroad/South/South - Crusader Running East then West (NPC)/Red Ring"
                     },
                     {
-                        "name": "South - Soft x3 (Boy NPC)",
-                        "ref": "Miihen Highroad/South/Boy Before Kicking the Blitzball (NPC)/Soft x3"
+                        "name": "South - Boy Before Kicking the Blitzball (NPC)",
+                        "ref": "Miihen Highroad/South/South - Boy Before Kicking the Blitzball (NPC)/Soft x3"
                     },
                     {
-                        "name": "Central - Lv. 1 Key Sphere x1 (Purple Crusader NPC)",
-                        "ref": "Miihen Highroad/Central/Purple Crusader, Looping South to North (NPC)/Lv. 1 Key Sphere x1"
+                        "name": "Central - Purple Crusader, Looping South to North (NPC)",
+                        "ref": "Miihen Highroad/Central/Central - Purple Crusader, Looping South to North (NPC)/Lv. 1 Key Sphere x1"
                     },
                     {
-                        "name": "Central - Antidote x4 (Woman in Yellow NPC)",
-                        "ref": "Miihen Highroad/Central/Female Yellow Crusader, Looping North to South (NPC)/Antidote x4"
+                        "name": "Central - Female Yellow Crusader, Looping North to South (NPC)",
+                        "ref": "Miihen Highroad/Central/Central - Female Yellow Crusader, Looping North to South (NPC)/Antidote x4"
                     },
                     {
-                        "name": "Central - 2000 gil (Chest)",
-                        "ref": "Miihen Highroad/Central/East Alcove (Chest)/2000 gil"
+                        "name": "Central, East Alcove (Chest)",
+                        "ref": "Miihen Highroad/Central/Central, East Alcove (Chest)/2000 gil"
                     },
                     {
-                        "name": "Central - 600 gil (Yellow Crusader NPC)",
-                        "ref": "Miihen Highroad/Central/Yellow Crusader, Looping North to South (NPC)/600 gil"
+                        "name": "Central - Male Yellow Crusader, Looping North to South (NPC)",
+                        "ref": "Miihen Highroad/Central/Central - Male Yellow Crusader, Looping North to South (NPC)/600 gil"
                     },
                     {
-                        "name": "Central - Ether x1 (NPC)",
-                        "ref": "Miihen Highroad/Central/Purple Crusader Freaking Out, West Side (NPC)/Ether x1"
+                        "name": "Central - Purple Crusader Freaking Out, West Side (NPC)",
+                        "ref": "Miihen Highroad/Central/Central - Purple Crusader Freaking Out, West Side (NPC)/Ether x1"
                     },
                     {
-                        "name": "Central - Hi-Potion x1 (NPC)",
-                        "ref": "Miihen Highroad/Central/Woman on North End, West Side (NPC)/Hi-Potion x1"
+                        "name": "Central - Woman on North End, West Side (NPC)",
+                        "ref": "Miihen Highroad/Central/Central - Woman on North End, West Side (NPC)/Hi-Potion x1"
                     },
                     {
-                        "name": "Central - Eye Drops x3 (Chest)",
-                        "ref": "Miihen Highroad/Central/North Exit (Chest)/Eye Drops x3"
+                        "name": "Central - North Exit (Chest)",
+                        "ref": "Miihen Highroad/Central/Central - North Exit (Chest)/Eye Drops x3"
                     },
                     {
-                        "name": "Agency - Lv. 1 Key Sphere x1 (NPC)",
-                        "ref": "Miihen Highroad/Agency/Green NPC After Resting (Event)/Lv. 1 Key Sphere x1"
+                        "name": "Agency - Green NPC After Resting (Event)",
+                        "ref": "Miihen Highroad/Agency/Agency - Green NPC After Resting (Event)/Lv. 1 Key Sphere x1"
                     },
                     {
-                        "name": "Agency - Mega-Potion (NPC)",
-                        "ref": "Miihen Highroad/Agency/Exit After Resting (Event)/Mega-Potion"
+                        "name": "Agency - Exit After Resting (Event) (1)",
+                        "ref": "Miihen Highroad/Agency/Agency - Exit After Resting (Event) (1)/Mega-Potion"
                     },
                     {
-                        "name": "Agency - Al Bhed Primer VIII",
+                        "name": "Agency - Exit After Resting (Event) (2)",
                         "ref": "Al Bhed Primers/Al Bhed Primer VIII/Miihen Highroad"
                     },
                     {
-                        "name": "Agency - Recruit Ropp",
+                        "name": "Recruit: Ropp",
                         "ref": "Blitzball Recruits/Ropp"
                     },
                     {
-                        "name": "Agency - Chocobo Eater",
+                        "name": "Defeat Chocobo Eater (Boss)",
                         "ref": "Miihen Highroad/Agency/Defeat Chocobo Eater (Boss)/Chocobo Eater"
                     },
                     {
-                        "name": "Newroad - Heat Lance (Chest)",
-                        "ref": "Miihen Highroad/North/Chocobo Jump North Peak of Bend (Chest)/Heat Lance"
+                        "name": "Newroad, North - Chocobo Jump North Peak of Bend (Chest)",
+                        "ref": "Miihen Highroad/North/Newroad, North - Chocobo Jump North Peak of Bend (Chest)/Heat Lance"
                     },
                     {
-                        "name": "Newroad - Al Bhed Primer IX",
+                        "name": "Newroad, North - Peak of South Bend Before Shelinda (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer IX/Miihen Highroad"
                     },
                     {
-                        "name": "Newroad - Hi-Potion x2 (Chest)",
-                        "ref": "Miihen Highroad/North/Left by Child Soldiers (Chest)/Hi-Potion x2"
+                        "name": "North End - Left by Child Soldiers (Chest)",
+                        "ref": "Miihen Highroad/North/North End - Left by Child Soldiers (Chest)/Hi-Potion x2"
                     },
                     {
-                        "name": "Oldroad - Thunder Blade (Chest)",
-                        "ref": "Miihen Highroad/North/Chocobo Jump, Left Side (Chests)/Thunder Blade"
+                        "name": "Oldroad, North - Chocobo Jump, Left Side (Chest) (1)",
+                        "ref": "Miihen Highroad/North/Oldroad, North - Chocobo Jump, Left Side (Chest) (1)/Thunder Blade"
                     },
                     {
-                        "name": "Oldroad - Scout (Chest)",
-                        "ref": "Miihen Highroad/North/Chocobo Jump, Left Side (Chests)/Scout"
+                        "name": "Oldroad, North - Chocobo Jump, Left Side (Chest) (2)",
+                        "ref": "Miihen Highroad/North/Oldroad, North - Chocobo Jump, Left Side (Chest) (2)/Scout"
                     },
                     {
-                        "name": "Oldroad - Fortune Sphere (Chest)",
-                        "ref": "Miihen Highroad/North/Chocobo Jump, Alcove on East Side (Chest)/Fortune Sphere"
+                        "name": "Oldroad, South - Chocobo Jump, Alcove on East Side (Chest)",
+                        "ref": "Miihen Highroad/North/Oldroad, South - Chocobo Jump, Alcove on East Side (Chest)/Fortune Sphere"
                     },
                     {
-                        "name": "Oldroad - Mars Crest (Chest)",
+                        "name": "Oldroad, South - South End (Chest)",
                         "ref": "Celestial/Auron/Mars Crest"
                     }
                 ]
@@ -534,107 +534,107 @@
                 "map_locations": [{ "map": "Spira", "x": 621, "y": 710}],
                 "sections": [
                     {
-                        "name": "Entrance - Remedy x1 (Near Grey Helmet NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Left Near Southern Exit (NPC)/Remedy x1"
+                        "name": "First Screen - Left Near Southern Exit (NPC)",
+                        "ref": "Mushroom Rock Road/Entrance/First Screen - Left Near Southern Exit (NPC)/Remedy x1"
                     },
                     {
-                        "name": "Entrance - Tough Bangle (Gray Helmet NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Right Near Southern Exit (NPC)/Tough Bangle"
+                        "name": "First Screen - Right Near Southern Exit (NPC)",
+                        "ref": "Mushroom Rock Road/Entrance/First Screen - Right Near Southern Exit (NPC)/Tough Bangle"
                     },
                     {
-                        "name": "Entrance - Ether x1 (Purple Helmet NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Pacing Between Blue Commander and South Exit (NPC)/Ether x1"
+                        "name": "First Screen - Pacing Between Blue Commander and South Exit (NPC)",
+                        "ref": "Mushroom Rock Road/Entrance/First Screen - Pacing Between Blue Commander and South Exit (NPC)/Ether x1"
                     },
                     {
-                        "name": "Entrance - Hi-Potion x1 (Woman in Blue NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Blue Commander on Left Side (NPC)/Hi-Potion x1"
+                        "name": "First Screen - Blue Commander on Left Side (NPC)",
+                        "ref": "Mushroom Rock Road/Entrance/First Screen - Blue Commander on Left Side (NPC)/Hi-Potion x1"
                     },
                     {
-                        "name": "Entrance - Phoenix Down x2 (Blue Shirt Crusader NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Pacing Between Blue Commander and North Exit (NPC)/Phoenix Down x2"
+                        "name": "First Screen - Pacing Between Blue Commander and North Exit (NPC)",
+                        "ref": "Mushroom Rock Road/Entrance/First Screen - Pacing Between Blue Commander and North Exit (NPC)/Phoenix Down x2"
                     },
                     {
-                        "name": "Valley - Hi-Potion x1 (Woman NPC near Save Point)",
-                        "ref": "Mushroom Rock Road/Valley/Woman Before First Elevator (NPC)/Hi-Potion x1"
+                        "name": "Valley - Woman Before First Elevator (NPC)",
+                        "ref": "Mushroom Rock Road/Valley/Valley - Woman Before First Elevator (NPC)/Hi-Potion x1"
                     },
                     {
-                        "name": "Valley - 1000 gil (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/North Alcove After First Elevator (Chest & NPC)/1000 gil"
+                        "name": "Valley - North Alcove After First Elevator (Chest)",
+                        "ref": "Mushroom Rock Road/Valley/Valley - North Alcove After First Elevator (Chest)/1000 gil"
                     },
                     {
-                        "name": "Valley - Potion x10 (NPC near chest)",
-                        "ref": "Mushroom Rock Road/Valley/North Alcove After First Elevator (Chest & NPC)/Potion x10"
+                        "name": "Valley - North Alcove After First Elevator (NPC)",
+                        "ref": "Mushroom Rock Road/Valley/Valley - North Alcove After First Elevator (NPC)/Potion x10"
                     },
                     {
-                        "name": "Valley - Remedy x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/Left Side, As Trail Turns East (Chest)/Remedy x1"
+                        "name": "Valley - Left Side, As Trail Turns East (Chest)",
+                        "ref": "Mushroom Rock Road/Valley/Valley - Left Side, As Trail Turns East (Chest)/Remedy x1"
                     },
                     {
-                        "name": "Valley - Hi-Potion x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/Behind Pillar, Before Second Elevator (Chest)/Hi-Potion x1"
+                        "name": "Valley - Behind Pillar, Before Second Elevator (Chest)",
+                        "ref": "Mushroom Rock Road/Valley/Valley - Behind Pillar, Before Second Elevator (Chest)/Hi-Potion x1"
                     },
                     {
-                        "name": "Precipice - X-Potion x1 (NPC near lift)",
-                        "ref": "Mushroom Rock Road/Precipice/Near South Elevator (NPC)/X-Potion x1"
+                        "name": "Precipice - Near South Elevator (NPC)",
+                        "ref": "Mushroom Rock Road/Precipice/Precipice - Near South Elevator (NPC)/X-Potion x1"
                     },
                     {
-                        "name": "Precipice - Serene Armlet (Chest)",
-                        "ref": "Mushroom Rock Road/Precipice/Below West Elevator (Chest)/Serene Armlet"
+                        "name": "Precipice - Below West Elevator (Chest)",
+                        "ref": "Mushroom Rock Road/Precipice/Precipice - Below West Elevator (Chest)/Serene Armlet"
                     },
                     {
-                        "name": "Precipice - Al Bhed Primer X",
+                        "name": "Precipice - End of Curved Path West of North Elevator (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer X/Mushroom Rock Road"
                     },
                     {
-                        "name": "Precipice - 400 gil (NPC near elevator)",
-                        "ref": "Mushroom Rock Road/Precipice/Pacing Between North Elevator and East Ridge (NPC)/400 gil"
+                        "name": "Precipice - Pacing Between North Elevator and East Ridge (NPC)",
+                        "ref": "Mushroom Rock Road/Precipice/Precipice - Pacing Between North Elevator and East Ridge (NPC)/400 gil"
                     },
                     {
-                        "name": "Precipice - Mega-Potion x1 (NPC)",
-                        "ref": "Mushroom Rock Road/Precipice/Near Large Elevator (NPC)/Mega-Potion x1"
+                        "name": "Precipice - Near Large Elevator (NPC)",
+                        "ref": "Mushroom Rock Road/Precipice/Precipice - Near Large Elevator (NPC)/Mega-Potion x1"
                     },
                     {
-                        "name": "Ridge - Mega-Potion x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Ridge/Near Lulu (Chest)/Mega-Potion x1"
+                        "name": "Ridge, Command Center - Near Lulu (Chest)",
+                        "ref": "Mushroom Rock Road/Ridge/Ridge, Command Center - Near Lulu (Chest)/Mega-Potion x1"
                     },
                     {
-                        "name": "Ridge - Serene Bracer (Chest)",
-                        "ref": "Mushroom Rock Road/Ridge/Behind Spear Rack (Chest)/Serene Bracer"
+                        "name": "Ridge, Command Center - Behind Spear Rack (Chest)",
+                        "ref": "Mushroom Rock Road/Ridge/Ridge, Command Center - Behind Spear Rack (Chest)/Serene Bracer"
                     },
                     {
-                        "name": "Ridge - Sinspawn Gui",
-                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui"
+                        "name": "Defeat Sinspawn Gui First Phase (Boss)",
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Defeat Sinspawn Gui First Phase (Boss)"
                     },
                     {
-                        "name": "Ridge - Sinspawn Gui 2",
-                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Sinspawn Gui 2"
+                        "name": "Defeat Sinspawn Gui Second Phase (Boss)",
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/Defeat Sinspawn Gui Second Phase (Boss)"
                     },
                     {
-                        "name": "Ridge - Seymour",
+                        "name": "Party Member: Seymour",
                         "ref": "Party Member/Character/Seymour"
                     },
                     {
-                        "name": "Aftermath - Hi-Potion x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Aftermath/Under Overhang, West Side (Chest)/Hi-Potion x1"
+                        "name": "Aftermath - Under Overhang, West Side (Chest)",
+                        "ref": "Mushroom Rock Road/Aftermath/Aftermath - Under Overhang, West Side (Chest)/Hi-Potion x1"
                     },
                     {
-                        "name": "Aftermath - Soft x4 (Chest)",
-                        "ref": "Mushroom Rock Road/Aftermath/Left Exit Over Boxes (Chest)/Soft x4"
+                        "name": "Aftermath - Left Exit Over Boxes (Chest)",
+                        "ref": "Mushroom Rock Road/Aftermath/Aftermath - Left Exit Over Boxes (Chest)/Soft x4"
                     },
                     {
-                        "name": "Aftermath - Masamune",
+                        "name": "Up Elevator in West Alcove, North Side (Event)",
                         "ref": "Celestial/Auron/Masamune"
                     },
                     {
-                        "name": "Super Bosses - Dark Cindy",
+                        "name": "Defeat Dark Cindy (Superboss)",
                         "ref": "Super Bosses/Dark Cindy"
                     },
                     {
-                        "name": "Super Bosses - Dark Mindy",
+                        "name": "Defeat Dark Mindy (Superboss)",
                         "ref": "Super Bosses/Dark Mindy"
                     },
                     {
-                        "name": "Super Bosses - Dark Sandy",
+                        "name": "Defeat Dark Sandy (Superboss)",
                         "ref": "Super Bosses/Dark Sandy"
                     }
                 ]
