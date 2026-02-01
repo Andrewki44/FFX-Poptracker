@@ -1631,7 +1631,7 @@
                 "map_locations": [{ "map": "Spira", "x": 770, "y": 215, "size": 24, "shape": "diamond"}],
                 "sections": [
                     {
-                        "name": "Nirvana (Area Conquest - Calm Lands)",
+                        "name": "Nirvana",
                         "ref": "Celestial/Yuna/Nirvana"
                     },
                     {

@@ -682,7 +682,7 @@
                     },
                     {
                         "name": "Calm Lands",
-                        "sections": [
+                        "children": [
                             {
                                 "name": "Fiends",
                                 "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 650}],
@@ -748,22 +748,22 @@
                                 "map_locations": [{ "map": "Monster Arena", "x": 706, "y": 650, "shape": "diamond", "size": 28}],
                                 "sections": [
                                     {
-                                        "name": "Skoll (3x Wolf)",
+                                        "name": "Skoll",
                                         "access_rules": ["@Calm Lands"],
                                         "hosted_item": "skollcomplete"
                                     },
                                     {
-                                        "name": "Nebiros (4x Wasp)",
+                                        "name": "Nebiros",
                                         "access_rules": ["@Calm Lands"],
                                         "hosted_item": "nebiroscomplete"
                                     },
                                     {
-                                        "name": "Flame Flan (3x Flan)",
+                                        "name": "Flame Flan",
                                         "access_rules": ["@Calm Lands"],
                                         "hosted_item": "flameflancomplete"
                                     },
                                     {
-                                        "name": "Shred (3x Helm)",
+                                        "name": "Shred",
                                         "access_rules": ["@Calm Lands"],
                                         "hosted_item": "shredcomplete"
                                     },
@@ -798,139 +798,266 @@
                     },
                     {
                         "name": "Cavern of the Stolen Fayth",
-                        "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 650}],
-                        "sections": [
+                        "children": [
                             {
-                                "name": "Yowie (3x Reptile)",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "yowie",
-                                "clear_as_group": false
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 1540, "y": 650}],
+                                "sections": [
+                                    {
+                                        "name": "Yowie (3x Reptile)",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "yowie",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Imp (Imp x4)",
+                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
+                                        "hosted_item": "imp",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Dark Element (3x Elemental)",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "darkelement",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Nidhogg (5x Drake)",
+                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
+                                        "hosted_item": "nidhogg",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Thorn (5x Fungus)",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "thorn",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Valaha (5x Ruminant)",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "valaha",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Epaaj",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "epaaj",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Ghost",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "ghost",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Tonberry",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "tonberry",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Imp (Imp x4)",
-                                "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
-                                "hosted_item": "imp",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Dark Element (3x Elemental)",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "darkelement",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Nidhogg (5x Drake)",
-                                "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
-                                "hosted_item": "nidhogg",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Thorn (5x Fungus)",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "thorn",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Valaha (5x Ruminant)",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "valaha",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Epaaj",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "epaaj",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Ghost",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "ghost",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Tonberry",
-                                "access_rules": ["@Cavern of the Stolen Fayth"],
-                                "hosted_item": "tonberry",
-                                "clear_as_group": false
+                                "name": "Captures Required for Logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 1596, "y": 650, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Yowie",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "yowiecomplete"
+                                    },
+                                    {
+                                        "name": "Imp",
+                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
+                                        "hosted_item": "impcomplete"
+                                    },
+                                    {
+                                        "name": "Dark Element",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "darkelementcomplete"
+                                    },
+                                    {
+                                        "name": "Nidhogg",
+                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
+                                        "hosted_item": "nidhoggcomplete"
+                                    },
+                                    {
+                                        "name": "Thorn",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "thorncomplete"
+                                    },
+                                    {
+                                        "name": "Valaha",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "valahacomplete"
+                                    },
+                                    {
+                                        "name": "Epaaj",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "epaajcomplete"
+                                    },
+                                    {
+                                        "name": "Ghost",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "ghostcomplete"
+                                    },
+                                    {
+                                        "name": "Tonberry",
+                                        "access_rules": ["@Cavern of the Stolen Fayth"],
+                                        "hosted_item": "tonberrycomplete"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         "name": "Mt. Gagazet",
-                        "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 780}],
-                        "sections": [
+                        "children": [
                             {
-                                "name": "Bandersnatch (3x Wolf)",
-                                "access_rules": ["@Mt. Gagazet"],
-                                "hosted_item": "bandersnatch",
-                                "clear_as_group": false
+                                "name": "Fiends",
+                                "map_locations": [{ "map": "Monster Arena", "x": 650, "y": 780}],
+                                "sections": [
+                                    {
+                                        "name": "Bandersnatch (3x Wolf)",
+                                        "access_rules": ["@Mt. Gagazet"],
+                                        "hosted_item": "bandersnatch",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Ahriman (4x Eye)",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "ahriman",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Dark Flan (3x Flan)",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "darkflan",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Grenade (5x Bomb)",
+                                        "access_rules": ["@Mt. Gagazet"],
+                                        "hosted_item": "grenade",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Grat",
+                                        "access_rules": ["@Mt. Gagazet"],
+                                        "hosted_item": "grat",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Grendel (5x Ruminant)",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "grendel",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Bashura",
+                                        "access_rules": ["@Mt. Gagazet", "@Zanarkand"],
+                                        "hosted_item": "bashura",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Mandragora",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "mandragora",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Behemoth",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "behemoth",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Splasher (2x Shinryu)",
+                                        "access_rules": ["@Mt. Gagazet/Inside"],
+                                        "hosted_item": "splasher",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Achelous (2x Shinryu)",
+                                        "access_rules": ["@Mt. Gagazet/Inside"],
+                                        "hosted_item": "achelous",
+                                        "clear_as_group": false
+                                    },
+                                    {
+                                        "name": "Maelspike (2x Shinryu)",
+                                        "access_rules": ["@Mt. Gagazet/Inside"],
+                                        "hosted_item": "maelspike",
+                                        "clear_as_group": false
+                                    }
+                                ]
                             },
                             {
-                                "name": "Ahriman (4x Eye)",
-                                "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
-                                "hosted_item": "ahriman",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Dark Flan (3x Flan)",
-                                "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
-                                "hosted_item": "darkflan",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grenade (5x Bomb)",
-                                "access_rules": ["@Mt. Gagazet"],
-                                "hosted_item": "grenade",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grat",
-                                "access_rules": ["@Mt. Gagazet"],
-                                "hosted_item": "grat",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grendel (5x Ruminant)",
-                                "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
-                                "hosted_item": "grendel",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Bashura",
-                                "access_rules": ["@Mt. Gagazet", "@Zanarkand"],
-                                "hosted_item": "bashura",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Mandragora",
-                                "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
-                                "hosted_item": "mandragora",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Behemoth",
-                                "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
-                                "hosted_item": "behemoth",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Splasher (2x Shinryu)",
-                                "access_rules": ["@Mt. Gagazet/Inside"],
-                                "hosted_item": "splasher",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Achelous (2x Shinryu)",
-                                "access_rules": ["@Mt. Gagazet/Inside"],
-                                "hosted_item": "achelous",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Maelspike (2x Shinryu)",
-                                "access_rules": ["@Mt. Gagazet/Inside"],
-                                "hosted_item": "maelspike",
-                                "clear_as_group": false
+                                "name": "Captures Required for Logic",
+                                "map_locations": [{ "map": "Monster Arena", "x": 706, "y": 780, "shape": "diamond", "size": 28}],
+                                "sections": [
+                                    {
+                                        "name": "Bandersnatch (3x Wolf)",
+                                        "access_rules": ["@Mt. Gagazet"],
+                                        "hosted_item": "bandersnatchcomplete"
+                                    },
+                                    {
+                                        "name": "Ahriman (4x Eye)",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "ahrimancomplete"
+                                    },
+                                    {
+                                        "name": "Dark Flan (3x Flan)",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "darkflancomplete"
+                                    },
+                                    {
+                                        "name": "Grenade (5x Bomb)",
+                                        "access_rules": ["@Mt. Gagazet"],
+                                        "hosted_item": "grenadecomplete"
+                                    },
+                                    {
+                                        "name": "Grat",
+                                        "access_rules": ["@Mt. Gagazet"],
+                                        "hosted_item": "gratcomplete"
+                                    },
+                                    {
+                                        "name": "Grendel (5x Ruminant)",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "grendelcomplete"
+                                    },
+                                    {
+                                        "name": "Bashura",
+                                        "access_rules": ["@Mt. Gagazet", "@Zanarkand"],
+                                        "hosted_item": "bashuracomplete"
+                                    },
+                                    {
+                                        "name": "Mandragora",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "mandragoracomplete"
+                                    },
+                                    {
+                                        "name": "Behemoth",
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "hosted_item": "behemothcomplete"
+                                    },
+                                    {
+                                        "name": "Splasher (2x Shinryu)",
+                                        "access_rules": ["@Mt. Gagazet/Inside"],
+                                        "hosted_item": "splashercomplete"
+                                    },
+                                    {
+                                        "name": "Achelous (2x Shinryu)",
+                                        "access_rules": ["@Mt. Gagazet/Inside"],
+                                        "hosted_item": "achelouscomplete"
+                                    },
+                                    {
+                                        "name": "Maelspike (2x Shinryu)",
+                                        "access_rules": ["@Mt. Gagazet/Inside"],
+                                        "hosted_item": "maelspikecomplete"
+                                    }
+                                ]
                             }
                         ]
                     },

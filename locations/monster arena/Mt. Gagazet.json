@@ -3,64 +3,184 @@
         "name": "Monster Arena - Mt. Gagazet",
         "children": [
             {
-                "name": "Bandersnatch (3x Wolf)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Bandersnatch (3x Wolf)"}]
+                "name": "Bandersnatch",
+                "children": [
+                    {
+                        "name": "Bandersnatch (3x Wolf)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bandersnatch (3x Wolf)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Bandersnatch", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bandersnatch"}]
+                    }
+                ]
             },
             {
-                "name": "Ahriman (4x Eye)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Ahriman (4x Eye)"}]
+                "name": "Ahriman",
+                "children": [
+                    {
+                        "name": "Ahriman (4x Eye)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman (4x Eye)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Ahriman"}]
+                    }
+                ]
             },
             {
-                "name": "Dark Flan (3x Flan)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Dark Flan (3x Flan)"}]
+                "name": "Dark Flan",
+                "children": [
+                    {
+                        "name": "Dark Flan (3x Flan)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Dark Flan (3x Flan)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Dark Flan", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Dark Flan"}]
+                    }
+                ]
             },
             {
-                "name": "Grenade (5x Bomb)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grenade (5x Bomb)"}]
+                "name": "Grenade",
+                "children": [
+                    {
+                        "name": "Grenade (5x Bomb)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grenade (5x Bomb)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Grenade", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grenade"}]
+                    }
+                ]
             },
             {
                 "name": "Grat",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grat"}]
+                "children": [
+                    {
+                        "name": "Grat",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grat"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Grat", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grat"}]
+                    }
+                ]
             },
             {
-                "name": "Grendel (5x Ruminant)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Grendel (5x Ruminant)"}]
+                "name": "Grendel",
+                "children": [
+                    {
+                        "name": "Grendel (5x Ruminant)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grendel (5x Ruminant)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Grendel", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grendel"}]
+                    }
+                ]
             },
             {
                 "name": "Bashura",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Bashura"}]
+                "children": [
+                    {
+                        "name": "Bashura",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bashura"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bashura"}]
+                    }
+                ]
             },
             {
                 "name": "Mandragora",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Mandragora"}]
+                "children": [
+                    {
+                        "name": "Mandragora",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Mandragora"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Mandragora", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Mandragora"}]
+                    }
+                ]
             },
             {
                 "name": "Behemoth",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Behemoth"}]
+                "children": [
+                    {
+                        "name": "Behemoth",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Behemoth"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1458, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Behemoth", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Behemoth"}]
+                    }
+                ]
             },
             {
-                "name": "Splasher (2x Shinryu)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Splasher (2x Shinryu)"}]
+                "name": "Splasher",
+                "children": [
+                    {
+                        "name": "Splasher (2x Shinryu)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Splasher (2x Shinryu)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1458, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Splasher", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Splasher"}]
+                    }
+                ]
             },
             {
-                "name": "Achelous (2x Shinryu)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Achelous (2x Shinryu)"}]
+                "name": "Achelous",
+                "children": [
+                    {
+                        "name": "Achelous (2x Shinryu)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Achelous (2x Shinryu)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1458, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Achelous", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Achelous"}]
+                    }
+                ]
             },
             {
-                "name": "Maelspike (2x Shinryu)",
-                "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Maelspike (2x Shinryu)"}]
+                "name": "Maelspike",
+                "children": [
+                    {
+                        "name": "Maelspike (2x Shinryu)",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1522, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Maelspike (2x Shinryu)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Mt. Gagazet", "x": 1458, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Maelspike", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Maelspike"}]
+                    }
+                ]
             }
         ]
     }

@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Monster Arena - Cavern of the Stolen Fayth",
+        "children": [
+            {
+                "name": "Yowie",
+                "children": [
+                    {
+                        "name": "Yowie (3x Reptile)",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Yowie (3x Reptile)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Yowie", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Yowie"}]
+                    }
+                ]
+            },
+            {
+                "name": "Imp",
+                "children": [
+                    {
+                        "name": "Imp (Imp x4)",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Imp (Imp x4)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Imp", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Imp"}]
+                    }
+                ]
+            },
+            {
+                "name": "Dark Element",
+                "children": [
+                    {
+                        "name": "Dark Element (3x Elemental)",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Dark Element (3x Elemental)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Dark Element", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Dark Element"}]
+                    }
+                ]
+            },
+            {
+                "name": "Nidhogg",
+                "children": [
+                    {
+                        "name": "Nidhogg (5x Drake)",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Nidhogg (5x Drake)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Nidhogg", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Nidhogg"}]
+                    }
+                ]
+            },
+            {
+                "name": "Thorn",
+                "children": [
+                    {
+                        "name": "Thorn (5x Fungus)",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Thorn (5x Fungus)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Thorn", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Thorn"}]
+                    }
+                ]
+            },
+            {
+                "name": "Valaha",
+                "children": [
+                    {
+                        "name": "Valaha (5x Ruminant)",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Valaha (5x Ruminant)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Valaha", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Valaha"}]
+                    }
+                ]
+            },
+            {
+                "name": "Epaaj",
+                "children": [
+                    {
+                        "name": "Epaaj",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Epaaj"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Epaaj", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Epaaj"}]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost",
+                "children": [
+                    {
+                        "name": "Ghost",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Ghost"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Ghost", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Ghost"}]
+                    }
+                ]
+            },
+            {
+                "name": "Tonberry",
+                "children": [
+                    {
+                        "name": "Tonberry",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 1522, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Tonberry"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Cavern of the Stolen Fayth", "x": 1458, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Tonberry", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Tonberry"}]
+                    }
+                ]
+            }
+        ]
+    }
+]

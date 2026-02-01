@@ -1512,6 +1512,17 @@
         "codes": "yowie"
     },
     {
+        "name": "Yowie Complete",
+        "type": "toggle",
+        "img": "images/fiends/Yowie.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "yowiecomplete"
+    },
+
+    {
         "name": "Imp",
         "type": "consumable",
         "img": "images/fiends/Imp.png",
@@ -1524,6 +1535,17 @@
         "initial_quantity": 0,
         "codes": "imp"
     },
+    {
+        "name": "Imp Complete",
+        "type": "toggle",
+        "img": "images/fiends/Imp.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "impcomplete"
+    },
+
     {
         "name": "Dark Element",
         "type": "consumable",
@@ -1538,6 +1560,17 @@
         "codes": "darkelement"
     },
     {
+        "name": "Dark Element Complete",
+        "type": "toggle",
+        "img": "images/fiends/Dark Element.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "darkelementcomplete"
+    },
+
+    {
         "name": "Nidhogg",
         "type": "consumable",
         "img": "images/fiends/Nidhogg.png",
@@ -1550,6 +1583,17 @@
         "initial_quantity": 0,
         "codes": "nidhogg"
     },
+    {
+        "name": "Nidhogg Complete",
+        "type": "toggle",
+        "img": "images/fiends/Nidhogg.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "nidhoggcomplete"
+    },
+
     {
         "name": "Thorn",
         "type": "consumable",
@@ -1564,6 +1608,17 @@
         "codes": "thorn"
     },
     {
+        "name": "Thorn Complete",
+        "type": "toggle",
+        "img": "images/fiends/Thorn.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "thorncomplete"
+    },
+
+    {
         "name": "Valaha",
         "type": "consumable",
         "img": "images/fiends/Valaha.png",
@@ -1576,6 +1631,17 @@
         "initial_quantity": 0,
         "codes": "valaha"
     },
+    {
+        "name": "Valaha Complete",
+        "type": "toggle",
+        "img": "images/fiends/Valaha.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "valahacomplete"
+    },
+
     {
         "name": "Epaaj",
         "type": "consumable",
@@ -1590,6 +1656,17 @@
         "codes": "epaaj"
     },
     {
+        "name": "Epaaj Complete",
+        "type": "toggle",
+        "img": "images/fiends/Epaaj.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "epaajcomplete"
+    },
+
+    {
         "name": "Ghost",
         "type": "consumable",
         "img": "images/fiends/Ghost.png",
@@ -1603,6 +1680,17 @@
         "codes": "ghost"
     },
     {
+        "name": "Ghost Complete",
+        "type": "toggle",
+        "img": "images/fiends/Ghost.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "ghostcomplete"
+    },
+
+    {
         "name": "Tonberry",
         "type": "consumable",
         "img": "images/fiends/Tonberry.png",
@@ -1614,6 +1702,16 @@
         "increment": 1,
         "initial_quantity": 0,
         "codes": "tonberry"
+    },
+    {
+        "name": "Tonberry Complete",
+        "type": "toggle",
+        "img": "images/fiends/Tonberry.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "tonberrycomplete"
     },
 
     //Mt. Gagazet
