@@ -71,7 +71,7 @@
         "name": "Capture Sanity",
         "type": "toggle",
         "img": "images/items/hd/Battle_Item_HD.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "capturesanity"
     },
     {
@@ -79,6 +79,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "codes": "capturerewards",
+        "initial_stage_idx": 3,
         "stages": [
             {
                 "name": "Capture Rewards",
@@ -108,6 +109,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "codes": "creationbosses",
+        "initial_stage_idx": 3,
         "stages": [
             {
                 "name": "Arena Bosses",

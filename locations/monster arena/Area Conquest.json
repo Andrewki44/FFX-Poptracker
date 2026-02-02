@@ -4,68 +4,179 @@
         "children": [
             {
                 "name": "Stratoavis",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 128}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Stratoavis"}]
+                "children": [
+                    {
+                        "name": "Stratoavis",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 128}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Stratoavis"}]
+                    },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Dingo", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Dingo (3x Wolf)"},
+                            {"name": "Condor", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Condor (5x Bird)"},
+                            {"name": "Water Flan", "ref": "Monster Arena/Fiend Capture/Besaid/Fiends/Water Flan (3x Flan)"}
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Malboro Menace",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 278}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Malboro Menace"}]
+                "children": [
+                    {
+                        "name": "Malboro Menace",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 278}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Malboro Menace"}]
+                    },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Dinonix", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Dinonix (3x Reptile)"},
+                            {"name": "Killer Bee", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Killer Bee (5x Wasp)"},
+                            {"name": "Yellow Element", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Yellow Element (3x Elemental)"},
+                            {"name": "Ragora", "ref": "Monster Arena/Fiend Capture/Kilika/Fiends/Ragora"}
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Kottos",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 428}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Kottos"}]
+                "children": [
+                    {
+                        "name": "Kottos",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 428}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Kottos"}]
+                    },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Miihen Fang", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Miihen Fang (3x Wolf)"},
+                            {"name": "Ipiria", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Ipiria (3x Reptile)"},
+                            {"name": "Floating Eye", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Floating Eye (4x Eye)"},
+                            {"name": "White Element", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/White Element (3x Elemental)"},
+                            {"name": "Raldo", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Raldo (3x Armoured)"},
+                            {"name": "Vouivre", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Vouivre (5x Drake)"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb (5x Bomb)"},
+                            {"name": "Dual Horn", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Dual Horn (5x Ruminant)"}
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Coeurlregina",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 578}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Coeurlregina"}]
+                "children": [
+                    {
+                        "name": "Coeurlregina",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 578}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Coeurlregina"}]
+                    },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                        ]
+                    }
+                ]
             },
             {
-                "name": "Jormungand",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 728}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Jormungand"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Jormungand",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 728}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Jormungand"}]
+                    },
+                ]
             },
             {
-                "name": "Cactuar King",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 878}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Cactuar King"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Cactuar King",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 878}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Cactuar King"}]
+                    },
+                ]
             },
             {
-                "name": "Espada",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 1028}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Espada"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Espada",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Espada"}]
+                    },
+                ]
             },
             {
-                "name": "Abyss Worm",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 128}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abyss Worm"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Abyss Worm",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abyss Worm"}]
+                    },
+                ]
             },
             {
-                "name": "Chimerageist",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 278}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Chimerageist"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Chimerageist",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 278}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Chimerageist"}]
+                    },
+                ]
             },
             {
-                "name": "Don Tonberry",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 428}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Don Tonberry"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Don Tonberry",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 428}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Don Tonberry"}]
+                    },
+                ]
             },
             {
-                "name": "Catoblepas",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 578}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Catoblepas"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Catoblepas",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 578}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Catoblepas"}]
+                    },
+                ]
             },
             {
-                "name": "Abaddon",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 728}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abaddon"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Abaddon",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 728}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abaddon"}]
+                    },
+                ]
             },
             {
-                "name": "Vorban",
-                "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 878}],
-                "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Vorban"}]
+                "name": "Dingo",
+                "children": [
+                    {
+                        "name": "Vorban",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 878}],
+                        "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Vorban"}]
+                    },
+                ]
             }
         ]
     }

@@ -19,7 +19,7 @@
                 " - - Capture related options (captures / rewards / bosses)",
                 " - - Option grouping & icons",
                 " - - Visibility rules based on options, to hide locations not relevant based on options selected",
-                " - - Added Cloudy Mirror & World Champion to Minigames",
+                " - - Added Cloudy Mirror, World Champion & Wobbly Chocobo to Minigames",
                 " - Map updates",
                 " - - World Map updates for Monster Arena captures / rewards / bosses",
                 " - - Updated Kilika, Djose & Macalania cloister maps",
@@ -37,7 +37,8 @@
                 " - - Removed disabled Jecht Sphere & Penance checks",
                 " - - Updated S.S. Liki logic to required ranged, instead of just Wakka",
                 " - - Updated Mercury Sigil access rules to require 2nd visit",
-                " - - Updated the order of the Celestial Flower locations to match the in-game menu"
+                " - - Updated the order of the Celestial Flower locations to match the in-game menu",
+                " - - Updated access rules for Remiem Temple, to consider minigames for early access via Wobbly Chocobo, or alternatively Defender X"
             ]
         },
         {
