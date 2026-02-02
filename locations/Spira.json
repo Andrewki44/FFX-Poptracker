@@ -271,7 +271,7 @@
                     },
                     {
                         "name": "Woods - Luzzu Before Beating Lord Ochu (NPC)",
-                        "ref": "Kilika/Woods/Woods - Luzzu Before Beating Lord Ochu (NPC)/Antidote x4 (Before Defeating Ochu)"
+                        "ref": "Kilika/Woods/Luzzu (NPC)/Woods - Luzzu Before Beating Lord Ochu (NPC)"
                     },
                     {
                         "name": "Defeat Lord Ochu (Boss)",
@@ -279,7 +279,7 @@
                     },
                     {
                         "name": "Woods - Luzzu - After Ochu (NPC)",
-                        "ref": "Kilika/Woods/Woods - Luzzu After Beating Lord Ochu (NPC)/Elixir x1 (After Defeating Ochu)"
+                        "ref": "Kilika/Woods/Luzzu (NPC)/Woods - Luzzu - After Ochu (NPC)"
                     },
                     {
                         "name": "Defeat Sinspawn Geneaux (Boss)",
@@ -485,7 +485,7 @@
                     },
                     {
                         "name": "Agency - Exit After Resting (Event) (1)",
-                        "ref": "Miihen Highroad/Agency/Agency - Exit After Resting (Event) (1)/Mega-Potion"
+                        "ref": "Miihen Highroad/Agency/Exit After Resting (Event)/Agency - Exit After Resting (Event) (1)"
                     },
                     {
                         "name": "Agency - Exit After Resting (Event) (2)",
@@ -513,11 +513,11 @@
                     },
                     {
                         "name": "Oldroad, North - Chocobo Jump, Left Side (Chest) (1)",
-                        "ref": "Miihen Highroad/North/Oldroad, North - Chocobo Jump, Left Side (Chest) (1)/Thunder Blade"
+                        "ref": "Miihen Highroad/North/Chocobo Jump, Left Side (Chests)/Oldroad, North - Chocobo Jump, Left Side (Chest) (1)"
                     },
                     {
                         "name": "Oldroad, North - Chocobo Jump, Left Side (Chest) (2)",
-                        "ref": "Miihen Highroad/North/Oldroad, North - Chocobo Jump, Left Side (Chest) (2)/Scout"
+                        "ref": "Miihen Highroad/North/Chocobo Jump, Left Side (Chests)/Oldroad, North - Chocobo Jump, Left Side (Chest) (2)"
                     },
                     {
                         "name": "Oldroad, South - Chocobo Jump, Alcove on East Side (Chest)",
@@ -559,11 +559,11 @@
                     },
                     {
                         "name": "Valley - North Alcove After First Elevator (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/Valley - North Alcove After First Elevator (Chest)/1000 gil"
+                        "ref": "Mushroom Rock Road/Valley/North Alcove After First Elevator (Chest & NPC)/Valley - North Alcove After First Elevator (Chest)"
                     },
                     {
                         "name": "Valley - North Alcove After First Elevator (NPC)",
-                        "ref": "Mushroom Rock Road/Valley/Valley - North Alcove After First Elevator (NPC)/Potion x10"
+                        "ref": "Mushroom Rock Road/Valley/North Alcove After First Elevator (Chest & NPC)/Valley - North Alcove After First Elevator (NPC)"
                     },
                     {
                         "name": "Valley - Left Side, As Trail Turns East (Chest)",
