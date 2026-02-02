@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|cavernofthestolenfayth, calmlands"],
+        "access_rules": ["^$CheckAccessLevel|cavernofthestolenfayth"],
         "children": [
             {
                 "name": "First Branch East (Chest)",
@@ -66,65 +66,36 @@
             },
             {
                 "name": "Monster Captures",
-                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 515, "y": 400, "shape": "diamond"}],
-                "access_rules": ["@Monster Arena/Fiend Capture"],
-                "visibility_rules": ["capturesanity"],
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 515, "y": 400}],
                 "sections": [
-                    {
-                        "name": "Coeurl",
-                        "hosted_item": "coeurl",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Malboro",
-                        "hosted_item": "malboro",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Yowie (3x Reptile)",
-                        "hosted_item": "yowie",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Imp (Imp x4)",
-                        "hosted_item": "imp",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Dark Element (3x Elemental)",
-                        "hosted_item": "darkelement",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Nidhogg (5x Drake)",
-                        "hosted_item": "nidhogg",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Thorn (5x Fungus)",
-                        "hosted_item": "thorn",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Valaha (5x Ruminant)",
-                        "hosted_item": "valaha",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Epaaj",
-                        "hosted_item": "epaaj",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Ghost",
-                        "hosted_item": "ghost",
-                        "clear_as_group": false
-                    },
-                    {
-                        "name": "Tonberry",
-                        "hosted_item": "tonberry",
-                        "clear_as_group": false
-                    }
+                    {"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Coeurl"},
+                    {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Malboro"},
+                    {"name": "Yowie (3x Reptile)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Yowie (3x Reptile)"},
+                    {"name": "Imp (Imp x4)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Imp (Imp x4)"},
+                    {"name": "Dark Element (3x Elemental)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Dark Element (3x Elemental)"},
+                    {"name": "Nidhogg (5x Drake)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Nidhogg (5x Drake)"},
+                    {"name": "Thorn (5x Fungus)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Thorn (5x Fungus)"},
+                    {"name": "Valaha (5x Ruminant)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Valaha (5x Ruminant)"},
+                    {"name": "Epaaj", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Epaaj"},
+                    {"name": "Ghost", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Ghost"},
+                    {"name": "Tonberry", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Tonberry"}
+                ]
+            },
+            {
+                "name": "Monster Captures",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 535, "y": 400, "shape": "diamond"}],
+                "sections": [
+                    {"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Coeurl"},
+                    {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Malboro"},
+                    {"name": "Yowie", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Yowie"},
+                    {"name": "Imp", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Imp"},
+                    {"name": "Dark Element", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Dark Element"},
+                    {"name": "Nidhogg", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Nidhogg"},
+                    {"name": "Thorn", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Thorn"},
+                    {"name": "Valaha", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Valaha"},
+                    {"name": "Epaaj", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Epaaj"},
+                    {"name": "Ghost", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Ghost"},
+                    {"name": "Tonberry", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Tonberry"}
                 ]
             }
         ]

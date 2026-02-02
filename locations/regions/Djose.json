@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["^$CheckAccessLevel|djose, sinspawngui, [$hasMinimumParty|3]"],
+        "access_rules": ["^$CheckAccessLevel|djose"],
         "children": [
             {
                 "name": "Highroad",
@@ -141,10 +141,10 @@
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Djose", "x": 70, "y": 105}],
                 "sections": [
-                    {"name": "Raptor (3x Reptile)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Raptor (3x Reptile)"},
-                    {"name": "Gandarewa (5x Imp)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Gandarewa (5x Imp)"},
-                    {"name": "Lamashtu (5x Drake)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Lamashtu (5x Drake)"},
-                    {"name": "Funguar (5x Fungus)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Funguar (5x Fungus)"},
+                    {"name": "Raptor (3x Reptile)", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Raptor (3x Reptile)"},
+                    {"name": "Gandarewa (5x Imp)", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Gandarewa (5x Imp)"},
+                    {"name": "Lamashtu (5x Drake)", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Lamashtu (5x Drake)"},
+                    {"name": "Funguar (5x Fungus)", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Funguar (5x Fungus)"},
                     {"name": "Garm (3x Wolf)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Garm (3x Wolf)"},
                     {"name": "Simurgh (5x Bird)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Simurgh (5x Bird)"},
                     {"name": "Bite Bug (4x Hornet)", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Bite Bug (4x Hornet)"},
@@ -157,10 +157,10 @@
                 "name": "Captures Required for Logic",
                 "map_locations": [{ "map": "Djose", "x": 90, "y": 105, "shape": "diamond"}],
                 "sections": [
-                    {"name": "Raptor", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Raptor"},
-                    {"name": "Gandarewa", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Gandarewa"},
-                    {"name": "Lamashtu", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Lamashtu"},
-                    {"name": "Funguar", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Funguar"},
+                    {"name": "Raptor", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Raptor"},
+                    {"name": "Gandarewa", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Gandarewa"},
+                    {"name": "Lamashtu", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Lamashtu"},
+                    {"name": "Funguar", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Funguar"},
                     {"name": "Garm", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Garm"},
                     {"name": "Simurgh", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Simurgh"},
                     {"name": "Bite Bug", "ref": "Monster Arena/Fiend Capture/Djose Road/Captures Required for Logic/Bite Bug"},

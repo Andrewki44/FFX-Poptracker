@@ -3,49 +3,139 @@
         "name": "Monster Arena - Calm Lands",
         "children": [
             {
-                "name": "Skoll (3x Wolf)",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Skoll (3x Wolf)"}]
+                "name": "Skoll",
+                "children": [
+                    {
+                        "name": "Skoll (3x Wolf)",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Skoll (3x Wolf)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Skoll", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Skoll"}]
+                    }
+                ]
             },
             {
-                "name": "Nebiros (4x Wasp)",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Nebiros (4x Wasp)"}]
+                "name": "Nebiros",
+                "children": [
+                    {
+                        "name": "Nebiros (4x Wasp)",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Nebiros (4x Wasp)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Nebiros", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Nebiros"}]
+                    }
+                ]
             },
             {
-                "name": "Flame Flan (3x Flan)",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Flame Flan (3x Flan)"}]
+                "name": "Flame Flan",
+                "children": [
+                    {
+                        "name": "Flame Flan (3x Flan)",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Flame Flan (3x Flan)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Flame Flan", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Flame Flan"}]
+                    }
+                ]
             },
             {
-                "name": "Shred (3x Helm)",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Shred (3x Helm)"}]
+                "name": "Shred",
+                "children": [
+                    {
+                        "name": "Shred (3x Helm)",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Shred (3x Helm)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Shred", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Shred"}]
+                    }
+                ]
             },
             {
                 "name": "Anacondaur",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Anacondaur"}]
+                "children": [
+                    {
+                        "name": "Anacondaur",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Anacondaur"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Anacondaur", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Anacondaur"}]
+                    }
+                ]
             },
             {
                 "name": "Ogre",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Ogre"}]
+                "children": [
+                    {
+                        "name": "Ogre",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Ogre"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Ogre", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Ogre"}]
+                    }
+                ]
             },
             {
                 "name": "Coeurl",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Coeurl"}]
+                "children": [
+                    {
+                        "name": "Coeurl",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Coeurl"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Coeurl"}]
+                    }
+                ]
             },
             {
                 "name": "Chimera Brain",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Chimera Brain"}]
+                "children": [
+                    {
+                        "name": "Chimera Brain",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Chimera Brain"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Chimera Brain", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Chimera Brain"}]
+                    }
+                ]
             },
             {
                 "name": "Malboro",
-                "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1522, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Malboro"}]
+                "children": [
+                    {
+                        "name": "Malboro",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1522, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Malboro"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Calm Lands", "x": 1458, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Malboro"}]
+                    }
+                ]
             }
         ]
     }

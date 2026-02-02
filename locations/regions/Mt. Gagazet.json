@@ -74,40 +74,26 @@
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Gagazet Outside", "x": 480, "y": 656, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture"],
-                        "visibility_rules": ["capturesanity"],
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 480, "y": 656}],
                         "sections": [
-                            {
-                                "name": "Imp (Imp x4)",
-                                "hosted_item": "imp",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Nidhogg (5x Drake)",
-                                "hosted_item": "nidhogg",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Bandersnatch (3x Wolf)",
-                                "hosted_item": "bandersnatch",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grenade (5x Bomb)",
-                                "hosted_item": "grenade",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grat",
-                                "hosted_item": "grat",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Bashura",
-                                "hosted_item": "bashura",
-                                "clear_as_group": false
-                            }
+                            {"name": "Imp (Imp x4)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Imp (Imp x4)"},
+                            {"name": "Nidhogg (5x Drake)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Nidhogg (5x Drake)"},
+                            {"name": "Bandersnatch (3x Wolf)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bandersnatch (3x Wolf)"},
+                            {"name": "Grenade (5x Bomb)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grenade (5x Bomb)"},
+                            {"name": "Grat", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grat"},
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bashura"}
+                        ]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Gagazet Outside", "x": 500, "y": 656, "shape": "diamond"}],
+                        "sections": [
+                            {"name": "Imp", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Imp"},
+                            {"name": "Nidhogg", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Nidhogg"},
+                            {"name": "Bandersnatch", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bandersnatch"},
+                            {"name": "Grenade", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grenade"},
+                            {"name": "Grat", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grat"},
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bashura"}
                         ]
                     }
                 ]
@@ -153,55 +139,32 @@
                     },
                     {
                         "name": "Monster Captures",
-                        "map_locations": [{ "map": "Gagazet Cave", "x": 750, "y": 510, "shape": "diamond"}],
-                        "access_rules": ["@Monster Arena/Fiend Capture"],
-                        "visibility_rules": ["capturesanity"],
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 750, "y": 510}],
                         "sections": [
-                            {
-                                "name": "Bashura",
-                                "hosted_item": "bashura",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Ahriman (4x Eye)",
-                                "hosted_item": "ahriman",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Dark Flan (3x Flan)",
-                                "hosted_item": "darkflan",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Grendel (5x Ruminant)",
-                                "hosted_item": "grendel",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Mandragora",
-                                "hosted_item": "mandragora",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Behemoth",
-                                "hosted_item": "behemoth",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Splasher (2x Shinryu)",
-                                "hosted_item": "splasher",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Achelous (2x Shinryu)",
-                                "hosted_item": "achelous",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Maelspike (2x Shinryu)",
-                                "hosted_item": "maelspike",
-                                "clear_as_group": false
-                            }
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bashura"},
+                            {"name": "Ahriman (4x Eye)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman (4x Eye)"},
+                            {"name": "Dark Flan (3x Flan)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Dark Flan (3x Flan)"},
+                            {"name": "Grendel (5x Ruminant)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grendel (5x Ruminant)"},
+                            {"name": "Mandragora", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Mandragora"},
+                            {"name": "Behemoth", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Behemoth"},
+                            {"name": "Splasher (2x Shinryu)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Splasher (2x Shinryu)"},
+                            {"name": "Achelous (2x Shinryu)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Achelous (2x Shinryu)"},
+                            {"name": "Maelspike (2x Shinryu)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Maelspike (2x Shinryu)"}
+                        ]
+                    },
+                    {
+                        "name": "Monster Captures",
+                        "map_locations": [{ "map": "Gagazet Cave", "x": 770, "y": 510, "shape": "diamond"}],
+                        "sections": [
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bashura"},
+                            {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Ahriman"},
+                            {"name": "Dark Flan", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Dark Flan"},
+                            {"name": "Grendel", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Grendel"},
+                            {"name": "Mandragora", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Mandragora"},
+                            {"name": "Behemoth", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Behemoth"},
+                            {"name": "Splasher", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Splasher"},
+                            {"name": "Achelous", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Achelous"},
+                            {"name": "Maelspike", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Maelspike"}
                         ]
                     }
                 ]

@@ -3,54 +3,154 @@
         "name": "Monster Arena - Omega Ruins",
         "children": [
             {
-                "name": "Zaurus (3x Reptile)",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Zaurus (3x Reptile)"}]
+                "name": "Zaurus",
+                "children": [
+                    {
+                        "name": "Zaurus (3x Reptile)",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Zaurus (3x Reptile)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Zaurus", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Zaurus"}]
+                    }
+                ]
             },
             {
-                "name": "Floating Death (4x Eye)",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Floating Death (4x Eye)"}]
+                "name": "Floating Death",
+                "children": [
+                    {
+                        "name": "Floating Death (4x Eye)",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Floating Death (4x Eye)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Floating Death", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Floating Death"}]
+                    }
+                ]
             },
             {
-                "name": "Black Element (3x Elemental)",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Black Element (3x Elemental)"}]
+                "name": "Black Element",
+                "children": [
+                    {
+                        "name": "Black Element (3x Elemental)",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Black Element (3x Elemental)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Black Element", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Black Element"}]
+                    }
+                ]
             },
             {
-                "name": "Halma (3x Helm)",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 578}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Halma (3x Helm)"}]
+                "name": "Halma",
+                "children": [
+                    {
+                        "name": "Halma (3x Helm)",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 578}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Halma (3x Helm)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Halma", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Halma"}]
+                    }
+                ]
             },
             {
-                "name": "Puroboros (5x Bomb)",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 728}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Puroboros (5x Bomb)"}]
+                "name": "Puroboros",
+                "children": [
+                    {
+                        "name": "Puroboros (5x Bomb)",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 728}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Puroboros (5x Bomb)"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Puroboros", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Puroboros"}]
+                    }
+                ]
             },
             {
                 "name": "Spirit",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 878}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Spirit"}]
+                "children": [
+                    {
+                        "name": "Spirit",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 878}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Spirit"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Spirit", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Spirit"}]
+                    }
+                ]
             },
             {
                 "name": "Machea",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 1028}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Machea"}]
+                "children": [
+                    {
+                        "name": "Machea",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 752, "y": 1028}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Machea"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Machea", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Machea"}]
+                    }
+                ]
             },
             {
                 "name": "Master Coeurl",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 128}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Master Coeurl"}]
+                "children": [
+                    {
+                        "name": "Master Coeurl",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 128}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Master Coeurl"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Master Coeurl", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Master Coeurl"}]
+                    }
+                ]
             },
             {
                 "name": "Master Tonberry",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 278}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Master Tonberry"}]
+                "children": [
+                    {
+                        "name": "Master Tonberry",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 278}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Master Tonberry"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1458, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Master Tonberry", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Master Tonberry"}]
+                    }
+                ]
             },
             {
                 "name": "Varuna",
-                "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 428}],
-                "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Varuna"}]
+                "children": [
+                    {
+                        "name": "Varuna",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1522, "y": 428}],
+                        "sections": [{"name": "Captured", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Varuna"}]
+                    },
+                    {
+                        "name": "Captures Required for Logic",
+                        "map_locations": [{ "map": "Monster Arena - Omega Ruins", "x": 1458, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [{"name": "Varuna", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Captures Required for Logic/Varuna"}]
+                    }
+                ]
             }
         ]
     }

@@ -28,7 +28,7 @@
                     },
                     {
                         "name": "Ixion",
-                        "access_rules": ["@Djose/Temple, sinspawngui"],
+                        "access_rules": ["@Djose/Temple"],
                         "hosted_item": "djosecloister",
                         "clear_as_group": true
                     },

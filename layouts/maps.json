@@ -12,13 +12,6 @@
                 }
             },
             {
-                "title": "Airship",
-                "content": {
-                    "type": "map",
-                    "maps": ["Airship"]
-                }
-            },
-            {
                 "title": "Baaj Temple",
                 "content": {
                     "type": "tabbed",
@@ -77,122 +70,6 @@
                 }
             },
             {
-                "title": "Bevelle",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Bevelle",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Bevelle"]
-                            }
-                        },
-                        {
-                            "title": "Via Purifico",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Via Purifico"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Bikanel",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Desert",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Bikanel"]
-                            }
-                        },
-                        {
-                            "title": "Home",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Home"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Calm Lands",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Plains",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Calm Lands"]
-                            }
-                        },
-                        {
-                            "title": "Remiem Temple",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Remiem Temple"]
-                            }
-                        },
-                        {
-                            "title": "Cavern of the Stolen Fayth",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Cavern of the Stolen Fayth"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Djose",
-                "content": {
-                    "type": "map",
-                    "maps": ["Djose"]
-                }
-            },
-            {
-                "title": "Mt. Gagazet",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Gagazet Outside"]
-                            }
-                        },
-                        {
-                            "title": "Cave",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Gagazet Cave"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Guadosalam",
-                "content": {
-                    "type": "map",
-                    "maps": ["Guadosalam"]
-                }
-            },
-            {
-                "title": "Inside Sin",
-                "content": {
-                    "type": "map",
-                    "maps": ["Inside Sin"]
-                }
-            },
-            {
                 "title": "Kilika",
                 "content": {
                     "type": "tabbed",
@@ -229,6 +106,48 @@
                 }
             },
             {
+                "title": "Miihen Highroad",
+                "content": {
+                    "type": "map",
+                    "maps": ["Miihen Highroad"]
+                }
+            },
+            {
+                "title": "Mushroom Rock Road",
+                "content": {
+                    "type": "map",
+                    "maps": ["Mushroom Rock Road"]
+                }
+            },
+            {
+                "title": "Djose",
+                "content": {
+                    "type": "map",
+                    "maps": ["Djose"]
+                }
+            },
+            {
+                "title": "Moonflow",
+                "content": {
+                    "type": "map",
+                    "maps": ["Moonflow"]
+                }
+            },
+            {
+                "title": "Guadosalam",
+                "content": {
+                    "type": "map",
+                    "maps": ["Guadosalam"]
+                }
+            },
+            {
+                "title": "Thunder Plains",
+                "content": {
+                    "type": "map",
+                    "maps": ["Thunder Plains"]
+                }
+            },
+            {
                 "title": "Macalania",
                 "content": {
                     "type": "tabbed",
@@ -258,38 +177,106 @@
                 }
             },
             {
-                "title": "Miihen Highroad",
+                "title": "Bikanel",
                 "content": {
-                    "type": "map",
-                    "maps": ["Miihen Highroad"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Desert",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Bikanel"]
+                            }
+                        },
+                        {
+                            "title": "Home",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Home"]
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "title": "Moonflow",
+                "title": "Airship",
                 "content": {
                     "type": "map",
-                    "maps": ["Moonflow"]
+                    "maps": ["Airship"]
                 }
             },
             {
-                "title": "Mushroom Rock Road",
+                "title": "Bevelle",
                 "content": {
-                    "type": "map",
-                    "maps": ["Mushroom Rock Road"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Bevelle",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Bevelle"]
+                            }
+                        },
+                        {
+                            "title": "Via Purifico",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Via Purifico"]
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "title": "Omega Ruins",
+                "title": "Calm Lands",
                 "content": {
-                    "type": "map",
-                    "maps": ["Omega Ruins"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Plains",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Calm Lands"]
+                            }
+                        },
+                        {
+                            "title": "Remiem Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Remiem Temple"]
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "title": "Thunder Plains",
+                "title": "Cavern of the Stolen Fayth",
                 "content": {
                     "type": "map",
-                    "maps": ["Thunder Plains"]
+                    "maps": ["Cavern of the Stolen Fayth"]
+                }
+            },
+            
+            {
+                "title": "Mt. Gagazet",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Gagazet Outside"]
+                            }
+                        },
+                        {
+                            "title": "Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Gagazet Cave"]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -312,6 +299,20 @@
                             }
                         }
                     ]
+                }
+            },
+            {
+                "title": "Inside Sin",
+                "content": {
+                    "type": "map",
+                    "maps": ["Inside Sin"]
+                }
+            },
+            {
+                "title": "Omega Ruins",
+                "content": {
+                    "type": "map",
+                    "maps": ["Omega Ruins"]
                 }
             },
             {

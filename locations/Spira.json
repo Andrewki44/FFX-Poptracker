@@ -1513,7 +1513,7 @@
             },
             {
                 "name": "Monster Arena - Captures",
-                "map_locations": [{ "map": "Spira", "x": 785, "y": 185, "size": 24, "shape": "diamond"}],
+                "map_locations": [{ "map": "Spira", "x": 790, "y": 175, "size": 24, "shape": "diamond"}],
                 "visibility_rules": ["capturesanity"],
                 "sections": [
                     {
@@ -1628,10 +1628,10 @@
             },
             {
                 "name": "Monster Arena - Rewards",
-                "map_locations": [{ "map": "Spira", "x": 770, "y": 215, "size": 24, "shape": "diamond"}],
+                "map_locations": [{ "map": "Spira", "x": 770, "y": 207, "size": 24, "shape": "diamond"}],
                 "sections": [
                     {
-                        "name": "Nirvana (Area Conquest - Calm Lands)",
+                        "name": "Nirvana",
                         "ref": "Celestial/Yuna/Nirvana"
                     },
                     {
@@ -1782,7 +1782,7 @@
             },
             {
                 "name": "Monster Arena - Bosses",
-                "map_locations": [{ "map": "Spira", "x": 800, "y": 215, "size": 24, "shape": "diamond"}],
+                "map_locations": [{ "map": "Spira", "x": 810, "y": 207, "size": 24, "shape": "diamond"}],
                 "sections": [
                     {
                         "name": "Arena Conquest - Stratoavis",
