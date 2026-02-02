@@ -3,6 +3,10 @@ function has(item)
     return Tracker:ProviderCountForCode(item) > 0
 end
 
+function hasNot(item)
+    return Tracker:ProviderCountForCode(item) <= 0
+end
+
 ACCESS_NONE = AccessibilityLevel.None
 ACCESS_PARTIAL = AccessibilityLevel.Partial
 ACCESS_INSPECT = AccessibilityLevel.Inspect
