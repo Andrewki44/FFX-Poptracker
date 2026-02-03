@@ -2159,27 +2159,27 @@
                 "map_locations": [{ "map": "Spira", "x": 1245, "y": 472}],
                 "sections": [
                     {
-                        "name": "Teleport Sphere x1 (Chest)",
+                        "name": "Press Both Glyphs, Then Take Narrow Central Path (Chest)",
                         "ref": "Omega Ruins/Press Both Glyphs, Then Take Narrow Central Path (Chest)/Teleport Sphere x1"
                     },
                     {
-                        "name": "Al Bhed Primer XXVI",
+                        "name": "North Side of Four Chest Intersection (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XXVI/Omega Ruins"
                     },
                     {
-                        "name": "Ultima Weapon",
+                        "name": "Defeat Ultima Weapon (Boss)",
                         "ref": "Omega Ruins/Defeat Ultima Weapon (Boss)/Ultima Weapon"
                     },
                     {
-                        "name": "Friend Sphere x1 (Chest)",
+                        "name": "West Path (Chest)",
                         "ref": "Omega Ruins/West Path (Chest)/Friend Sphere x1"
                     },
                     {
-                        "name": "Omega Weapon",
+                        "name": "Defeat Omega Weapon (Superboss)",
                         "ref": "Super Bosses/Omega Weapon"
                     },
                     {
-                        "name": "Magic Sphere x1 (Chest)",
+                        "name": "Omega Boss Arena (Chest)",
                         "ref": "Omega Ruins/Omega Boss Arena (Chest)/Magic Sphere x1"
                     }
                 ]
