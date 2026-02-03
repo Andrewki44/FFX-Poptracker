@@ -75,107 +75,241 @@
                     },
                     {
                         "name": "1 of Each Capture Required",
-                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 428, "shape": "diamond", "size": 24}],
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 578, "shape": "diamond", "size": 24}],
                         "sections": [
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
-                            {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb"},
+                            {"name": "Raptor", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Raptor (3x Reptile)"},
+                            {"name": "Gandarewa", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Gandarewa (5x Imp)"},
+                            {"name": "Thunder Flan", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Thunder Flan (3x Flan)"},
+                            {"name": "Red Element", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Red Element (3x Elemental)"},
+                            {"name": "Lamashtu", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Lamashtu (5x Drake)"},
+                            {"name": "Funguar", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Funguar (5x Fungus)"},
+                            {"name": "Garuda", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Garuda"}
                         ]
                     }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Jormungand",
                 "children": [
                     {
                         "name": "Jormungand",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 728}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Jormungand"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Garm", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Garm (3x Wolf)"},
+                            {"name": "Simurgh", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Simurgh (5x Bird)"},
+                            {"name": "Bite Bug", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Bite Bug (4x Hornet)"},
+                            {"name": "Snow Flan", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Snow Flan (3x Flan)"},
+                            {"name": "Bunyip", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Bunyip (3x Helm)"},
+                            {"name": "Basilisk", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Basilisk"},
+                            {"name": "Ochu", "ref": "Monster Arena/Fiend Capture/Djose Road/Fiends/Ochu"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Cactuar King",
                 "children": [
                     {
                         "name": "Cactuar King",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 878}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Cactuar King"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Melusine", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Melusine (3x Reptile)"},
+                            {"name": "Aerouge", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Aerouge (4x Imp)"},
+                            {"name": "Buer", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Buer (4x Eye)"},
+                            {"name": "Gold Element", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Gold Element (3x Elemental)"},
+                            {"name": "Kusariqqu", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Kusariqqu (5x Drake)"},
+                            {"name": "Larva", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Larva"},
+                            {"name": "Iron Giant", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Iron Giant (10x Iron Clad)"},
+                            {"name": "Qactuar", "ref": "Monster Arena/Fiend Capture/Thunder Plains/Fiends/Qactuar"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Espada",
                 "children": [
                     {
                         "name": "Espada",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 752, "y": 1028}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Espada"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 688, "y": 1028, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Snow Wolf", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Snow Wolf (3x Wolf)"},
+                            {"name": "Iguion", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Iguion (3x Reptile)"},
+                            {"name": "Wasp", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Wasp (4x Wasp)"},
+                            {"name": "Evil Eye", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Evil Eye (4x Eye)"},
+                            {"name": "Ice Flan", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Ice Flan (3x Flan)"},
+                            {"name": "Blue Element", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Blue Element (3x Elemental)"},
+                            {"name": "Murussu", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Murussu (3x Helm)"},
+                            {"name": "Mafdet", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Mafdet (3x Helm)"},
+                            {"name": "Xiphos", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Xiphos"},
+                            {"name": "Chimera", "ref": "Monster Arena/Fiend Capture/Macalania/Fiends/Chimera"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Abyss Worm",
                 "children": [
                     {
                         "name": "Abyss Worm",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 128}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abyss Worm"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1458, "y": 128, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Sand Wolf", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Sand Wolf (3x Wolf)"},
+                            {"name": "Alcyone", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Alcyone (5x Bird)"},
+                            {"name": "Mushussu", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Mushussu (5x Drake)"},
+                            {"name": "Zu", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Zu"},
+                            {"name": "Sand Worm", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Sand Worm"},
+                            {"name": "Cactuar", "ref": "Monster Arena/Fiend Capture/Bikanel/Fiends/Cactuar"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Chimerageist",
                 "children": [
                     {
                         "name": "Chimerageist",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 278}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Chimerageist"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1458, "y": 278, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Skoll", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Skoll (3x Wolf)"},
+                            {"name": "Nebiros", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Nebiros (4x Wasp)"},
+                            {"name": "Flame Flan", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Flame Flan (3x Flan)"},
+                            {"name": "Shred", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Shred (3x Helm)"},
+                            {"name": "Anacondaur", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Anacondaur"},
+                            {"name": "Ogre", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Ogre"},
+                            {"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Coeurl"},
+                            {"name": "Chimera Brain", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Chimera Brain"},
+                            {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Malboro"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Don Tonberry",
                 "children": [
                     {
                         "name": "Don Tonberry",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 428}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Don Tonberry"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1458, "y": 428, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Yowie", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Yowie (3x Reptile)"},
+                            {"name": "Imp", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Imp (Imp x4)"},
+                            {"name": "Dark Element", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Dark Element (3x Elemental)"},
+                            {"name": "Nidhogg", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Nidhogg (5x Drake)"},
+                            {"name": "Thorn", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Thorn (5x Fungus)"},
+                            {"name": "Valaha", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Valaha (5x Ruminant)"},
+                            {"name": "Epaaj", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Epaaj"},
+                            {"name": "Ghost", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Ghost"},
+                            {"name": "Tonberry", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Tonberry"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Catoblepas",
                 "children": [
                     {
                         "name": "Catoblepas",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 578}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Catoblepas"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1458, "y": 578, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Bandersnatch", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bandersnatch (3x Wolf)"},
+                            {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman (4x Eye)"},
+                            {"name": "Dark Flan", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Dark Flan (3x Flan)"},
+                            {"name": "Grenade", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grenade (5x Bomb)"},
+                            {"name": "Grat", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grat"},
+                            {"name": "Grendel", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Grendel (5x Ruminant)"},
+                            {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bashura"},
+                            {"name": "Mandragora", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Mandragora"},
+                            {"name": "Behemoth", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Behemoth"},
+                            {"name": "Splasher", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Splasher (2x Shinryu)"},
+                            {"name": "Achelous", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Achelous (2x Shinryu)"},
+                            {"name": "Maelspike", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Maelspike (2x Shinryu)"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Abaddon",
                 "children": [
                     {
                         "name": "Abaddon",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 728}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Abaddon"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1458, "y": 728, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Exoray", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Exoray (5x Fungus)"},
+                            {"name": "Wraith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Wraith"},
+                            {"name": "Gemini (Sword)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Sword) (10x Iron Giant)"},
+                            {"name": "Gemini (Club)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Club) (10x Iron Giant)"},
+                            {"name": "Demonolith", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Demonolith"},
+                            {"name": "Great Malboro", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Great Malboro"},
+                            {"name": "Barbatos", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Barbatos"},
+                            {"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Adamantoise"},
+                            {"name": "Behemoth King", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Behemoth King"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Dingo",
+                "name": "Vorban",
                 "children": [
                     {
                         "name": "Vorban",
                         "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1522, "y": 878}],
                         "sections": [{"name": "Defeated", "ref": "Monster Arena/Area Conquest/Defeat/Vorban"}]
                     },
+                    {
+                        "name": "1 of Each Capture Required",
+                        "map_locations": [{ "map": "Monster Arena - Area Conquest", "x": 1458, "y": 878, "shape": "diamond", "size": 24}],
+                        "sections": [
+                            {"name": "Zaurus", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Zaurus (3x Reptile)"},
+                            {"name": "Floating Death", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Floating Death (4x Eye)"},
+                            {"name": "Black Element", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Black Element (3x Elemental)"},
+                            {"name": "Halma", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Halma (3x Helm)"},
+                            {"name": "Puroboros", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Puroboros (5x Bomb)"},
+                            {"name": "Spirit", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Spirit"},
+                            {"name": "Machea", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Machea"},
+                            {"name": "Master Coeurl", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Master Coeurl"},
+                            {"name": "Master Tonberry", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Master Tonberry"},
+                            {"name": "Varuna", "ref": "Monster Arena/Fiend Capture/Omega Ruins/Fiends/Varuna"}
+                        ]
+                    }
                 ]
             }
         ]
