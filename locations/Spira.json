@@ -788,39 +788,39 @@
                 "map_locations": [{ "map": "Spira", "x": 709, "y": 483}],
                 "sections": [
                     {
-                        "name": "Guadosalam - Mega-Potion x1 (Chest)",
+                        "name": "East of Mansion (Chest)",
                         "ref": "Guadosalam/Guadosalam/East of Mansion (Chest)/Mega-Potion x1"
                     },
                     {
-                        "name": "Guadosalam - Al Bhed Primer XIII",
+                        "name": "House - On Floor (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XIII/Guadosalam"
                     },
                     {
-                        "name": "Guadosalam - 3000 gil (Chest)",
+                        "name": "House - Back Wall (Chest)",
                         "ref": "Guadosalam/Guadosalam/House - Back Wall (Chest)/3000 gil"
                     },
                     {
-                        "name": "Guadosalam - Elixir x1 (Chest)",
+                        "name": "Upper Level, South Side (Chest)",
                         "ref": "Guadosalam/Guadosalam/Upper Level, South Side (Chest)/Elixir x1"
                     },
                     {
-                        "name": "Guadosalam - Hi-Potion x2 (Chest)",
+                        "name": "Mansion, Entrance - Upper Level (Chest)",
                         "ref": "Guadosalam/Guadosalam/Mansion, Entrance - Upper Level (Chest)/Hi-Potion x2"
                     },
                     {
-                        "name": "Guadosalam - Recruit Yuma Guado",
+                        "name": "Recruit: Yuma Guado",
                         "ref": "Blitzball Recruits/Yuma Guado"
                     },
                     {
-                        "name": "Farplane - Lightning Marble x8 (Chest)",
+                        "name": "Road to Farplane - Left Side Behind Wall (Chest)",
                         "ref": "Guadosalam/Farplane/Road to Farplane - Left Side Behind Wall (Chest)/Lightning Marble x8"
                     },
                     {
-                        "name": "Farplane - Brotherhood Upgrade",
+                        "name": "Automatic Upon Leaving Farplane (Event)",
                         "ref": "Celestial/Tidus/Brotherhood Upgrade"
                     },
                     {
-                        "name": "Farplane - Venus Crest (Chest)",
+                        "name": "Second Visit, Farplane - West Side (Chest)",
                         "ref": "Celestial/Lulu/Venus Crest"
                     }
                 ]
@@ -830,83 +830,83 @@
                 "map_locations": [{ "map": "Spira", "x": 808, "y": 383}],
                 "sections": [
                     {
-                        "name": "South - Phoenix Down x2 (Chest)",
-                        "ref": "Thunder Plains/South/West Side, South of Save Sphere (Chest)/Phoenix Down x2"
+                        "name": "South - West Side, South of Save Sphere (Chest)",
+                        "ref": "Thunder Plains/South/South - West Side, South of Save Sphere (Chest)/Phoenix Down x2"
                     },
                     {
-                        "name": "South - Hi-Potion x2 (Chest)",
-                        "ref": "Thunder Plains/South/West Side, North of Save Sphere (Chest)/Hi-Potion x2"
+                        "name": "South - West Side, North of Save Sphere (Chest)",
+                        "ref": "Thunder Plains/South/South - West Side, North of Save Sphere (Chest)/Hi-Potion x2"
                     },
                     {
-                        "name": "South - 5000 gil (Chest)",
-                        "ref": "Thunder Plains/South/West Side, Behind First Cactuar Statue (Chest)/5000 gil"
+                        "name": "South - West Side, Behind First Cactuar Statue (Chest)",
+                        "ref": "Thunder Plains/South/South - West Side, Behind First Cactuar Statue (Chest)/5000 gil"
                     },
                     {
-                        "name": "South - Water Ball (Chest)",
-                        "ref": "Thunder Plains/South/East Side, Alcove With Second Cactuar Statue (Chest)/Water Ball"
+                        "name": "South - East Side, Alcove With Second Cactuar Statue (Chest)",
+                        "ref": "Thunder Plains/South/South - East Side, Alcove With Second Cactuar Statue (Chest)/Water Ball"
                     },
                     {
-                        "name": "Agency - Recruit Mifurey",
+                        "name": "Recruit: Mifurey",
                         "ref": "Blitzball Recruits/Mifurey"
                     },
                     {
-                        "name": "Agency - Al Bhed Primer XIV",
+                        "name": "Agency & Bikanel: Desert, East (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XIV/Thunder Plains"
                     },
                     {
-                        "name": "Agency - Yellow Shield (Ground Item)",
+                        "name": "Agency Front (Ground Item)",
                         "ref": "Thunder Plains/Agency/Agency Front (Ground Item)/Yellow Shield"
                     },
                     {
-                        "name": "North - X-Potion x1 (Chest)",
-                        "ref": "Thunder Plains/North/East Side, Near Southeast Exit (Chest)/X-Potion x1"
+                        "name": "North - East Side, Near Southeast Exit (Chest)",
+                        "ref": "Thunder Plains/North/North - East Side, Near Southeast Exit (Chest)/X-Potion x1"
                     },
                     {
-                        "name": "North - Ether x1 (Chest)",
-                        "ref": "Thunder Plains/North/West Side, Behind Sheltered Lightning Rod (Chest)/Ether x1"
+                        "name": "North - West Side, Behind Sheltered Lightning Rod (Chest)",
+                        "ref": "Thunder Plains/North/North - West Side, Behind Sheltered Lightning Rod (Chest)/Ether x1"
                     },
                     {
-                        "name": "North - 2000 gil (Chest)",
-                        "ref": "Thunder Plains/North/East of Final Lightning Rod (Chest)/2000 gil"
+                        "name": "North - East of Final Lightning Rod (Chest)",
+                        "ref": "Thunder Plains/North/North - East of Final Lightning Rod (Chest)/2000 gil"
                     },
                     {
-                        "name": "North - Remedy x1 (Chest)",
-                        "ref": "Thunder Plains/North/West Side, Near North Exit (Chest)/Remedy x1"
+                        "name": "North - West Side, Near North Exit (Chest)",
+                        "ref": "Thunder Plains/North/North - West Side, Near North Exit (Chest)/Remedy x1"
                     },
                     {
-                        "name": "South - Spirit Lance (Cactuar Statues)",
+                        "name": "Cactuar Statue Minigame (Event)",
                         "ref": "Celestial/Kimahri/Spirit Lance"
                     },
                     {
-                        "name": "Agency - 5x Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/X-Potion x2 (5x Dodges)"
+                        "name": "Lightning Dodger - 5 Consecutive Dodges (Event)",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Lightning Dodger - 5 Consecutive Dodges (Event)"
                     },
                     {
-                        "name": "Agency - 10x Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/Mega-Potion x2 (10x Dodges)"
+                        "name": "Lightning Dodger - 10 Consecutive Dodges (Event)",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Lightning Dodger - 10 Consecutive Dodges (Event)"
                     },
                     {
-                        "name": "Agency - 20x Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/MP Sphere x2 (20x Dodges)"
+                        "name": "Lightning Dodger - 20 Consecutive Dodges (Event)",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Lightning Dodger - 20 Consecutive Dodges (Event)"
                     },
                     {
-                        "name": "Agency - 50x Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/Strength Sphere x3 (50x Dodges)"
+                        "name": "Lightning Dodger - 50 Consecutive Dodges (Event)",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Lightning Dodger - 50 Consecutive Dodges (Event)"
                     },
                     {
-                        "name": "Agency - 100x Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/HP Sphere x3 (100x Dodges)"
+                        "name": "Lightning Dodger - 100 Consecutive Dodges (Event)",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Lightning Dodger - 100 Consecutive Dodges (Event)"
                     },
                     {
-                        "name": "Agency - 150x Lightning Dodging",
-                        "ref": "Thunder Plains/Agency/Lightning Dodging/Megalixir x4 (150x Dodges)"
+                        "name": "Lightning Dodger - 150 Consecutive Dodges (Event)",
+                        "ref": "Thunder Plains/Agency/Lightning Dodging/Lightning Dodger - 150 Consecutive Dodges (Event)"
                     },
                     {
-                        "name": "Agency - 200x Lightning Dodging",
+                        "name": "Lightning Dodger - 200 Consecutive Dodges (Event)",
                         "ref": "Celestial/Lulu/Venus Sigil"
                     },
                     {
-                        "name": "Super Bosses - Dark Ixion",
+                        "name": "Defeat Dark Ixion (Superboss)",
                         "ref": "Super Bosses/Dark Ixion"
                     }
                 ]
