@@ -68,7 +68,7 @@
                         ]
                     },
                     {
-                        "name": "North Wharf: Near Bench (Chest)",
+                        "name": "North Wharf - Near Bench (Chest)",
                         "map_locations": [{ "map": "Moonflow", "x": 220, "y": 160}],
                         "sections": [{"name": "Ether x1"}]
                     },
