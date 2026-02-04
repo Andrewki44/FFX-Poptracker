@@ -185,7 +185,7 @@
                     {"name": "Vouivre (5x Drake)", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Vouivre (5x Drake)"},
                     {"name": "Bomb (5x Bomb)", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Bomb (5x Bomb)"},
                     {"name": "Dual Horn (5x Ruminant)", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Dual Horn (5x Ruminant)"},
-                    {"name": "Thunder Flan (3x Flan)", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Fiends/Thunder Flan (3x Flan)"}
+                    {"name": "Thunder Flan (3x Flan)", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Fiends/Thunder Flan (3x Flan)"}
                 ]
             },
             {
@@ -200,7 +200,7 @@
                     {"name": "Vouivre", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Vouivre"},
                     {"name": "Bomb", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Bomb"},
                     {"name": "Dual Horn", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Dual Horn"},
-                    {"name": "Thunder Flan", "ref": "Monster Arena/Fiend Capture/Miihen Highroad/Captures Required for Logic/Thunder Flan"}
+                    {"name": "Thunder Flan", "ref": "Monster Arena/Fiend Capture/Mushroom Rock Road/Captures Required for Logic/Thunder Flan"}
                 ]
             }
         ]

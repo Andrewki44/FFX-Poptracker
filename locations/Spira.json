@@ -940,10 +940,6 @@
                         "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Spherimorph"
                     },
                     {
-                        "name": "Woods - Jecht Sphere",
-                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Jecht Sphere"
-                    },
-                    {
                         "name": "Woods - Lucid Ring (Chest)",
                         "ref": "Macalania/Woods/Campsite (Chest)/Lucid Ring"
                     },
@@ -1687,8 +1683,8 @@
                         "ref": "Monster Arena/Area Conquest/Creation Rewards/Omega Dungeon"
                     },
                     {
-                        "name": "Species Conquest - Wolf (x3)",
-                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Wolf (x3)"
+                        "name": "Species Conquest - Wolf (3x)",
+                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Wolf (3x)"
                     },
                     {
                         "name": "Species Conquest - Reptile (3x)",
@@ -1741,10 +1737,6 @@
                     {
                         "name": "Species Conquest - Iron Giant (10x)",
                         "ref": "Monster Arena/Species Conquest/Creation Rewards/Iron Giant (10x)"
-                    },
-                    {
-                        "name": "Species Conquest - Wolf",
-                        "ref": "Monster Arena/Species Conquest/Creation Rewards/Wolf"
                     },
                     {
                         "name": "Original Creation - Area Conquest x2",
