@@ -11,7 +11,7 @@
         "children": [
             {
                 "name": "Northwest Corner (Primer)",
-                "map_locations": [{ "map": "Remiem Temple", "x": 30, "y": 80}],
+                "map_locations": [{ "map": "Remiem Temple", "x": 40, "y": 40}],
                 "sections": [
                     {
                         "name": "Al Bhed Primer XXIV",
