@@ -2043,47 +2043,47 @@
                 "map_locations": [{ "map": "Spira", "x": 785, "y": 50}],
                 "sections": [
                     {
-                        "name": "Overpass - Fortune Sphere x1 (Chest)",
+                        "name": "Overpass - South Side, West Bend (Chest)",
                         "ref": "Zanarkand/Overpass/South Side, West Bend (Chest)/Fortune Sphere x1"
                     },
                     {
-                        "name": "Overpass - Spiritual Targe (Chest)",
+                        "name": "Overpass - North Side, Left Alcove (Chest)",
                         "ref": "Zanarkand/Overpass/North Side, Left Alcove (Chest)/Spiritual Targe"
                     },
                     {
-                        "name": "Dome - 10000 gil (Chest)",
+                        "name": "Dome - Road Above Underpass (Chest)",
                         "ref": "Zanarkand/Dome/Road Above Underpass (Chest)/10000 gil"
                     },
                     {
-                        "name": "Dome - Friend Sphere x1 (Chest)",
+                        "name": "Dome - West From 4-Way Intersection (Chest)",
                         "ref": "Zanarkand/Dome/West From 4-Way Intersection (Chest)/Friend Sphere x1"
                     },
                     {
-                        "name": "Dome - Lv. 3 Key Sphere x1 (Chest)",
+                        "name": "Dome - Rubble Path Down Before Circular Doorway (Chest)",
                         "ref": "Zanarkand/Dome/Rubble Path Down Before Circular Doorway (Chest)/Lv. 3 Key Sphere x1"
                     },
                     {
-                        "name": "Dome - Luck Sphere x1 (Chest)",
+                        "name": "Dome - Right Side (Chest)",
                         "ref": "Zanarkand/Dome/Right Side (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Temple - Spectral Keeper",
+                        "name": "Temple - Defeat Spectral Keeper (Boss)",
                         "ref": "Zanarkand/Temple/Defeat Spectral Keeper (Boss)/Spectral Keeper"
                     },
                     {
-                        "name": "Temple - Yunalesca",
+                        "name": "Temple - Defeat Yunalesca (Boss)",
                         "ref": "Zanarkand/Temple/Defeat Yunalesca (Boss)/Yunalesca"
                     },
                     {
-                        "name": "Temple - Sun Crest (Chest)",
+                        "name": "Temple - Chest After Taking Left/Right in Yunalesca Arena (Chest)",
                         "ref": "Celestial/Tidus/Sun Crest"
                     },
                     {
-                        "name": "Temple - Cloister of Trials ",
-                        "ref": "Zanarkand/Temple/Cloister of Trials/Destruction Sphere- Magistral Rod"
+                        "name": "Temple - Destruction Sphere (Chest)",
+                        "ref": "Zanarkand/Temple/Cloister of Trials/Destruction Sphere (Chest)"
                     },
                     {
-                        "name": "Super Bosses - Dark Bahamut",
+                        "name": "Defeat Dark Bahamut (Superboss)",
                         "ref": "Super Bosses/Dark Bahamut"
                     }
                 ]
