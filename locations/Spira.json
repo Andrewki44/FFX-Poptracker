@@ -969,7 +969,7 @@
                     },
                     {
                         "name": "Road - Linna, at Bottom of Stairs (NPC)",
-                        "ref": "Macalania/Lake/Road/ Road - Linna, at Bottom of Stairs (NPC)/400 gil"
+                        "ref": "Macalania/Lake/Road/Road - Linna, at Bottom of Stairs (NPC)/400 gil"
                     },
                     {
                         "name": "Recruit: Linna",
@@ -1280,44 +1280,44 @@
                 "map_locations": [{ "map": "Spira", "x": 460, "y": 520}],
                 "sections": [
                     {
-                        "name": "Bridge - Recruit Brother",
+                        "name": "Recruit: Brother",
                         "ref": "Blitzball Recruits/Brother"
                     },
                     {
-                        "name": "Bridge - Recruit Wakka",
+                        "name": "Recruit: Wakka",
                         "ref": "Blitzball Recruits/Wakka"
                     },
                     {
-                        "name": "Corridor - Recruit Rin",
+                        "name": "Recruit: Rin",
                         "ref": "Blitzball Recruits/Rin"
                     },
                     {
-                        "name": "Corridor - Complete Al Bhed Primers",
+                        "name": "Collect All Primers, Talk to Rin (NPC)",
                         "ref": "Al Bhed Primers/Complete Al Bhed Primers"
                     },
                     {
-                        "name": "Cabin - Al Bhed Potion x4 (NPC)",
-                        "ref": "Airship/Before Evrae, Yellow Al Bhed on Left (NPC)/Al Bhed Potion x4 (NPC)"
+                        "name": "Cabin - Before Evrae, Yellow Al Bhed on Left (NPC)",
+                        "ref": "Airship/Cabin - Before Evrae, Yellow Al Bhed on Left (NPC)/Al Bhed Potion x4 (NPC)"
                     },
                     {
-                        "name": "Roof - Evrae",
-                        "ref": "Airship/Roof (Bosses)/Evrae"
+                        "name": "Defeat Evrae (Boss)",
+                        "ref": "Airship/Roof (Bosses)/Defeat Evrae (Boss)"
                     },
                     {
-                        "name": "Roof - Sin Left Fin",
-                        "ref": "Airship/Roof (Bosses)/Sin Left Fin"
+                        "name": "Defeat Sin Left Fin (Boss)",
+                        "ref": "Airship/Roof (Bosses)/Defeat Sin Left Fin (Boss)"
                     },
                     {
-                        "name": "Roof - Sin Right Fin",
-                        "ref": "Airship/Roof (Bosses)/Sin Right Fin"
+                        "name": "Defeat Sin Right Fin (Boss)",
+                        "ref": "Airship/Roof (Bosses)/Defeat Sin Right Fin (Boss)"
                     },
                     {
-                        "name": "Roof - Sinspawn Genais and Core",
-                        "ref": "Airship/Roof (Bosses)/Sinspawn Genais and Core"
+                        "name": "Defeat Sin Core (Boss)",
+                        "ref": "Airship/Roof (Bosses)/Defeat Sin Core (Boss)"
                     },
                     {
-                        "name": "Roof - Overdrive Sin",
-                        "ref": "Airship/Roof (Bosses)/Overdrive Sin"
+                        "name": "Defeat Overdrive Sin (Boss)",
+                        "ref": "Airship/Roof (Bosses)/Defeat Overdrive Sin (Boss)"
                     }
                 ]
             },
@@ -1326,67 +1326,67 @@
                 "map_locations": [{ "map": "Spira", "x": 678, "y": 273}],
                 "sections": [
                     {
-                        "name": "Temple - Al Bhed Primer XXII",
+                        "name": "Priests' Passage - Corner South of Save Point (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XXII/Bevelle"
                     },
                     {
-                        "name": "Temple - Cloister of Trials - Knight Lance",
-                        "ref": "Bevelle/Temple/Cloister of Trials/Knight Lance"
+                        "name": "Cloister - Left of Exit, 2 Bevelle Spheres Required (Chest)",
+                        "ref": "Bevelle/Temple/Cloister of Trials/Cloister - Left of Exit, 2 Bevelle Spheres Required (Chest)"
                     },
                     {
-                        "name": "Temple - Cloister of Trials - Destruction Sphere",
-                        "ref": "Bevelle/Temple/Cloister of Trials/Destruction Sphere - HP Sphere"
+                        "name": "Cloister - End (Chest)",
+                        "ref": "Bevelle/Temple/Cloister of Trials/Cloister - End (Chest)"
                     },
                     {
-                        "name": "Temple - Cloister of Trials - Bahamut",
+                        "name": "Name Bahamut (Event)",
                         "ref": "Party Member/Aeon/Bahamut"
                     },
                     {
-                        "name": "Via Purifico - Mega-Potion x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/East Room With Kimahri (Chest)/Mega-Potion x1"
+                        "name": "Via Purifico - East Room With Kimahri (Chest)",
+                        "ref": "Bevelle/Via Purifico/Via Purifico - East Room With Kimahri (Chest)/Mega-Potion x1"
                     },
                     {
-                        "name": "Via Purifico - Wht Magic Sphere x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/West Room With Lulu (Chest)/Wht Magic Sphere x1"
+                        "name": "Via Purifico - West Room With Lulu (Chest)",
+                        "ref": "Bevelle/Via Purifico/Via Purifico - West Room With Lulu (Chest)/Wht Magic Sphere x1"
                     },
                     {
-                        "name": "Via Purifico - Elixir x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Southwest Room Near Glyph (Chest)/Elixir x1"
+                        "name": "Via Purifico - Southwest Room Near Glyph (Chest)",
+                        "ref": "Bevelle/Via Purifico/Via Purifico - Southwest Room Near Glyph (Chest)/Elixir x1"
                     },
                     {
-                        "name": "Via Purifico - Blk Magic Sphere x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Room Northeast of Central Teleporter (Chest)/Blk Magic Sphere x1"
+                        "name": "Via Purifico - Room Northeast of Central Teleporter (Chest)",
+                        "ref": "Bevelle/Via Purifico/Via Purifico - Room Northeast of Central Teleporter (Chest)/Blk Magic Sphere x1"
                     },
                     {
-                        "name": "Via Purifico - Skill Sphere x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Skill Sphere x1"
+                        "name": "Via Purifico - Puzzle Room Right (Chest)",
+                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Via Purifico - Puzzle Room Right (Chest)"
                     },
                     {
-                        "name": "Via Purifico - 10000 gil (Chest)",
-                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/10000 gil"
+                        "name": "Via Purifico - Puzzle Room, Down Near Gate (Chest)",
+                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Via Purifico - Puzzle Room, Down Near Gate (Chest)"
                     },
                     {
-                        "name": "Via Purifico - Lucid Ring (Chest)",
-                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Lucid Ring"
+                        "name": "Via Purifico - Puzzle Room Left (Chest)",
+                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Via Purifico - Puzzle Room Left (Chest)"
                     },
                     {
-                        "name": "Via Purifico - Isaaru",
+                        "name": "Defeat Isaaru (Boss)",
                         "ref": "Bevelle/Via Purifico/Defeat Isaaru (Boss)/Isaaru"
                     },
                     {
-                        "name": "Underwater - Evrae Altana",
+                        "name": "Defeat Evrae Altana (Boss)",
                         "ref": "Bevelle/Underwater/Defeat Evrae Altana (Boss)/Evrae Altana"
                     },
                     {
-                        "name": "Underwater - Rematch (Chest)",
-                        "ref": "Bevelle/Underwater/Right Side Before First Turn (Chest)/Rematch"
+                        "name": "Underwater After Evrae Altana, Right Side Before First Turn (Chest)",
+                        "ref": "Bevelle/Underwater/Underwater After Evrae Altana, Right Side Before First Turn (Chest)/Rematch"
                     },
                     {
-                        "name": "Underwater - Avenger (Chest)",
-                        "ref": "Bevelle/Underwater/Right Side After First Turn (Chest)/Avenger"
+                        "name": "Underwater After Evrae Altana, Right Side After First Turn (Chest)",
+                        "ref": "Bevelle/Underwater/Underwater After Evrae Altana, Right Side After First Turn (Chest)/Avenger"
                     },
                     {
-                        "name": "Highbridge - Seymour Natus",
+                        "name": "Defeat Seymour Natus (Boss)",
                         "ref": "Bevelle/Highbridge/Defeat Seymour Natus (Boss)/Seymour Natus"
                     }
                 ]
