@@ -188,6 +188,7 @@ RoomToMap = {
     [193] = {"Guadosalam"},
     [364] = {"Guadosalam"},
     [213] = {"Guadosalam"},
+    [134] = {"Guadosalam"},
 
     [140] = {"Thunder Plains"},
     [256] = {"Thunder Plains"},
@@ -286,7 +287,6 @@ RoomToMap = {
     [309] = {"Mt. Gagazet", "Outside"},
     [165] = {"Mt. Gagazet", "Outside"},
     [249] = {"Mt. Gagazet", "Outside"},
-    [134] = {"Mt. Gagazet", "Outside"},
     [272] = {"Mt. Gagazet", "Cave"},
     [310] = {"Mt. Gagazet", "Cave"},
     [311] = {"Mt. Gagazet", "Cave"},
