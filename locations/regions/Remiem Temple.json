@@ -6,7 +6,8 @@
         "overlay_background": "#000000",
         "access_rules": [
             "^$CheckAccessLevel|calmlands, minigames, wobblychocobo", 
-            "^$CheckAccessLevel|calmlands, defenderx, [$hasMinimumParty|3]"
+            "^$CheckAccessLevel|calmlands, defenderx, [$hasMinimumParty|3]",
+            "^$CheckAccessLevel|calmlands, [wobblychocobo]"
         ],
         "children": [
             {
