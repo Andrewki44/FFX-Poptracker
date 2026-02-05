@@ -135,6 +135,9 @@ function applySlotData(slot_data)
     if (slot_data["super_bosses"] ~= nil) then
         Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
     end
+    if (slot_data["always_capture"] ~= nil) then
+        Tracker:FindObjectForCode("alwayscapture").Active = slot_data["always_capture"]
+    end
     if (slot_data["logic_difficulty"] ~= nil) then
         Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
     end

@@ -119,7 +119,7 @@
             },
             {
                 "name": "Highbridge",
-                "access_rules": ["evraealtana, [$hasSwimmers|3]"],
+                "access_rules": ["evraealtana, [$hasSwimmers|3], [$hasAeons|2]"],
                 "children": [
                     {
                         "name": "Defeat Seymour Natus (Boss)",
