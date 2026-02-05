@@ -1981,59 +1981,59 @@
                         "ref": "Mt. Gagazet/Defeat Biran and Yenke (Boss)/Biran and Yenke"
                     },
                     {
-                        "name": "Outside - 20000 gil (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Top of Right Ridge Near South Exit (Chest)/20000 gil"
+                        "name": "Trail - Top of Right Ridge Near South Exit (Chest)",
+                        "ref": "Mt. Gagazet/Outside/Trail - Top of Right Ridge Near South Exit (Chest)/20000 gil"
                     },
                     {
-                        "name": "Outside - Mega-Potion x2 (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Left Alcove Near South Exit (Chest)/Mega-Potion x2"
+                        "name": "Trail - Left Alcove Near South Exit (Chest)",
+                        "ref": "Mt. Gagazet/Outside/Trail - Left Alcove Near South Exit (Chest)/Mega-Potion x2"
                     },
                     {
-                        "name": "Outside - Defending Bracer (Chest)",
-                        "ref": "Mt. Gagazet/Outside/West Branch Before Bridge to Wantz (Chest)/Defending Bracer"
+                        "name": "Trail - West Branch Before Bridge to Wantz (Chest)",
+                        "ref": "Mt. Gagazet/Outside/Trail - West Branch Before Bridge to Wantz (Chest)/Defending Bracer"
                     },
                     {
-                        "name": "Outside - Lv. 4 Key Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Under Bridge After Wantz (Chests)/Lv. 4 Key Sphere x1"
+                        "name": "Trail - Under Bridge After Wantz",
+                        "ref": "Mt. Gagazet/Outside/Under Bridge After Wantz (Chests)/Right (Chest)"
                     },
                     {
-                        "name": "Outside - HP Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Under Bridge After Wantz (Chests)/HP Sphere x1"
+                        "name": "Trail - Under Bridge After Wantz",
+                        "ref": "Mt. Gagazet/Outside/Under Bridge After Wantz (Chests)/Left (Chest)"
                     },
                     {
-                        "name": "Outside - Seymour Flux",
+                        "name": "Defeat Seymour Flux (Boss)",
                         "ref": "Mt. Gagazet/Outside/Defeat Seymour Flux (Boss)/Seymour Flux"
                     },
                     {
-                        "name": "Outside - Saturn Crest (Chest)",
+                        "name": "Prominence - Hidden Between Left Pillars (Chest)",
                         "ref": "Celestial/Kimahri/Saturn Crest"
                     },
                     {
-                        "name": "Inside - Lv. 1 Key Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Reward from First Trial (Chest)/Lv. 1 Key Sphere x1"
+                        "name": "Submerged Passage - Reward from First Trial (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Submerged Passage - Reward from First Trial (Chest)/Lv. 1 Key Sphere x1"
                     },
                     {
-                        "name": "Inside - Fortune Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Reward From Second Trial (Chest)/Fortune Sphere x1"
+                        "name": "Submerged Passage - Reward From Second Trial (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Submerged Passage - Reward From Second Trial (Chest)/Fortune Sphere x1"
                     },
                     {
                         "name": "Inside - Return Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere (Chests)/Return Sphere x1"
+                        "ref": "Mt. Gagazet/Inside/Submerged Passage - After Both Trials, East Exit From Save Sphere/Left (Chest)"
                     },
                     {
                         "name": "Inside - Recovery Ring (Chest)",
-                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere (Chests)/Recovery Ring"
+                        "ref": "Mt. Gagazet/Inside/Submerged Passage - After Both Trials, East Exit From Save Sphere/Right (Chest)"
                     },
                     {
-                        "name": "Inside - Pep Talk (Chest)",
-                        "ref": "Mt. Gagazet/Inside/After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)/Pep Talk"
+                        "name": "Cave - After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Cave - After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)/Pep Talk"
                     },
                     {
-                        "name": "Inside - Sanctuary Keeper",
+                        "name": "Defeat Sanctuary Keeper (Boss)",
                         "ref": "Mt. Gagazet/Inside/Defeat Sanctuary Keeper (Boss)/Sanctuary Keeper"
                     },
                     {
-                        "name": "Super Bosses - Dark Anima",
+                        "name": "Defeat Dark Anima (Superboss)",
                         "ref": "Super Bosses/Dark Anima"
                     }
                 ]

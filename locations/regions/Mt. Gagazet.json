@@ -23,26 +23,26 @@
                 "access_rules": ["biranyenke, [$hasMinimumParty|3]"],
                 "children": [
                     {
-                        "name": "Top of Right Ridge Near South Exit (Chest)",
+                        "name": "Trail - Top of Right Ridge Near South Exit (Chest)",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 809, "y": 277}],
                         "sections": [{"name": "20000 gil"}]
                     },
                     {
-                        "name": "Left Alcove Near South Exit (Chest)",
+                        "name": "Trail - Left Alcove Near South Exit (Chest)",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 740, "y": 178}],
                         "sections": [{"name": "Mega-Potion x2"}]
                     },
                     {
-                        "name": "West Branch Before Bridge to Wantz (Chest)",
+                        "name": "Trail - West Branch Before Bridge to Wantz (Chest)",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 248, "y": 224}],
                         "sections": [{"name": "Defending Bracer"}]
                     },
                     {
-                        "name": "Under Bridge After Wantz (Chests)",
+                        "name": "Trail - Under Bridge After Wantz",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 630, "y": 494}],
                         "sections": [
-                            {"name": "Lv. 4 Key Sphere x1"},
-                            {"name": "HP Sphere x1"}
+                            {"name": "Right (Chest)"},
+                            {"name": "Left (Chest)"}
                         ]
                     },
                     {
@@ -58,7 +58,7 @@
                         ]
                     },
                     {
-                        "name": "Hidden Between Left Pillars (Chest)",
+                        "name": "Prominence - Hidden Between Left Pillars (Chest)",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 90, "y": 26}],
                         "sections": [
                             {
@@ -103,25 +103,25 @@
                 "access_rules": ["seymourflux, [$hasMinimumParty|3]"],
                 "children": [
                     {
-                        "name": "Reward from First Trial (Chest)",
+                        "name": "Submerged Passage - Reward from First Trial (Chest)",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 292, "y": 417}],
                         "sections": [{"name": "Lv. 1 Key Sphere x1"}]
                     },
                     {
-                        "name": "Reward From Second Trial (Chest)",
+                        "name": "Submerged Passage - Reward From Second Trial (Chest)",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 605, "y": 40}],
                         "sections": [{"name": "Fortune Sphere x1"}]
                     },
                     {
-                        "name": "After Both Trials, East Exit From Save Sphere (Chests)",
+                        "name": "Submerged Passage - After Both Trials, East Exit From Save Sphere",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 650, "y": 595}],
                         "sections": [
-                            {"name": "Return Sphere x1"},
-                            {"name": "Recovery Ring"}
+                            {"name": "Left (Chest)"},
+                            {"name": "Right (Chest)"}
                         ]
                     },
                     {
-                        "name": "After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)",
+                        "name": "Cave - After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 500, "y": 710}],
                         "sections": [{"name": "Pep Talk"}]
                     },
