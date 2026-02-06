@@ -253,7 +253,7 @@
                                     },
                                     {
                                         "name": "Funguar (5x Fungus)",
-                                        "access_rules": ["@Mushroom Rock Road", "@Djose"],
+                                        "access_rules": ["@Mushroom Rock Road", "@Djose", "@Moonflow"],
                                         "hosted_item": "funguar",
                                         "clear_as_group": false
                                     },
@@ -335,7 +335,7 @@
                                     },
                                     {
                                         "name": "Snow Flan (3x Flan)",
-                                        "access_rules": ["@Djose"],
+                                        "access_rules": ["@Djose", "@Moonflow"],
                                         "hosted_item": "snowflan",
                                         "clear_as_group": false
                                     },

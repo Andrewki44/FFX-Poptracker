@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.2",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.2/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Fixed Sun Sigil logic (again)"
+            ]
+        },
+        {
             "package_version": "0.3.1",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.1/FFX.zip",
             "sha256": "23850da1b35ae54dd8da29b0c87742db3a407e6f13515d7607ca11b06f9fb8c1",
