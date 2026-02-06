@@ -119,12 +119,6 @@
                         ]
                     },
                     {
-                        "name": "Campsite (Chest)",
-                        "map_locations": [{ "map": "Via Purifico", "x": 860, "y": 85}],
-                        "access_rules": ["spherimorph, seymournatus, [$hasMinimumParty|3]"],
-                        "sections": [{"name": "Lucid Ring"}]
-                    },
-                    {
                         "name": "Butterfly Minigame (Event)",
                         "map_locations": [{ "map": "Macalania Woods", "x": 570, "y": 535}],
                         "sections": [
