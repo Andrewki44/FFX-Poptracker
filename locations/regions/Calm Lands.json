@@ -13,17 +13,17 @@
                         "name": "Southeast Corner (Chests)",
                         "map_locations": [{ "map": "Calm Lands", "x": 890, "y": 825}],
                         "sections": [
-                            {"name": "5000 gil"},
-                            {"name": "10000 gil"}
+                            {"name": "South - Southeast Corner, Right (Chest)"},
+                            {"name": "South - Southeast Corner, Left (Chest)"}
                         ]
                     },
                     {
-                        "name": "Behind Agency Tent (Chest)",
+                        "name": "Central - Behind Agency Tent (Chest)",
                         "map_locations": [{ "map": "Calm Lands", "x": 530, "y": 592}],
                         "sections": [{"name": "Lv. 2 Key Sphere x1"}]
                     },
                     {
-                        "name": "Northwest Corner (Primer)",
+                        "name": "North - Northwest Corner (Primer)",
                         "map_locations": [{ "map": "Calm Lands", "x": 300, "y": 560}],
                         "sections": [
                             {
@@ -33,12 +33,12 @@
                         ]
                     },
                     {
-                        "name": "Blitzball Recruit - Naida",
+                        "name": "Recruit: Naida",
                         "map_locations": [{ "map": "Calm Lands", "x": 530, "y": 640}],
                         "sections": [{"name": "Naida", "ref": "Blitzball Recruits/Naida"}]
                     },
                     {
-                        "name": "Blitzball Recruit - Svanda",
+                        "name": "Recruit: Svanda",
                         "map_locations": [{ "map": "Calm Lands", "x": 743, "y": 470}],
                         "sections": [{"name": "Svanda", "ref": "Blitzball Recruits/Svanda"}]
                     },
@@ -55,17 +55,17 @@
                         ]
                     },
                     {
-                        "name": "Blitzball Recruit - Durren",
+                        "name": "Recruit: Durren",
                         "map_locations": [{ "map": "Calm Lands", "x": 735, "y": 305}],
                         "sections": [{"name": "Durren", "ref": "Blitzball Recruits/Durren"}]
                     },
                     {
-                        "name": "Rusty Sword Between Two Rocks, East End (Event)",
+                        "name": "Gorge Bottom - Rusty Sword Between Two Rocks, East End (Event)",
                         "map_locations": [{ "map": "Calm Lands", "x": 695, "y": 280}],
                         "sections": [{"name": "Rusty Sword", "ref": "Celestial/General/Rusty Sword"}]
                     },
                     {
-                        "name": "NW Corner, Blocked Until Winning Catcher Chocobo (Event)",
+                        "name": "North - NW Corner, Blocked Until Winning Catcher Chocobo (Event)",
                         "map_locations": [{ "map": "Calm Lands", "x": 475, "y": 475}],
                         "sections": [{"name": "Caladbolg", "ref": "Celestial/Tidus/Caladbolg"}]
                     }
@@ -115,7 +115,7 @@
                                 "clear_as_group": true
                             },
                             {
-                                "name": "Sun Sigil (Catcher 0:00)", 
+                                "name": "Catcher Chocobo Minigame, Time Under 0.00 (Event)", 
                                 "ref": "Celestial/Tidus/Sun Sigil"
                             }
                         ]

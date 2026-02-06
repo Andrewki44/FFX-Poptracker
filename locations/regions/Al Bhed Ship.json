@@ -7,12 +7,12 @@
         "access_rules": ["^$CheckAccessLevel|baajtemple"],
         "children": [
             {
-                "name": "Yellow Al Bhed, on Left (NPC)",
+                "name": "Deck - Yellow Al Bhed, on Left (NPC)",
                 "map_locations": [{ "map": "Al Bhed Ship", "x": 415, "y": 375}],
                 "sections": [{"name": "Potion x 3"}]
             },
             {
-                "name": "Northeast Corner (Primer)",
+                "name": "Deck & Bikanel: Oasis (Primer)",
                 "map_locations": [{ "map": "Al Bhed Ship", "x": 500, "y": 285}],
                 "sections": [
                     {

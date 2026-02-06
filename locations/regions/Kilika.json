@@ -10,17 +10,17 @@
                 "name": "Village",
                 "children": [
                     {
-                        "name": "Right of Collapsing House (Chest)",
+                        "name": "House - Right of Collapsing House (Chest)",
                         "map_locations": [{ "map": "Kilika Village", "x": 730, "y": 115}],
                         "sections": [{"name": "Potion x3"}]
                     },
                     {
-                        "name": "After Rescuing Kulukan's Sister from Collapsing House (Chest)",
+                        "name": "Tavern - After Rescuing Kulukan's Sister from Collapsing House (Chest)",
                         "map_locations": [{ "map": "Kilika Village", "x": 980, "y": 290}],
                         "sections": [{"name": "Ether x1"}]
                     },
                     {
-                        "name": "On Counter (Primer)",
+                        "name": "Tavern - On Counter (Primer)",
                         "map_locations": [{ "map": "Kilika Village", "x": 1020, "y": 340}],
                         "sections": [
                             {
@@ -30,7 +30,7 @@
                         ]
                     },
                     {
-                        "name": "Blitzball Recruit",
+                        "name": "Recruit: Tatts",
                         "map_locations": [{ "map": "Kilika Village", "x": 740, "y": 720}],
                         "sections": [{"name": "Tatts", "ref": "Blitzball Recruits/Tatts"}]
                     }
@@ -40,27 +40,27 @@
                 "name": "Woods",
                 "children": [
                     {
-                        "name": "East of First Intersection (Chest)",
+                        "name": "Woods - East of First Intersection (Chest)",
                         "map_locations": [{ "map": "Kilika Village", "x": 590, "y": 700}],
                         "sections": [{"name": "Mana Sphere x2"}]
                     },
                     {
-                        "name": "West of First Intersection, First North Fork (Chest)",
+                        "name": "Woods - West of First Intersection, First North Fork (Chest)",
                         "map_locations": [{ "map": "Kilika Village", "x": 270, "y": 620}],
                         "sections": [{"name": "Scout"}]
                     },
                     {
-                        "name": "Crusader Commander West of Lord Ochu (NPC)",
+                        "name": "Woods - Crusader Commander West of Lord Ochu (NPC)",
                         "map_locations": [{ "map": "Kilika Village", "x": 272, "y": 473}],
                         "sections": [{"name": "Remedy x1"}]
                     },
                     {
-                        "name": "Crusader Commander North of Lord Ochu (NPC)",
+                        "name": "Woods - Crusader Commander North of Lord Ochu (NPC)",
                         "map_locations": [{ "map": "Kilika Village", "x": 415, "y": 350}],
                         "sections": [{"name": "High Potion x1"}]
                     },
                     {
-                        "name": "Path North of Lord Ochu, Curving West (Chest)",
+                        "name": "Woods - Path North of Lord Ochu, Curving West (Chest)",
                         "map_locations": [{ "map": "Kilika Village", "x": 240, "y": 270}],
                         "sections": [{"name": "Luck Sphere x1"}]
                     },
@@ -79,9 +79,9 @@
                         "name": "Luzzu (NPC)",
                         "map_locations": [{ "map": "Kilika Village", "x": 400, "y": 500}],
                         "sections": [
-                            {"name": "Antidote x4 (Before Defeating Ochu)"},
+                            {"name": "Woods - Luzzu Before Beating Lord Ochu (NPC)"},
                             {
-                                "name": "Elixir x1 (After Defeating Ochu)",
+                                "name": "Woods - Luzzu - After Ochu (NPC)",
                                 "access_rules": ["lordochu"]
                             }
                         ]
@@ -125,12 +125,12 @@
                 "access_rules": ["geneaux, [$hasMinimumParty|3]"],
                 "children": [
                     {
-                        "name": "Blitzball Recruit",
+                        "name": "Recruit: Mep",
                         "map_locations": [{ "map": "Kilika Temple", "x": 140, "y": 465}],
                         "sections": [{"name": "Mep", "ref": "Blitzball Recruits/Mep"}]
                     },
                     {
-                        "name": "Cloister of Trials",
+                        "name": "Cloister - Destruction Sphere (Chest)",
                         "map_locations": [{ "map": "Kilika Temple", "x": 560, "y": 140}],
                         "sections": [
                             {
@@ -142,7 +142,7 @@
                         ]
                     },
                     {
-                        "name": "Chamber of the Fayth",
+                        "name": "Name Ifrit (Event)",
                         "map_locations": [{ "map": "Kilika Temple", "x": 675, "y": 375}],
                         "sections": [{"name": "Ifrit", "ref": "Party Member/Aeon/Ifrit"}]
                     }

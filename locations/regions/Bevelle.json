@@ -10,7 +10,7 @@
                 "name": "Temple",
                 "children": [
                     {
-                        "name": "Corner South of Save Point (Primer)",
+                        "name": "Priests' Passage - Corner South of Save Point (Primer)",
                         "map_locations": [{ "map": "Bevelle", "x": 230, "y": 520}],
                         "sections": [
                             {
@@ -24,17 +24,17 @@
                         "map_locations": [{ "map": "Bevelle", "x": 1020, "y": 545}],
                         "sections": [
                             {
-                                "name": "Knight Lance",
+                                "name": "Cloister - Left of Exit, 2 Bevelle Spheres Required (Chest)",
                                 "hosted_item": "knightlance",
                                 "clear_as_group": true
                             },
                             {
-                                "name": "Destruction Sphere - HP Sphere",
+                                "name": "Cloister - End (Chest)",
                                 "hosted_item": "bevelledestructionsphere",
                                 "clear_as_group": true
                             },
                             {
-                                "name": "Bahamut",
+                                "name": "Name Bahamut (Event)",
                                 "ref": "Party Member/Aeon/Bahamut"
                             }
                         ]
@@ -45,22 +45,22 @@
                 "name": "Via Purifico",
                 "children": [
                     {
-                        "name": "East Room With Kimahri (Chest)",
+                        "name": "Via Purifico - East Room With Kimahri (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 745, "y": 590}],
                         "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
-                        "name": "West Room With Lulu (Chest)",
+                        "name": "Via Purifico - West Room With Lulu (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 350, "y": 590}],
                         "sections": [{"name": "Wht Magic Sphere x1"}]
                     },
                     {
-                        "name": "Southwest Room Near Glyph (Chest)",
+                        "name": "Via Purifico - Southwest Room Near Glyph (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 235, "y": 735}],
                         "sections": [{"name": "Elixir x1"}]
                     },
                     {
-                        "name": "Room Northeast of Central Teleporter (Chest)",
+                        "name": "Via Purifico - Room Northeast of Central Teleporter (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 640, "y": 595}],
                         "sections": [{"name": "Blk Magic Sphere x1"}]
                     },
@@ -68,9 +68,9 @@
                         "name": "Puzzle Room (Chests)",
                         "map_locations": [{ "map": "Via Purifico", "x": 50, "y": 350}],
                         "sections": [
-                            {"name": "Skill Sphere x1"},
-                            {"name": "10000 gil"},
-                            {"name": "Lucid Ring"}
+                            {"name": "Via Purifico - Puzzle Room Right (Chest)"},
+                            {"name": "Via Purifico - Puzzle Room, Down Near Gate (Chest)"},
+                            {"name": "Via Purifico - Puzzle Room Left (Chest)"}
                         ]
                     },
                     {
@@ -104,13 +104,13 @@
                         ]
                     },
                     {
-                        "name": "Right Side Before First Turn (Chest)",
+                        "name": "Underwater After Evrae Altana, Right Side Before First Turn (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 880, "y": 530}],
                         "access_rules": ["evraealtana, [$hasSwimmers|3]"],
                         "sections": [{"name": "Rematch"}]
                     },
                     {
-                        "name": "Right Side After First Turn (Chest)",
+                        "name": "Underwater After Evrae Altana, Right Side After First Turn (Chest)",
                         "map_locations": [{ "map": "Via Purifico", "x": 935, "y": 460}],
                         "access_rules": ["evraealtana, [$hasSwimmers|3]"],
                         "sections": [{"name": "Avenger"}]

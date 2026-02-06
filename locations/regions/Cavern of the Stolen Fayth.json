@@ -45,12 +45,12 @@
                 "name": "Teleport East from Back of Cavern (Chests)",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 370, "y": 138}],
                 "sections": [
-                    {"name": "MP Sphere x1"},
-                    {"name": "X-Potion x2"}
+                    {"name": "Teleport East from Back of Cavern, Bottom (Chest)"},
+                    {"name": "Teleport East from Back of Cavern, Top (Chest)"}
                 ]
             },
             {
-                "name": "Chamber of the Fayth",
+                "name": "Hire Yojimbo (Event)",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 528, "y": 100}],
                 "sections": [
                     {

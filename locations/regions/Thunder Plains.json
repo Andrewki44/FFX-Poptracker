@@ -10,22 +10,22 @@
                 "name": "South",
                 "children": [
                     {
-                        "name": "West Side, South of Save Sphere (Chest)",
+                        "name": "South - West Side, South of Save Sphere (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 105, "y": 595}],
                         "sections": [{"name": "Phoenix Down x2"}]
                     },
                     {
-                        "name": "West Side, North of Save Sphere (Chest)",
+                        "name": "South - West Side, North of Save Sphere (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 80, "y": 562}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
-                        "name": "West Side, Behind First Cactuar Statue (Chest)",
+                        "name": "South - West Side, Behind First Cactuar Statue (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 60, "y": 470}],
                         "sections": [{"name": "5000 gil"}]
                     },
                     {
-                        "name": "East Side, Alcove With Second Cactuar Statue (Chest)",
+                        "name": "South - East Side, Alcove With Second Cactuar Statue (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 177, "y": 318}],
                         "sections": [{"name": "Water Ball"}]
                     },
@@ -47,10 +47,10 @@
                     {
                         "name": "Blitzball Recruit",
                         "map_locations": [{ "map": "Thunder Plains", "x": 355, "y": 83}],
-                        "sections": [{"name": "Mifurey", "ref": "Blitzball Recruits/Mifurey"}]
+                        "sections": [{"name": "Recruit: Mifurey", "ref": "Blitzball Recruits/Mifurey"}]
                     },
                     {
-                        "name": "Talk to Rikku, Then Rin (Event)",
+                        "name": "Agency & Bikanel: Desert, East (Primer)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 385, "y": 70}],
                         "sections": [
                             {
@@ -69,14 +69,14 @@
                         "map_locations": [{ "map": "Thunder Plains", "x": 325, "y": 255}],
                         "visibility_rules": ["minigames"],
                         "sections": [
-                            {"name": "X-Potion x2 (5x Dodges)"},
-                            {"name": "Mega-Potion x2 (10x Dodges)"},
-                            {"name": "MP Sphere x2 (20x Dodges)"},
-                            {"name": "Strength Sphere x3 (50x Dodges)"},
-                            {"name": "HP Sphere x3 (100x Dodges)"},
-                            {"name": "Megalixir x4 (150x Dodges)"},
+                            {"name": "Lightning Dodger - 5 Consecutive Dodges (Event)"},
+                            {"name": "Lightning Dodger - 10 Consecutive Dodges (Event)"},
+                            {"name": "Lightning Dodger - 20 Consecutive Dodges (Event)"},
+                            {"name": "Lightning Dodger - 50 Consecutive Dodges (Event)"},
+                            {"name": "Lightning Dodger - 100 Consecutive Dodges (Event)"},
+                            {"name": "Lightning Dodger - 150 Consecutive Dodges (Event)"},
                             {
-                                "name": "Venus Sigil (200x Dodges)",
+                                "name": "Lightning Dodger - 200 Consecutive Dodges (Event)",
                                 "ref": "Celestial/Lulu/Venus Sigil"
                             }
                         ]
@@ -87,22 +87,22 @@
                 "name": "North",
                 "children": [
                     {
-                        "name": "East Side, Near Southeast Exit (Chest)",
+                        "name": "North - East Side, Near Southeast Exit (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 540, "y": 635}],
                         "sections": [{"name": "X-Potion x1"}]
                     },
                     {
-                        "name": "West Side, Behind Sheltered Lightning Rod (Chest)",
+                        "name": "North - West Side, Behind Sheltered Lightning Rod (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 480, "y": 240}],
                         "sections": [{"name": "Ether x1"}]
                     },
                     {
-                        "name": "East of Final Lightning Rod (Chest)",
+                        "name": "North - East of Final Lightning Rod (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 595, "y": 165}],
                         "sections": [{"name": "2000 gil"}]
                     },
                     {
-                        "name": "West Side, Near North Exit (Chest)",
+                        "name": "North - West Side, Near North Exit (Chest)",
                         "map_locations": [{ "map": "Thunder Plains", "x": 525, "y": 125}],
                         "sections": [{"name": "Remedy x1"}]
                     },
