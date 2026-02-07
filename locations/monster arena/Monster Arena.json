@@ -296,7 +296,7 @@
                                     },
                                     {
                                         "name": "Funguar",
-                                        "access_rules": ["@Mushroom Rock Road", "@Djose"],
+                                        "access_rules": ["@Mushroom Rock Road", "@Djose", "@Moonflow"],
                                         "hosted_item": "funguarcomplete"
                                     },
                                     {
@@ -380,7 +380,7 @@
                                     },
                                     {
                                         "name": "Snow Flan",
-                                        "access_rules": ["@Djose"],
+                                        "access_rules": ["@Djose", "@Moonflow"],
                                         "hosted_item": "snowflancomplete"
                                     },
                                     {
