@@ -134,6 +134,12 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Macalania Campsite (Chest)",
+                "map_locations": [{ "map": "Via Purifico", "x": 860, "y": 85}],
+                "access_rules": ["seymournatus, [$hasMinimumParty|3]"],
+                "sections": [{"name": "Lucid Ring"}]
             }
         ]
     }

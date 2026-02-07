@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.3.2",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.2/FFX.zip",
+            "sha256": "c2de2fd609385cb7ed8261edb00a1d78e183ea951a606e86639407d41d201b38",
+            "changelog": [
+                " - Fixed Sun Sigil logic (again)",
+                " - Reordered region items to be in story order",
+                " - Corrected capture/conquest access rules to be aware of Always Capture option",
+                " - Corrected access rules for Snow Flan & Funguar",
+                " - Moved Lucid Ring chest to be in Bevelle instead of Macalania, and no longer requires Spherimorph to access"
+            ]
+        },
+        {
             "package_version": "0.3.1",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.1/FFX.zip",
             "sha256": "23850da1b35ae54dd8da29b0c87742db3a407e6f13515d7607ca11b06f9fb8c1",

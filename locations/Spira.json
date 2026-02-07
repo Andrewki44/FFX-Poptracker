@@ -940,10 +940,6 @@
                         "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Spherimorph"
                     },
                     {
-                        "name": "Woods - Lucid Ring (Chest)",
-                        "ref": "Macalania/Woods/Campsite (Chest)/Lucid Ring"
-                    },
-                    {
                         "name": "Lake Agency - Al Bhed Primer XVI",
                         "ref": "Al Bhed Primers/Al Bhed Primer XVI/Macalania"
                     },
@@ -1384,6 +1380,10 @@
                     {
                         "name": "Highbridge - Seymour Natus",
                         "ref": "Bevelle/Highbridge/Defeat Seymour Natus (Boss)/Seymour Natus"
+                    },
+                    {
+                        "name": "Macalania Campsite - Lucid Ring (Chest)",
+                        "ref": "Bevelle/Macalania Campsite (Chest)/Lucid Ring"
                     }
                 ]
             },

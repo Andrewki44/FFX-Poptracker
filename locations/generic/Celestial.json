@@ -139,7 +139,7 @@
                 "sections": [
                     {
                         "name": "Caladbolg",
-                        "access_rules": ["@Calm Lands, celestialmirror, chocobocatcher, [$hasMinimumParty|3]"],
+                        "access_rules": ["@Calm Lands, celestialmirror, catcherchocobo"],
                         "visibility_rules": ["minigames"]
                     },
                     {
