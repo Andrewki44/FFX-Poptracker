@@ -182,7 +182,7 @@
                 "sections": [
                     {
                         "name": "World Champion",
-                        "access_rules": ["@Luca/City, oblitzerator, [$hasMinimumParty|3]"],
+                        "access_rules": ["@Luca/City, oblitzerator, celestialmirror, [$hasMinimumParty|3]"],
                         "visibility_rules": ["minigames"]
                     },
                     {
