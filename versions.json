@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.3.3",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.3/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Moved Ahriman to pre-Omnis Sin",
+                " - Fixed Snow Flan & Funguar access rules in Moonflow",
+                " - Updated Macalania Agency Clasko chest to require Wendigo instead of Crawler",
+                
+            ]
+        },
+        {
             "package_version": "0.3.2",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.2/FFX.zip",
             "sha256": "986528ea23a78ceb7b300c866dbb37e1d95aa3ac738bdfaa93da3d57b41a140b",

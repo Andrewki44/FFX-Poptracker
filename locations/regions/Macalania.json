@@ -174,7 +174,7 @@
                             {
                                 "name": "Right Side (Chest)",
                                 "map_locations": [{ "map": "Lake Macalania", "x": 680, "y": 540}],
-                                "access_rules": ["crawler"],
+                                "access_rules": ["wendigo"],
                                 "sections": [{"name": "4000 gil"}]
                             }
                         ]
