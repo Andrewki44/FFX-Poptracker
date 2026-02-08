@@ -3,7 +3,7 @@
         {
             "package_version": "0.3.3",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.3/FFX.zip",
-            "sha256": "4f573609cee336f3013b9e700ec776a206cbdf08fc13d6b71d1f214178528c2c",
+            "sha256": "2df97051a952daae93b2b25ef2da0ffba6eee079b3f811c6db8542ab145933f5",
             "changelog": [
                 " - Moved Ahriman to pre-Omnis Sin",
                 " - Fixed Snow Flan & Funguar access rules in Moonflow",
