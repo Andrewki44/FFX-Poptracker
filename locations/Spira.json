@@ -1604,7 +1604,7 @@
                     },
                     {
                         "name": "Inside Sin",
-                        "hosted_item": "exoray, geminisword, geminiclub, adamantoise, behemothking",
+                        "hosted_item": "ahriman, exoray, geminisword, geminiclub, adamantoise, behemothking",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Inside Sin"],
                         "clear_as_group": false
                     },

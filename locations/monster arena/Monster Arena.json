@@ -296,7 +296,7 @@
                                     },
                                     {
                                         "name": "Funguar",
-                                        "access_rules": ["@Mushroom Rock Road", "@Djose"],
+                                        "access_rules": ["@Mushroom Rock Road", "@Djose", "@Moonflow"],
                                         "hosted_item": "funguarcomplete"
                                     },
                                     {
@@ -380,7 +380,7 @@
                                     },
                                     {
                                         "name": "Snow Flan",
-                                        "access_rules": ["@Djose"],
+                                        "access_rules": ["@Djose", "@Moonflow"],
                                         "hosted_item": "snowflancomplete"
                                     },
                                     {
@@ -921,13 +921,13 @@
                                 "sections": [
                                     {
                                         "name": "Bandersnatch (3x Wolf)",
-                                        "access_rules": ["@Mt. Gagazet"],
+                                        "access_rules": ["@Mt. Gagazet/Outside"],
                                         "hosted_item": "bandersnatch",
                                         "clear_as_group": false
                                     },
                                     {
                                         "name": "Ahriman (4x Eye)",
-                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand"],
+                                        "access_rules": ["@Mt. Gagazet/Inside", "@Zanarkand", "@Inside Sin"],
                                         "hosted_item": "ahriman",
                                         "clear_as_group": false
                                     },
@@ -939,13 +939,13 @@
                                     },
                                     {
                                         "name": "Grenade (5x Bomb)",
-                                        "access_rules": ["@Mt. Gagazet"],
+                                        "access_rules": ["@Mt. Gagazet/Outside"],
                                         "hosted_item": "grenade",
                                         "clear_as_group": false
                                     },
                                     {
                                         "name": "Grat",
-                                        "access_rules": ["@Mt. Gagazet"],
+                                        "access_rules": ["@Mt. Gagazet/Outside"],
                                         "hosted_item": "grat",
                                         "clear_as_group": false
                                     },
@@ -957,7 +957,7 @@
                                     },
                                     {
                                         "name": "Bashura",
-                                        "access_rules": ["@Mt. Gagazet", "@Zanarkand"],
+                                        "access_rules": ["@Mt. Gagazet/Outside", "@Zanarkand"],
                                         "hosted_item": "bashura",
                                         "clear_as_group": false
                                     },
@@ -999,7 +999,7 @@
                                 "sections": [
                                     {
                                         "name": "Bandersnatch",
-                                        "access_rules": ["@Mt. Gagazet"],
+                                        "access_rules": ["@Mt. Gagazet/Outside"],
                                         "hosted_item": "bandersnatchcomplete"
                                     },
                                     {
@@ -1014,12 +1014,12 @@
                                     },
                                     {
                                         "name": "Grenade",
-                                        "access_rules": ["@Mt. Gagazet"],
+                                        "access_rules": ["@Mt. Gagazet/Outside"],
                                         "hosted_item": "grenadecomplete"
                                     },
                                     {
                                         "name": "Grat",
-                                        "access_rules": ["@Mt. Gagazet"],
+                                        "access_rules": ["@Mt. Gagazet/Outside"],
                                         "hosted_item": "gratcomplete"
                                     },
                                     {
@@ -1029,7 +1029,7 @@
                                     },
                                     {
                                         "name": "Bashura",
-                                        "access_rules": ["@Mt. Gagazet", "@Zanarkand"],
+                                        "access_rules": ["@Mt. Gagazet/Outside", "@Zanarkand"],
                                         "hosted_item": "bashuracomplete"
                                     },
                                     {
