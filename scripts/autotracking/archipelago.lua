@@ -200,6 +200,9 @@ function onClear(slot_data)
         end
     end
 
+    -- reset non-mapped items
+    
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
