@@ -2,8 +2,8 @@
     "versions": [
         {
             "package_version": "0.3.4",
-            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.3/FFX.zip",
-            "sha256": "2df97051a952daae93b2b25ef2da0ffba6eee079b3f811c6db8542ab145933f5",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.4/FFX.zip",
+            "sha256": "acfafabd53729bffb177b5ee995f7400ecf0f8ffbb6830d82845fc621d1b2b81",
             "changelog": [
                 " - Fixed Ahriman to show on Inside Sin region map correctly",
                 " - Updated Macalania Agency Clasko chest back to post-Crawler (woops)",
