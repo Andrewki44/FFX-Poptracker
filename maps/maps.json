@@ -18,6 +18,12 @@
         "img": "images/maps/regions/baaj/Baaj Temple.png"
     },
     {
+        "name": "Besaid Cloister",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/cloisters/Besaid Cloister.png"
+    },
+    {
         "name": "Besaid Island",
         "location_size": 16,
         "location_border_thickness": 1,
@@ -96,6 +102,12 @@
         "img": "images/maps/regions/sin/Inside Sin.png"
     },
     {
+        "name": "Kilika Cloister",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/cloisters/Kilika Cloister.png"
+    },
+    {
         "name": "Kilika Temple",
         "location_size": 16,
         "location_border_thickness": 1,
@@ -118,6 +130,18 @@
         "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/regions/luca/Luca.png"
+    },
+    {
+        "name": "Macalania Central Butterfly Catching",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/macalania/Macalania Central Butterfly Catching.png"
+    },
+    {
+        "name": "Macalania North Butterfly Catching",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/macalania/Macalania North Butterfly Catching.png"
     },
     {
         "name": "Macalania Temple",
@@ -262,6 +286,12 @@
         "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/regions/calm lands/Remiem Temple.png"
+    },
+    {
+        "name": "Remiem Temple Chocobo Race",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/calm lands/Remiem Temple Chocobo Race.png"
     },
     {
         "name": "S.S. Liki",

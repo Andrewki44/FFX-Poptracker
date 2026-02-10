@@ -441,6 +441,65 @@
                         }
                     ]
                 }
+            },
+            {
+                "title": "Cloisters of Trials",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Besaid",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Besaid Cloister"]
+                            }
+                        },
+                        {
+                            "title": "Kilika",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Kilika Cloister"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Minigames",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Remiem Temple Chocobo Race",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Remiem Temple Chocobo Race"]
+                            }
+                        },
+                        {
+                            "title": "Macalania Butterfly Catching",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Macalania Central Butterfly Catching",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["Macalania Central Butterfly Catching"]
+                                        }
+                                    },
+                                    {
+                                        "title": "Macalania North Butterfly Catching",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["Macalania North Butterfly Catching"]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ]
     }
