@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.5",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.5/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Added missing access rule to Anima location, to check for Bevelle destruction sphere"
+            ]
+        },
+        {
             "package_version": "0.3.4",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.4/FFX.zip",
             "sha256": "acfafabd53729bffb177b5ee995f7400ecf0f8ffbb6830d82845fc621d1b2b81",
