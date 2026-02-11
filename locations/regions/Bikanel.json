@@ -13,12 +13,12 @@
                         "name": "Oasis",
                         "children": [
                             {
-                                "name": "In Southwest Corner of Water (Chest)",
+                                "name": "Oasis - In Southwest Corner of Water (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 1170, "y": 1120}],
                                 "sections": [{"name": "Remedy x4"}]
                             },
                             {
-                                "name": "Northeast of Water (Primer)",
+                                "name": "Al Bhed Ship: Deck & Oasis (Primer)",
                                 "map_locations": [{ "map": "Bikanel", "x": 1215, "y": 1030}],
                                 "sections": [
                                     {
@@ -28,7 +28,7 @@
                                 ]
                             },
                             {
-                                "name": "Defeat Zu",
+                                "name": "Defeat Zu (Boss)",
                                 "map_locations": [{ "map": "Bikanel", "x": 1180, "y": 990, "shape": "diamond", "size": 32}],
                                 "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
@@ -44,9 +44,9 @@
                                 "map_locations": [{ "map": "Bikanel", "x": 1000, "y": 740}],
                                 "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                                 "sections": [
-                                    {"name": "Al Bhed Potion x8"},
+                                    {"name": "Oasis - Next to Tent (Chest)"},
                                     {
-                                        "name": "Al Bhed Primer III",
+                                        "name": "S.S. Liki: Power Room & Oasis (Primer)",
                                         "ref": "Al Bhed Primers/Al Bhed Primer III/Bikanel"
                                     }
                                 ]
@@ -58,7 +58,7 @@
                         "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                         "children": [
                             {
-                                "name": "Behind Machinery Near Kimahri (Primer)",
+                                "name": "S.S. Winno: Bridge & Desert, East (Primer)",
                                 "map_locations": [{ "map": "Bikanel", "x": 705, "y": 1055}],
                                 "sections": [
                                     {
@@ -71,12 +71,12 @@
                                 "name": "Near First Tent (Chests)",
                                 "map_locations": [{ "map": "Bikanel", "x": 653, "y": 888}],
                                 "sections": [
-                                    {"name": "Ether x2"},
-                                    {"name": "Al Bhed Potion x8"}
+                                    {"name": "Desert, East - Near First Tent, Right (Chest)"},
+                                    {"name": "Desert, East - Near First Tent, Left (Chest)"}
                                 ]
                             },
                             {
-                                "name": "Western Alcove, Northeast of Structure (Primer)",
+                                "name": "Thunder Plains: Agency & Desert, East (Primer)",
                                 "map_locations": [{ "map": "Bikanel", "x": 735, "y": 700}],
                                 "sections": [
                                     {
@@ -86,7 +86,7 @@
                                 ]
                             },
                             {
-                                "name": "Western Alcove, Near Structure (Chest)",
+                                "name": "Desert, East - Western Alcove, Near Structure (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 700, "y": 770}],
                                 "sections": [{"name": "Hi-Potion x4"}]
                             }
@@ -97,27 +97,27 @@
                         "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                         "children": [
                             {
-                                "name": "Structure Southeast of Save Sphere (Chest)",
+                                "name": "Desert, Central - Structure Southeast of Save Sphere (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 515, "y": 610}],
                                 "sections": [{"name": "Hi-Potion x4"}]
                             },
                             {
-                                "name": "Rock Ridge Southwest of Save Sphere (Chest)",
+                                "name": "Desert, Central - Rock Ridge Southwest of Save Sphere (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 335, "y": 680}],
                                 "sections": [{"name": "X-Potion x2"}]
                             },
                             {
-                                "name": "Far West Corner (Chest)",
+                                "name": "Desert, Central - Far West Corner (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 75, "y": 600}],
                                 "sections": [{"name": "Mega-Potion x2"}]
                             },
                             {
-                                "name": "Right of Save Sphere (Chest)",
+                                "name": "Desert, Central - Right of Save Sphere (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 360, "y": 495}],
                                 "sections": [{"name": "Al Bhed Potion x8"}]
                             },
                             {
-                                "name": "Near Sign At Northeast Exit (Primer)",
+                                "name": "Desert, Central - Near Sign At Northeast Exit (Primer)",
                                 "map_locations": [{ "map": "Bikanel", "x": 400, "y": 375}],
                                 "sections": [
                                     {
@@ -127,7 +127,7 @@
                                 ]
                             },
                             {
-                                "name": "Southwest Corner of Northwest Zone (Chest)",
+                                "name": "Desert, Central - Southwest Corner of Northwest Zone (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 100, "y": 500}],
                                 "sections": [{"name": "Elixir x1"}]
                             },
@@ -135,12 +135,12 @@
                                 "name": "Central Structure of Northwest Zone (Chests)",
                                 "map_locations": [{ "map": "Bikanel", "x": 170, "y": 425}],
                                 "sections": [
-                                    {"name": "Lv. 2 Key Sphere x1"},
-                                    {"name": "10000 gil"}
+                                    {"name": "Desert, Central - Central Structure of Northwest Zone, Top (Chest)"},
+                                    {"name": "Desert, Central - Central Structure of Northwest Zone, Bottom (Chest)"}
                                 ]
                             },
                             {
-                                "name": "Northeast Structure of Northwest Zone (Primer)",
+                                "name": "Desert, Central - Northeast Structure of Northwest Zone (Primer)",
                                 "map_locations": [{ "map": "Bikanel", "x": 180, "y": 365}],
                                 "sections": [
                                     {
@@ -156,12 +156,12 @@
                         "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                         "children": [
                             {
-                                "name": "Left Sinkhole on Main Path (Chest)",
+                                "name": "Desert, West - Left Sinkhole on Main Path (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 915, "y": 205}],
                                 "sections": [{"name": "Megalixir x3"}]
                             },
                             {
-                                "name": "Right Sinkhole on Main Path (Chest)",
+                                "name": "Desert, West - Right Sinkhole on Main Path (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 980, "y": 190}],
                                 "sections": [{"name": "Teleport Sphere x2"}]
                             },
@@ -169,22 +169,22 @@
                                 "name": "First Western Alcove (Chests)",
                                 "map_locations": [{ "map": "Bikanel", "x": 840, "y": 275}],
                                 "sections": [
-                                    {"name": "Hi-Potion x8"},
-                                    {"name": "Mercury Crest", "ref": "Celestial/Rikku/Mercury Crest"}
+                                    {"name": "Desert, West - First Western Alcove, Between Rocks (Chest)"},
+                                    {"name": "Desert, West - First Western Alcove, Sinkhole (Chest)", "ref": "Celestial/Rikku/Mercury Crest"}
                                 ]
                             },
                             {
-                                "name": "Second Western Alcove, Hidden Behind Rock (Chest)",
+                                "name": "Desert, West - Second Western Alcove, Hidden Behind Rock (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 820, "y": 210}],
                                 "sections": [{"name": "Mega-Potion x3"}]
                             },
                             {
-                                "name": "Second Western Alcove, North Side (Chest)",
+                                "name": "Desert, West - Second Western Alcove, North Side (Chest)",
                                 "map_locations": [{ "map": "Bikanel", "x": 820, "y": 150}],
                                 "sections": [{"name": "X-Potion x2"}]
                             },
                             {
-                                "name": "Complete Cactuar Village Quest (Event)",
+                                "name": "Desert - Complete Cactuar Village Quest (Event)",
                                 "map_locations": [{ "map": "Bikanel", "x": 1150, "y": 300}],
                                 "sections": [{"name": "Mercury Sigil", "ref": "Celestial/Rikku/Mercury Sigil"}]
                             },
@@ -241,12 +241,12 @@
                         ]
                     },
                     {
-                        "name": "North Hall, Left (Chest)",
+                        "name": "Main Corridor - North Hall, Left (Chest)",
                         "map_locations": [{ "map": "Home", "x": 630, "y": 200}],
                         "sections": [{"name": "Al Bhed Potion x6"}]
                     },
                     {
-                        "name": "Northeast Corner (Primer)",
+                        "name": "Main Corridor - Northeast Corner (Primer)",
                         "map_locations": [{ "map": "Home", "x": 785, "y": 135}],
                         "sections": [
                             {
@@ -259,12 +259,12 @@
                         "name": "East of Main Corridor (Chests)",
                         "map_locations": [{ "map": "Home", "x": 760, "y": 525}],
                         "sections": [
-                            {"name": "Special Sphere x1"},
-                            {"name": "Skill Sphere x1"}
+                            {"name": "Living Quarters, East of Main Corridor - Password (Chest)"},
+                            {"name": "Living Quarters, East of Main Corridor - Quiz (Chest)"}
                         ]
                     },
                     {
-                        "name": "Hidden Behind Left Smoke (Chest)",
+                        "name": "Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)",
                         "map_locations": [{ "map": "Home", "x": 628, "y": 550}],
                         "sections": [{"name": "Al Bhed Potion x4"}]
                     },
@@ -272,9 +272,9 @@
                         "name": "South of Main Corridor (Chests)",
                         "map_locations": [{ "map": "Home", "x": 500, "y": 525}],
                         "sections": [
-                            {"name": "Friend Sphere x1"},
+                            {"name": "Living Quarters, South of Main Corridor - Vocabulary Test (Chest)"},
                             {
-                                "name": "Al Bhed Primer XX",
+                                "name": "Living Quarters, South of Main Corridor - On Bed (Primer)",
                                 "ref": "Al Bhed Primers/Al Bhed Primer XX/Home"
                             }
                         ]
@@ -284,19 +284,19 @@
                         "map_locations": [{ "map": "Home", "x": 300, "y": 115}],
                         "sections": [
                             {
-                                "name": "Lv. 2 Key Sphere x1",
+                                "name": "Outside Summoner's Sanctum - Right (Chest)",
                                 "hosted_item": "homecompletion1",
                                 "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
-                                "name": "Lv. 4 Key Sphere x4",
+                                "name": "Outside Summoner's Sanctum - Left (Chest)",
                                 "hosted_item": "homecompletion2",
                                 "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
-                                "name": "10000 gil",
+                                "name": "Environment Controls (Chest)",
                                 "hosted_item": "homecompletion3",
                                 "item_count": 1,
                                 "clear_as_group": true

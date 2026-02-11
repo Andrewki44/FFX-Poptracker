@@ -11,8 +11,8 @@
         ],
         "children": [
             {
-                "name": "Northwest Corner (Primer)",
-                "map_locations": [{ "map": "Remiem Temple", "x": 30, "y": 80}],
+                "name": "Remiem Temple - Northwest Corner (Primer)",
+                "map_locations": [{ "map": "Remiem Temple", "x": 40, "y": 40}],
                 "sections": [
                     {
                         "name": "Al Bhed Primer XXIV",
@@ -21,7 +21,7 @@
                 ]
             },
             {
-                "name": "Win Chocobo Race (Event)",
+                "name": "Remiem Temple - Win Chocobo Race (Event)",
                 "map_locations": [{ "map": "Remiem Temple", "x": 195, "y": 60}],
                 "visibility_rules": ["minigames"],
                 "sections": [
@@ -37,44 +37,44 @@
                 "access_rules": ["$hasYuna, $hasAeons|1, [$hasAeons|2]"],
                 "sections": [
                     {
-                        "name": "Valefor Fight",
+                        "name": "Remiem Temple - Defeat Valefor (Boss)",
                         "hosted_item": "belgeminevalefor",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Ifrit Fight",
+                        "name": "Remiem Temple - Defeat Ifrit (Boss)",
                         "hosted_item": "belgemineifrit",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Ixion Fight",
+                        "name": "Remiem Temple - Defeat Ixion (Boss)",
                         "hosted_item": "belgemineixion",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Shiva Fight",
+                        "name": "Remiem Temple - Defeat Shiva (Boss)",
                         "hosted_item": "belgemineshiva",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Bahamut Fight",
+                        "name": "Remiem Temple - Defeat Bahamut (Boss)",
                         "hosted_item": "belgeminebahamut",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Yojimbo Fight",
+                        "name": "Remiem Temple - Defeat Yojimbo (Boss)",
                         "access_rules": ["$hasYojimbo"],
                         "hosted_item": "belgemineyojimbo",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Anima Fight",
+                        "name": "Remiem Temple - Defeat Anima (Boss)",
                         "access_rules": ["$hasYojimbo, $hasAnima"],
                         "hosted_item": "belgemineanima",
                         "clear_as_group": true
                     },
                     {
-                        "name": "Magus Sisters Fight",
+                        "name": "Remiem Temple - Defeat Magus Sisters (Boss)",
                         "access_rules": ["$hasYojimbo, $hasAnima, $hasMagusSisters"],
                         "hosted_item": "belgeminemagus",
                         "clear_as_group": true
@@ -82,7 +82,7 @@
                 ]
             },
             {
-                "name": "Defeat All Aeons and Send Belgemine (Event)",
+                "name": "Remiem Temple - Defeat All Aeons and Send Belgemine (Event)",
                 "map_locations": [{ "map": "Remiem Temple", "x": 445, "y": 220}],
                 "sections": [
                     {
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "name": "Chamber of the Fayth",
+                "name": "Name the Magus Sisters (Event)",
                 "map_locations": [{ "map": "Remiem Temple", "x": 445, "y": 100}],
                 "sections": [
                     {

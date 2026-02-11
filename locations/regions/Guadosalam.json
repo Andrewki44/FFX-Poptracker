@@ -42,7 +42,7 @@
                     {
                         "name": "Blitzball Recruit",
                         "map_locations": [{ "map": "Guadosalam", "x": 720, "y": 160}],
-                        "sections": [{"name": "Yuma Guado", "ref": "Blitzball Recruits/Yuma Guado"}]
+                        "sections": [{"name": "Recruit: Yuma Guado", "ref": "Blitzball Recruits/Yuma Guado"}]
                     }
                 ]
             },
@@ -65,7 +65,7 @@
                         ]
                     },
                     {
-                        "name": "Second Visit, West Side (Chest)",
+                        "name": "Second Visit, Farplane - West Side (Chest)",
                         "map_locations": [{ "map": "Guadosalam", "x": 870, "y": 200}],
                         "sections": [
                             {
