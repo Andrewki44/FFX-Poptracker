@@ -510,16 +510,6 @@
         "codes": "[fortunesphere]x90"
     },
     {
-        "name": "Region: Kilika",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "kilika"
-    },
-    {
         "name": "[Agility Sphere] x 90",
         "type": "toggle",
         "img": "images/items/[agilitysphere]x90.png",
@@ -888,16 +878,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "weapon(kimahri):knightlanceii"
-    },
-    {
-        "name": "Region: Moonflow",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "moonflow"
     },
     {
         "name": "[Lv. 2 Key Sphere] x 90",
@@ -2070,16 +2050,6 @@
         "codes": "[hpsphere]x90"
     },
     {
-        "name": "Region: Djose",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "djose"
-    },
-    {
         "name": "Megalixir x 40",
         "type": "toggle",
         "img": "images/items/megalixirx40.png",
@@ -2258,16 +2228,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "[strengthsphere]x60"
-    },
-    {
-        "name": "Region: Baaj Temple",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "baajtemple"
     },
     {
         "name": "Ice Gem x 70",
@@ -2610,16 +2570,6 @@
         "codes": "poisonfangx20"
     },
     {
-        "name": "Region: Zanarkand Ruins",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "zanarkand"
-    },
-    {
         "name": "[Friend Sphere] x 60",
         "type": "toggle",
         "img": "images/items/[friendsphere]x60.png",
@@ -2738,16 +2688,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "antarcticwindx80"
-    },
-    {
-        "name": "Region: Sin",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "sin"
     },
     {
         "name": "Ice Gem x 80",
@@ -3224,16 +3164,6 @@
         "codes": "[hypellopotion]x40"
     },
     {
-        "name": "Region: Miihen Highroad",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "miihenhighroad"
-    },
-    {
         "name": "Ether x 50",
         "type": "toggle",
         "img": "images/items/etherx50.png",
@@ -3312,16 +3242,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "softx40"
-    },
-    {
-        "name": "Region: Luca",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "luca"
     },
     {
         "name": "Ability Distiller x 40",
@@ -3612,16 +3532,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "cloudymirror"
-    },
-    {
-        "name": "Region: Airship",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "airship"
     },
     {
         "name": "[Power Sphere] x 50",
@@ -4294,16 +4204,6 @@
         "codes": "[magicdefsphere]x80"
     },
     {
-        "name": "Region: Guadosalam",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "guadosalam"
-    },
-    {
         "name": "[Clear Sphere] x 30",
         "type": "toggle",
         "img": "images/items/[clearsphere]x30.png",
@@ -4903,16 +4803,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "megalixirx80"
-    },
-    {
-        "name": "Region: Besaid",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "besaid"
     },
     {
         "name": "Mana Tablet x 20",
@@ -5519,16 +5409,6 @@
         "codes": "[accuracysphere]x40"
     },
     {
-        "name": "Region: Mt. Gagazet",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "gagazet"
-    },
-    {
         "name": "Frag Grenade x 40",
         "type": "toggle",
         "img": "images/items/fraggrenadex40.png",
@@ -5617,16 +5497,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "[gamblersspirit]x60"
-    },
-    {
-        "name": "Region: Macalania",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "macalania"
     },
     {
         "name": "Petrify Grenade x 70",
@@ -6748,16 +6618,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "manaspringx80"
-    },
-    {
-        "name": "Region: Bevelle",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bevelle"
     },
     {
         "name": "[Master Sphere] x 80",
@@ -8254,16 +8114,6 @@
         "codes": "weapon(tidus):ascalon"
     },
     {
-        "name": "Region: Thunder Plains",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "thunderplains"
-    },
-    {
         "name": "Echo Screen x 70",
         "type": "toggle",
         "img": "images/items/echoscreenx70.png",
@@ -9252,16 +9102,6 @@
         "codes": "potionx90"
     },
     {
-        "name": "Region: Mushroom Rock Road",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "mushroomrockroad"
-    },
-    {
         "name": "Mana Distiller x 20",
         "type": "toggle",
         "img": "images/items/manadistillerx20.png",
@@ -9986,16 +9826,6 @@
         "codes": "[magicsphere]x20"
     },
     {
-        "name": "Region: Omega Ruins",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "omegaruins"
-    },
-    {
         "name": "Armor (Kimahri): Tetra Armlet",
         "type": "toggle",
         "img": "images/items/armor(kimahri):tetraarmlet.png",
@@ -10446,26 +10276,6 @@
         "codes": "potionx30"
     },
     {
-        "name": "Region: Calm Lands",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "calmlands"
-    },
-    {
-        "name": "Region: Monster Arena",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "monsterarena"
-    },
-    {
         "name": "Supreme Gem x 60",
         "type": "toggle",
         "img": "images/items/supremegemx60.png",
@@ -10554,16 +10364,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "[winningformula]x70"
-    },
-    {
-        "name": "Region: Cavern of the Stolen Fayth",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "cavernofthestolenfayth"
     },
     {
         "name": "Star Curtain x 30",
@@ -11174,16 +10974,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "albhedprimerviii, albhedprimer"
-    },
-    {
-        "name": "Region: Bikanel",
-        "type": "toggle",
-        "img": "images/Treasure.png",
-        "img_mods": "",
-        "disabled_img": "",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bikanel"
     },
     {
         "name": "Megalixir x 60",

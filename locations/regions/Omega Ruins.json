@@ -73,7 +73,7 @@
                 ]
             },
             {
-                "name": "Monster Captures",
+                "name": "Captures Required for Logic",
                 "map_locations": [{ "map": "Omega Ruins", "x": 670, "y": 430, "shape": "diamond"}],
                 "sections": [
                     {"name": "Adamantoise", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Adamantoise"},

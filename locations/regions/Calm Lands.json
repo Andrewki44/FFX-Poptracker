@@ -138,7 +138,7 @@
                 ]
             },
             {
-                "name": "Monster Captures",
+                "name": "Captures Required for Logic",
                 "map_locations": [{ "map": "Calm Lands", "x": 200, "y": 860, "shape": "diamond"}],
                 "sections": [
                     {"name": "Skoll ", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Skoll"},

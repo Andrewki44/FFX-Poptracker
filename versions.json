@@ -1,6 +1,62 @@
 {
     "versions": [
         {
+            "package_version": "0.3.5",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.5/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Added missing access rule to Anima location, to check for Bevelle destruction sphere"
+            ]
+        },
+        {
+            "package_version": "0.3.4",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.4/FFX.zip",
+            "sha256": "acfafabd53729bffb177b5ee995f7400ecf0f8ffbb6830d82845fc621d1b2b81",
+            "changelog": [
+                " - Fixed Ahriman to show on Inside Sin region map correctly",
+                " - Updated Macalania Agency Clasko chest back to post-Crawler (woops)",
+                " - Fixed captures data being retained between AP connections"
+            ]
+        },
+        {
+            "package_version": "0.3.3",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.3/FFX.zip",
+            "sha256": "2df97051a952daae93b2b25ef2da0ffba6eee079b3f811c6db8542ab145933f5",
+            "changelog": [
+                " - Moved Ahriman to pre-Omnis Sin",
+                " - Fixed Snow Flan & Funguar access rules in Moonflow",
+                " - Updated Macalania Agency Clasko chest to require Wendigo instead of Crawler",
+                " - Added Bandersnatch & Nidhogg to Gagazet Caves captures",
+                " - Fixed Gagazet captures access to be post Biran & Yenke"
+            ]
+        },
+        {
+            "package_version": "0.3.2",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.2/FFX.zip",
+            "sha256": "986528ea23a78ceb7b300c866dbb37e1d95aa3ac738bdfaa93da3d57b41a140b",
+            "changelog": [
+                " - Fixed Sun Sigil logic (again)",
+                " - Fix World Champion logic to required Celetial Mirror",
+                " - Updated Great Malboro icon to be more obvious between enabled/disabled",
+                " - Reordered region items to be in story order",
+                " - Corrected capture/conquest access rules to be aware of Always Capture option",
+                " - Corrected access rules for Snow Flan & Funguar",
+                " - Moved Lucid Ring chest to be in Bevelle instead of Macalania, and no longer requires Spherimorph to access"
+            ]
+        },
+        {
+            "package_version": "0.3.1",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.1/FFX.zip",
+            "sha256": "23850da1b35ae54dd8da29b0c87742db3a407e6f13515d7607ca11b06f9fb8c1",
+            "changelog": [
+                " - Remiem Access logic fixed",
+                " - Sun Sigil & Seymour Natus Access logic fixed",
+                " - Reordered the Shiva location in Macalania on the world map",
+                " - Oblitzerator moved to Dock 4",
+                " - Always Capture slot data now reading correctly for capture logic"
+            ]
+        },
+        {
             "package_version": "0.3.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.3.0/FFX.zip",
             "sha256": "94e9891d712c64a6a6485a6c3aef695cd3f6448f7fcb42e039d2bf5d6efba6e1",

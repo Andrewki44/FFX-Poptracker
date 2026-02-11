@@ -110,6 +110,7 @@
                 "name": "Monster Captures",
                 "map_locations": [{ "map": "Inside Sin", "x": 170, "y": 905}],
                 "sections": [
+                    {"name": "Ahriman (4x Eye)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman (4x Eye)"},
                     {"name": "Exoray (5x Fungus)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Exoray (5x Fungus)"},
                     {"name": "Gemini (Sword) (10x Iron Giant)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Sword) (10x Iron Giant)"},
                     {"name": "Gemini (Club) (10x Iron Giant)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Fiends/Gemini (Club) (10x Iron Giant)"},
@@ -122,9 +123,10 @@
                 ]
             },
             {
-                "name": "Monster Captures",
+                "name": "Captures Required for Logic",
                 "map_locations": [{ "map": "Inside Sin", "x": 190, "y": 905, "shape": "diamond"}],
                 "sections": [
+                    {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman"},
                     {"name": "Exoray", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Exoray"},
                     {"name": "Gemini (Sword)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Sword)"},
                     {"name": "Gemini (Club)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Club)"},

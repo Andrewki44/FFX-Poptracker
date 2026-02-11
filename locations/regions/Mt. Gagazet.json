@@ -85,7 +85,7 @@
                         ]
                     },
                     {
-                        "name": "Monster Captures",
+                        "name": "Captures Required for Logic",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 500, "y": 656, "shape": "diamond"}],
                         "sections": [
                             {"name": "Imp", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Imp"},
@@ -141,6 +141,8 @@
                         "name": "Monster Captures",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 750, "y": 510}],
                         "sections": [
+                            {"name": "Nidhogg (5x Drake)", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Nidhogg (5x Drake)"},
+                            {"name": "Bandersnatch (3x Wolf)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bandersnatch (3x Wolf)"},
                             {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Bashura"},
                             {"name": "Ahriman (4x Eye)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman (4x Eye)"},
                             {"name": "Dark Flan (3x Flan)", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Dark Flan (3x Flan)"},
@@ -153,9 +155,11 @@
                         ]
                     },
                     {
-                        "name": "Monster Captures",
+                        "name": "Captures Required for Logic",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 770, "y": 510, "shape": "diamond"}],
                         "sections": [
+                            {"name": "Nidhogg", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Nidhogg"},
+                            {"name": "Bandersnatch", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bandersnatch"},
                             {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bashura"},
                             {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Ahriman"},
                             {"name": "Dark Flan", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Dark Flan"},

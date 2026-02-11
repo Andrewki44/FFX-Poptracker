@@ -32,7 +32,7 @@
                         ]
                     },
                     {
-                        "name": "Monster Captures",
+                        "name": "Captures Required for Logic",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 320, "y": 225, "shape": "diamond"}],
                         "sections": [
                             {"name": "Bashura", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Bashura"},

@@ -10,7 +10,7 @@
                 "sections": [
                     {
                         "name": "Anima",
-                        "access_rules": ["@Baaj Temple/Temple, geosgaeno, [$hasSwimmers|3], besaiddestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere"],
+                        "access_rules": ["@Baaj Temple/Temple, geosgaeno, [$hasSwimmers|3], besaiddestructionsphere, bevelledestructionsphere, kilikadestructionsphere, djosedestructionsphere, macalaniadestructionsphere, zanarkanddestructionsphere"],
                         "hosted_item": "baajcloister",
                         "clear_as_group": true
                     },

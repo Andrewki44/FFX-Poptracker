@@ -940,8 +940,8 @@
                         "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Spherimorph"
                     },
                     {
-                        "name": "Campsite - (Chest)",
-                        "ref": "Macalania/Woods/Campsite - (Chest)/Lucid Ring"
+                        "name": "Woods - Lucid Ring (Chest)",
+                        "ref": "Macalania/Woods/Campsite (Chest)/Lucid Ring"
                     },
                     {
                         "name": "Agency Front - Left Side (Primer)",
@@ -1222,52 +1222,52 @@
                 "map_locations": [{ "map": "Spira", "x": 306, "y": 400, "size": 24}],
                 "sections": [
                     {
-                        "name": "Home: Keyakku, on Ground (NPC)",
-                        "ref": "Bikanel/Home/Home: Keyakku, on Ground (NPC)/Hi-Potion x2"
+                        "name": "Keyakku, on Ground (NPC)",
+                        "ref": "Bikanel/Home/Keyakku, on Ground (NPC)/Hi-Potion x2"
                     },
                     {
-                        "name": "Home: Left of Entrance (Primer)",
+                        "name": "Left of Entrance (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XIX/Home"
                     },
                     {
-                        "name": "Home: Main Corridor - North Hall, Left (Chest)",
-                        "ref": "Bikanel/Home/Home: Main Corridor - North Hall, Left (Chest)/Al Bhed Potion x6"
+                        "name": "Main Corridor - North Hall, Left (Chest)",
+                        "ref": "Bikanel/Home/Main Corridor - North Hall, Left (Chest)/Al Bhed Potion x6"
                     },
                     {
-                        "name": "Home: Main Corridor - Northeast Corner (Primer)",
+                        "name": "Main Corridor - Northeast Corner (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XXI/Home"
                     },
                     {
-                        "name": "Home: Living Quarters, East of Main Corridor - Password (Chest)",
-                        "ref": "Bikanel/Home/East of Main Corridor (Chests)/Home: Living Quarters, East of Main Corridor - Password (Chest)"
+                        "name": "Living Quarters, East of Main Corridor - Password (Chest)",
+                        "ref": "Bikanel/Home/East of Main Corridor (Chests)/Living Quarters, East of Main Corridor - Password (Chest)"
                     },
                     {
-                        "name": "Home: Living Quarters, East of Main Corridor - Quiz (Chest)",
-                        "ref": "Bikanel/Home/East of Main Corridor (Chests)/Home: Living Quarters, East of Main Corridor - Quiz (Chest)"
+                        "name": "Living Quarters, East of Main Corridor - Quiz (Chest)",
+                        "ref": "Bikanel/Home/East of Main Corridor (Chests)/Living Quarters, East of Main Corridor - Quiz (Chest)"
                     },
                     {
-                        "name": "Home: Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)",
-                        "ref": "Bikanel/Home/Home: Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)/Al Bhed Potion x4"
+                        "name": "Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)",
+                        "ref": "Bikanel/Home/Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)/Al Bhed Potion x4"
                     },
                     {
-                        "name": "Home: Living Quarters, South of Main Corridor - On Bed (Primer)",
+                        "name": "Living Quarters, South of Main Corridor - On Bed (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XX/Home"
                     }, 
                     {
-                        "name": "Home: Living Quarters, South of Main Corridor - Vocabulary Test (Chest)",
-                        "ref": "Bikanel/Home/South of Main Corridor (Chests)/Home: Living Quarters, South of Main Corridor - Vocabulary Test (Chest)"
+                        "name": "Living Quarters, South of Main Corridor - Vocabulary Test (Chest)",
+                        "ref": "Bikanel/Home/South of Main Corridor (Chests)/Living Quarters, South of Main Corridor - Vocabulary Test (Chest)"
                     },
                     {
-                        "name": "Home: Outside Summoner's Sanctum - Right (Chest)",
-                        "ref": "Bikanel/Home/Area Completion/Home: Outside Summoner's Sanctum - Right (Chest)"
+                        "name": "Outside Summoner's Sanctum - Right (Chest)",
+                        "ref": "Bikanel/Home/Area Completion/Outside Summoner's Sanctum - Right (Chest)"
                     },
                     {
-                        "name": "Home: Outside Summoner's Sanctum - Left (Chest)",
-                        "ref": "Bikanel/Home/Area Completion/Home: Outside Summoner's Sanctum - Left (Chest)"
+                        "name": "Outside Summoner's Sanctum - Left (Chest)",
+                        "ref": "Bikanel/Home/Area Completion/Outside Summoner's Sanctum - Left (Chest)"
                     },
                     {
-                        "name": "Home: Environment Controls (Chest)",
-                        "ref": "Bikanel/Home/Area Completion/Home: Environment Controls (Chest)"
+                        "name": "Environment Controls (Chest)",
+                        "ref": "Bikanel/Home/Area Completion/Environment Controls (Chest)"
                     }
                 ]
             },
@@ -1384,6 +1384,10 @@
                     {
                         "name": "Defeat Seymour Natus (Boss)",
                         "ref": "Bevelle/Highbridge/Defeat Seymour Natus (Boss)/Seymour Natus"
+                    },
+                    {
+                        "name": "Macalania Campsite - Lucid Ring (Chest)",
+                        "ref": "Bevelle/Macalania Campsite (Chest)/Lucid Ring"
                     }
                 ]
             },
@@ -1604,7 +1608,7 @@
                     },
                     {
                         "name": "Inside Sin",
-                        "hosted_item": "exoray, geminisword, geminiclub, adamantoise, behemothking",
+                        "hosted_item": "ahriman, exoray, geminisword, geminiclub, adamantoise, behemothking",
                         "access_rules": ["@Monster Arena/Fiend Capture, @Inside Sin"],
                         "clear_as_group": false
                     },

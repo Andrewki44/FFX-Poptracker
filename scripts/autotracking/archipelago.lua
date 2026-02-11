@@ -135,6 +135,9 @@ function applySlotData(slot_data)
     if (slot_data["super_bosses"] ~= nil) then
         Tracker:FindObjectForCode("superbosses").Active = slot_data["super_bosses"]
     end
+    if (slot_data["always_capture"] ~= nil) then
+        Tracker:FindObjectForCode("alwayscapture").Active = slot_data["always_capture"]
+    end
     if (slot_data["logic_difficulty"] ~= nil) then
         Tracker:FindObjectForCode("logicdifficulty").AcquiredCount = slot_data["logic_difficulty"]
     end
@@ -196,6 +199,20 @@ function onClear(slot_data)
             end
         end
     end
+
+    -- reset capture items
+    for _, capture in pairs(AllCaptures) do
+        if capture ~= "" then
+            Tracker:FindObjectForCode(capture).AcquiredCount = 0
+            Tracker:FindObjectForCode(capture .. "complete").Active = false
+        end
+    end
+    for _, creation in pairs(AllCreations) do
+        Tracker:FindObjectForCode(creation).Active = false
+    end
+    Tracker:FindObjectForCode("areaconquests").AcquiredCount = 0
+    Tracker:FindObjectForCode("speciesconquests").AcquiredCount = 0
+    
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0

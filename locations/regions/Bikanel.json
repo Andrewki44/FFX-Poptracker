@@ -208,7 +208,7 @@
                         ]
                     },
                     {
-                        "name": "Monster Captures",
+                        "name": "Captures Required for Logic",
                         "map_locations": [{ "map": "Bikanel", "x": 250, "y": 1070, "shape": "diamond"}],
                         "sections": [
                             {"name": "Sand Wolf", "ref": "Monster Arena/Fiend Capture/Bikanel/Captures Required for Logic/Sand Wolf"},
@@ -226,12 +226,12 @@
                 "access_rules": ["zuboss, [$hasMinimumParty|3]"],
                 "children": [
                     {
-                        "name": "Home: Keyakku, on Ground (NPC)",
+                        "name": "Keyakku, on Ground (NPC)",
                         "map_locations": [{ "map": "Home", "x": 100, "y": 650}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
-                        "name": "Home: Left of Entrance (Primer)",
+                        "name": "Left of Entrance (Primer)",
                         "map_locations": [{ "map": "Home", "x": 50, "y": 550}],
                         "sections": [
                             {
@@ -241,12 +241,12 @@
                         ]
                     },
                     {
-                        "name": "Home: Main Corridor - North Hall, Left (Chest)",
+                        "name": "Main Corridor - North Hall, Left (Chest)",
                         "map_locations": [{ "map": "Home", "x": 630, "y": 200}],
                         "sections": [{"name": "Al Bhed Potion x6"}]
                     },
                     {
-                        "name": "Home: Main Corridor - Northeast Corner (Primer)",
+                        "name": "Main Corridor - Northeast Corner (Primer)",
                         "map_locations": [{ "map": "Home", "x": 785, "y": 135}],
                         "sections": [
                             {
@@ -259,12 +259,12 @@
                         "name": "East of Main Corridor (Chests)",
                         "map_locations": [{ "map": "Home", "x": 760, "y": 525}],
                         "sections": [
-                            {"name": "Home: Living Quarters, East of Main Corridor - Password (Chest)"},
-                            {"name": "Home: Living Quarters, East of Main Corridor - Quiz (Chest)"}
+                            {"name": "Living Quarters, East of Main Corridor - Password (Chest)"},
+                            {"name": "Living Quarters, East of Main Corridor - Quiz (Chest)"}
                         ]
                     },
                     {
-                        "name": "Home: Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)",
+                        "name": "Main Corridor - Bottom of South Stairs, Hidden Behind Left Smoke (Chest)",
                         "map_locations": [{ "map": "Home", "x": 628, "y": 550}],
                         "sections": [{"name": "Al Bhed Potion x4"}]
                     },
@@ -272,9 +272,9 @@
                         "name": "South of Main Corridor (Chests)",
                         "map_locations": [{ "map": "Home", "x": 500, "y": 525}],
                         "sections": [
-                            {"name": "Home: Living Quarters, South of Main Corridor - Vocabulary Test (Chest)"},
+                            {"name": "Living Quarters, South of Main Corridor - Vocabulary Test (Chest)"},
                             {
-                                "name": "Home: Living Quarters, South of Main Corridor - On Bed (Primer)",
+                                "name": "Living Quarters, South of Main Corridor - On Bed (Primer)",
                                 "ref": "Al Bhed Primers/Al Bhed Primer XX/Home"
                             }
                         ]
@@ -284,19 +284,19 @@
                         "map_locations": [{ "map": "Home", "x": 300, "y": 115}],
                         "sections": [
                             {
-                                "name": "Home: Outside Summoner's Sanctum - Right (Chest)",
+                                "name": "Outside Summoner's Sanctum - Right (Chest)",
                                 "hosted_item": "homecompletion1",
                                 "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
-                                "name": "Home: Outside Summoner's Sanctum - Left (Chest)",
+                                "name": "Outside Summoner's Sanctum - Left (Chest)",
                                 "hosted_item": "homecompletion2",
                                 "item_count": 1,
                                 "clear_as_group": true
                             },
                             {
-                                "name": "Home: Environment Controls (Chest)",
+                                "name": "Environment Controls (Chest)",
                                 "hosted_item": "homecompletion3",
                                 "item_count": 1,
                                 "clear_as_group": true

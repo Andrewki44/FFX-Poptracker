@@ -82,7 +82,7 @@
                 ]
             },
             {
-                "name": "Monster Captures",
+                "name": "Captures Required for Logic",
                 "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 535, "y": 400, "shape": "diamond"}],
                 "sections": [
                     {"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Coeurl"},
