@@ -155,7 +155,7 @@
                         "sections": [{"name": "Valefor", "ref": "Party Member/Aeon/Valefor"}]
                     },
                     {
-                        "name": "Exit the Village (Event) (1)",
+                        "name": "Exit the Village (Event)",
                         "map_locations": [{ "map": "Besaid Village", "x": 225, "y": 435}],
                         "access_rules": ["besaidcloister"],
                         "sections": [
