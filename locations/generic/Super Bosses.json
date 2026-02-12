@@ -63,7 +63,7 @@
             },
             {
                 "name": "Dark Valefor",
-                "access_rules": ["@Besaid/Village, [$hasYuna], [$hasMinimumParty|3]"],
+                "access_rules": ["@Besaid/Village, echuilles, [$hasYuna], [$hasMinimumParty|3]"],
                 "hosted_item": "darkvalefor",
                 "clear_as_group": true
             },

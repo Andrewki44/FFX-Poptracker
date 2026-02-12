@@ -8,7 +8,7 @@
                 " - Nidhogg & Bandersnatch no longer available in Gagazet until after Biran & Yenke",
                 " - Updated internal Al Bhed Primer logic for 26 primer check",
                 " - Sanitize required party member values to maximum of 8 if goal requirement is set to party members",
-                " - Updated access logic for Dark Ixion & Dark Yojimbo",
+                " - Updated access logic for Dark Ixion, Dark Valefor & Dark Yojimbo",
                 " - Added Epaaj capture to Calm Lands (Gorge Bottom)"
             ]
         },
