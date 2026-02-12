@@ -72,6 +72,12 @@
         "img": "images/maps/regions/djose/Djose.png"
     },
     {
+        "name": "Djose Cloister",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/cloisters/Djose Cloister.png"
+    },
+    {
         "name": "Gagazet Outside",
         "location_size": 16,
         "location_border_thickness": 1,
@@ -148,6 +154,12 @@
         "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/regions/macalania/Macalania Temple.png"
+    },
+    {
+        "name": "Macalania Cloister",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/cloisters/Macalania Cloister.png"
     },
     {
         "name": "Macalania Woods",

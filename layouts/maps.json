@@ -460,6 +460,20 @@
                                 "type": "map",
                                 "maps": ["Kilika Cloister"]
                             }
+                        },
+                        {
+                            "title": "Djose",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose Cloister"]
+                            }
+                        },
+                        {
+                            "title": "Macalania",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Cloister"]
+                            }
                         }
                     ]
                 }
