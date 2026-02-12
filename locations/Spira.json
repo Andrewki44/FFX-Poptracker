@@ -162,12 +162,12 @@
                         "ref": "Party Member/Aeon/Valefor"
                     },
                     {
-                        "name": "Exit the Village (Event) (2)" ,
-                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
-                    },
-                    {
                         "name": "Exit the Village (Event) (1)" ,
                         "ref": "Celestial/Tidus/Brotherhood"
+                    },
+                    {
+                        "name": "Exit the Village (Event) (2)" ,
+                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
                     },
                     {
                         "name": "Village Slope - Element Tutorial (Event)",
