@@ -15,7 +15,7 @@
                         "sections": [{"name": "Hi-Potion"}]
                     },
                     {
-                        "name": "South End - Blue/White Man, Looping North to South (NPC)",
+                        "name": "South End - Blue & White Man, Looping North to South (NPC)",
                         "map_locations": [{ "map": "Miihen Highroad", "x": 135, "y": 500}],
                         "sections": [{"name": "Hunters Spear"}]
                     },

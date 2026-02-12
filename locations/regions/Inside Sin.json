@@ -126,7 +126,7 @@
                 "name": "Captures Required for Logic",
                 "map_locations": [{ "map": "Inside Sin", "x": 190, "y": 905, "shape": "diamond"}],
                 "sections": [
-                    {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Fiends/Ahriman"},
+                    {"name": "Ahriman", "ref": "Monster Arena/Fiend Capture/Mt. Gagazet/Captures Required for Logic/Ahriman"},
                     {"name": "Exoray", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Exoray"},
                     {"name": "Gemini (Sword)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Sword)"},
                     {"name": "Gemini (Club)", "ref": "Monster Arena/Fiend Capture/Inside Sin/Captures Required for Logic/Gemini (Club)"},
