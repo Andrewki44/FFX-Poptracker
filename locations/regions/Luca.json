@@ -10,12 +10,12 @@
                 "name": "Stadium",
                 "children": [
                     {
-                        "name": "West Locker Hall (Chest)",
+                        "name": "Stadium Basement B - West Locker Hall (Chest)",
                         "map_locations": [{"map": "Luca", "x": 300, "y": 435}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
-                        "name": "Behind Isken (Primer)",
+                        "name": "Stadium Basement B - Behind Isken (Primer)",
                         "map_locations": [{"map": "Luca", "x": 270, "y": 500}],
                         "sections": [
                             {
@@ -46,12 +46,12 @@
                         "name": "Blitzball Recruit - Biggs & Wedge",
                         "map_locations": [{"map": "Luca", "x": 443, "y": 640}],
                         "sections": [
-                            {"name": "Biggs", "ref": "Blitzball Recruits/Biggs"},
-                            {"name": "Wedge", "ref": "Blitzball Recruits/Wedge"}
+                            {"name": "Recruit: Biggs", "ref": "Blitzball Recruits/Biggs"},
+                            {"name": "Recruit: Wedge", "ref": "Blitzball Recruits/Wedge"}
                         ]
                     },
                     {
-                        "name": "Inside Back Right Locker (Event)",
+                        "name": "Stadium Locker Room - Inside Back Right Locker (Event)",
                         "map_locations": [{"map": "Luca", "x": 445, "y": 390}],
                         "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
@@ -62,7 +62,7 @@
                         ]
                     },
                     {
-                        "name": "Obtain The Jupiter Sigil League Prize (Event)",
+                        "name": "Blitzball: Obtain The Jupiter Sigil League Prize (Event)",
                         "map_locations": [{"map": "Luca", "x": 480, "y": 730}],
                         "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
@@ -96,17 +96,17 @@
                         "name": "Dock 5 - End, Hidden Behind Boxes (Chests)",
                         "map_locations": [{"map": "Luca", "x": 850, "y": 890}],
                         "sections": [
-                            {"name": "HP Sphere x1"},
-                            {"name": "Magic Sphere x1"}
+                            {"name": "Dock 5 - End, Hidden Behind Boxes, Left (Chest)"},
+                            {"name": "Dock 5 - End, Hidden Behind Boxes, Right (Chest)"}
                         ]
                     },
                     {
-                        "name": "Blitzball Recruit - Nedus",
+                        "name": "Recruit: Nedus",
                         "map_locations": [{"map": "Luca", "x": 90, "y": 800}],
                         "sections": [{"name": "Nedus", "ref": "Blitzball Recruits/Nedus"}]
                     },
                     {
-                        "name": "Blitzball Recruit - Zev Ronso",
+                        "name": "Recruit: Zev Ronso",
                         "map_locations": [{"map": "Luca", "x": 680, "y": 650}],
                         "sections": [{"name": "Zev Ronso", "ref": "Blitzball Recruits/Zev Ronso"}]
                     },
@@ -128,7 +128,7 @@
                 "name": "City",
                 "children": [
                     {
-                        "name": "Bottom of Stairs, Left Side (Primer)",
+                        "name": "Theater Reception - Bottom of Stairs, Left Side (Primer)",
                         "map_locations": [{"map": "Luca", "x": 920, "y": 550}],
                         "sections": [
                             {
@@ -138,37 +138,37 @@
                         ]
                     },
                     {
-                        "name": "Staircase Leading to Mi'ihen (Chest)",
+                        "name": "City Limits - Staircase Leading to Mi'ihen (Chest)",
                         "map_locations": [{"map": "Luca", "x": 1390, "y": 290}],
                         "sections": [{"name": "1000 Gil"}]
                     },
                     {
-                        "name": "Blitzball Recruit - Jumal",
+                        "name": "Recruit: Jumal",
                         "map_locations": [{"map": "Luca", "x": 1050, "y": 720}],
                         "sections": [{"name": "Jumal", "ref": "Blitzball Recruits/Jumal"}]
                     },
                     {
-                        "name": "Blitzball Recruit - Shaami",
+                        "name": "Recruit: Shaami",
                         "map_locations": [{"map": "Luca", "x": 930, "y": 988}],
                         "sections": [{"name": "Shaami", "ref": "Blitzball Recruits/Shaami"}]
                     },
                     {
-                        "name": "Blitzball Recruit - Shuu",
+                        "name": "Recruit: Shuu",
                         "map_locations": [{"map": "Luca", "x": 1150, "y": 475}],
                         "sections": [{"name": "Shuu", "ref": "Blitzball Recruits/Shuu"}]
                     },
                     {
-                        "name": "Blitzball Recruit - Zalitz",
+                        "name": "Recruit: Zalitz",
                         "map_locations": [{"map": "Luca", "x": 910, "y": 820}],
                         "sections": [{"name": "Zalitz", "ref": "Blitzball Recruits/Zalitz"}]
                     },
                     {
-                        "name": "Talk to Owner After Placing at Least Third in a Tournament (Chest)",
+                        "name": "Cafe - Talk to Owner After Placing at Least Third in a Tournament (Chest)",
                         "map_locations": [{"map": "Luca", "x": 1145, "y": 410}],
                         "access_rules": ["oblitzerator, [$hasMinimumParty|3]"],
                         "sections": [
                             {
-                                "name": "World Chamnpion",
+                                "name": "World Champion",
                                 "ref": "Celestial/Wakka/World Champion"
                             }
                         ]

@@ -13,7 +13,7 @@
                         "name": "Beach",
                         "children": [
                             {
-                                "name": "East Alcove (Chest)",
+                                "name": "Beach - East Alcove (Chest)",
                                 "map_locations": [{ "map": "Besaid Island", "x": 325, "y": 515}],
                                 "sections": [
                                     {
@@ -23,7 +23,7 @@
                                 ]
                             },
                             {
-                                "name": "West Near Huts (Chest)",
+                                "name": "Beach - West Near Huts (Chest)",
                                 "map_locations": [{ "map": "Besaid Island", "x": 160, "y": 560}],
                                 "sections": [{"name": "Antidote x2"}]
                             },
@@ -31,10 +31,10 @@
                                 "name": "Aurochs (NPCs)",
                                 "map_locations": [{ "map": "Besaid Island", "x": 210, "y": 450}],
                                 "sections": [
-                                    {"name": "Hi-Potion x1 (Datto)"},
-                                    {"name": "Potion x3 (Jassu)"},
-                                    {"name": "Potion x2 (Botta)"},
-                                    {"name": "200 gil (Keepa)"}
+                                    {"name": "Beach - Datto (NPC)"},
+                                    {"name": "Beach - Keepa (NPC)"},
+                                    {"name": "Beach - Jassu (NPC)"},
+                                    {"name": "Beach - Botta (NPC)"}
                                 ]
                             },
                             {
@@ -42,11 +42,11 @@
                                 "map_locations": [{ "map": "Besaid Island", "x": 80, "y": 510}],
                                 "access_rules": ["map"],
                                 "sections": [
-                                    {"name": "Remedy x1 (Kid)"},
-                                    {"name": "Seekers Ring (Priest)"},
-                                    {"name": "Phoenix Down x3 (Woman)"},
-                                    {"name": "400 gil (Shirtless Man)"},
-                                    {"name": "Ether (Green Shirt)"}
+                                    {"name": "Beach, Dock - Boy (NPC)"},
+                                    {"name": "Beach, Dock - Priest (NPC)"},
+                                    {"name": "Beach, Dock - Woman (NPC)"},
+                                    {"name": "Beach, Dock - Shirtless Man (NPC)"},
+                                    {"name": "Beach, Dock - Green Shirt (NPC)"}
                                 ]
                             }
                         ]
@@ -65,17 +65,17 @@
                                 ]
                             },
                             {
-                                "name": "South of Spawn, Right Side (Chest)",
+                                "name": "Valley - South of Spawn, Right Side (Chest)",
                                 "map_locations": [{ "map": "Besaid Island", "x": 520, "y": 520}],
                                 "sections": [{"name": "Phoenix Down x1"}]
                             },
                             {
-                                "name": "South Side, Hidden Behind Right Wall (Chest)",
+                                "name": "Valley - South Side, Hidden Behind Right Wall (Chest)",
                                 "map_locations": [{ "map": "Besaid Island", "x": 565, "y": 550}],
                                 "sections": [{"name": "Hi-Potion x1"}]
                             },
                             {
-                                "name": "East Side, Right of Path (Chest)",
+                                "name": "Valley - East Side, Right of Path (Chest)",
                                 "map_locations": [{ "map": "Besaid Island", "x": 670, "y": 535}],
                                 "sections": [{"name": "Antidote x2"}]
                             }
@@ -121,7 +121,7 @@
                 "name": "Village",
                 "children": [
                     {
-                        "name": "Front of Shop (Chest)",
+                        "name": "Village - Front of Shop (Chest)",
                         "map_locations": [{ "map": "Besaid Village", "x": 335, "y": 710}],
                         "sections": [{"name": "Phoenix Down x1"}]
                     },
@@ -129,13 +129,13 @@
                         "name": "Behind Shop (Chests)",
                         "map_locations": [{ "map": "Besaid Village", "x": 150, "y": 685}],
                         "sections": [
-                            {"name": "Hi-Potion x1"},
-                            {"name": "400 gil"},
-                            {"name": "Potion x2"}
+                            {"name": "Village - Behind Shop, Bottom (Chest)"}, 
+                            {"name": "Village - Behind Shop, Middle (Chest)"},
+                            {"name": "Village - Behind Shop, Top (Chest)"}
                         ]
                     },
                     {
-                        "name": "On Ground Near Counter (Primer)",
+                        "name": "Village, Crusader Lodge - On Ground Near Counter (Primer)",
                         "map_locations": [{ "map": "Besaid Village", "x": 210, "y": 400}],
                         "sections": [
                             {
@@ -145,12 +145,12 @@
                         ]
                     },
                     {
-                        "name": "Blitzball Recruit",
+                        "name": "Recruit: Vilucha",
                         "map_locations": [{ "map": "Besaid Village", "x": 620, "y": 800}],
                         "sections": [{"name": "Vilucha", "ref": "Blitzball Recruits/Vilucha"}]
                     },
                     {
-                        "name": "Summoning Cutscene (Event)",
+                        "name": "Name Valefor (Event)",
                         "map_locations": [{ "map": "Besaid Village", "x": 375, "y": 400}],
                         "sections": [{"name": "Valefor", "ref": "Party Member/Aeon/Valefor"}]
                     },
@@ -181,7 +181,7 @@
                 "name": "Temple",
                 "children": [
                     {
-                        "name": "Cloister of Trials",
+                        "name": "Cloister - Destruction Sphere (Chest)",
                         "map_locations": [{ "map": "Besaid Temple", "x": 480, "y": 176}],
                         "sections": [
                             {

@@ -10,27 +10,27 @@
                 "name": "Sea of Sorrow",
                 "children": [
                     {
-                        "name": "West Alcove (Chest)",
+                        "name": "Sea of Sorrow - West Alcove (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 755, "y": 710}],
                         "sections": [{"name": "Phantom Ring"}]
                     },
                     {
-                        "name": "Atop Western Falls (Chest)",
+                        "name": "Sea of Sorrow - Atop Western Falls (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 840, "y": 780}],
                         "sections": [{"name": "Special Sphere x1"}]
                     },
                     {
-                        "name": "Northwestern Alcove (Chest)",
+                        "name": "Sea of Sorrow - Northwestern Alcove (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 830, "y": 500}],
                         "sections": [{"name": "Elixir x1"}]
                     },
                     {
-                        "name": "Atop Eastern Falls (Chest)",
+                        "name": "Sea of Sorrow - Atop Eastern Falls (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 1040, "y": 640}],
                         "sections": [{"name": "Wizard Lance"}]
                     },
                     {
-                        "name": "Eastern Alcove, Near Final North Branch (Chest)",
+                        "name": "Sea of Sorrow - Eastern Alcove, Near Final North Branch (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 1120, "y": 550}],
                         "sections": [{"name": "Lv. 3 Key Sphere x1"}]
                     },
@@ -53,42 +53,42 @@
                 "access_rules": ["seymouromnis, [$hasMinimumParty|3]"],
                 "children": [
                     {
-                        "name": "East Glyph Near South Exit, Defeat 10-10-15 Fiends (Chest)",
+                        "name": "City of Dying Dreams - East Glyph Near South Exit, Defeat 10-10-15 Fiends (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 650, "y": 780}],
                         "sections": [{"name": "Lv. 4 Key Sphere x1"}]
                     },
                     {
-                        "name": "South Side, Lift on Small Bridge (Chest)",
+                        "name": "City of Dying Dreams - South Side, Lift on Small Bridge (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 290, "y": 590}],
                         "sections": [{"name": "Four-on-One"}]
                     },
                     {
-                        "name": "South of First Open Area, Push North Wall Down (Chest)",
+                        "name": "City of Dying Dreams - South of First Open Area, Push North Wall Down (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 130, "y": 570}],
                         "sections": [{"name": "Defending Bracer"}]
                     },
                     {
-                        "name": "First Open Area, Ramp Down in Center (Chest)",
+                        "name": "City of Dying Dreams - First Open Area, Ramp Down in Center (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 212, "y": 435}],
                         "sections": [{"name": "20000 gil"}]
                     },
                     {
-                        "name": "First Open Area, Glyph in Northwest Corner (Chest)",
+                        "name": "City of Dying Dreams - First Open Area, Glyph in Northwest Corner (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 75, "y": 433}],
                         "sections": [{"name": "Megalixir x1"}]
                     },
                     {
-                        "name": "Lift Up in Center of First Open Area (Chest)",
+                        "name": "City of Dying Dreams - Lift Up in Center of First Open Area (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 325, "y": 495}],
                         "sections": [{"name": "HP Sphere x1"}]
                     },
                     {
-                        "name": "Lift Up in Center of First Area, Just Before Lift Down (Chest)",
+                        "name": "City of Dying Dreams - Lift Up in Center of First Area, Just Before Lift Down (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 305, "y": 455}],
                         "sections": [{"name": "Defense Sphere x1"}]
                     },
                     {
-                        "name": "Secret Slide South of Rising Block Area (Chest)",
+                        "name": "City of Dying Dreams - Secret Slide South of Rising Block Area (Chest)",
                         "map_locations": [{ "map": "Inside Sin", "x": 610, "y": 340}],
                         "sections": [{"name": "Laevatein"}]
                     },

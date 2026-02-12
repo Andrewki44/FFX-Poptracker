@@ -10,12 +10,12 @@
                 "name": "Overpass",
                 "children": [
                     {
-                        "name": "South Side, West Bend (Chest)",
+                        "name": "Overpass - South Side, West Bend (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 900, "y": 510}],
                         "sections": [{"name": "Fortune Sphere x1"}]
                     },
                     {
-                        "name": "North Side, Left Alcove (Chest)",
+                        "name": "Overpass - North Side, Left Alcove (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 680, "y": 220}],
                         "sections": [{"name": "Spiritual Targe"}]
                     }, 
@@ -48,23 +48,23 @@
             {
                 "name": "Dome",
                 "children": [
-                    {
-                        "name": "Road Above Underpass (Chest)",
+					{
+                        "name": "Dome Interior - Road Above Underpass (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 780, "y": 450}],
                         "sections": [{"name": "10000 gil"}]
                     },
                     {
-                        "name": "West From 4-Way Intersection (Chest)",
+                        "name": "Dome Interior - East From 4-Way Intersection (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 360, "y": 610}],
                         "sections": [{"name": "Friend Sphere x1"}]
                     },
                     {
-                        "name": "Rubble Path Down Before Circular Doorway (Chest)",
+                        "name": "Dome Interior - Rubble Path Down Before Circular Doorway (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 240, "y": 480}],
                         "sections": [{"name": "Lv. 3 Key Sphere x1"}]
                     },
                     {
-                        "name": "Right Side (Chest)",
+                        "name": "Dome Corridor - Right Side (Chest)",
                         "map_locations": [{ "map": "Zanarkand Ruins", "x": 80, "y": 550}],
                         "sections": [{"name": "Luck Sphere x1"}]
                     }
@@ -98,7 +98,7 @@
                         ]
                     },
                     {
-                        "name": "Chest After Taking Left/Right in Yunalesca Arena (Chest)",
+					    "name": "Dome Beyond - Chest After Taking Left/Right in Yunalesca Arena (Chest)",
                         "map_locations": [{ "map": "Zanarkand Temple", "x": 570, "y": 37}],
                         "sections": [
                             {
@@ -108,12 +108,12 @@
                         ]
                     },
                     {
-                        "name": "Cloister of Trials",
+                        "name": "Cloister - Destruction Sphere (Chest)",
                         "map_locations": [{ "map": "Zanarkand Temple", "x": 381, "y": 420}],
                         "access_rules": ["yunalesca, [$hasMinimumParty|3]"],
                         "sections": [
                             { 
-                                "name": "Destruction Sphere- Magistral Rod", 
+                                "name": "Destruction Sphere - Magistral Rod", 
                                 "hosted_item": "zanarkanddestructionsphere",
                                 "clear_as_group": true
                             }
