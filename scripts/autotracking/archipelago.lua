@@ -87,7 +87,7 @@ function applySlotData(slot_data)
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 0
     elseif (goal_requirement == 1) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
-        Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
+        Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = math.min(slot_data["required_party_members"], 8)
     elseif (goal_requirement == 2) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
     elseif (goal_requirement == 3) then

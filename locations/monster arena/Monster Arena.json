@@ -870,7 +870,7 @@
                                     },
                                     {
                                         "name": "Imp",
-                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
+                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet/Outside"],
                                         "hosted_item": "impcomplete"
                                     },
                                     {
@@ -880,7 +880,7 @@
                                     },
                                     {
                                         "name": "Nidhogg",
-                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet"],
+                                        "access_rules": ["@Cavern of the Stolen Fayth", "@Mt. Gagazet/Outside"],
                                         "hosted_item": "nidhoggcomplete"
                                     },
                                     {
