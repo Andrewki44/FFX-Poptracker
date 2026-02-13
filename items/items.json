@@ -3526,7 +3526,7 @@
     {
         "name": "Cloudy Mirror",
         "type": "toggle",
-        "img": "images/items/hd/Key_Item_HD.png",
+        "img": "images/items/Tiny Cloudy Mirror.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -8694,7 +8694,7 @@
     {
         "name": "Rusty Sword",
         "type": "toggle",
-        "img": "images/items/hd/Key_Item_HD.png",
+        "img": "images/items/Tiny Rusty Sword.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
@@ -11398,7 +11398,7 @@
     {
         "name": "Celestial Mirror",
         "type": "toggle",
-        "img": "images/items/hd/Key_Item_HD.png",
+        "img": "images/items/Tiny Celestial Mirror.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_active_state": false,
