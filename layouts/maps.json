@@ -60,6 +60,13 @@
                             }
                         },
                         {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Besaid Cloister"]
+                            }
+                        },
+                        {
                             "title": "S.S. Liki",
                             "content": {
                                 "type": "map",
@@ -86,6 +93,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Kilika Temple"]
+                            }
+                        },
+                        {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Kilika Cloister"]
                             }
                         },
                         {
@@ -119,13 +133,29 @@
                     "maps": ["Mushroom Rock Road"]
                 }
             },
-            {
+           {
                 "title": "Djose",
                 "content": {
-                    "type": "map",
-                    "maps": ["Djose"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Highroad",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose"]
+                            }
+                        },
+                        {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose Cloister"]
+                            }
+                        }
+                    ]
                 }
             },
+            
             {
                 "title": "Moonflow",
                 "content": {
@@ -171,6 +201,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Macalania Temple"]
+                            }
+                        },
+                         {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Cloister"]
                             }
                         }
                     ]
@@ -437,42 +474,6 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Monster Arena - Original Creation"]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Cloisters of Trials",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Besaid",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Besaid Cloister"]
-                            }
-                        },
-                        {
-                            "title": "Kilika",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Kilika Cloister"]
-                            }
-                        },
-                        {
-                            "title": "Djose",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Djose Cloister"]
-                            }
-                        },
-                        {
-                            "title": "Macalania",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Macalania Cloister"]
                             }
                         }
                     ]
