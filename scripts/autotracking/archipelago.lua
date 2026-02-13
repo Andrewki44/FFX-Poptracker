@@ -368,7 +368,7 @@ end
 
 function onNotify(key, value, oldValue)
     -- if (value ~= nil) then
-    --     print("onNotify", key, "| " .. value)    
+        -- print("onNotify", key, "| " .. value)    
     -- end
 
     if value ~= oldValue then
@@ -392,7 +392,7 @@ end
 
 function onNotifyLaunch(key, value)
     -- if (value ~= nil) then
-    --     print("onNotifyLaunch", key, "| " .. value)    
+        --  print("onNotifyLaunch", key, "| " .. value)    
     -- end
     
     if key == HINTS_ID then

@@ -182,7 +182,10 @@
                 "children": [
                     {
                         "name": "Cloister - Destruction Sphere (Chest)",
-                        "map_locations": [{ "map": "Besaid Temple", "x": 480, "y": 176}],
+                        "map_locations": [
+                            { "map": "Besaid Temple", "x": 480, "y": 176}, 
+                            { "map": "Besaid Cloister", "x": 555, "y": 528}
+                        ],
                         "sections": [
                             {
                                 "name": "Destruction Sphere - Rod of Wisdom",

@@ -275,47 +275,47 @@
                 "children": [
                     {
                         "name": "Hall - Gift from Tromell upon Entrance (Event)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 604, "y": 625}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 602, "y": 412}],
                         "sections": [{"name": "Shell Targe"}]
                     },
                     {
                         "name": "Hall - North Side (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 510, "y": 515}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 473, "y": 317}],
                         "sections": [{"name": "5000 gil"}]
                     },
                     {
                         "name": "Hall - South Side (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 670, "y": 560}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 694, "y": 377}],
                         "sections": [{"name": "X-Potion x2"}]
                     },
                     {
                         "name": "Nuns' Chamber (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 700, "y": 255}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 694, "y": 52}],
                         "sections": [{"name": "Remedy x2"}]
                     },
                     {
                         "name": "Nuns' Chamber - Yellow Nun (NPC)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 740, "y": 280}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 735, "y": 70}],
                         "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
                         "name": "Monks' Chamber - Brown Monk (NPC)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 540, "y": 265}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 540, "y": 68}],
                         "sections": [{"name": "Ether x1"}]
                     },
                     {
                         "name": "Monks' Chamber - Purple Monk (NPC)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 565, "y": 290}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 560, "y": 88}],
                         "sections": [{"name": "Elixir x1"}]
                     },
                     {
                         "name": "Monks' Chamber (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 510, "y": 260}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 517, "y": 60}],
                         "sections": [{"name": "Phoenix Down x3"}]
                     },
                     {
                         "name": "Defeat Seymour (Boss)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 378, "y": 600, "shape": "trapezoid", "size": 24}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 194, "y": 290, "shape": "trapezoid", "size": 24}],
                         "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
@@ -327,7 +327,10 @@
                     },
                     {
                         "name": "Cloister - Destruction Sphere (Chest)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 395, "y": 230}],
+                        "map_locations": [
+                            { "map": "Macalania Temple", "x": 67, "y": 235},
+                            { "map": "Macalania Cloister", "x": 270, "y": 750}
+                        ],
                         "sections": [
                             {
                                 "name": "Destruction Sphere - Luck Sphere",
@@ -339,7 +342,7 @@
                     },
                     {
                         "name": "Fight Seymour (Boss)",
-                        "map_locations": [{ "map": "Macalania Temple", "x": 378, "y": 710}],
+                        "map_locations": [{ "map": "Macalania Temple", "x": 169, "y": 290}],
                         "sections": [{"name": "Shiva", "ref": "Party Member/Aeon/Shiva"}]
                     }
                 ]
