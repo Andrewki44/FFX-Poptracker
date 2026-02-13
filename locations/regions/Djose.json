@@ -45,7 +45,7 @@
                         "sections": [{"name": "Mega-Potion x1"}]
                     },
                     {
-                        "name": "Highroad - South End, Silver/Purple Armor (NPC)",
+                        "name": "Highroad - South End, Silver & Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose", "x": 35, "y": 350}],
                         "sections": [{"name": "Variable Steel"}]
                     },
@@ -129,7 +129,7 @@
                         "sections": [{"name": "Halberd"}]
                     },
                     {
-                        "name": "Pilgrimage Road - South End, Silver/Purple Armor (NPC)",
+                        "name": "Pilgrimage Road - South End, Silver & Purple Armor (NPC)",
                         "map_locations": [{ "map": "Djose", "x": 170, "y": 490}],
                         "sections": [
                             {"name": "Potion x10"},

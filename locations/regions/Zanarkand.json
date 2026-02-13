@@ -98,7 +98,7 @@
                         ]
                     },
                     {
-					    "name": "Dome Beyond - Chest After Taking Left/Right in Yunalesca Arena (Chest)",
+					    "name": "Dome Beyond - Chest After Taking Left or Right in Yunalesca Arena (Chest)",
                         "map_locations": [{ "map": "Zanarkand Temple", "x": 570, "y": 37}],
                         "sections": [
                             {
