@@ -1363,7 +1363,7 @@
     {
         "name": "Al Bhed Primers",
         "type": "consumable",
-        "img": "images/items/hd/Al Bhed Primer.png",
+        "img": "images/items/Tiny Al Bhed Primer.png",
         "img_mods": "",
         "disabled_img": "",
         "overlay_background": "#000000",
