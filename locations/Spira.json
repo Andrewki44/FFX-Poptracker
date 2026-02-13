@@ -162,12 +162,12 @@
                         "ref": "Party Member/Aeon/Valefor"
                     },
                     {
-                        "name": "Exit the Village (Event) (2)" ,
-                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
-                    },
-                    {
                         "name": "Exit the Village (Event) (1)" ,
                         "ref": "Celestial/Tidus/Brotherhood"
+                    },
+                    {
+                        "name": "Exit the Village (Event) (2)" ,
+                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
                     },
                     {
                         "name": "Village Slope - Element Tutorial (Event)",
@@ -428,8 +428,8 @@
                         "ref": "Miihen Highroad/South/South End - Yellow Man, Looping South to North (NPC)/Hi-Potion"
                     },
                     {
-                        "name": "South End - Blue/White Man, Looping North to South (NPC)",
-                        "ref": "Miihen Highroad/South/South End - Blue/White Man, Looping North to South (NPC)/Hunters Spear"
+                        "name": "South End - Blue & White Man, Looping North to South (NPC)",
+                        "ref": "Miihen Highroad/South/South End - Blue & White Man, Looping North to South (NPC)/Hunters Spear"
                     },
                     {
                         "name": "South End - Red Skirt Girl, Pacing Between Maechen and Ruins (NPC)",
@@ -648,8 +648,8 @@
                         "ref": "Djose/Highroad/Highroad - South End, West Side (Chest)/Phoenix Down x2"
                     },
                     {
-                        "name": "Highroad - South End, Silver/Purple Armor (NPC)",
-                        "ref": "Djose/Highroad/Highroad - South End, Silver/Purple Armor (NPC)/Variable Steel"
+                        "name": "Highroad - South End, Silver & Purple Armor (NPC)",
+                        "ref": "Djose/Highroad/Highroad - South End, Silver & Purple Armor (NPC)/Variable Steel"
                     },
                     {
                         "name": "Highroad - South End, Behind Left Pillar (Primer)",
@@ -712,8 +712,8 @@
                         "ref": "Djose/Pilgrimage Road/Pilgrimage Road - North End, Purple Armor (NPC)/Halberd"
                     },
                     {
-                        "name": "Pilgrimage Road - South End, Silver/Purple Armor (NPC)",
-                        "ref": "Djose/Pilgrimage Road/Pilgrimage Road - South End, Silver/Purple Armor (NPC)/Potion x10"
+                        "name": "Pilgrimage Road - South End, Silver & Purple Armor (NPC)",
+                        "ref": "Djose/Pilgrimage Road/Pilgrimage Road - South End, Silver & Purple Armor (NPC)/Potion x10"
                     },
                     {
                         "name": "Pilgrimage Road - Monk Pacing Along Bridge (NPC)",
@@ -766,8 +766,8 @@
                         "ref": "Blitzball Recruits/Miyu"
                     },
                     {
-                        "name": "North Wharf: Near Bench (Chest)",
-                        "ref": "Moonflow/North/North Wharf: Near Bench (Chest)/Ether x1"
+                        "name": "North Wharf - Near Bench (Chest)",
+                        "ref": "Moonflow/North/North Wharf - Near Bench (Chest)/Ether x1"
                     },
                     {
                         "name": "North Bank - Mix Tutorial (Event)",
@@ -940,10 +940,6 @@
                         "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Spherimorph"
                     },
                     {
-                        "name": "Woods - Lucid Ring (Chest)",
-                        "ref": "Macalania/Woods/Campsite (Chest)/Lucid Ring"
-                    },
-                    {
                         "name": "Agency Front - Left Side (Primer)",
                         "ref": "Al Bhed Primers/Al Bhed Primer XVI/Macalania"
                     },
@@ -953,7 +949,7 @@
                     },
                     {
                         "name": "Agency Front - Right Side (Chest)",
-                        "ref": "Macalania/Lake/Agency/Right Side (Chest)/4000 gil"
+                        "ref": "Macalania/Lake/Agency/Agency Front - Right Side (Chest)/4000 gil"
                     },
                     {
                         "name": "Crevasse - South End of Narrow Path (Chest)",
@@ -961,7 +957,7 @@
                     },
                     {
                         "name": "Crevasse - Near North Exit (Chest)",
-                        "ref": "Macalania/Lake/Road/Near North Exit (Chest)/Mega-Potion x1"
+                        "ref": "Macalania/Lake/Road/Crevasse - Near North Exit (Chest)/Mega-Potion x1"
                     },
                     {
                         "name": "Road - Linna, at Bottom of Stairs (NPC)",

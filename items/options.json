@@ -46,7 +46,7 @@
     {
         "name": "Required Al Bhed Primers",
         "type": "consumable",
-        "img": "images/items/hd/Al Bhed Primer.png",
+        "img": "images/items/Tiny Al Bhed Primer.png",
         "min_quantity": 0,
         "max_quantity": 26,
         "increment": 1,
@@ -83,23 +83,23 @@
         "stages": [
             {
                 "name": "Capture Rewards",
-                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "img": "images/items/hd/Battle_Item_MOAR.png",
                 "img_mods": "@disabled",
                 "codes": "capturerewardsnone"
             },
             {
                 "name": "Area Conquest Rewards",
-                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "img": "images/items/hd/Battle_Item_MOAR.png",
                 "codes": "capturerewardsarea"
             },
             {
                 "name": "Area & Species Conquest Rewards",
-                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "img": "images/items/hd/Battle_Item_MOAR.png",
                 "codes": "capturerewardsarea, capturerewardsspecies"
             },
             {
                 "name": "Area, Species & Original Creations Rewards",
-                "img": "images/items/hd/Battle_Item_Treasure.png",
+                "img": "images/items/hd/Battle_Item_MOAR.png",
                 "codes": "capturerewardsarea, capturerewardsspecies, capturerewardsoriginal"
             }
         ]

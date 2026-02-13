@@ -60,6 +60,13 @@
                             }
                         },
                         {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Besaid Cloister"]
+                            }
+                        },
+                        {
                             "title": "S.S. Liki",
                             "content": {
                                 "type": "map",
@@ -86,6 +93,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Kilika Temple"]
+                            }
+                        },
+                        {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Kilika Cloister"]
                             }
                         },
                         {
@@ -119,13 +133,29 @@
                     "maps": ["Mushroom Rock Road"]
                 }
             },
-            {
+           {
                 "title": "Djose",
                 "content": {
-                    "type": "map",
-                    "maps": ["Djose"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Highroad",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose"]
+                            }
+                        },
+                        {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Djose Cloister"]
+                            }
+                        }
+                    ]
                 }
             },
+            
             {
                 "title": "Moonflow",
                 "content": {
@@ -171,6 +201,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Macalania Temple"]
+                            }
+                        },
+                         {
+                            "title": "Cloister",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Cloister"]
                             }
                         }
                     ]
@@ -437,6 +474,43 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Monster Arena - Original Creation"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Minigames",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Remiem Temple Chocobo Race",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Remiem Temple Chocobo Race"]
+                            }
+                        },
+                        {
+                            "title": "Macalania Butterfly Catching",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Macalania Central Butterfly Catching",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["Macalania Central Butterfly Catching"]
+                                        }
+                                    },
+                                    {
+                                        "title": "Macalania North Butterfly Catching",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["Macalania North Butterfly Catching"]
+                                        }
+                                    }
+                                ]
                             }
                         }
                     ]

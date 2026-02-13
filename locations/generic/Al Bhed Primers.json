@@ -1,13 +1,13 @@
 [
     {
         "name": "Al Bhed Primers",
-        "chest_unopened_img": "/images/items/hd/Al Bhed Primer.png",
-        "chest_opened_img": "/images/items/hd/Al Bhed Primer BW.png",
+        "chest_unopened_img": "/images/items/Tiny Al Bhed Primer.png",
+        "chest_opened_img": "/images/items/Tiny Al Bhed Primer BW.png",
         "overlay_background": "#000000",
         "sections": [
             {
                 "name": "Complete Al Bhed Primers",
-                "access_rules": ["@Airship, albhedprimeri, albhedprimerii, albhedprimeriii, albhedprimeriv, albhedprimerv, albhedprimervi, albhedprimervii, albhedprimerviii, albhedprimerix, albhedprimerx, albhedprimerxi, albhedprimerxii, albhedprimerxiii, albhedprimerxiv, albhedprimerxv, albhedprimerxvi, albhedprimerxvii, albhedprimerxviii, albhedprimerxix, albhedprimerxx, albhedprimerxxi, albhedprimerxxii, albhedprimerxxiii, albhedprimerxxiv, albhedprimerxxv, albhedprimerxxvi"]
+                "access_rules": ["@Airship, albhedprimers:26"]
             }
         ],
         "children": [

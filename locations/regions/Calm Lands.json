@@ -134,7 +134,8 @@
                     {"name": "Ogre", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Ogre"},
                     {"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Coeurl"},
                     {"name": "Chimera Brain", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Chimera Brain"},
-                    {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Malboro"}
+                    {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Fiends/Malboro"},
+                    {"name": "Epaaj", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Fiends/Epaaj"}
                 ]
             },
             {
@@ -149,7 +150,8 @@
                     {"name": "Ogre", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Ogre"},
                     {"name": "Coeurl", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Coeurl"},
                     {"name": "Chimera Brain", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Chimera Brain"},
-                    {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Malboro"}
+                    {"name": "Malboro", "ref": "Monster Arena/Fiend Capture/Calm Lands/Captures Required for Logic/Malboro"},
+                    {"name": "Epaaj", "ref": "Monster Arena/Fiend Capture/Cavern of the Stolen Fayth/Captures Required for Logic/Epaaj"}
                 ]
             }
         ]       

@@ -160,13 +160,13 @@
                         "access_rules": ["besaidcloister"],
                         "sections": [
                             {
+                                "name": "Brotherhood", 
+                                "ref": "Celestial/Tidus/Brotherhood"
+                            },
+                            {
                                 "name": "Map",
                                 "hosted_item": "map",
                                 "clear_as_group": true
-                            },
-                            {
-                                "name": "Brotherhood", 
-                                "ref": "Celestial/Tidus/Brotherhood"
                             }
                         ]
                     },
@@ -182,7 +182,10 @@
                 "children": [
                     {
                         "name": "Cloister - Destruction Sphere (Chest)",
-                        "map_locations": [{ "map": "Besaid Temple", "x": 480, "y": 176}],
+                        "map_locations": [
+                            { "map": "Besaid Temple", "x": 480, "y": 176}, 
+                            { "map": "Besaid Cloister", "x": 555, "y": 528}
+                        ],
                         "sections": [
                             {
                                 "name": "Destruction Sphere - Rod of Wisdom",

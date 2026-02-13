@@ -87,7 +87,7 @@ function applySlotData(slot_data)
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 0
     elseif (goal_requirement == 1) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 1
-        Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = slot_data["required_party_members"]
+        Tracker:FindObjectForCode("requiredpartymembers").AcquiredCount = math.min(slot_data["required_party_members"], 8)
     elseif (goal_requirement == 2) then
         Tracker:FindObjectForCode("goalrequirement").CurrentStage = 2
     elseif (goal_requirement == 3) then
@@ -368,7 +368,7 @@ end
 
 function onNotify(key, value, oldValue)
     -- if (value ~= nil) then
-    --     print("onNotify", key, "| " .. value)    
+        -- print("onNotify", key, "| " .. value)    
     -- end
 
     if value ~= oldValue then
@@ -392,7 +392,7 @@ end
 
 function onNotifyLaunch(key, value)
     -- if (value ~= nil) then
-    --     print("onNotifyLaunch", key, "| " .. value)    
+        --  print("onNotifyLaunch", key, "| " .. value)    
     -- end
     
     if key == HINTS_ID then
