@@ -9,7 +9,7 @@
             {
                 "name": "Celestial Flower",
                 "map_locations": [{ "map": "Macalania Woods", "x": 450, "y": 100, "shape": "diamond", "size": 24}],
-                "access_rules": ["wendigo, [$hasMinimumParty|3]"],
+                "access_rules": ["spherimorph, [$hasMinimumParty|3]"],
                 "sections": [
                     {
                         "name": "Bring Cloudy Mirror to Celestial Flower (Event)",
